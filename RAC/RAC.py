@@ -140,7 +140,6 @@ RÈGLES D'ANALYSE :
 3. TRÈS IMPORTANT : Si un fichier sélectionné contient plusieurs contacts avec des rôles distincts (comme le document PJR_PJR.txt), tu dois cibler la personne exacte au lieu de donner le nom du fichier brut. Pour le PJR, choisis parmi : "PJR - Responsable", "PJR - Assistante", "PJR - Juriste", "PJR - Conventions" ou "PJR - Général".
 4. NE MENTIONNE QUE LE NOM DU FICHIER EXACT (ex: "LVH1.txt") tel qu'il apparait dans le contexte sous la forme "[FICHIER X] nom_du_fichier_exact.txt". Ne mets jamais de nom de contact ou de personne ici, SAUF pour le cas particulier du PJR décrit à la règle 3.
 5. Si aucun fichier ne correspond de manière évidente, tu dois impérativement répondre null.
-6. Tu dois faire attention aux négations car certaines fiches affiches ce dont elles ne s'occupe pas 
 
 FORMAT DE RÉPONSE OBLIGATOIRE :
 Tu dois impérativement utiliser ces 3 balises XML dans cet ordre (n'utilise PAS de format JSON) :
@@ -406,9 +405,11 @@ class ContactRAG:
         model_name: str = DEFAULT_MODEL_NAME,
         llm_base_url: str = LLM_BASE_URL,
         device: str | None = None,
+        data_dir: Path = DEFAULT_DATA_DIR,
     ) -> None:
         self.collection_name = collection_name
         self.qdrant_path = qdrant_path
+        self.data_dir = data_dir
         self.contact_index = ContactRoleIndex(contact_role_path)
         self.afrv_context = load_prompt_context(afrv_context_path)
         
@@ -655,19 +656,15 @@ class ContactRAG:
         for index, file_item in enumerate(selected_files, start=1):
             source_file = str(file_item.get("source_file", "unknown"))
             score = float(file_item.get("score", 0.0) or 0.0)
-            hits = file_item.get("hits", [])[:max_hits_per_file]
-            excerpts = []
-            for hit in hits:
-                text = str(hit.get("text", "")).strip()
-                if text:
-                    excerpts.append(text)
-
+            
             section = [f"[FICHIER {index}] {source_file} | score={score:.4f}"]
-            if excerpts:
-                for excerpt_index, excerpt in enumerate(excerpts, start=1):
-                    section.append(f"Extrait {excerpt_index}:\n{excerpt}")
+            
+            file_path = self.data_dir / source_file
+            if file_path.exists():
+                full_text = file_path.read_text(encoding="utf-8", errors="ignore").strip()
+                section.append(f"Contenu complet:\n{full_text}")
             else:
-                section.append("Aucun extrait disponible.")
+                section.append("Fichier introuvable.")
 
             sections.append("\n".join(section))
 
