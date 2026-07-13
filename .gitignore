@@ -1,0 +1,28 @@
+# Environments
+.env
+venv/
+env/
+ENV/
+
+# Logs
+Log/
+*.log
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test directory
+test/

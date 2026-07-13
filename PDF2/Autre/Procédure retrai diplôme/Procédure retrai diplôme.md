@@ -1,0 +1,13 @@
+![](_page_0_Picture_0.jpeg)
+
+## Procédure de retrait des diplômes
+
+## Docteurs du domaine SHS (écoles doctorales H&L et SSTED) :
+
+merci de contacter Mme Christèle GAUDRON : christele.gaudron@univ-tours.fr ou 02 47 36 64 50
+
+## Docteurs du domaine SST (écoles doctorales EMSTU, MIPTIS et SSBCV) :
+
+merci de contacter M Guillaume FIALEIX: guillaume.fialeix@univ-tours.fr ou 02 47 36 66 75
+
+are the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second o

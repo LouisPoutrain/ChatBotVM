@@ -1,0 +1,486 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Slide 2",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          38.94869875907898,
+          86.21311096028356
+        ],
+        [
+          77.97061211035894,
+          86.21311096028356
+        ],
+        [
+          77.97061211035894,
+          95.95894089492431
+        ],
+        [
+          38.94869875907898,
+          95.95894089492431
+        ]
+      ]
+    },
+    {
+      "title": "CSTI et SAPS",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          38.98530605517947,
+          239.14767301156917
+        ],
+        [
+          118.45535301381454,
+          239.14767301156917
+        ],
+        [
+          118.45535301381454,
+          249.93602561950684
+        ],
+        [
+          38.98530605517947,
+          249.93602561950684
+        ]
+      ]
+    },
+    {
+      "title": "Slide 3",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          38.07671296596527,
+          380.08736745098923
+        ],
+        [
+          77.97061211035894,
+          380.08736745098923
+        ],
+        [
+          77.97061211035894,
+          389.2918030619621
+        ],
+        [
+          38.07671296596527,
+          389.2918030619621
+        ]
+      ]
+    },
+    {
+      "title": "Slide 4",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          38.98530605517947,
+          422.06940409251865
+        ],
+        [
+          77.97061211035894,
+          422.06940409251865
+        ],
+        [
+          77.97061211035894,
+          432.044017970562
+        ],
+        [
+          38.98530605517947,
+          432.044017970562
+        ]
+      ]
+    },
+    {
+      "title": "Slide 5",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          38.98530605517947,
+          477.5456667973968
+        ],
+        [
+          77.97061211035894,
+          477.5456667973968
+        ],
+        [
+          77.97061211035894,
+          487.9507605433464
+        ],
+        [
+          38.98530605517947,
+          487.9507605433464
+        ]
+      ]
+    },
+    {
+      "title": "2- Organiser des points de rencontre",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          38.94869875907898,
+          589.2478714328946
+        ],
+        [
+          237.66042345176714,
+          589.2478714328946
+        ],
+        [
+          237.66042345176714,
+          601.2427390447601
+        ],
+        [
+          38.94869875907898,
+          601.2427390447601
+        ]
+      ]
+    },
+    {
+      "title": "3- Accompagner les chercheurs et les chercheuses",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          38.94869875907898,
+          673.9616239416949
+        ],
+        [
+          314.88131813798805,
+          673.9616239416949
+        ],
+        [
+          314.88131813798805,
+          685.268675506115
+        ],
+        [
+          38.94869875907898,
+          685.268675506115
+        ]
+      ]
+    },
+    {
+      "title": "Slide 6",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          38.94869875907898,
+          757.1760179990122
+        ],
+        [
+          77.97061211035894,
+          757.1760179990122
+        ],
+        [
+          77.97061211035894,
+          767.4844734072685
+        ],
+        [
+          38.94869875907898,
+          767.4844734072685
+        ]
+      ]
+    },
+    {
+      "title": "Slide 7",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          38.94869875907898,
+          197.1656363700398
+        ],
+        [
+          77.97061211035894,
+          197.1656363700398
+        ],
+        [
+          77.97061211035894,
+          207.66114553042215
+        ],
+        [
+          38.94869875907898,
+          207.66114553042215
+        ]
+      ]
+    },
+    {
+      "title": "Slide 8",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          37.495389103889465,
+          365.8434621618989
+        ],
+        [
+          77.97061211035894,
+          365.8434621618989
+        ],
+        [
+          77.97061211035894,
+          376.13727539777756
+        ],
+        [
+          37.495389103889465,
+          376.13727539777756
+        ]
+      ]
+    },
+    {
+      "title": "Slide 9",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          38.07671296596527,
+          477.5456667973968
+        ],
+        [
+          77.97061211035894,
+          477.5456667973968
+        ],
+        [
+          77.97061211035894,
+          487.9507605433464
+        ],
+        [
+          38.07671296596527,
+          487.9507605433464
+        ]
+      ]
+    },
+    {
+      "title": "2- Ouvrir l'Universit\u00e9 et les labos",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          38.98530605517947,
+          547.2658347913653
+        ],
+        [
+          214.4191833034871,
+          547.2658347913653
+        ],
+        [
+          214.4191833034871,
+          557.0120307803154
+        ],
+        [
+          38.98530605517947,
+          557.0120307803154
+        ]
+      ]
+    },
+    {
+      "title": "Slide 24",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          38.98530605517947,
+          155.18359972851042
+        ],
+        [
+          86.21750377587767,
+          155.18359972851042
+        ],
+        [
+          86.21750377587767,
+          165.67910888889276
+        ],
+        [
+          38.98530605517947,
+          165.67910888889276
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          79
+        ],
+        [
+          "Span",
+          33
+        ],
+        [
+          "Text",
+          23
+        ],
+        [
+          "SectionHeader",
+          8
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          97
+        ],
+        [
+          "Span",
+          48
+        ],
+        [
+          "Text",
+          45
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          81
+        ],
+        [
+          "Span",
+          36
+        ],
+        [
+          "Text",
+          35
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          80
+        ],
+        [
+          "Span",
+          34
+        ],
+        [
+          "Text",
+          33
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          89
+        ],
+        [
+          "Span",
+          42
+        ],
+        [
+          "Text",
+          40
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          55
+        ],
+        [
+          "Span",
+          19
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/SAPS-RED-PRESENTATION"
+}

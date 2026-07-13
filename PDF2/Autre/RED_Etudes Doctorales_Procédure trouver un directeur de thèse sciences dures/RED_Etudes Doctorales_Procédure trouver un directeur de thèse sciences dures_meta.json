@@ -1,0 +1,118 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Comment trouver un directeur de th\u00e8se \u00e0 l'universit\u00e9?",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          62.980957953695686,
+          188.92595821390805
+        ],
+        [
+          531.5892760615504,
+          186.67683966374247
+        ],
+        [
+          531.5892760615504,
+          203.92008188167853
+        ],
+        [
+          62.980957953695686,
+          206.1692004318441
+        ]
+      ]
+    },
+    {
+      "title": "Universit\u00e9 de Tours",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          77.22665082417447,
+          380.10103497798167
+        ],
+        [
+          190.4424204790322,
+          380.10103497798167
+        ],
+        [
+          190.4424204790322,
+          391.34662772880955
+        ],
+        [
+          77.22665082417447,
+          391.34662772880955
+        ]
+      ]
+    },
+    {
+      "title": "Universit\u00e9 d'Orl\u00e9ans",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          76.4768775152019,
+          460.3195966005537
+        ],
+        [
+          193.44151371492245,
+          460.3195966005537
+        ],
+        [
+          193.44151371492245,
+          471.5651893513816
+        ],
+        [
+          76.4768775152019,
+          471.5651893513816
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          34
+        ],
+        [
+          "Span",
+          14
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED_Etudes Doctorales_Proce\u0301dure trouver un directeur de the\u0300se sciences dures"
+}

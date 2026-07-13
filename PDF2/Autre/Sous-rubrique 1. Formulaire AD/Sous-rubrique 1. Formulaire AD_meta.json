@@ -1,0 +1,76 @@
+{
+  "table_of_contents": [
+    {
+      "title": "AUTORISATION DE DEPLACEMENT",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          155.80640816688538,
+          75.72032452224093
+        ],
+        [
+          465.6092248719645,
+          75.72032452224093
+        ],
+        [
+          465.6092248719645,
+          94.46297910695402
+        ],
+        [
+          155.80640816688538,
+          94.46297910695402
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          115
+        ],
+        [
+          "Line",
+          12
+        ],
+        [
+          "Span",
+          4
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Form",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Sous-rubrique 1. Formulaire AD"
+}

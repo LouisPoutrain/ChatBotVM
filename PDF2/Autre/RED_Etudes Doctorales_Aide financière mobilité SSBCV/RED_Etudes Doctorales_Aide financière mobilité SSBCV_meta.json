@@ -1,0 +1,206 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Ecole Doctorale n\u00b0 549 Sant\u00e9, Sciences Biologiques et Chimie du Vivant -\nSSBCV",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          51.70307495732151,
+          75.65202927589417
+        ],
+        [
+          537.2623875999931,
+          75.65202927589417
+        ],
+        [
+          537.2623875999931,
+          103.61038792133331
+        ],
+        [
+          51.70307495732151,
+          103.61038792133331
+        ]
+      ]
+    },
+    {
+      "title": "Aide \u00e0 la mobilit\u00e9 internationale des doctorants",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          160.35446436038848,
+          107.97306931071905
+        ],
+        [
+          432.3575978315147,
+          107.97306931071905
+        ],
+        [
+          432.3575978315147,
+          119.22026403058562
+        ],
+        [
+          160.35446436038848,
+          119.22026403058562
+        ]
+      ]
+    },
+    {
+      "title": "Le dossier comprendra:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          48.7057952496507,
+          466.3836743838003
+        ],
+        [
+          196.3218208524382,
+          466.3836743838003
+        ],
+        [
+          196.3218208524382,
+          477.6308691036669
+        ],
+        [
+          48.7057952496507,
+          477.6308691036669
+        ]
+      ]
+    },
+    {
+      "title": "2 dispositions sont pr\u00e9vues :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          48.7057952496507,
+          698.825698594376
+        ],
+        [
+          212.80685924462767,
+          698.825698594376
+        ],
+        [
+          212.80685924462767,
+          710.0728933142426
+        ],
+        [
+          48.7057952496507,
+          710.0728933142426
+        ]
+      ]
+    },
+    {
+      "title": "Ecole Doctorale n\u00b0 549 Sant\u00e9, Sciences Biologiques et Chimie du Vivant -\nSSBCV",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          50.25785341858864,
+          75.73111111376822
+        ],
+        [
+          537.2623875999931,
+          75.73111111376822
+        ],
+        [
+          537.2623875999931,
+          104.9738173854213
+        ],
+        [
+          50.25785341858864,
+          104.9738173854213
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          59
+        ],
+        [
+          "Span",
+          20
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          19
+        ],
+        [
+          "Span",
+          7
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED_Etudes Doctorales_Aide financie\u0300re mobilite\u0301 SSBCV"
+}

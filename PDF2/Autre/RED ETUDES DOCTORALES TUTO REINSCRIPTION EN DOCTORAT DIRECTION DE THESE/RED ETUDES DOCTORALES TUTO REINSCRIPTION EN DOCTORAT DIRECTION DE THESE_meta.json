@@ -1,0 +1,753 @@
+{
+  "table_of_contents": [
+    {
+      "title": "DIRECTION DE TH\u00c8SE DONNER SON AVIS SUR LA CONVENTION INDIVIDUELLE DE FORMATION PUIS SUR UNE DEMANDE DE REINSCRIPTION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.75234746932983,
+          147.40302267002517
+        ],
+        [
+          524.1964482539272,
+          148.46347607052894
+        ],
+        [
+          524.1964482539272,
+          190.76562499999997
+        ],
+        [
+          69.75234746932983,
+          190.76562499999997
+        ]
+      ]
+    },
+    {
+      "title": "INTERFACE CONNEXION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          43.99221962090592,
+          202.54659949622163
+        ],
+        [
+          145.2273274232316,
+          202.54659949622163
+        ],
+        [
+          145.2273274232316,
+          217.39294710327454
+        ],
+        [
+          43.99221962090592,
+          217.39294710327454
+        ]
+      ]
+    },
+    {
+      "title": "TOUS LES CHAMPS DE CE FORMULAIRE SONT OBLIGATOIRES",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          26.501337121027664,
+          56.32519531249999
+        ],
+        [
+          308.475564088762,
+          56.32519531249999
+        ],
+        [
+          308.475564088762,
+          72.11083123425692
+        ],
+        [
+          26.501337121027664,
+          72.11083123425692
+        ]
+      ]
+    },
+    {
+      "title": "Calendrier du projet de recherche :",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          27.031363863448217,
+          119.83123425692693
+        ],
+        [
+          150.52759484743711,
+          118.77078085642316
+        ],
+        [
+          150.52759484743711,
+          132.7958984375
+        ],
+        [
+          27.031363863448217,
+          133.61712846347606
+        ]
+      ]
+    },
+    {
+      "title": "Modalit\u00e9s d'encadrement, de suivi de la formation et d'avancement des recherches de la th\u00e8se :",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          26.501337121027664,
+          407.2141057934508
+        ],
+        [
+          356.70799764903234,
+          407.2141057934508
+        ],
+        [
+          356.70799764903234,
+          422.0604534005037
+        ],
+        [
+          26.501337121027664,
+          422.0604534005037
+        ]
+      ]
+    },
+    {
+      "title": "Conditions de finalisation accept\u00e9es par le doctorant le 05-05-2022",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          38.654425889253616,
+          353.1309823677582
+        ],
+        [
+          236.39192711956676,
+          353.1309823677582
+        ],
+        [
+          236.39192711956676,
+          367.55273437499994
+        ],
+        [
+          38.654425889253616,
+          367.55273437499994
+        ]
+      ]
+    },
+    {
+      "title": "Vos contacts",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          252.8227561346039,
+          55.50292968749999
+        ],
+        [
+          341.3372221188363,
+          55.50292968749999
+        ],
+        [
+          341.3372221188363,
+          77.70410156249999
+        ],
+        [
+          252.8227561346039,
+          77.70410156249999
+        ]
+      ]
+    },
+    {
+      "title": "\u00e0 l'universit\u00e9 de Tours :",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          54.06272772689643,
+          147.18554687499997
+        ],
+        [
+          179.67906568056756,
+          147.18554687499997
+        ],
+        [
+          179.67906568056756,
+          165.27539062499997
+        ],
+        [
+          54.06272772689643,
+          165.27539062499997
+        ]
+      ]
+    },
+    {
+      "title": "\u00e0 l'INSA Centre Val de Loire:",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          222.61123181663237,
+          146.77441406249997
+        ],
+        [
+          377.3790406034339,
+          146.77441406249997
+        ],
+        [
+          377.3790406034339,
+          165.68652343749997
+        ],
+        [
+          222.61123181663237,
+          165.68652343749997
+        ]
+      ]
+    },
+    {
+      "title": "A l'universit\u00e9 d'Orl\u00e9ans:",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          421.9012869667604,
+          145.95214843749997
+        ],
+        [
+          552.2878656022165,
+          145.95214843749997
+        ],
+        [
+          552.2878656022165,
+          164.86425781249997
+        ],
+        [
+          421.9012869667604,
+          164.86425781249997
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          24
+        ],
+        [
+          "Span",
+          9
+        ],
+        [
+          "Picture",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          30
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          26
+        ],
+        [
+          "Span",
+          13
+        ],
+        [
+          "TableCell",
+          10
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Line",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          10
+        ],
+        [
+          "Line",
+          2
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          39
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          91
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Line",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          29
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          26
+        ],
+        [
+          "TableCell",
+          16
+        ],
+        [
+          "Span",
+          8
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          9
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Line",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          17
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          22
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "Span",
+          5
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          45
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          83
+        ],
+        [
+          "Span",
+          39
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED ETUDES DOCTORALES TUTO REINSCRIPTION EN DOCTORAT DIRECTION DE THESE"
+}

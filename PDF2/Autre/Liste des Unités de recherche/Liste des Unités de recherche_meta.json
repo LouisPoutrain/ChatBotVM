@@ -1,0 +1,106 @@
+{
+  "table_of_contents": [
+    {
+      "title": "CQ 2024/2028_Unit\u00e9s de Recherche",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          15.74867790471997,
+          15.745699385713491
+        ],
+        [
+          411.7154366519649,
+          13.496313759182993
+        ],
+        [
+          411.7154366519649,
+          47.23709815714047
+        ],
+        [
+          15.74867790471997,
+          48.736688574827475
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          92
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          60
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Liste des Unite\u0301s de recherche"
+}

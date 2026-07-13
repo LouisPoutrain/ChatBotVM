@@ -1,0 +1,333 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Bilan carbone des unit\u00e9s de recherche\nFiche m\u00e9thodologique pour utiliser l'outil Labos 1point5",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          103.40614991464302,
+          95.7984935939312
+        ],
+        [
+          492.30319198493095,
+          95.7984935939312
+        ],
+        [
+          492.30319198493095,
+          126.22376623749733
+        ],
+        [
+          103.40614991464302,
+          126.22376623749733
+        ]
+      ]
+    },
+    {
+      "title": "1- Le p\u00e9rim\u00e8tre :",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.18811334951099,
+          247.4382838370645
+        ],
+        [
+          173.0929031179894,
+          247.4382838370645
+        ],
+        [
+          173.0929031179894,
+          259.0259698033333
+        ],
+        [
+          68.18811334951099,
+          259.0259698033333
+        ]
+      ]
+    },
+    {
+      "title": "2- <u>B\u00e2timents</u>:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.18811334951099,
+          459.2571559846401
+        ],
+        [
+          158.85582450655306,
+          459.2571559846401
+        ],
+        [
+          158.85582450655306,
+          470.13273929042253
+        ],
+        [
+          68.18811334951099,
+          470.13273929042253
+        ]
+      ]
+    },
+    {
+      "title": "3- Achats:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          68.18811334951099,
+          171.0393705368042
+        ],
+        [
+          137.12554662593968,
+          171.0393705368042
+        ],
+        [
+          137.12554662593968,
+          181.45474148051397
+        ],
+        [
+          68.18811334951099,
+          181.45474148051397
+        ]
+      ]
+    },
+    {
+      "title": "4- Mat\u00e9riel informatique:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          68.18811334951099,
+          230.19258526660244
+        ],
+        [
+          227.04393785606405,
+          230.19258526660244
+        ],
+        [
+          227.04393785606405,
+          242.9910288155079
+        ],
+        [
+          68.18811334951099,
+          242.9910288155079
+        ]
+      ]
+    },
+    {
+      "title": "5- V\u00e9hicules:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          68.18811334951099,
+          340.4150935212948
+        ],
+        [
+          153.61058501812914,
+          340.4150935212948
+        ],
+        [
+          153.61058501812914,
+          352.3575493991375
+        ],
+        [
+          68.18811334951099,
+          352.3575493991375
+        ]
+      ]
+    },
+    {
+      "title": "6- Missions:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          68.18811334951099,
+          452.137227738636
+        ],
+        [
+          148.36534552970522,
+          452.137227738636
+        ],
+        [
+          148.36534552970522,
+          462.6346094771782
+        ],
+        [
+          68.18811334951099,
+          462.6346094771782
+        ]
+      ]
+    },
+    {
+      "title": "7- Les d\u00e9placements Domicile/Travail:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          68.18811334951099,
+          575.8563696571682
+        ],
+        [
+          306.47185010934055,
+          575.8563696571682
+        ],
+        [
+          306.47185010934055,
+          587.5366838872433
+        ],
+        [
+          68.18811334951099,
+          587.5366838872433
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          70
+        ],
+        [
+          "Span",
+          36
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "PageFooter",
+          8
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          72
+        ],
+        [
+          "Span",
+          35
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageFooter",
+          8
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          64
+        ],
+        [
+          "Span",
+          24
+        ],
+        [
+          "PageFooter",
+          8
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Fiche me\u0301thodologique outil labos 1.5"
+}

@@ -1,0 +1,366 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Zimbra",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.97398507595062,
+          65.97414892099845
+        ],
+        [
+          103.46871663821433,
+          65.97414892099845
+        ],
+        [
+          103.46871663821433,
+          76.87454083561897
+        ],
+        [
+          56.97398507595062,
+          76.87454083561897
+        ]
+      ]
+    },
+    {
+      "title": "perault@univ-tours.fr",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          404.127813536214,
+          66.18610200285912
+        ],
+        [
+          536.0879159153859,
+          66.18610200285912
+        ],
+        [
+          536.0879159153859,
+          78.51891604065895
+        ],
+        [
+          404.127813536214,
+          78.51891604065895
+        ]
+      ]
+    },
+    {
+      "title": "Fwd: Aide au d\u00e9marrage des MCF nomm\u00e9s \u00e0 la rentr\u00e9e 2024",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.72982449855853,
+          107.20799199662247
+        ],
+        [
+          431.869425968199,
+          107.20799199662247
+        ],
+        [
+          431.869425968199,
+          119.6282961666584
+        ],
+        [
+          66.72982449855853,
+          119.6282961666584
+        ]
+      ]
+    },
+    {
+      "title": "Celui-ci devra:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          78.48457127809525,
+          354.61105045036663
+        ],
+        [
+          160.45148812012948,
+          354.61105045036663
+        ],
+        [
+          160.45148812012948,
+          365.1069377787073
+        ],
+        [
+          78.48457127809525,
+          365.1069377787073
+        ]
+      ]
+    },
+    {
+      "title": "Pour rappel:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          78.19388768076897,
+          280.77706626057625
+        ],
+        [
+          146.95556855862327,
+          280.77706626057625
+        ],
+        [
+          146.95556855862327,
+          291.63572648032266
+        ],
+        [
+          78.19388768076897,
+          291.63572648032266
+        ]
+      ]
+    },
+    {
+      "title": "MC nouvellement recrut\u00e9s ou arriv\u00e9s par Mutation :",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          78.7261974421196,
+          537.7106920480728
+        ],
+        [
+          414.6246398618299,
+          537.7106920480728
+        ],
+        [
+          414.6246398618299,
+          554.1544440984726
+        ],
+        [
+          78.7261974421196,
+          554.1544440984726
+        ]
+      ]
+    },
+    {
+      "title": "Caroline Vaslin",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          77.22665082417447,
+          709.9718071384718
+        ],
+        [
+          170.94831444574544,
+          709.9718071384718
+        ],
+        [
+          170.94831444574544,
+          724.2162256555056
+        ],
+        [
+          77.22665082417447,
+          724.2162256555056
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          63
+        ],
+        [
+          "Span",
+          33
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          47
+        ],
+        [
+          "TableCell",
+          29
+        ],
+        [
+          "Span",
+          18
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          83
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          72
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "Span",
+          8
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          13
+        ],
+        [
+          "Span",
+          7
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Liste des nouveaux MCF 2024"
+}

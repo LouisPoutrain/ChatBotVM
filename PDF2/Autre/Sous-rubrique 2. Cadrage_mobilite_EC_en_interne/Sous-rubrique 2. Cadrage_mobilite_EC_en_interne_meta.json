@@ -1,0 +1,198 @@
+{
+  "table_of_contents": [
+    {
+      "title": "CADRAGE MOBILITE RECHERCHE D'UN ENSEIGNANT-CHERCHEUR",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          192.89719462394714,
+          98.7890625
+        ],
+        [
+          540.2596673076639,
+          98.7890625
+        ],
+        [
+          540.2596673076639,
+          108.0
+        ],
+        [
+          192.89719462394714,
+          108.0
+        ]
+      ]
+    },
+    {
+      "title": "CHANGEMENT D'AFFECTATION RECHERCHE AU SEIN DE L'UNIVERSITE DE TOURS (UT)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          217.88086742162704,
+          121.5
+        ],
+        [
+          515.5321097193797,
+          121.5
+        ],
+        [
+          515.5321097193797,
+          144.47900390625
+        ],
+        [
+          217.88086742162704,
+          144.47900390625
+        ]
+      ]
+    },
+    {
+      "title": "Textes de r\u00e9f\u00e9rence",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          181.33542231408416,
+          222.0
+        ],
+        [
+          276.49905303263245,
+          222.0
+        ],
+        [
+          276.49905303263245,
+          231.3310546875
+        ],
+        [
+          181.33542231408416,
+          231.3310546875
+        ]
+      ]
+    },
+    {
+      "title": "Cadrage:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          181.33542231408416,
+          341.25
+        ],
+        [
+          230.04121756373485,
+          341.25
+        ],
+        [
+          230.04121756373485,
+          351.93603515625
+        ],
+        [
+          181.33542231408416,
+          351.93603515625
+        ]
+      ]
+    },
+    {
+      "title": "Proc\u00e9dure :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          180.4053582251072,
+          528.0
+        ],
+        [
+          239.0330566867473,
+          528.0
+        ],
+        [
+          239.0330566867473,
+          537.98876953125
+        ],
+        [
+          180.4053582251072,
+          537.98876953125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          59
+        ],
+        [
+          "Span",
+          16
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          39
+        ],
+        [
+          "Span",
+          15
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Sous-rubrique 2. Cadrage_mobilite_EC_en_interne"
+}

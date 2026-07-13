@@ -1,0 +1,137 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Le R\u00e8glement G\u00e9n\u00e9ral sur la Protection des Donn\u00e9es (RGPD / GPDR)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          88.5,
+          77.25
+        ],
+        [
+          511.5,
+          77.25
+        ],
+        [
+          511.5,
+          132.64453125
+        ],
+        [
+          89.25,
+          132.75
+        ]
+      ]
+    },
+    {
+      "title": "Qu'est-ce qu'une donn\u00e9e personnelle?",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          89.25,
+          262.5
+        ],
+        [
+          272.25,
+          262.5
+        ],
+        [
+          272.25,
+          274.18359375
+        ],
+        [
+          89.25,
+          274.18359375
+        ]
+      ]
+    },
+    {
+      "title": "L'Universit\u00e9 est l\u00e0 pour vous aider sur les sujets en lien avec le RGPD",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          89.25,
+          424.5
+        ],
+        [
+          460.5,
+          424.5
+        ],
+        [
+          460.5,
+          435.75
+        ],
+        [
+          89.25,
+          435.75
+        ]
+      ]
+    },
+    {
+      "title": "Contact",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          89.25,
+          618.75
+        ],
+        [
+          133.5,
+          618.75
+        ],
+        [
+          133.5,
+          629.19140625
+        ],
+        [
+          89.25,
+          629.19140625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          47
+        ],
+        [
+          "Span",
+          21
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/LE_RGPD"
+}

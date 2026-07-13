@@ -1,0 +1,110 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Proc\u00e9dure de retrait des dipl\u00f4mes",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          197.0711205624213,
+          157.4382870980702
+        ],
+        [
+          398.63816022512594,
+          157.4382870980702
+        ],
+        [
+          398.63816022512594,
+          172.43240967883878
+        ],
+        [
+          197.0711205624213,
+          172.43240967883878
+        ]
+      ]
+    },
+    {
+      "title": "Docteurs du domaine SHS (\u00e9coles doctorales H&L et SSTED) :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          134.12825315845404,
+          251.9012593569123
+        ],
+        [
+          460.831707779046,
+          251.9012593569123
+        ],
+        [
+          460.831707779046,
+          264.6462635505656
+        ],
+        [
+          134.12825315845404,
+          264.6462635505656
+        ]
+      ]
+    },
+    {
+      "title": "Docteurs du domaine SST (\u00e9coles doctorales EMSTU, MIPTIS et SSBCV) :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          102.6568194564704,
+          320.8742232284478
+        ],
+        [
+          492.3031414810296,
+          320.8742232284478
+        ],
+        [
+          492.3031414810296,
+          333.6192274221011
+        ],
+        [
+          102.6568194564704,
+          333.6192274221011
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          13
+        ],
+        [
+          "Span",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Proc\u00e9dure retrai dipl\u00f4me"
+}

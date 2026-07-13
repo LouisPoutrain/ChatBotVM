@@ -1,0 +1,164 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Ecole doctorale n\u00b0 616 Humanit\u00e9s et Langues - H&L",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          147.61601045930416,
+          35.985894193844615
+        ],
+        [
+          496.04974073126573,
+          35.985894193844615
+        ],
+        [
+          496.04974073126573,
+          50.56453022360802
+        ],
+        [
+          147.61601045930416,
+          50.56453022360802
+        ]
+      ]
+    },
+    {
+      "title": "Aide \u00e0 la Mobilit\u00e9",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          226.29459471426324,
+          66.59718614816666
+        ],
+        [
+          343.188491321631,
+          66.59718614816666
+        ],
+        [
+          343.188491321631,
+          78.10781091451645
+        ],
+        [
+          226.29459471426324,
+          78.10781091451645
+        ]
+      ]
+    },
+    {
+      "title": "Les documents \u00e0 fournir sont les suivants :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          35.21803295221977,
+          322.3736354865247
+        ],
+        [
+          283.99222316789985,
+          322.3736354865247
+        ],
+        [
+          283.99222316789985,
+          333.39702448248863
+        ],
+        [
+          35.21803295221977,
+          333.39702448248863
+        ]
+      ]
+    },
+    {
+      "title": "2 dispositions sont pr\u00e9vues :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          34.46871310217254,
+          590.018723553244
+        ],
+        [
+          198.56976026251576,
+          590.018723553244
+        ],
+        [
+          198.56976026251576,
+          601.2643154888204
+        ],
+        [
+          34.46871310217254,
+          601.2643154888204
+        ]
+      ]
+    },
+    {
+      "title": "Ou",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          34.46871310217254,
+          660.4910996828564
+        ],
+        [
+          53.9510292034005,
+          660.4910996828564
+        ],
+        [
+          53.9510292034005,
+          670.9869854893943
+        ],
+        [
+          34.46871310217254,
+          670.9869854893943
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          61
+        ],
+        [
+          "Span",
+          24
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED ETUDES DOCTORALES REGELEMENT AIDES A LA MOBILITE ED HL"
+}

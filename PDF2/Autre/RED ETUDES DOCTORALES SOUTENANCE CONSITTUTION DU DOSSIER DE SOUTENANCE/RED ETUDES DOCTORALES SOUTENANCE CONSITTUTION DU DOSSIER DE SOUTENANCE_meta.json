@@ -1,0 +1,118 @@
+{
+  "table_of_contents": [
+    {
+      "title": "CONSTITUTION DU DOSSIER ADMINISTRATIF DE SOUTENANCE",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          158.0668672765576,
+          78.11894327402115
+        ],
+        [
+          444.9844510060436,
+          78.11894327402115
+        ],
+        [
+          444.9844510060436,
+          87.72811881495923
+        ],
+        [
+          158.0668672765576,
+          87.72811881495923
+        ]
+      ]
+    },
+    {
+      "title": "\u25a1 Important :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          31.406484246253967,
+          505.3062172830105
+        ],
+        [
+          102.63109391890232,
+          505.3062172830105
+        ],
+        [
+          102.63109391890232,
+          514.3717051885644
+        ],
+        [
+          31.406484246253967,
+          514.3717051885644
+        ]
+      ]
+    },
+    {
+      "title": "Avant de valider vos donn\u00e9es, assurez-vous que les \u00e9l\u00e9ments soient conformes :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          113.70310500264168,
+          564.9233055710793
+        ],
+        [
+          482.441054626081,
+          564.9233055710793
+        ],
+        [
+          482.441054626081,
+          575.8563696571682
+        ],
+        [
+          113.70310500264168,
+          575.8563696571682
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          57
+        ],
+        [
+          "Span",
+          24
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "Picture",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED ETUDES DOCTORALES SOUTENANCE CONSITTUTION DU DOSSIER DE SOUTENANCE"
+}

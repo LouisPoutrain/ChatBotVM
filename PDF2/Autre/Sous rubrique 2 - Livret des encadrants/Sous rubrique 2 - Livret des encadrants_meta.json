@@ -1,0 +1,2040 @@
+{
+  "table_of_contents": [
+    {
+      "title": "OBJECTIFS\nDE CE GUIDE",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          46.494203597780256,
+          99.40644156932831
+        ],
+        [
+          189.72634693932912,
+          99.40644156932831
+        ],
+        [
+          189.72634693932912,
+          138.93648850917816
+        ],
+        [
+          46.494203597780256,
+          138.93648850917816
+        ]
+      ]
+    },
+    {
+      "title": "SOMMAIRE",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          44.994390578497026,
+          97.4633250969183
+        ],
+        [
+          170.9786841982887,
+          97.4633250969183
+        ],
+        [
+          170.9786841982887,
+          116.20627223094105
+        ],
+        [
+          44.994390578497026,
+          116.20627223094105
+        ]
+      ]
+    },
+    {
+      "title": "CE QU'IL FAUT SAVOIR",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          48.74392312670511,
+          99.71247875300104
+        ],
+        [
+          296.21307130843877,
+          99.71247875300104
+        ],
+        [
+          296.21307130843877,
+          116.84616816043855
+        ],
+        [
+          48.74392312670511,
+          116.84616816043855
+        ]
+      ]
+    },
+    {
+      "title": "La r\u00e9glementation g\u00e9n\u00e9rale",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          48.74392312670511,
+          142.13377171754837
+        ],
+        [
+          191.22615995861236,
+          142.13377171754837
+        ],
+        [
+          191.22615995861236,
+          153.17893189191818
+        ],
+        [
+          48.74392312670511,
+          153.17893189191818
+        ]
+      ]
+    },
+    {
+      "title": "Quelles sont vos obligations?",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          47.244110107421875,
+          98.2130429822792
+        ],
+        [
+          200.22503807431175,
+          98.2130429822792
+        ],
+        [
+          200.22503807431175,
+          109.57961541414261
+        ],
+        [
+          47.244110107421875,
+          109.57961541414261
+        ]
+      ]
+    },
+    {
+      "title": "Concernant le financement de la s\u00e9curit\u00e9",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          49.49382963634673,
+          99.98776578903198
+        ],
+        [
+          256.468026297433,
+          99.98776578903198
+        ],
+        [
+          256.468026297433,
+          109.45881126269286
+        ],
+        [
+          49.49382963634673,
+          109.45881126269286
+        ]
+      ]
+    },
+    {
+      "title": "LES ACTEURS DE\nLA PR\u00c9VENTION",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          50.24373614598834,
+          99.40644156932831
+        ],
+        [
+          237.7203635563926,
+          99.40644156932831
+        ],
+        [
+          237.7203635563926,
+          138.93648850917816
+        ],
+        [
+          50.24373614598834,
+          140.19724456249017
+        ]
+      ]
+    },
+    {
+      "title": "Le Pr\u00e9sident",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          48.74392312670511,
+          165.68765266476112
+        ],
+        [
+          118.4852285233755,
+          165.68765266476112
+        ],
+        [
+          118.4852285233755,
+          177.01322489976883
+        ],
+        [
+          48.74392312670511,
+          177.01322489976883
+        ]
+      ]
+    },
+    {
+      "title": "Les directeurs de composantes - U.F.R., Ecoles, IUT...",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          46.494203597780256,
+          98.5344552397728
+        ],
+        [
+          318.7102665976873,
+          98.5344552397728
+        ],
+        [
+          318.7102665976873,
+          109.57961541414261
+        ],
+        [
+          46.494203597780256,
+          109.57961541414261
+        ]
+      ]
+    },
+    {
+      "title": "Les enseignants, enseignants - chercheurs, BIATSS, Chercheurs...",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          47.244110107421875,
+          205.20744955539703
+        ],
+        [
+          311.9611080109127,
+          205.20744955539703
+        ],
+        [
+          311.9611080109127,
+          226.4148013789948
+        ],
+        [
+          47.244110107421875,
+          226.4148013789948
+        ]
+      ]
+    },
+    {
+      "title": "Les conseillers de pr\u00e9vention et le service de pr\u00e9vention (PePSS)",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          48.74392312670511,
+          98.82511734962463
+        ],
+        [
+          376.45306784009176,
+          98.82511734962463
+        ],
+        [
+          376.45306784009176,
+          109.28895330429077
+        ],
+        [
+          48.74392312670511,
+          109.28895330429077
+        ]
+      ]
+    },
+    {
+      "title": "Le m\u00e9decin du travail",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          47.244110107421875,
+          98.96276086764011
+        ],
+        [
+          158.2302735343812,
+          98.96276086764011
+        ],
+        [
+          158.2302735343812,
+          108.7076290845871
+        ],
+        [
+          47.244110107421875,
+          108.7076290845871
+        ]
+      ]
+    },
+    {
+      "title": "Le Service de Sant\u00e9 Universitaire (SSU)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          47.244110107421875,
+          301.41660791635513
+        ],
+        [
+          250.4687742203001,
+          301.41660791635513
+        ],
+        [
+          250.4687742203001,
+          312.46176809072495
+        ],
+        [
+          47.244110107421875,
+          312.46176809072495
+        ]
+      ]
+    },
+    {
+      "title": "La Direction des Affaires Juridiques et du Patrimoine",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          47.244110107421875,
+          373.50081115961075
+        ],
+        [
+          312.71101452055433,
+          373.50081115961075
+        ],
+        [
+          312.71101452055433,
+          384.54597133398056
+        ],
+        [
+          47.244110107421875,
+          384.54597133398056
+        ]
+      ]
+    },
+    {
+      "title": "La DRH - Le Bureau Formations et Concours",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          48.74392312670511,
+          240.65944120085211
+        ],
+        [
+          274.4657825288319,
+          241.5402132868767
+        ],
+        [
+          274.4657825288319,
+          251.90520948126576
+        ],
+        [
+          48.74392312670511,
+          251.42272502183917
+        ]
+      ]
+    },
+    {
+      "title": "VOS INTERLOCUTEURS",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          46.50592088699341,
+          99.40644156932831
+        ],
+        [
+          304.4620429144965,
+          99.40644156932831
+        ],
+        [
+          304.4620429144965,
+          114.52087128162385
+        ],
+        [
+          46.50592088699341,
+          114.52087128162385
+        ]
+      ]
+    },
+    {
+      "title": "Au niveau de l'unit\u00e9 de travail (composantes, laboratoires, services, ...)",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          45.67545801401138,
+          143.1961161039338
+        ],
+        [
+          360.7050311376178,
+          143.1961161039338
+        ],
+        [
+          360.7050311376178,
+          152.01628345251083
+        ],
+        [
+          45.67545801401138,
+          152.01628345251083
+        ]
+      ]
+    },
+    {
+      "title": "LES ACTIONS A\nMETTRE EN \u0152UVRE",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          50.24373614598834,
+          99.69710367918015
+        ],
+        [
+          270.7162499806238,
+          99.69710367918015
+        ],
+        [
+          270.7162499806238,
+          138.64582639932632
+        ],
+        [
+          50.24373614598834,
+          138.64582639932632
+        ]
+      ]
+    },
+    {
+      "title": "Document Unique d'Evaluation des Risques (DUER) et autres rapports de Sant\u00e9 et de S\u00e9curit\u00e9 au Travail",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          48.997309505939484,
+          297.9286625981331
+        ],
+        [
+          357.70540509905135,
+          297.9286625981331
+        ],
+        [
+          357.70540509905135,
+          320.6003071665764
+        ],
+        [
+          48.997309505939484,
+          320.6003071665764
+        ]
+      ]
+    },
+    {
+      "title": "Registre Sant\u00e9 S\u00e9curit\u00e9 au Travail",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          47.244110107421875,
+          245.90014493465426
+        ],
+        [
+          220.47251383463544,
+          245.90014493465426
+        ],
+        [
+          220.47251383463544,
+          256.3639808893204
+        ],
+        [
+          47.244110107421875,
+          256.3639808893204
+        ]
+      ]
+    },
+    {
+      "title": "Obligations r\u00e9glementaires li\u00e9es aux activit\u00e9s de l'Universit\u00e9",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          47.244110107421875,
+          410.0956832924178
+        ],
+        [
+          350.9562465122768,
+          410.0956832924178
+        ],
+        [
+          350.9562465122768,
+          421.7507213950157
+        ],
+        [
+          47.244110107421875,
+          421.7507213950157
+        ]
+      ]
+    },
+    {
+      "title": "Documents n\u00e9cessitant la signature du Pr\u00e9sident de l'universit\u00e9",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          49.49382963634673,
+          98.82511734962463
+        ],
+        [
+          368.95400274367563,
+          98.82511734962463
+        ],
+        [
+          368.95400274367563,
+          109.28895330429077
+        ],
+        [
+          49.49382963634673,
+          109.28895330429077
+        ]
+      ]
+    },
+    {
+      "title": "Documents n\u00e9cessitant la signature des Responsables d'unit\u00e9 de\nTravail (Directeurs d'Unit\u00e9s de recherche [DU], Responsables de\nServices [RS], Responsables Administratifs [RA])",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          47.994016617063494,
+          98.82511734962463
+        ],
+        [
+          373.4534418015253,
+          98.82511734962463
+        ],
+        [
+          373.4534418015253,
+          132.54192209243774
+        ],
+        [
+          47.994016617063494,
+          132.54192209243774
+        ]
+      ]
+    },
+    {
+      "title": "Equipements de protection",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          48.997309505939484,
+          253.74802190065387
+        ],
+        [
+          189.72634693932912,
+          253.74802190065387
+        ],
+        [
+          189.72634693932912,
+          264.79318207502365
+        ],
+        [
+          48.997309505939484,
+          264.79318207502365
+        ]
+      ]
+    },
+    {
+      "title": "Formations",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          47.244110107421875,
+          98.2130429822792
+        ],
+        [
+          109.4863504076761,
+          98.2130429822792
+        ],
+        [
+          109.4863504076761,
+          108.99829119443893
+        ],
+        [
+          47.244110107421875,
+          108.99829119443893
+        ]
+      ]
+    },
+    {
+      "title": "Relations avec les entreprises ext\u00e9rieures",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          48.74392312670511,
+          98.2130429822792
+        ],
+        [
+          262.467278374566,
+          98.2130429822792
+        ],
+        [
+          262.467278374566,
+          109.57961541414261
+        ],
+        [
+          48.74392312670511,
+          109.57961541414261
+        ]
+      ]
+    },
+    {
+      "title": "ANNEXES",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          45.744297088138644,
+          99.69710367918015
+        ],
+        [
+          155.98055400545636,
+          99.69710367918015
+        ],
+        [
+          155.98055400545636,
+          114.23020917177202
+        ],
+        [
+          45.744297088138644,
+          114.23020917177202
+        ]
+      ]
+    },
+    {
+      "title": "Coordonn\u00e9es de vos interlocuteurs",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          46.494203597780256,
+          142.4463982185729
+        ],
+        [
+          224.97195289248512,
+          142.4463982185729
+        ],
+        [
+          224.97195289248512,
+          152.5976076722145
+        ],
+        [
+          46.494203597780256,
+          152.5976076722145
+        ]
+      ]
+    },
+    {
+      "title": "Service Pr\u00e9vention Protection Sant\u00e9 S\u00e9curit\u00e9 (PePSS)",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          60.623789727687836,
+          167.18708843548293
+        ],
+        [
+          303.7121364048549,
+          167.18708843548293
+        ],
+        [
+          303.7121364048549,
+          177.5945491194725
+        ],
+        [
+          60.623789727687836,
+          177.5945491194725
+        ]
+      ]
+    },
+    {
+      "title": "M\u00e9decine du travail : P\u00f4le Relais Sant\u00e9 au Travail",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          60.742427280970986,
+          285.6425143225067
+        ],
+        [
+          277.4654085673983,
+          284.8927964371458
+        ],
+        [
+          277.4654085673983,
+          294.44071727991104
+        ],
+        [
+          60.742427280970986,
+          294.44071727991104
+        ]
+      ]
+    },
+    {
+      "title": "La Direction des Affaires Juridiques et du Patrimoine",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          60.742427280970986,
+          418.3425800313878
+        ],
+        [
+          294.71325828915553,
+          418.3425800313878
+        ],
+        [
+          294.71325828915553,
+          426.5894767703578
+        ],
+        [
+          60.742427280970986,
+          426.5894767703578
+        ]
+      ]
+    },
+    {
+      "title": "Service Technique de l'Immobilier",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          59.99252077132937,
+          478.3200108602606
+        ],
+        [
+          210.7237292092944,
+          478.3200108602606
+        ],
+        [
+          210.7237292092944,
+          486.8590340018273
+        ],
+        [
+          59.99252077132937,
+          486.8590340018273
+        ]
+      ]
+    },
+    {
+      "title": "Direction des Ressources Humaines (DRH)",
+      "heading_level": null,
+      "page_id": 25,
+      "polygon": [
+        [
+          62.992146809895836,
+          94.75584781169891
+        ],
+        [
+          255.71811978779144,
+          94.75584781169891
+        ],
+        [
+          255.71811978779144,
+          107.95937549197104
+        ],
+        [
+          62.992146809895836,
+          107.20965760661014
+        ]
+      ]
+    },
+    {
+      "title": "Service du recrutement de la formation et de la gestion des comp\u00e9tences",
+      "heading_level": null,
+      "page_id": 25,
+      "polygon": [
+        [
+          62.992146809895836,
+          145.44526976001654
+        ],
+        [
+          323.209705655537,
+          145.44526976001654
+        ],
+        [
+          323.209705655537,
+          167.18708843548293
+        ],
+        [
+          62.992146809895836,
+          167.18708843548293
+        ]
+      ]
+    },
+    {
+      "title": "Coordinatrice P\u00f4le Formation, concours",
+      "heading_level": null,
+      "page_id": 25,
+      "polygon": [
+        [
+          62.992146809895836,
+          206.17241847425024
+        ],
+        [
+          240.7199895949591,
+          206.17241847425024
+        ],
+        [
+          240.7199895949591,
+          215.67128551006317
+        ],
+        [
+          62.992146809895836,
+          215.67128551006317
+        ]
+      ]
+    },
+    {
+      "title": "Le Comit\u00e9 d'Hygi\u00e8ne de S\u00e9curit\u00e9 et des Conditions de Travail (CHSCT)",
+      "heading_level": null,
+      "page_id": 25,
+      "polygon": [
+        [
+          62.992146809895836,
+          254.1543631373485
+        ],
+        [
+          375.70316133045014,
+          254.1543631373485
+        ],
+        [
+          375.70316133045014,
+          263.92119574546814
+        ],
+        [
+          62.992146809895836,
+          263.92119574546814
+        ]
+      ]
+    },
+    {
+      "title": "Les antennes techniques immobili\u00e8res",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          45.744297088138644,
+          95.96388932619648
+        ],
+        [
+          242.96970912388394,
+          95.96388932619648
+        ],
+        [
+          242.96970912388394,
+          109.45881126269286
+        ],
+        [
+          45.744297088138644,
+          109.45881126269286
+        ]
+      ]
+    },
+    {
+      "title": "SANT\u00c9 S\u00c9CURIT\u00c9 AU TRAVAIL\nPR\u00c9VENTION DES RISQUES\nPROFESSIONNELS",
+      "heading_level": null,
+      "page_id": 27,
+      "polygon": [
+        [
+          26.996634347098215,
+          113.95711857485831
+        ],
+        [
+          192.7259729778956,
+          113.95711857485831
+        ],
+        [
+          192.7259729778956,
+          148.81900024414062
+        ],
+        [
+          26.996634347098215,
+          148.81900024414062
+        ]
+      ]
+    },
+    {
+      "title": "Universit\u00e9 de Tours\n60 rue du Plat d'\u00c9tain\n37020 Tours Cedex 1\n02 47 36 66 00\nhuniv-tours.fr",
+      "heading_level": null,
+      "page_id": 27,
+      "polygon": [
+        [
+          295.46316479879715,
+          113.93954706192018
+        ],
+        [
+          404.1996086968316,
+          113.93954706192018
+        ],
+        [
+          404.1996086968316,
+          178.43285671589658
+        ],
+        [
+          295.46316479879715,
+          178.43285671589658
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          6
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          33
+        ],
+        [
+          "Span",
+          12
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Line",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          60
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Span",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          31
+        ],
+        [
+          "Span",
+          14
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          54
+        ],
+        [
+          "Span",
+          22
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          51
+        ],
+        [
+          "Span",
+          19
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          8
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          40
+        ],
+        [
+          "Span",
+          14
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          34
+        ],
+        [
+          "Span",
+          14
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          34
+        ],
+        [
+          "Span",
+          13
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          52
+        ],
+        [
+          "Span",
+          27
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          25
+        ],
+        [
+          "Span",
+          10
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          33
+        ],
+        [
+          "Span",
+          9
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          35
+        ],
+        [
+          "Span",
+          13
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          38
+        ],
+        [
+          "Span",
+          11
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          32
+        ],
+        [
+          "Span",
+          9
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          49
+        ],
+        [
+          "Span",
+          18
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          50
+        ],
+        [
+          "Span",
+          23
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          39
+        ],
+        [
+          "Span",
+          8
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          45
+        ],
+        [
+          "Span",
+          12
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 22,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          35
+        ],
+        [
+          "Span",
+          16
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 23,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          34
+        ],
+        [
+          "Span",
+          16
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 24,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          57
+        ],
+        [
+          "Span",
+          29
+        ],
+        [
+          "Text",
+          22
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 25,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          25
+        ],
+        [
+          "Span",
+          11
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 26,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          21
+        ],
+        [
+          "Line",
+          4
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 27,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          25
+        ],
+        [
+          "Span",
+          11
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Sous rubrique 2 - Livret des encadrants"
+}

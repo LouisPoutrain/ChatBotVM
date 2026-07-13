@@ -1,0 +1,213 @@
+{
+  "table_of_contents": [
+    {
+      "title": "P\u00f4le Juridique Recherche (PJR)\nPr\u00e9sentation g\u00e9n\u00e9rale",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          212.780393242836,
+          72.3525037765503
+        ],
+        [
+          382.3843875760095,
+          72.3525037765503
+        ],
+        [
+          382.3843875760095,
+          100.306880235672
+        ],
+        [
+          212.780393242836,
+          100.306880235672
+        ]
+      ]
+    },
+    {
+      "title": "Organisation:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.18269616365433,
+          123.70152025910646
+        ],
+        [
+          148.4551151765684,
+          123.70152025910646
+        ],
+        [
+          148.4551151765684,
+          134.83875703811646
+        ],
+        [
+          69.18269616365433,
+          134.83875703811646
+        ]
+      ]
+    },
+    {
+      "title": "Contacts:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          68.97914442547622,
+          264.646282736149
+        ],
+        [
+          122.21304936252852,
+          264.646282736149
+        ],
+        [
+          122.21304936252852,
+          274.1995455622673
+        ],
+        [
+          68.97914442547622,
+          274.1995455622673
+        ]
+      ]
+    },
+    {
+      "title": "Mission principale:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.7289177344488,
+          407.09045757996853
+        ],
+        [
+          178.4460475354711,
+          407.09045757996853
+        ],
+        [
+          178.4460475354711,
+          418.08236557245255
+        ],
+        [
+          69.7289177344488,
+          418.08236557245255
+        ]
+      ]
+    },
+    {
+      "title": "D\u00e9tail des missions :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.7289177344488,
+          500.0540243201455
+        ],
+        [
+          185.1940073162242,
+          500.0540243201455
+        ],
+        [
+          185.1940073162242,
+          510.98955792188644
+        ],
+        [
+          69.7289177344488,
+          510.98955792188644
+        ]
+      ]
+    },
+    {
+      "title": "Mots cl\u00e9s:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.97914442547622,
+          257.1492209022637
+        ],
+        [
+          131.9601023791719,
+          257.1492209022637
+        ],
+        [
+          131.9601023791719,
+          267.6451074697031
+        ],
+        [
+          68.97914442547622,
+          267.6451074697031
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          53
+        ],
+        [
+          "Span",
+          18
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          17
+        ],
+        [
+          "Span",
+          6
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/P\u00f4le Juridique Recherche - pr\u00e9sentation g\u00e9n\u00e9rale"
+}

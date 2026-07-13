@@ -1,0 +1,68 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Engagement de confidentialit\u00e9",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          134.95919561506219,
+          62.97531940463602
+        ],
+        [
+          460.36081170915656,
+          62.97531940463602
+        ],
+        [
+          460.36081170915656,
+          87.71562345645731
+        ],
+        [
+          134.95919561506219,
+          87.71562345645731
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          7
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Form",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED ETUDES DOCTORALES SOUTENANCES ENGAGEMENT CONFIDENTIALITE PUBLIC"
+}

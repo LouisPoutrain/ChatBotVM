@@ -1,0 +1,145 @@
+{
+  "table_of_contents": [
+    {
+      "title": "VADEMECUM DES PIECES JUSTIFICATIVES\nPOUR LES DEPENSES ET CAS LES PLUS COURANTS",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          144.70624863170556,
+          88.465336053157
+        ],
+        [
+          467.10877148990966,
+          88.465336053157
+        ],
+        [
+          467.10877148990966,
+          122.95182298913346
+        ],
+        [
+          144.70624863170556,
+          122.95182298913346
+        ]
+      ]
+    },
+    {
+      "title": "VADEMECUM DES PIECES JUSTIFICATIVES\nPOUR LES DEPENSES ET CAS LES PLUS COURANTS",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          144.70624863170556,
+          106.45828575888385
+        ],
+        [
+          467.10877148990966,
+          106.45828575888385
+        ],
+        [
+          467.10877148990966,
+          141.69447893259894
+        ],
+        [
+          144.70624863170556,
+          141.69447893259894
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          71
+        ],
+        [
+          "Line",
+          12
+        ],
+        [
+          "Span",
+          5
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          32
+        ],
+        [
+          "Line",
+          12
+        ],
+        [
+          "Span",
+          5
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/AFRV_Vademecum des pie\u0300ces justificatives pour les de\u0301penses les plus courantes"
+}

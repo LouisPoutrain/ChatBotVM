@@ -1,0 +1,95 @@
+{
+  "table_of_contents": [
+    {
+      "title": "LETTRE D'INVITATION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          272.8853904282116,
+          75.72751558325912
+        ],
+        [
+          428.81989924433253,
+          75.72751558325912
+        ],
+        [
+          428.81989924433253,
+          86.7490234375
+        ],
+        [
+          272.8853904282116,
+          86.7490234375
+        ]
+      ]
+    },
+    {
+      "title": "UNIVERSIT\u00c9 DE TOURS",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          40.109619140625,
+          236.92965271593943
+        ],
+        [
+          139.44143576826195,
+          236.92965271593943
+        ],
+        [
+          139.44143576826195,
+          245.92698130008904
+        ],
+        [
+          40.109619140625,
+          245.92698130008904
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          40
+        ],
+        [
+          "TableCell",
+          21
+        ],
+        [
+          "Span",
+          12
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Form",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/S\u00e9jour recherche - Mod\u00e8le Lettre invitation 2025"
+}

@@ -1,0 +1,600 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Tutoriel de validation du jury et des rapporteurs par la Direction de th\u00e8se",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          94.34476015085848,
+          130.4357682619647
+        ],
+        [
+          509.88572620857224,
+          130.4357682619647
+        ],
+        [
+          509.88572620857224,
+          155.8866498740554
+        ],
+        [
+          94.34476015085848,
+          155.8866498740554
+        ]
+      ]
+    },
+    {
+      "title": "\u2192 La Direction de th\u00e8se v\u00e9rifie les informations relatives \u00e0 la demande de soutenance",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          46.11232659058813,
+          54.08312342569269
+        ],
+        [
+          529.4967156781327,
+          54.08312342569269
+        ],
+        [
+          529.4967156781327,
+          83.77581863979849
+        ],
+        [
+          46.11232659058813,
+          83.77581863979849
+        ]
+      ]
+    },
+    {
+      "title": "D\u00e9p\u00f4t des documents apr\u00e8s soutenance sur ADUM",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          24.38123015134545,
+          57.26448362720402
+        ],
+        [
+          355.1179174217707,
+          57.26448362720402
+        ],
+        [
+          355.1179174217707,
+          85.89672544080604
+        ],
+        [
+          24.38123015134545,
+          85.89672544080604
+        ]
+      ]
+    },
+    {
+      "title": "Vos contacts",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          252.8227561346039,
+          55.50292968749999
+        ],
+        [
+          341.3372221188363,
+          55.50292968749999
+        ],
+        [
+          341.3372221188363,
+          77.70410156249999
+        ],
+        [
+          252.8227561346039,
+          77.70410156249999
+        ]
+      ]
+    },
+    {
+      "title": "\u00e0 l'universit\u00e9 de Tours :",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          54.06272772689643,
+          147.18554687499997
+        ],
+        [
+          179.149038938147,
+          147.18554687499997
+        ],
+        [
+          179.149038938147,
+          165.27539062499997
+        ],
+        [
+          54.06272772689643,
+          165.27539062499997
+        ]
+      ]
+    },
+    {
+      "title": "\u00e0 l'INSA Centre Val de Loire:",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          222.61123181663237,
+          146.77441406249997
+        ],
+        [
+          377.3790406034339,
+          146.77441406249997
+        ],
+        [
+          377.3790406034339,
+          165.68652343749997
+        ],
+        [
+          222.61123181663237,
+          165.68652343749997
+        ]
+      ]
+    },
+    {
+      "title": "A l'universit\u00e9 d'Orl\u00e9ans:",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          421.9012869667604,
+          145.95214843749997
+        ],
+        [
+          552.2878656022165,
+          145.95214843749997
+        ],
+        [
+          552.2878656022165,
+          164.86425781249997
+        ],
+        [
+          421.9012869667604,
+          164.86425781249997
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          12
+        ],
+        [
+          "TableCell",
+          9
+        ],
+        [
+          "Span",
+          6
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          21
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          13
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          46
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Line",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          14
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          10
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "Line",
+          4
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          5
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Line",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          36
+        ],
+        [
+          "Span",
+          10
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          36
+        ],
+        [
+          "Span",
+          9
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          51
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          83
+        ],
+        [
+          "Span",
+          39
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED ETUDES DOCTORALES TUTO SOUTENANCE VALIDATION JURY DIRECTION DE THESE"
+}

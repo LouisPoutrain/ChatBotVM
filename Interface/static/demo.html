@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de démonstration - Université</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #1e293b;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        main {
+            padding: 4rem 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #0ea5e9; /* Bleu université */
+        }
+        p {
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+        .fake-content {
+            height: 800px;
+            background: repeating-linear-gradient(
+                45deg,
+                #e2e8f0,
+                #e2e8f0 10px,
+                #f8fafc 10px,
+                #f8fafc 20px
+            );
+            margin-top: 2rem;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>Portail Étudiant</h2>
+        <p>Bienvenue sur le faux site de l'université pour tester le widget</p>
+    </header>
+
+    <main>
+        <h1>Département des Sciences</h1>
+        <p>
+            Ceci est une page de test représentant le vrai site web de l'université.
+            Regardez en bas à droite de votre écran : le ChatBot devrait s'afficher par-dessus le contenu de la page !
+        </p>
+        <p>
+            Essayez de cliquer sur la bulle et de poser une question. Le widget enverra la requête à votre API locale <code>http://127.0.0.1:8600/api/chat</code>.
+        </p>
+        
+        <div class="fake-content">Faux contenu pour simuler une longue page web... (Scrollez)</div>
+    </main>
+
+    <!-- Intégration du ChatBot (Le seul code dont la DSI a besoin) -->
+    <div id="univ-chatbot-container"></div>
+    <script src="widget.js"></script>
+    
+</body>
+</html>

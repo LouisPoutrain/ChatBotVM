@@ -1,0 +1,485 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Qui contacter en cas de besoin?",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          190.34005037783376,
+          154.4541406945681
+        ],
+        [
+          433.1360201511335,
+          154.4541406945681
+        ],
+        [
+          433.1360201511335,
+          170.208984375
+        ],
+        [
+          190.34005037783376,
+          170.208984375
+        ]
+      ]
+    },
+    {
+      "title": "1) Contacts pour les questions d'ordre administratif",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          88.42569269521411,
+          300.94921875
+        ],
+        [
+          435.38413098236776,
+          300.94921875
+        ],
+        [
+          435.38413098236776,
+          315.75
+        ],
+        [
+          88.42569269521411,
+          315.75
+        ]
+      ]
+    },
+    {
+      "title": "2) Services de sant\u00e9",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          87.67632241813602,
+          642.189453125
+        ],
+        [
+          222.56297229219143,
+          642.189453125
+        ],
+        [
+          222.56297229219143,
+          658.634765625
+        ],
+        [
+          87.67632241813602,
+          658.634765625
+        ]
+      ]
+    },
+    {
+      "title": "Universit\u00e9 d'Orl\u00e9ans",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.69143576826197,
+          743.328125
+        ],
+        [
+          166.36020151133502,
+          743.328125
+        ],
+        [
+          166.36020151133502,
+          754.2760463045414
+        ],
+        [
+          69.69143576826197,
+          754.2760463045414
+        ]
+      ]
+    },
+    {
+      "title": "Universit\u00e9 de Tours",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.3076171875,
+          78.72662511130899
+        ],
+        [
+          161.11460957178844,
+          78.72662511130899
+        ],
+        [
+          161.11460957178844,
+          87.982421875
+        ],
+        [
+          70.3076171875,
+          87.982421875
+        ]
+      ]
+    },
+    {
+      "title": "INSA-CVL",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          69.69143576826197,
+          212.9367764915405
+        ],
+        [
+          115.4030226700252,
+          212.9367764915405
+        ],
+        [
+          115.4030226700252,
+          222.01171875
+        ],
+        [
+          69.69143576826197,
+          222.01171875
+        ]
+      ]
+    },
+    {
+      "title": "3) Cellules d'\u00e9coute et d'aide",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          87.67632241813602,
+          359.1433659839715
+        ],
+        [
+          284.0113350125945,
+          360.974609375
+        ],
+        [
+          284.0113350125945,
+          377.1380231522707
+        ],
+        [
+          87.67632241813602,
+          375.775390625
+        ]
+      ]
+    },
+    {
+      "title": "Universit\u00e9 d'Orl\u00e9ans",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          69.69143576826197,
+          435.80078125
+        ],
+        [
+          165.61083123425692,
+          435.80078125
+        ],
+        [
+          165.61083123425692,
+          445.66796875
+        ],
+        [
+          69.69143576826197,
+          445.66796875
+        ]
+      ]
+    },
+    {
+      "title": "Universit\u00e9 de Tours",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.44080604534005,
+          561.5832591273374
+        ],
+        [
+          161.11460957178844,
+          561.5832591273374
+        ],
+        [
+          161.11460957178844,
+          571.474609375
+        ],
+        [
+          70.44080604534005,
+          571.474609375
+        ]
+      ]
+    },
+    {
+      "title": "INSA-CVL",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          69.69143576826197,
+          700.5703125
+        ],
+        [
+          115.4030226700252,
+          700.5703125
+        ],
+        [
+          115.4030226700252,
+          710.4375
+        ],
+        [
+          69.69143576826197,
+          710.4375
+        ]
+      ]
+    },
+    {
+      "title": "Au niveau national",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          69.69143576826197,
+          116.21549421193232
+        ],
+        [
+          158.1171284634761,
+          116.21549421193232
+        ],
+        [
+          158.1171284634761,
+          125.21282279608192
+        ],
+        [
+          69.69143576826197,
+          125.21282279608192
+        ]
+      ]
+    },
+    {
+      "title": "4) Int\u00e9grit\u00e9 scientifique et d\u00e9ontologie",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          86.92695214105794,
+          393.63312555654494
+        ],
+        [
+          346.9584382871537,
+          393.63312555654494
+        ],
+        [
+          346.9584382871537,
+          409.48828125
+        ],
+        [
+          86.92695214105794,
+          409.48828125
+        ]
+      ]
+    },
+    {
+      "title": "Universit\u00e9 d'Orl\u00e9ans",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          69.69143576826197,
+          527.8432769367764
+        ],
+        [
+          164.86146095717885,
+          527.8432769367764
+        ],
+        [
+          164.86146095717885,
+          537.3505859375
+        ],
+        [
+          69.69143576826197,
+          537.3505859375
+        ]
+      ]
+    },
+    {
+      "title": "Universit\u00e9 de Tours",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          69.69143576826197,
+          606.4208984375
+        ],
+        [
+          161.11460957178844,
+          606.4208984375
+        ],
+        [
+          161.11460957178844,
+          615.567230632235
+        ],
+        [
+          69.69143576826197,
+          615.567230632235
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          22
+        ],
+        [
+          "TableCell",
+          22
+        ],
+        [
+          "Span",
+          18
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          8
+        ],
+        [
+          "Span",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          53
+        ],
+        [
+          "Span",
+          20
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          49
+        ],
+        [
+          "Span",
+          20
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED_Etudes Doctorales_Contacts EMSTU"
+}

@@ -1,0 +1,95 @@
+{
+  "table_of_contents": [
+    {
+      "title": "DOCTORAT EUROPEEN",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          228.5425542644049,
+          121.27265378832818
+        ],
+        [
+          382.1531235240869,
+          121.27265378832818
+        ],
+        [
+          382.1531235240869,
+          132.69798483980202
+        ],
+        [
+          228.5425542644049,
+          132.69798483980202
+        ]
+      ]
+    },
+    {
+      "title": "Si vous souhaitez obtenir le label europ\u00e9en, voici les quatre conditions \u00e0 remplir :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.43606590443954,
+          153.7490593791008
+        ],
+        [
+          539.510292034005,
+          153.7490593791008
+        ],
+        [
+          539.510292034005,
+          183.67800161441522
+        ],
+        [
+          70.43606590443954,
+          183.67800161441522
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          38
+        ],
+        [
+          "Span",
+          13
+        ],
+        [
+          "Picture",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED ETUDES DOCTORALES SOUTENANCE LABEL EUROPEEN CONDITIONS D ATTRIBUTION"
+}

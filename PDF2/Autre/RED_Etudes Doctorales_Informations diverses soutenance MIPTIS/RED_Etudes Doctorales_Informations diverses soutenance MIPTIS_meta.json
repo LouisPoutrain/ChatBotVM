@@ -1,0 +1,64 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Soutenance",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          97.08832150697708,
+          159.50438332557678
+        ],
+        [
+          179.94559415341624,
+          159.50438332557678
+        ],
+        [
+          179.94559415341624,
+          171.682715995972
+        ],
+        [
+          97.08832150697708,
+          171.682715995972
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          19
+        ],
+        [
+          "Span",
+          5
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED_Etudes Doctorales_Informations diverses soutenance MIPTIS"
+}

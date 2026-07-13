@@ -1,0 +1,179 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Th\u00e8se de doctorat sur travaux\nProc\u00e9dure d'inscription, de r\u00e9alisation et de soutenance\nEcoles Doctorales Centre-Val de Loire",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          81.67586365514799,
+          138.53859093785286
+        ],
+        [
+          513.284097282352,
+          138.53859093785286
+        ],
+        [
+          513.284097282352,
+          194.17388742095324
+        ],
+        [
+          81.67586365514799,
+          192.67447516287638
+        ]
+      ]
+    },
+    {
+      "title": "1. Recevabilit\u00e9 du dossier du candidat",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.43606590443954,
+          444.80342847108847
+        ],
+        [
+          251.02214976582178,
+          444.80342847108847
+        ],
+        [
+          251.02214976582178,
+          455.0716203263267
+        ],
+        [
+          70.43606590443954,
+          455.0716203263267
+        ]
+      ]
+    },
+    {
+      "title": "2. R\u00e9daction du m\u00e9moire de th\u00e8se, et suivi de formations dispens\u00e9es par l'\u00e9cole doctorale",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          69.68674605439232,
+          160.3265592455864
+        ],
+        [
+          488.55654223079347,
+          160.3265592455864
+        ],
+        [
+          488.55654223079347,
+          170.93299742076192
+        ],
+        [
+          69.68674605439232,
+          170.93299742076192
+        ]
+      ]
+    },
+    {
+      "title": "3. Soutenance de th\u00e8se",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          69.68674605439232,
+          350.6629616320133
+        ],
+        [
+          178.33812431124056,
+          350.6629616320133
+        ],
+        [
+          178.33812431124056,
+          359.85894193844615
+        ],
+        [
+          69.68674605439232,
+          359.85894193844615
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          59
+        ],
+        [
+          "Span",
+          26
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          39
+        ],
+        [
+          "Span",
+          12
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED ETUDES DOCTORALES INSCRIPTION THESE SUR TRAVAUX"
+}

@@ -1,0 +1,225 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Direction de la Recherche et de la Valorisation",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          28.179258853197098,
+          87.75
+        ],
+        [
+          152.11194516429373,
+          87.75
+        ],
+        [
+          152.11194516429373,
+          105.78662109375
+        ],
+        [
+          28.179258853197098,
+          105.78662109375
+        ]
+      ]
+    },
+    {
+      "title": "CADRAGE MOBILITE RECHERCHE D'UN ENSEIGNANT-CHERCHEUR",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          204.5175075531006,
+          87.75
+        ],
+        [
+          552.9981060652649,
+          87.75
+        ],
+        [
+          552.9981060652649,
+          98.25
+        ],
+        [
+          204.5175075531006,
+          98.25
+        ]
+      ]
+    },
+    {
+      "title": "ACCUEIL RECHERCHE D'UN ENSEIGNANT-CHERCHEUR DE\nL'UNIVERSITE DE TOURS (UT) VERS UNE UNITE HORS UT\n(SORTANT)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          214.97578918933868,
+          115.5
+        ],
+        [
+          520.0280292808859,
+          115.5
+        ],
+        [
+          520.0280292808859,
+          153.0
+        ],
+        [
+          214.97578918933868,
+          153.0
+        ]
+      ]
+    },
+    {
+      "title": "Textes de r\u00e9f\u00e9rence",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          180.98637387156487,
+          240.75
+        ],
+        [
+          277.2483729595501,
+          240.75
+        ],
+        [
+          277.2483729595501,
+          249.75
+        ],
+        [
+          180.98637387156487,
+          249.75
+        ]
+      ]
+    },
+    {
+      "title": "Cadrage:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          181.2768816947937,
+          372.0
+        ],
+        [
+          229.29189763681714,
+          372.0
+        ],
+        [
+          229.29189763681714,
+          382.5
+        ],
+        [
+          181.2768816947937,
+          382.5
+        ]
+      ]
+    },
+    {
+      "title": "Proc\u00e9dure:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          112.39798903765546,
+          170.25
+        ],
+        [
+          170.84494333723632,
+          170.25
+        ],
+        [
+          170.84494333723632,
+          179.466796875
+        ],
+        [
+          112.39798903765546,
+          179.466796875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          52
+        ],
+        [
+          "Span",
+          18
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          68
+        ],
+        [
+          "Span",
+          25
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Sous-rubrique 2. Cadrage-mobilite_EC_sortante"
+}

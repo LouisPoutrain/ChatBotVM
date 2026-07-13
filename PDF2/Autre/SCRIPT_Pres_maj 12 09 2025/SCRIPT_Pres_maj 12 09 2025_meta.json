@@ -1,0 +1,165 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Slide 6",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          38.94869875907898,
+          687.4558500050437
+        ],
+        [
+          77.97061211035894,
+          687.4558500050437
+        ],
+        [
+          77.97061211035894,
+          698.4232031702995
+        ],
+        [
+          38.94869875907898,
+          698.4232031702995
+        ]
+      ]
+    },
+    {
+      "title": "ECOSNUM",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          38.94869875907898,
+          659.7177186526046
+        ],
+        [
+          102.71128710691515,
+          659.7177186526046
+        ],
+        [
+          102.71128710691515,
+          669.4635485872454
+        ],
+        [
+          38.94869875907898,
+          669.4635485872454
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          39
+        ],
+        [
+          "Span",
+          38
+        ],
+        [
+          "Text",
+          23
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          81
+        ],
+        [
+          "Span",
+          38
+        ],
+        [
+          "Text",
+          35
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          79
+        ],
+        [
+          "Span",
+          37
+        ],
+        [
+          "Text",
+          34
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          18
+        ],
+        [
+          "Span",
+          9
+        ],
+        [
+          "Text",
+          5
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/SCRIPT_Pres_maj 12 09 2025"
+}

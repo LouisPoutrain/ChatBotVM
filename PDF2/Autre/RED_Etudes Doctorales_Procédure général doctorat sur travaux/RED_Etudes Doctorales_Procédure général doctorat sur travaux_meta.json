@@ -1,0 +1,179 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Th\u00e8se de doctorat sur travaux\nProc\u00e9dure d'inscription, de r\u00e9alisation et de soutenance\nEcoles Doctorales Centre-Val de Loire",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          81.67587203402964,
+          137.73603156208992
+        ],
+        [
+          512.5348300117089,
+          137.73603156208992
+        ],
+        [
+          512.5348300117089,
+          191.9521232190561
+        ],
+        [
+          81.67587203402964,
+          191.9521232190561
+        ]
+      ]
+    },
+    {
+      "title": "1. Recevabilit\u00e9 du dossier du candidat",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.68675320334638,
+          444.4556719958782
+        ],
+        [
+          250.27285559051285,
+          444.4556719958782
+        ],
+        [
+          250.27285559051285,
+          454.38666668260936
+        ],
+        [
+          69.68675320334638,
+          454.38666668260936
+        ]
+      ]
+    },
+    {
+      "title": "2. R\u00e9daction du m\u00e9moire de th\u00e8se, et suivi de formations dispens\u00e9es par l'\u00e9cole doctorale",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.93743327642869,
+          160.34940987825394
+        ],
+        [
+          487.8072724234247,
+          160.34940987825394
+        ],
+        [
+          487.8072724234247,
+          170.21706587076187
+        ],
+        [
+          68.93743327642869,
+          170.21706587076187
+        ]
+      ]
+    },
+    {
+      "title": "3. Soutenance de th\u00e8se",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.93743327642869,
+          349.412849297188
+        ],
+        [
+          177.58882267949565,
+          349.412849297188
+        ],
+        [
+          177.58882267949565,
+          359.16041805440574
+        ],
+        [
+          68.93743327642869,
+          359.16041805440574
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          57
+        ],
+        [
+          "Span",
+          24
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          39
+        ],
+        [
+          "Span",
+          12
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED_Etudes Doctorales_Proce\u0301dure ge\u0301ne\u0301ral doctorat sur travaux"
+}

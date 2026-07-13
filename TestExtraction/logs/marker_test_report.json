@@ -1,0 +1,3416 @@
+{
+  "input_dir": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot",
+  "output_dir": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/PDF2",
+  "marker_cmd": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/venv/bin/marker_single",
+  "retry_extra_args": [],
+  "log_file": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/TestExtraction/logs/marker_test_run.log",
+  "total": 120,
+  "success": 0,
+  "skipped": 120,
+  "failed": 0,
+  "quality_failures": 0,
+  "results": [
+    {
+      "pdf_name": "AFRV-SPIV - note sur la gestion administratives des avenants et demande de modification dans le cadre des projets de recherc.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV-SPIV - note sur la gestion administratives des avenants et demande de modification dans le cadre des projets de recherc.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.549,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 2203,
+        "total_words": 321,
+        "alpha_ratio": 0.7912,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "AFRV_Classeur des certificats administratif DEPENSES 2026 V2.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Classeur des certificats administratif DEPENSES 2026 V2.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.168,
+        "page_count": 4,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2169,
+        "sample_alpha_ratio": 0.7607,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 14536,
+        "total_words": 786,
+        "alpha_ratio": 0.1236,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "alpha_ratio faible"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "AFRV_ESTIMAT 2026 version 1.000 à compter du 1er janvier 2026.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_ESTIMAT 2026 version 1.000 à compter du 1er janvier 2026.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 1.133,
+        "page_count": 93,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 5135,
+        "sample_alpha_ratio": 0.5932,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 638245,
+        "total_words": 52685,
+        "alpha_ratio": 0.03,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "alpha_ratio faible"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "AFRV_Liens UT NET utiles.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Liens UT NET utiles.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.002,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1612,
+        "sample_alpha_ratio": 0.8077,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 2570,
+        "total_words": 110,
+        "alpha_ratio": 0.7992,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "AFRV_Liste des pièces justificatives de la dépense.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Liste des pièces justificatives de la dépense.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 7.76,
+        "page_count": 35,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 152460,
+        "total_words": 6893,
+        "alpha_ratio": 0.2272,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "alpha_ratio faible"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "AFRV_Presentation des services dappui à la recherche_07122023.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Presentation des services dappui à la recherche_07122023.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 5.742,
+        "page_count": 30,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 126,
+        "sample_alpha_ratio": 0.6429,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 41198,
+        "total_words": 4834,
+        "alpha_ratio": 0.5628,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "AFRV_Répartition_Antenne financière par laboratoire.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Répartition_Antenne financière par laboratoire.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.09,
+        "page_count": 7,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 3014,
+        "sample_alpha_ratio": 0.6168,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 15256,
+        "total_words": 1278,
+        "alpha_ratio": 0.4308,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "AFRV_Vademecum des pièces justificatives pour les dépenses les plus courantes.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Vademecum des pièces justificatives pour les dépenses les plus courantes.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.908,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 11193,
+        "total_words": 744,
+        "alpha_ratio": 0.2885,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "alpha_ratio faible"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Liste des nouveaux MCF 2024.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/Liste des nouveaux MCF 2024.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.695,
+        "page_count": 5,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 3875,
+        "sample_alpha_ratio": 0.7613,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 10553,
+        "total_words": 992,
+        "alpha_ratio": 0.4404,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Cahier de laboratoire - Pourquoi l'utiliser.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Cahier de laboratoire - Pourquoi l'utiliser.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.322,
+        "page_count": 6,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 3865,
+        "sample_alpha_ratio": 0.8057,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 13422,
+        "total_words": 1935,
+        "alpha_ratio": 0.7578,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "DRV - Délibération 2025-64 - Révision des frais de stucture CA 7 juillet 2025.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/DRV - Délibération 2025-64 - Révision des frais de stucture CA 7 juillet 2025.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.198,
+        "page_count": 8,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 3489,
+        "sample_alpha_ratio": 0.7228,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 43236,
+        "total_words": 3657,
+        "alpha_ratio": 0.4178,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Demande de césure CVL_2022 V2026.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Demande de césure CVL_2022 V2026.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.147,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 3451,
+        "sample_alpha_ratio": 0.6071,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 7016,
+        "total_words": 595,
+        "alpha_ratio": 0.3123,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "alpha_ratio faible"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Fiche méthodologique outil labos 1.5.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Fiche méthodologique outil labos 1.5.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.128,
+        "page_count": 3,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 5954,
+        "sample_alpha_ratio": 0.7565,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 8619,
+        "total_words": 1379,
+        "alpha_ratio": 0.7754,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Guide décarbonation recherche.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Guide décarbonation recherche.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 19.77,
+        "page_count": 24,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 465,
+        "sample_alpha_ratio": 0.7462,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 71486,
+        "total_words": 9363,
+        "alpha_ratio": 0.7234,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Informations label SAPS_Chatbot_DRV-1.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Informations label SAPS_Chatbot_DRV-1.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.004,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 3786,
+        "sample_alpha_ratio": 0.8246,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 3778,
+        "total_words": 536,
+        "alpha_ratio": 0.8274,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "LE_RGPD.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/LE_RGPD.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.25,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1233,
+        "sample_alpha_ratio": 0.7705,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1212,
+        "total_words": 165,
+        "alpha_ratio": 0.7838,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Liste des Unités de recherche.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Liste des Unités de recherche.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.069,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2797,
+        "sample_alpha_ratio": 0.7612,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 5892,
+        "total_words": 617,
+        "alpha_ratio": 0.3697,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Liste des référents TES.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Liste des référents TES.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.114,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1771,
+        "sample_alpha_ratio": 0.8075,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 4998,
+        "total_words": 331,
+        "alpha_ratio": 0.2861,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "alpha_ratio faible"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Note_Missions_SCRIPT_maj_fev2025_VF.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Note_Missions_SCRIPT_maj_fev2025_VF.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.147,
+        "page_count": 6,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2610,
+        "sample_alpha_ratio": 0.7705,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 13309,
+        "total_words": 2121,
+        "alpha_ratio": 0.7852,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "PLAN DE GESTION DE DONNEES.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/PLAN DE GESTION DE DONNEES.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.003,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1822,
+        "sample_alpha_ratio": 0.7898,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1832,
+        "total_words": 295,
+        "alpha_ratio": 0.7778,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Procédure décision tarifaire colloques V1 20241107-1.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Procédure décision tarifaire colloques V1 20241107-1.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.075,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1575,
+        "sample_alpha_ratio": 0.7689,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 60,
+        "total_words": 5,
+        "alpha_ratio": 0.4833,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "sortie trop courte"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Procédure retrait diplôme.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Procédure retrait diplôme.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.094,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 585,
+        "total_words": 91,
+        "alpha_ratio": 0.7231,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Projet de règlement intérieur.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Projet de règlement intérieur.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.027,
+        "page_count": 11,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 6029,
+        "sample_alpha_ratio": 0.8141,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 32980,
+        "total_words": 4845,
+        "alpha_ratio": 0.7938,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Présentation dispositifs SAPS_Journées scientifiques LVH_2026.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Présentation dispositifs SAPS_Journées scientifiques LVH_2026.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.005,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 4611,
+        "sample_alpha_ratio": 0.7857,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 4594,
+        "total_words": 744,
+        "alpha_ratio": 0.7878,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED - Ecoles Doctorales - Catalogue des formations.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED - Ecoles Doctorales - Catalogue des formations.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.169,
+        "page_count": 14,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1458,
+        "sample_alpha_ratio": 0.7874,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 31634,
+        "total_words": 1739,
+        "alpha_ratio": 0.2523,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "alpha_ratio faible"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED - Ecoles Doctorales - Comment s'inscrire aux formations.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED - Ecoles Doctorales - Comment s'inscrire aux formations.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.231,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 2265,
+        "total_words": 317,
+        "alpha_ratio": 0.7806,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED - Ecoles Doctorales - Formulaire-50CD-EMSTU_MIPTIS_SSBCV.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED - Ecoles Doctorales - Formulaire-50CD-EMSTU_MIPTIS_SSBCV.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.172,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2312,
+        "sample_alpha_ratio": 0.7785,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 3442,
+        "total_words": 383,
+        "alpha_ratio": 0.5282,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED - Ecoles Doctorales - Formulaire-50CD-SSTED_HL.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED - Ecoles Doctorales - Formulaire-50CD-SSTED_HL.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.149,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 3358,
+        "sample_alpha_ratio": 0.7811,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 5912,
+        "total_words": 540,
+        "alpha_ratio": 0.4487,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED - Ecoles Doctorales - Procédure validation des crédits doctoraux.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED - Ecoles Doctorales - Procédure validation des crédits doctoraux.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.086,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1553,
+        "sample_alpha_ratio": 0.8023,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1581,
+        "total_words": 232,
+        "alpha_ratio": 0.7989,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES INSCRIPTION DOCUMENTS A FOURNIR INSCRIPTION PREMIERE ANNEE DOCTORAT.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION DOCUMENTS A FOURNIR INSCRIPTION PREMIERE ANNEE DOCTORAT.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.174,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1586,
+        "total_words": 250,
+        "alpha_ratio": 0.7863,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES INSCRIPTION EN DOCTORAT CODIRECTION DE THESE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION EN DOCTORAT CODIRECTION DE THESE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.425,
+        "page_count": 9,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 382,
+        "sample_alpha_ratio": 0.801,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 9856,
+        "total_words": 1364,
+        "alpha_ratio": 0.667,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES INSCRIPTION EN DOCTORAT DIRECTION DE THESE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION EN DOCTORAT DIRECTION DE THESE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.794,
+        "page_count": 21,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 376,
+        "sample_alpha_ratio": 0.8085,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 23763,
+        "total_words": 2921,
+        "alpha_ratio": 0.64,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES INSCRIPTION PROCEDURE D INSCRIPTION EN PREMIERE ANNEE DE DOCTORAT.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION PROCEDURE D INSCRIPTION EN PREMIERE ANNEE DE DOCTORAT.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.21,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1633,
+        "total_words": 198,
+        "alpha_ratio": 0.7697,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES INSCRIPTION THESE SUR TRAVAUX.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION THESE SUR TRAVAUX.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.418,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 4636,
+        "total_words": 692,
+        "alpha_ratio": 0.8026,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES INSCRIPTION TUTORIEL CREATION COMPTE ADUM DOCTORANT.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION TUTORIEL CREATION COMPTE ADUM DOCTORANT.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 6.198,
+        "page_count": 24,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 17814,
+        "total_words": 2373,
+        "alpha_ratio": 0.7134,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES REGELEMENT AIDES A LA MOBILITE ED HL.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES REGELEMENT AIDES A LA MOBILITE ED HL.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.275,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 2431,
+        "total_words": 365,
+        "alpha_ratio": 0.7754,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES REGELEMENT AIDES A LA MOBILITE ED SSTED.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES REGELEMENT AIDES A LA MOBILITE ED SSTED.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.285,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 2422,
+        "total_words": 361,
+        "alpha_ratio": 0.7787,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES REINSCRIPTION TUTORIEL REINSCRIPTION SUR ADUM.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES REINSCRIPTION TUTORIEL REINSCRIPTION SUR ADUM.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 7.288,
+        "page_count": 26,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 43741,
+        "total_words": 2556,
+        "alpha_ratio": 0.2929,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "alpha_ratio faible"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES RESINSCRIPTION TUTORIEL REINSCRIPTION SUR ADUM.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES RESINSCRIPTION TUTORIEL REINSCRIPTION SUR ADUM.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 1.248,
+        "page_count": 32,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 754,
+        "sample_alpha_ratio": 0.7944,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 37603,
+        "total_words": 4894,
+        "alpha_ratio": 0.6952,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE CONSITTUTION DU DOSSIER DE SOUTENANCE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE CONSITTUTION DU DOSSIER DE SOUTENANCE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.201,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2608,
+        "sample_alpha_ratio": 0.7791,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 2677,
+        "total_words": 403,
+        "alpha_ratio": 0.7807,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE LABEL EUROPEEN ATTESTATION SEJOUR RECHERCHE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE LABEL EUROPEEN ATTESTATION SEJOUR RECHERCHE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.171,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 6358,
+        "total_words": 232,
+        "alpha_ratio": 0.103,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "alpha_ratio faible"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE LABEL EUROPEEN CONDITIONS D ATTRIBUTION.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE LABEL EUROPEEN CONDITIONS D ATTRIBUTION.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.266,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1588,
+        "total_words": 236,
+        "alpha_ratio": 0.7802,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE PROCEDURE DE SOUTENANCE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE PROCEDURE DE SOUTENANCE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.532,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 6373,
+        "total_words": 984,
+        "alpha_ratio": 0.7922,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE PROCURATION VISIO CONFERENCE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE PROCURATION VISIO CONFERENCE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.11,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 762,
+        "sample_alpha_ratio": 0.6457,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1806,
+        "total_words": 210,
+        "alpha_ratio": 0.3638,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE TUTORIEL DECLARATION DE SOUTENANCE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE TUTORIEL DECLARATION DE SOUTENANCE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 6.603,
+        "page_count": 22,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 14805,
+        "total_words": 2162,
+        "alpha_ratio": 0.735,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE TUTORIEL DECLARATION SOUTENANCE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE TUTORIEL DECLARATION SOUTENANCE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 1.186,
+        "page_count": 30,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1446,
+        "sample_alpha_ratio": 0.8057,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 33042,
+        "total_words": 4422,
+        "alpha_ratio": 0.6862,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE VALIDATION DIRECTION DE LABORATOIRE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE VALIDATION DIRECTION DE LABORATOIRE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.557,
+        "page_count": 16,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 413,
+        "sample_alpha_ratio": 0.799,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 13161,
+        "total_words": 1772,
+        "alpha_ratio": 0.6624,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE VALIDATION DIRECTION DE THESE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE VALIDATION DIRECTION DE THESE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.829,
+        "page_count": 24,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 429,
+        "sample_alpha_ratio": 0.7995,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 21729,
+        "total_words": 2997,
+        "alpha_ratio": 0.7013,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES SOUTENANCES ACCORD CONFIDENTIALITE JURY _ MANUSCRIT.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCES ACCORD CONFIDENTIALITE JURY _ MANUSCRIT.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.084,
+        "page_count": 3,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 3900,
+        "sample_alpha_ratio": 0.751,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 4350,
+        "total_words": 686,
+        "alpha_ratio": 0.7547,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES SOUTENANCES ACCORD CONFIDENTIALITE JURY _HUIS CLOS ET MANUSCRIT.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCES ACCORD CONFIDENTIALITE JURY _HUIS CLOS ET MANUSCRIT.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.086,
+        "page_count": 3,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 4504,
+        "sample_alpha_ratio": 0.7547,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 4963,
+        "total_words": 789,
+        "alpha_ratio": 0.7506,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES SOUTENANCES DEMANDE DE DEROGATION AU CARACTERE PUBLIC DE LA SOUTENANCE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCES DEMANDE DE DEROGATION AU CARACTERE PUBLIC DE LA SOUTENANCE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.188,
+        "page_count": 7,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2910,
+        "sample_alpha_ratio": 0.7103,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 14837,
+        "total_words": 1372,
+        "alpha_ratio": 0.3274,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "alpha_ratio faible"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES SOUTENANCES DEMANDE DE VISIO.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCES DEMANDE DE VISIO.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.064,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2164,
+        "sample_alpha_ratio": 0.543,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 4158,
+        "total_words": 283,
+        "alpha_ratio": 0.2908,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "alpha_ratio faible"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES SOUTENANCES ENGAGEMENT CONFIDENTIALITE PUBLIC.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCES ENGAGEMENT CONFIDENTIALITE PUBLIC.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.052,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2297,
+        "sample_alpha_ratio": 0.6961,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 363,
+        "total_words": 45,
+        "alpha_ratio": 0.7686,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES TUTO INSCRIPTION EN DOCTORAT DIRECTION DE THESE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES TUTO INSCRIPTION EN DOCTORAT DIRECTION DE THESE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 3.43,
+        "page_count": 12,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 692,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 8620,
+        "total_words": 908,
+        "alpha_ratio": 0.455,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES TUTO REINSCRIPTION EN DOCTORAT DIRECTION DE THESE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES TUTO REINSCRIPTION EN DOCTORAT DIRECTION DE THESE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 4.248,
+        "page_count": 14,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 817,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 27335,
+        "total_words": 1926,
+        "alpha_ratio": 0.2991,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "alpha_ratio faible"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES TUTO SOUTENANCE VALIDATION JURY DIRECTION DE LABORATOIRE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES TUTO SOUTENANCE VALIDATION JURY DIRECTION DE LABORATOIRE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 2.742,
+        "page_count": 7,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 256,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 7478,
+        "total_words": 726,
+        "alpha_ratio": 0.3481,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "alpha_ratio faible"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES TUTO SOUTENANCE VALIDATION JURY DIRECTION DE THESE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES TUTO SOUTENANCE VALIDATION JURY DIRECTION DE THESE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 5.069,
+        "page_count": 12,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 297,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 12977,
+        "total_words": 1230,
+        "alpha_ratio": 0.3727,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES TUTORIEL CREATION  COMPTE ADUM DOCTORANT.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES TUTORIEL CREATION  COMPTE ADUM DOCTORANT.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 1.816,
+        "page_count": 42,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1510,
+        "sample_alpha_ratio": 0.7954,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 48664,
+        "total_words": 6308,
+        "alpha_ratio": 0.6969,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES DOCTORALES VALIDATION REINSCRIPTION DIRECTION LABORATOIRE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES VALIDATION REINSCRIPTION DIRECTION LABORATOIRE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.421,
+        "page_count": 10,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 272,
+        "sample_alpha_ratio": 0.7941,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 7698,
+        "total_words": 1079,
+        "alpha_ratio": 0.6955,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES ET ECOLES DOCTORALES CONTACTS UTILES ED HL.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES ET ECOLES DOCTORALES CONTACTS UTILES ED HL.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.264,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 6477,
+        "total_words": 404,
+        "alpha_ratio": 0.4284,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES ET ECOLES DOCTORALES CONTACTS UTILES ED SSTED.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES ET ECOLES DOCTORALES CONTACTS UTILES ED SSTED.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.292,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 6567,
+        "total_words": 503,
+        "alpha_ratio": 0.4631,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES ET ECOLES DOCTORALES REGELEMENT INTERIEUR ED HL.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES ET ECOLES DOCTORALES REGELEMENT INTERIEUR ED HL.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 1.966,
+        "page_count": 8,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 26337,
+        "total_words": 4143,
+        "alpha_ratio": 0.7908,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDES ET ECOLES DOCTORALES REGELEMENT INTERIEUR ED SSTEDHL.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES ET ECOLES DOCTORALES REGELEMENT INTERIEUR ED SSTEDHL.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 1.527,
+        "page_count": 6,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 19280,
+        "total_words": 2984,
+        "alpha_ratio": 0.7989,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED ETUDS DOCTORALES SOUTENANCES ENGAGEMENT CONFIDENTIALITE PUBLIC.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDS DOCTORALES SOUTENANCES ENGAGEMENT CONFIDENTIALITE PUBLIC.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.003,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2023,
+        "sample_alpha_ratio": 0.7064,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 5190,
+        "total_words": 323,
+        "alpha_ratio": 0.2746,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "alpha_ratio faible"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED EUTDES DOCTORALES VALIDATION INSCRIPTION DIRECTION LABORATOIRE.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED EUTDES DOCTORALES VALIDATION INSCRIPTION DIRECTION LABORATOIRE.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.479,
+        "page_count": 10,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 464,
+        "sample_alpha_ratio": 0.7953,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 10190,
+        "total_words": 1303,
+        "alpha_ratio": 0.6399,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_AAP_colloques_2027.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_AAP_colloques_2027.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.157,
+        "page_count": 3,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 5515,
+        "sample_alpha_ratio": 0.7684,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 7850,
+        "total_words": 1147,
+        "alpha_ratio": 0.8085,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Aide financière congrès international SSBCV.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Aide financière congrès international SSBCV.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.056,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1919,
+        "sample_alpha_ratio": 0.7436,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1915,
+        "total_words": 288,
+        "alpha_ratio": 0.7697,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_ETUDES DOCTORALES_Comment trouver un directeur de thèse SST-2.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_ETUDES DOCTORALES_Comment trouver un directeur de thèse SST-2.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.079,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1050,
+        "sample_alpha_ratio": 0.7248,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1028,
+        "total_words": 138,
+        "alpha_ratio": 0.7675,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_ETUDES DOCTORALES_Procédure soutenance SSBCV.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_ETUDES DOCTORALES_Procédure soutenance SSBCV.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.185,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 7800,
+        "sample_alpha_ratio": 0.7878,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 9664,
+        "total_words": 1483,
+        "alpha_ratio": 0.807,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Ecoles Doctorales_Principes de la cotutelle de thèse.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Ecoles Doctorales_Principes de la cotutelle de thèse.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.179,
+        "page_count": 5,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 6324,
+        "sample_alpha_ratio": 0.7884,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 12680,
+        "total_words": 1840,
+        "alpha_ratio": 0.7869,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Aide financière mobilité EMSTU.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Aide financière mobilité EMSTU.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.049,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1790,
+        "sample_alpha_ratio": 0.762,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1829,
+        "total_words": 270,
+        "alpha_ratio": 0.7726,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Aide financière mobilité MIPTIS.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Aide financière mobilité MIPTIS.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.07,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1947,
+        "sample_alpha_ratio": 0.772,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 2015,
+        "total_words": 296,
+        "alpha_ratio": 0.7722,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Aide financière mobilité SSBCV.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Aide financière mobilité SSBCV.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.061,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2918,
+        "sample_alpha_ratio": 0.7721,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 3038,
+        "total_words": 441,
+        "alpha_ratio": 0.7719,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Charte du doctorat.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Charte du doctorat.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.163,
+        "page_count": 7,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 9395,
+        "sample_alpha_ratio": 0.8007,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 28854,
+        "total_words": 4380,
+        "alpha_ratio": 0.8078,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Comment trouver un directeur de thèse sciences humaines.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Comment trouver un directeur de thèse sciences humaines.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.066,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 854,
+        "sample_alpha_ratio": 0.7037,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 835,
+        "total_words": 117,
+        "alpha_ratio": 0.7557,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Contacts EMSTU.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Contacts EMSTU.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.173,
+        "page_count": 4,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2836,
+        "sample_alpha_ratio": 0.7588,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 10719,
+        "total_words": 754,
+        "alpha_ratio": 0.6317,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Contacts MIPTIS.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Contacts MIPTIS.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.098,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 4387,
+        "sample_alpha_ratio": 0.7301,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 6457,
+        "total_words": 535,
+        "alpha_ratio": 0.497,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Contacts SSBCV.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Contacts SSBCV.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.1,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 5314,
+        "sample_alpha_ratio": 0.7435,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 8590,
+        "total_words": 623,
+        "alpha_ratio": 0.4692,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Informations diverses soutenance EMSTU.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Informations diverses soutenance EMSTU.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.156,
+        "page_count": 3,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 6125,
+        "sample_alpha_ratio": 0.7918,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 9120,
+        "total_words": 1409,
+        "alpha_ratio": 0.802,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Informations diverses soutenance MIPTIS.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Informations diverses soutenance MIPTIS.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.078,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 937,
+        "sample_alpha_ratio": 0.8036,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1005,
+        "total_words": 142,
+        "alpha_ratio": 0.794,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Membres du conseil EMSTU.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Membres du conseil EMSTU.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.065,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 6232,
+        "sample_alpha_ratio": 0.8424,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 13108,
+        "total_words": 1132,
+        "alpha_ratio": 0.3957,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Membres du conseil MIPTIS.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Membres du conseil MIPTIS.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.067,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 4557,
+        "sample_alpha_ratio": 0.7972,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 11004,
+        "total_words": 818,
+        "alpha_ratio": 0.333,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "alpha_ratio faible"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Membres du conseil SSBCV.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Membres du conseil SSBCV.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.123,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2068,
+        "sample_alpha_ratio": 0.7336,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 2093,
+        "total_words": 288,
+        "alpha_ratio": 0.7463,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Pieces a fournir au dossier de demande d inscription 2024 fr-3.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Pieces a fournir au dossier de demande d inscription 2024 fr-3.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.04,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1589,
+        "sample_alpha_ratio": 0.7753,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1587,
+        "total_words": 251,
+        "alpha_ratio": 0.7858,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Procedure d inscription en these.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Procedure d inscription en these.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.077,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1493,
+        "sample_alpha_ratio": 0.7783,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1636,
+        "total_words": 198,
+        "alpha_ratio": 0.7683,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Procédure général doctorat sur travaux.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Procédure général doctorat sur travaux.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.125,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 4644,
+        "sample_alpha_ratio": 0.7916,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 4637,
+        "total_words": 693,
+        "alpha_ratio": 0.8025,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Procédure selection financement MIPTIS.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Procédure selection financement MIPTIS.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.117,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 3426,
+        "sample_alpha_ratio": 0.7942,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 3470,
+        "total_words": 530,
+        "alpha_ratio": 0.7971,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Procédure soutenance (sélection jury et déroulement).pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Procédure soutenance (sélection jury et déroulement).pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.136,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 6341,
+        "sample_alpha_ratio": 0.7869,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 6363,
+        "total_words": 985,
+        "alpha_ratio": 0.7927,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Procédure trouver un directeur de thèse sciences dures.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Procédure trouver un directeur de thèse sciences dures.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.079,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1050,
+        "sample_alpha_ratio": 0.7248,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1032,
+        "total_words": 139,
+        "alpha_ratio": 0.7665,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Réglement intérieur école doctorale EMSTU.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Réglement intérieur école doctorale EMSTU.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.429,
+        "page_count": 23,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 3236,
+        "sample_alpha_ratio": 0.3072,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 59136,
+        "total_words": 8263,
+        "alpha_ratio": 0.6742,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Réglement intérieur école doctorale MIPTIS.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Réglement intérieur école doctorale MIPTIS.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.247,
+        "page_count": 7,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 4986,
+        "sample_alpha_ratio": 0.7838,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 18064,
+        "total_words": 2777,
+        "alpha_ratio": 0.7961,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Réglement intérieur école doctorale SSBCV.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Réglement intérieur école doctorale SSBCV.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.352,
+        "page_count": 14,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 4677,
+        "sample_alpha_ratio": 0.7768,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 42337,
+        "total_words": 6598,
+        "alpha_ratio": 0.7908,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Tutoriel déclaration soutenance ADUM.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Tutoriel déclaration soutenance ADUM.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 1.536,
+        "page_count": 22,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1492,
+        "sample_alpha_ratio": 0.7902,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 13649,
+        "total_words": 2030,
+        "alpha_ratio": 0.7685,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Etudes Doctorales_Tutoriel rédaction thèse SSBCV.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Tutoriel rédaction thèse SSBCV.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.436,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 4134,
+        "sample_alpha_ratio": 0.799,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 4277,
+        "total_words": 663,
+        "alpha_ratio": 0.791,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_Pôle administration et gestion de la recherche rattaché au service RED de la DRV.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Pôle administration et gestion de la recherche rattaché au service RED de la DRV.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.114,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2553,
+        "sample_alpha_ratio": 0.7771,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 2511,
+        "total_words": 403,
+        "alpha_ratio": 0.7901,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "RED_règlement HDR-CR-24-06-25-CA-07-07-25.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_règlement HDR-CR-24-06-25-CA-07-07-25.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.213,
+        "page_count": 6,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 4406,
+        "sample_alpha_ratio": 0.7551,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 14527,
+        "total_words": 2182,
+        "alpha_ratio": 0.7788,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Recherche_2025_Note_accueil_chercheurs_invités_sur_décision_CAC_CA-05-05-2025 SP.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Recherche_2025_Note_accueil_chercheurs_invités_sur_décision_CAC_CA-05-05-2025 SP.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.195,
+        "page_count": 4,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 4030,
+        "sample_alpha_ratio": 0.7896,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 10721,
+        "total_words": 1727,
+        "alpha_ratio": 0.7844,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Recherche_AAP_colloques_26.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Recherche_AAP_colloques_26.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.156,
+        "page_count": 3,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 5342,
+        "sample_alpha_ratio": 0.7653,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 9356,
+        "total_words": 1512,
+        "alpha_ratio": 0.7985,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Recherche_ART 2026_cahierdescharges vf.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Recherche_ART 2026_cahierdescharges vf.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.163,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2879,
+        "sample_alpha_ratio": 0.7631,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 2732,
+        "total_words": 410,
+        "alpha_ratio": 0.7859,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Référents scientifiques Organiser un séjour recherche.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Référents scientifiques Organiser un séjour recherche.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.002,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 976,
+        "sample_alpha_ratio": 0.8064,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 987,
+        "total_words": 151,
+        "alpha_ratio": 0.7974,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "SAPS-RED-PRESENTATION.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/SAPS-RED-PRESENTATION.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.013,
+        "page_count": 6,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 4072,
+        "sample_alpha_ratio": 0.7962,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 12719,
+        "total_words": 1838,
+        "alpha_ratio": 0.7903,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "SAPS_ présentation générale_ Passerelle des savoirs CVL.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/SAPS_ présentation générale_ Passerelle des savoirs CVL.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.002,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1377,
+        "sample_alpha_ratio": 0.8112,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1339,
+        "total_words": 200,
+        "alpha_ratio": 0.8118,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "SCRIPT- Note_Creation_SCRIPT_maj_janvier_2024_version soumise COPIL.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/SCRIPT- Note_Creation_SCRIPT_maj_janvier_2024_version soumise COPIL.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.259,
+        "page_count": 8,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 6026,
+        "sample_alpha_ratio": 0.7823,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 16680,
+        "total_words": 2569,
+        "alpha_ratio": 0.6955,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "SCRIPT_Pres_maj 12 09 2025.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/SCRIPT_Pres_maj 12 09 2025.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.007,
+        "page_count": 4,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 4095,
+        "sample_alpha_ratio": 0.7924,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 6516,
+        "total_words": 986,
+        "alpha_ratio": 0.7802,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Sous rubrique 2 - Livret des encadrants.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Sous rubrique 2 - Livret des encadrants.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.554,
+        "page_count": 28,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 284,
+        "sample_alpha_ratio": 0.7852,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 36003,
+        "total_words": 4766,
+        "alpha_ratio": 0.7272,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Sous-rubrique 1. Formulaire AD.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Sous-rubrique 1. Formulaire AD.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.111,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2125,
+        "sample_alpha_ratio": 0.5261,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 6563,
+        "total_words": 407,
+        "alpha_ratio": 0.1764,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": false,
+        "reason": "alpha_ratio faible"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Sous-rubrique 2. Cadrage-mobilite_EC_sortante.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Sous-rubrique 2. Cadrage-mobilite_EC_sortante.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.268,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 5111,
+        "sample_alpha_ratio": 0.7865,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 5028,
+        "total_words": 740,
+        "alpha_ratio": 0.8009,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Sous-rubrique 2. Cadrage_mobilite_EC_en_interne.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Sous-rubrique 2. Cadrage_mobilite_EC_en_interne.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.257,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 3824,
+        "sample_alpha_ratio": 0.7578,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 3613,
+        "total_words": 548,
+        "alpha_ratio": 0.793,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Séjour recherche - Modèle Lettre invitation 2025.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Séjour recherche - Modèle Lettre invitation 2025.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.001,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1,
+        "sample_alpha_ratio": 0.0,
+        "cid_detected_in_sample": false,
+        "warnings": [
+          "Peu ou pas de couche texte détectée (probable scan)"
+        ]
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 2254,
+        "total_words": 303,
+        "alpha_ratio": 0.6477,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Trame descriptif projet etablissement_VF.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Trame descriptif projet etablissement_VF.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.002,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1510,
+        "sample_alpha_ratio": 0.7901,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1508,
+        "total_words": 223,
+        "alpha_ratio": 0.7911,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Unités de recherche par Ecoles Doctorales.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Unités de recherche par Ecoles Doctorales.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.059,
+        "page_count": 3,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2888,
+        "sample_alpha_ratio": 0.7472,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 6733,
+        "total_words": 775,
+        "alpha_ratio": 0.3658,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "charte des publications 2026.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/charte des publications 2026.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.008,
+        "page_count": 4,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 6331,
+        "sample_alpha_ratio": 0.8094,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 8296,
+        "total_words": 1283,
+        "alpha_ratio": 0.7858,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "PJR - Fiche juridique benevoles_emerites.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/PJR/PJR - Fiche juridique benevoles_emerites.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.716,
+        "page_count": 18,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1893,
+        "sample_alpha_ratio": 0.6767,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 53425,
+        "total_words": 7619,
+        "alpha_ratio": 0.7724,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "PJR - Fiche juridique devolution des droits de PI.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/PJR/PJR - Fiche juridique devolution des droits de PI.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.611,
+        "page_count": 20,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1312,
+        "sample_alpha_ratio": 0.7561,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 61542,
+        "total_words": 6661,
+        "alpha_ratio": 0.5579,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "PJR - Fiche juridique mobilite des chercheurs Loi Pacte.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/PJR/PJR - Fiche juridique mobilite des chercheurs Loi Pacte.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.648,
+        "page_count": 10,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 3611,
+        "sample_alpha_ratio": 0.7588,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 23948,
+        "total_words": 3499,
+        "alpha_ratio": 0.7223,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "PJR - Fiche juridique œuvres_creees_agents_publics.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/PJR/PJR - Fiche juridique œuvres_creees_agents_publics.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.722,
+        "page_count": 26,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 2715,
+        "sample_alpha_ratio": 0.7333,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 66818,
+        "total_words": 9891,
+        "alpha_ratio": 0.7417,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "Pôle Juridique Recherche - présentation générale.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/PJR/Pôle Juridique Recherche - présentation générale.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.056,
+        "page_count": 2,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 3682,
+        "sample_alpha_ratio": 0.7958,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 3677,
+        "total_words": 505,
+        "alpha_ratio": 0.8066,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "LE montage de projet.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/SPIV/LE montage de projet.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.002,
+        "page_count": 1,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 1236,
+        "sample_alpha_ratio": 0.8058,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 1529,
+        "total_words": 191,
+        "alpha_ratio": 0.5762,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "SPIV - CA 22-01-2029 - Annexe 4 - Méthode d'évaluation du coût des projets et des prestations de recherche.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/SPIV/SPIV - CA 22-01-2029 - Annexe 4 - Méthode d'évaluation du coût des projets et des prestations de recherche.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.065,
+        "page_count": 4,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 5803,
+        "sample_alpha_ratio": 0.7944,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 9811,
+        "total_words": 1511,
+        "alpha_ratio": 0.8032,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    },
+    {
+      "pdf_name": "SPIV et liste laboratoire par CA.pdf",
+      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/SPIV/SPIV et liste laboratoire par CA.pdf",
+      "precheck": {
+        "exists": true,
+        "file_size_mb": 0.028,
+        "page_count": 3,
+        "is_encrypted": false,
+        "readable_with_fitz": true,
+        "sample_text_chars": 3066,
+        "sample_alpha_ratio": 0.8105,
+        "cid_detected_in_sample": false,
+        "warnings": []
+      },
+      "attempts": [],
+      "quality": {
+        "md_files_found": 1,
+        "total_chars": 3294,
+        "total_words": 331,
+        "alpha_ratio": 0.5589,
+        "cid_ratio": 0.0,
+        "placeholder_count": 0,
+        "quality_ok": true,
+        "reason": "ok"
+      },
+      "status": "skipped",
+      "used_attempt": "already_present"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Ecole doctorale n\u00b0 617 Sciences de la Soci\u00e9t\u00e9 : Territoires,\nEconomie. Droit - SSTED",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          140.60577201843262,
+          28.365468174219135
+        ],
+        [
+          471.32218567970716,
+          28.365468174219135
+        ],
+        [
+          471.32218567970716,
+          53.97884129076692
+        ],
+        [
+          140.60577201843262,
+          53.97884129076692
+        ]
+      ]
+    },
+    {
+      "title": "Aide \u00e0 la Mobilit\u00e9",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          241.28099171520782,
+          70.47237612961237
+        ],
+        [
+          340.9405317714893,
+          70.47237612961237
+        ],
+        [
+          340.9405317714893,
+          80.96826193615038
+        ],
+        [
+          241.28099171520782,
+          80.96826193615038
+        ]
+      ]
+    },
+    {
+      "title": "Les documents \u00e0 fournir sont les suivants :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          35.21803295221977,
+          359.707023948431
+        ],
+        [
+          283.99222316789985,
+          359.707023948431
+        ],
+        [
+          283.99222316789985,
+          371.1045338740226
+        ],
+        [
+          35.21803295221977,
+          371.1045338740226
+        ]
+      ]
+    },
+    {
+      "title": "2 dispositions sont pr\u00e9vues :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          34.46871310217254,
+          599.0151971017051
+        ],
+        [
+          198.56976026251576,
+          599.0151971017051
+        ],
+        [
+          198.56976026251576,
+          610.2607890372816
+        ],
+        [
+          34.46871310217254,
+          610.2607890372816
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          59
+        ],
+        [
+          "Span",
+          22
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED ETUDES DOCTORALES REGELEMENT AIDES A LA MOBILITE ED SSTED"
+}

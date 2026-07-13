@@ -1,0 +1,141 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Ecole doctorale n\u00b0 551 Math\u00e9matiques, Informatique, Physique\nTh\u00e9orique et Ing\u00e9nierie des Syst\u00e8mes - MIPTIS",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          83.90279210888365,
+          69.73260726317272
+        ],
+        [
+          499.6710922912982,
+          69.73260726317272
+        ],
+        [
+          499.6710922912982,
+          100.73232159018517
+        ],
+        [
+          83.90279210888365,
+          100.73232159018517
+        ]
+      ]
+    },
+    {
+      "title": "Aide \u00e0 la mobilit\u00e9",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          257.0678895711899,
+          117.58956724405289
+        ],
+        [
+          358.085130607557,
+          117.58956724405289
+        ],
+        [
+          358.085130607557,
+          127.46820682515444
+        ],
+        [
+          257.0678895711899,
+          127.46820682515444
+        ]
+      ]
+    },
+    {
+      "title": "2 dispositions sont pr\u00e9vues :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          63.97617161273956,
+          583.3544994704126
+        ],
+        [
+          227.73615000982704,
+          583.3544994704126
+        ],
+        [
+          227.73615000982704,
+          593.8518812089548
+        ],
+        [
+          63.97617161273956,
+          593.8518812089548
+        ]
+      ]
+    },
+    {
+      "title": "Ou",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          63.676226154063485,
+          654.1433618366718
+        ],
+        [
+          82.40452796408215,
+          654.1433618366718
+        ],
+        [
+          82.40452796408215,
+          663.5844884721275
+        ],
+        [
+          63.676226154063485,
+          663.5844884721275
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          53
+        ],
+        [
+          "Span",
+          19
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED_Etudes Doctorales_Aide financie\u0300re mobilite\u0301 MIPTIS"
+}

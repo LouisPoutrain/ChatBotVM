@@ -1,0 +1,255 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Modalit\u00e9s de mise en \u0153uvre de la proc\u00e9dure de soutenance",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.41841480567021,
+          186.66315919160843
+        ],
+        [
+          395.54173422759436,
+          186.66315919160843
+        ],
+        [
+          395.54173422759436,
+          198.17542451620102
+        ],
+        [
+          70.41841480567021,
+          198.17542451620102
+        ]
+      ]
+    },
+    {
+      "title": "Manuscrit de th\u00e8se",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.41841480567021,
+          381.6548074941389
+        ],
+        [
+          162.56165971096206,
+          381.6548074941389
+        ],
+        [
+          162.56165971096206,
+          390.65256327003215
+        ],
+        [
+          70.41841480567021,
+          390.65256327003215
+        ]
+      ]
+    },
+    {
+      "title": "Autorisation de soutenance et d\u00e9signation des rapporteurs",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.08298799395561,
+          81.72961496436372
+        ],
+        [
+          349.09554573874806,
+          81.72961496436372
+        ],
+        [
+          349.09554573874806,
+          90.86466559767723
+        ],
+        [
+          70.08298799395561,
+          90.86466559767723
+        ]
+      ]
+    },
+    {
+      "title": "D\u00e9signation du jury",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.41841480567021,
+          293.1768756978552
+        ],
+        [
+          157.31773520415683,
+          293.1768756978552
+        ],
+        [
+          157.31773520415683,
+          303.0192694365978
+        ],
+        [
+          70.41841480567021,
+          303.0192694365978
+        ]
+      ]
+    },
+    {
+      "title": "Soutenance et d\u00e9lib\u00e9ration",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.41841480567021,
+          660.3106468319893
+        ],
+        [
+          199.26913125859866,
+          660.3106468319893
+        ],
+        [
+          199.26913125859866,
+          670.1783028244972
+        ],
+        [
+          70.41841480567021,
+          670.1783028244972
+        ]
+      ]
+    },
+    {
+      "title": "Sa version anglaise est:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          75.57773530483246,
+          437.828411098898
+        ],
+        [
+          184.44423400725165,
+          437.828411098898
+        ],
+        [
+          184.44423400725165,
+          448.0922108888626
+        ],
+        [
+          75.57773530483246,
+          448.0922108888626
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          34
+        ],
+        [
+          "Span",
+          31
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          59
+        ],
+        [
+          "Span",
+          18
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          42
+        ],
+        [
+          "Span",
+          9
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED_Etudes Doctorales_Informations diverses soutenance EMSTU"
+}

@@ -1,0 +1,612 @@
+{
+  "table_of_contents": [
+    {
+      "title": "R\u00e8glement de\nl'Habilitation \u00e0 Diriger des Recherches (HDR)\nUniversit\u00e9 de Tours",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          93.66499086471289,
+          91.44790247581183
+        ],
+        [
+          501.2950311079434,
+          91.44790247581183
+        ],
+        [
+          501.2950311079434,
+          173.9009292982651
+        ],
+        [
+          93.66499086471289,
+          173.9009292982651
+        ]
+      ]
+    },
+    {
+      "title": "Informations \u00e0 l'attention des candidats",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          206.06297990236834,
+          376.2856314988323
+        ],
+        [
+          388.14772214337023,
+          376.2856314988323
+        ],
+        [
+          388.14772214337023,
+          385.28050715219086
+        ],
+        [
+          206.06297990236834,
+          385.28050715219086
+        ]
+      ]
+    },
+    {
+      "title": "Contact:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.94831444574544,
+          494.7181609347198
+        ],
+        [
+          122.13914808758561,
+          494.7181609347198
+        ],
+        [
+          122.13914808758561,
+          506.0056757926941
+        ],
+        [
+          56.94831444574544,
+          506.0056757926941
+        ]
+      ]
+    },
+    {
+      "title": "I - AUTORISATION D'INSCRIPTION",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          172.3435831910717,
+          61.29662251472473
+        ],
+        [
+          441.3494369545271,
+          61.29662251472473
+        ],
+        [
+          441.3494369545271,
+          73.63822436332703
+        ],
+        [
+          172.3435831910717,
+          73.63822436332703
+        ]
+      ]
+    },
+    {
+      "title": "A - TITRES REQUIS (arr\u00eat\u00e9 du 23 novembre 1988 modifi\u00e9)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          34.468716638214346,
+          167.1547725582462
+        ],
+        [
+          349.9324058705673,
+          167.1547725582462
+        ],
+        [
+          349.9324058705673,
+          178.1304533481598
+        ],
+        [
+          34.468716638214346,
+          178.1304533481598
+        ]
+      ]
+    },
+    {
+      "title": "B \u2013 APPRECIATION DU DOSSIER PAR LA COMMISSION RECHERCHE RESTREINTE",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          34.468716638214346,
+          291.58388576303935
+        ],
+        [
+          472.07155395815295,
+          291.58388576303935
+        ],
+        [
+          472.07155395815295,
+          301.135085105896
+        ],
+        [
+          34.468716638214346,
+          301.135085105896
+        ]
+      ]
+    },
+    {
+      "title": "C - DOSSIER DE CANDIDATURE",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          34.468716638214346,
+          591.9855020046234
+        ],
+        [
+          205.31365997545066,
+          591.9855020046234
+        ],
+        [
+          205.31365997545066,
+          601.1575228327958
+        ],
+        [
+          34.468716638214346,
+          601.1575228327958
+        ]
+      ]
+    },
+    {
+      "title": "Conseils aux candidates et candidats \u00e0 l'HDR :",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          30.722117003625826,
+          284.0881560519073
+        ],
+        [
+          263.7606142750315,
+          284.0881560519073
+        ],
+        [
+          263.7606142750315,
+          293.0830317052658
+        ],
+        [
+          30.722117003625826,
+          293.0830317052658
+        ]
+      ]
+    },
+    {
+      "title": "C. AUTORISATION D'INSCRIPTION",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          34.468716638214346,
+          110.18722675364212
+        ],
+        [
+          218.8014186599693,
+          110.18722675364212
+        ],
+        [
+          218.8014186599693,
+          119.93167537811388
+        ],
+        [
+          34.468716638214346,
+          119.93167537811388
+        ]
+      ]
+    },
+    {
+      "title": "D. INSCRIPTION ADMINISTRATIVE",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          34.468716638214346,
+          312.5719289542093
+        ],
+        [
+          221.04937844072242,
+          312.5719289542093
+        ],
+        [
+          221.04937844072242,
+          321.56680460756786
+        ],
+        [
+          34.468716638214346,
+          321.56680460756786
+        ]
+      ]
+    },
+    {
+      "title": "II - DEPOT du DOSSIER d'HDR",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          34.468716638214346,
+          434.4243850708008
+        ],
+        [
+          273.5017733249616,
+          434.4243850708008
+        ],
+        [
+          273.5017733249616,
+          446.7454907834742
+        ],
+        [
+          34.468716638214346,
+          446.7454907834742
+        ]
+      ]
+    },
+    {
+      "title": "R\u00e8gles de composition du jury",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          33.98941531777382,
+          463.2214560508728
+        ],
+        [
+          194.07386107168512,
+          463.2214560508728
+        ],
+        [
+          194.07386107168512,
+          474.47969071466304
+        ],
+        [
+          33.98941531777382,
+          474.47969071466304
+        ]
+      ]
+    },
+    {
+      "title": "Pi\u00e8ces attendues",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          35.15144661068916,
+          89.94875653358541
+        ],
+        [
+          125.13642779525642,
+          89.94875653358541
+        ],
+        [
+          125.13642779525642,
+          99.96697497367859
+        ],
+        [
+          35.15144661068916,
+          99.96697497367859
+        ]
+      ]
+    },
+    {
+      "title": "III - AUTORISATION DE SOUTENANCE",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          149.8639853835406,
+          597.4096579772298
+        ],
+        [
+          446.594676442951,
+          597.4096579772298
+        ],
+        [
+          446.594676442951,
+          608.4409711360931
+        ],
+        [
+          149.8639853835406,
+          608.4409711360931
+        ]
+      ]
+    },
+    {
+      "title": "IV - SOUTENANCE",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          232.69676640629768,
+          68.96071334241549
+        ],
+        [
+          364.1694844820037,
+          68.96071334241549
+        ],
+        [
+          364.1694844820037,
+          81.45457220077515
+        ],
+        [
+          232.69676640629768,
+          81.45457220077515
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          55
+        ],
+        [
+          "Span",
+          24
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          44
+        ],
+        [
+          "Span",
+          39
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          67
+        ],
+        [
+          "Span",
+          28
+        ],
+        [
+          "ListItem",
+          16
+        ],
+        [
+          "PageFooter",
+          6
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          62
+        ],
+        [
+          "Span",
+          24
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageFooter",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          52
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageFooter",
+          7
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          27
+        ],
+        [
+          "Span",
+          15
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageFooter",
+          6
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED_re\u0300glement HDR-CR-24-06-25-CA-07-07-25"
+}

@@ -1,0 +1,76 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Direction de la recherche et de la valorisation",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          452.0567042146107,
+          41.23448369485005
+        ],
+        [
+          813.4021958090425,
+          43.48363735093278
+        ],
+        [
+          813.4021958090425,
+          59.22771294351189
+        ],
+        [
+          452.0567042146107,
+          57.8417598605156
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          140
+        ],
+        [
+          "Span",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/organigramme_drv-janv2026-1"
+}

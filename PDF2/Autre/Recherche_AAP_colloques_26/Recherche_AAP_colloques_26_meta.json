@@ -1,0 +1,382 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Formulaire de demande",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          115.04109799861908,
+          525.0415292680264
+        ],
+        [
+          235.28645705215877,
+          525.0415292680264
+        ],
+        [
+          235.28645705215877,
+          536.8660946282976
+        ],
+        [
+          115.04109799861908,
+          536.8660946282976
+        ]
+      ]
+    },
+    {
+      "title": "Budget",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          115.33160582184792,
+          666.0667794942856
+        ],
+        [
+          153.61058501812914,
+          666.0667794942856
+        ],
+        [
+          153.61058501812914,
+          677.8309351172918
+        ],
+        [
+          115.33160582184792,
+          677.8309351172918
+        ]
+      ]
+    },
+    {
+      "title": "Appui des collectivit\u00e9s territoriales",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          115.04109799861908,
+          139.79179322719574
+        ],
+        [
+          293.7334113517396,
+          139.79179322719574
+        ],
+        [
+          293.7334113517396,
+          149.65944921970367
+        ],
+        [
+          115.04109799861908,
+          149.65944921970367
+        ]
+      ]
+    },
+    {
+      "title": "Crit\u00e8res de la commission recherche",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          40.463276053555965,
+          563.1095489746529
+        ],
+        [
+          335.8270436525345,
+          563.1095489746529
+        ],
+        [
+          335.8270436525345,
+          575.8563696571682
+        ],
+        [
+          40.463276053555965,
+          575.8563696571682
+        ]
+      ]
+    },
+    {
+      "title": "Seront \u00e9galement pris en compte :",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          40.463276053555965,
+          698.825698594376
+        ],
+        [
+          215.8041389522985,
+          698.825698594376
+        ],
+        [
+          215.8041389522985,
+          708.5732673515938
+        ],
+        [
+          40.463276053555965,
+          708.5732673515938
+        ]
+      ]
+    },
+    {
+      "title": "Crit\u00e8res des collectivit\u00e9s territoriales",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          40.090079605579376,
+          70.48242024449716
+        ],
+        [
+          320.70892872077695,
+          70.48242024449716
+        ],
+        [
+          320.70892872077695,
+          84.69738060235977
+        ],
+        [
+          40.090079605579376,
+          84.69738060235977
+        ]
+      ]
+    },
+    {
+      "title": "Mairie de Tours",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          40.463276053555965,
+          107.97306931071905
+        ],
+        [
+          118.39254845299709,
+          107.97306931071905
+        ],
+        [
+          118.39254845299709,
+          116.76726257801056
+        ],
+        [
+          40.463276053555965,
+          116.76726257801056
+        ]
+      ]
+    },
+    {
+      "title": "Tours M\u00e9tropole Val de Loire",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          39.509063959121704,
+          185.20380638713615
+        ],
+        [
+          160.35446436038848,
+          185.20380638713615
+        ],
+        [
+          160.35446436038848,
+          194.95137514435385
+        ],
+        [
+          39.509063959121704,
+          194.95137514435385
+        ]
+      ]
+    },
+    {
+      "title": "e la la la la la la la la la la la la la",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          40.463276053555965,
+          251.18734874368667
+        ],
+        [
+          150.61330531045832,
+          250.43753576236224
+        ],
+        [
+          150.61330531045832,
+          261.0817314684391
+        ],
+        [
+          40.463276053555965,
+          261.0817314684391
+        ]
+      ]
+    },
+    {
+      "title": "Crit\u00e8res qualitatifs",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          40.463276053555965,
+          273.68173818341984
+        ],
+        [
+          137.12554662593968,
+          273.68173818341984
+        ],
+        [
+          137.12554662593968,
+          284.51741445064545
+        ],
+        [
+          40.463276053555965,
+          284.51741445064545
+        ]
+      ]
+    },
+    {
+      "title": "Crit\u00e8res administratifs",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          39.509063959121704,
+          515.1215181698888
+        ],
+        [
+          155.10922487196456,
+          515.1215181698888
+        ],
+        [
+          155.10922487196456,
+          524.8690869271065
+        ],
+        [
+          39.509063959121704,
+          524.8690869271065
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          64
+        ],
+        [
+          "Span",
+          23
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "PageFooter",
+          4
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          75
+        ],
+        [
+          "Span",
+          32
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          70
+        ],
+        [
+          "Span",
+          34
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Recherche_AAP_colloques_26"
+}

@@ -1,0 +1,114 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Universit\u00e9\nde TOURS",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          73.25226652622223,
+          55.086565375328064
+        ],
+        [
+          159.29461133480072,
+          55.086565375328064
+        ],
+        [
+          159.29461133480072,
+          76.46344149112701
+        ],
+        [
+          73.25226652622223,
+          76.46344149112701
+        ]
+      ]
+    },
+    {
+      "title": "Validation des cr\u00e9dits doctoraux",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          235.42881901738625,
+          62.897347033023834
+        ],
+        [
+          455.86217185532115,
+          62.897347033023834
+        ],
+        [
+          455.86217185532115,
+          75.72032452224093
+        ],
+        [
+          235.42881901738625,
+          75.72032452224093
+        ]
+      ]
+    },
+    {
+      "title": "*Les demandes pr\u00e9alables doivent toujours \u00eatre adress\u00e9es par email (intitul\u00e9 de la formation, volume horaire et programme).",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.76406335830688,
+          377.7951759696007
+        ],
+        [
+          518.8431298090168,
+          377.7951759696007
+        ],
+        [
+          518.8431298090168,
+          402.5922204796374
+        ],
+        [
+          69.76406335830688,
+          402.5922204796374
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          40
+        ],
+        [
+          "Span",
+          14
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED - Ecoles Doctorales - Proc\u00e9dure validation des cr\u00e9dits doctoraux"
+}

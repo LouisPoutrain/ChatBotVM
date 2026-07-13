@@ -1,0 +1,371 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Accord de confidentialit\u00e9 pour un manuscrit de\nth\u00e8se confidentiel",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          40.48775868451865,
+          89.21503582323436
+        ],
+        [
+          555.5820219486726,
+          89.21503582323436
+        ],
+        [
+          555.5820219486726,
+          138.94969475269318
+        ],
+        [
+          40.48775868451865,
+          138.94969475269318
+        ]
+      ]
+    },
+    {
+      "title": "ENTRE",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.47869104342136,
+          157.8600082397461
+        ],
+        [
+          110.96644972794002,
+          157.8600082397461
+        ],
+        [
+          110.96644972794002,
+          168.68389126241792
+        ],
+        [
+          70.47869104342136,
+          168.68389126241792
+        ]
+      ]
+    },
+    {
+      "title": "Etant pr\u00e9alablement expos\u00e9:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          230.93017916355083,
+          354.77392476797104
+        ],
+        [
+          399.62917368237856,
+          354.77392476797104
+        ],
+        [
+          399.62917368237856,
+          367.1067379117012
+        ],
+        [
+          230.93017916355083,
+          367.1067379117012
+        ]
+      ]
+    },
+    {
+      "title": "Il est convenu ce qui suit :",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          221.18312614690745,
+          85.91859823465347
+        ],
+        [
+          373.3871078683387,
+          85.91859823465347
+        ],
+        [
+          373.3871078683387,
+          98.25141137838364
+        ],
+        [
+          221.18312614690745,
+          98.25141137838364
+        ]
+      ]
+    },
+    {
+      "title": "Article 1 \u2013 objet",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          33.42861369252205,
+          101.21033475745074
+        ],
+        [
+          125.2121425984188,
+          101.21033475745074
+        ],
+        [
+          125.2121425984188,
+          113.87297469377518
+        ],
+        [
+          33.42861369252205,
+          113.87297469377518
+        ]
+      ]
+    },
+    {
+      "title": "Article 2 \u2013 Obligation de confidentialit\u00e9 du Membre du Jury",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          34.48957221273811,
+          227.33485561609268
+        ],
+        [
+          373.3871078683387,
+          227.33485561609268
+        ],
+        [
+          373.3871078683387,
+          239.66766875982285
+        ],
+        [
+          34.48957221273811,
+          239.66766875982285
+        ]
+      ]
+    },
+    {
+      "title": "Article 3 - Dur\u00e9e du contrat et dur\u00e9e de l'engagement de confidentialit\u00e9",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          34.48957221273811,
+          541.8215907812119
+        ],
+        [
+          446.11511883867774,
+          541.8215907812119
+        ],
+        [
+          446.11511883867774,
+          553.2831633407308
+        ],
+        [
+          34.48957221273811,
+          553.2831633407308
+        ]
+      ]
+    },
+    {
+      "title": "Article 4 - Rupture d'engagement et Litige",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          34.48957221273811,
+          640.2490806137995
+        ],
+        [
+          276.66635101087746,
+          640.2490806137995
+        ],
+        [
+          276.66635101087746,
+          651.4946733646274
+        ],
+        [
+          34.48957221273811,
+          651.4946733646274
+        ]
+      ]
+    },
+    {
+      "title": "Signatures:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          33.739798903765546,
+          85.46650490629173
+        ],
+        [
+          103.46871663821433,
+          85.46650490629173
+        ],
+        [
+          103.46871663821433,
+          98.96121620728518
+        ],
+        [
+          33.739798903765546,
+          98.96121620728518
+        ]
+      ]
+    },
+    {
+      "title": "Le Membre du Jury",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          33.739798903765546,
+          141.69446866043103
+        ],
+        [
+          149.20488848554098,
+          141.69446866043103
+        ],
+        [
+          149.20488848554098,
+          155.93888614481298
+        ],
+        [
+          33.739798903765546,
+          155.93888614481298
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          31
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          53
+        ],
+        [
+          "Span",
+          28
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          14
+        ],
+        [
+          "Span",
+          9
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED ETUDES DOCTORALES SOUTENANCES ACCORD CONFIDENTIALITE JURY _ MANUSCRIT"
+}

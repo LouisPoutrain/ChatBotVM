@@ -1,0 +1,159 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Contrats doctoraux \u00ab Etablissement \u00bb et \u00ab Collectivit\u00e9s \u00bb (R\u00e9gion)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          97.96037229895592,
+          149.9412366777048
+        ],
+        [
+          442.3662522938149,
+          150.460320353508
+        ],
+        [
+          442.3662522938149,
+          161.97094595432281
+        ],
+        [
+          97.96037229895592,
+          161.97094595432281
+        ]
+      ]
+    },
+    {
+      "title": "Attribution financements sur les sujets",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          97.08832150697708,
+          176.18095309630314
+        ],
+        [
+          294.6609104262191,
+          176.18095309630314
+        ],
+        [
+          294.6609104262191,
+          187.0476660132408
+        ],
+        [
+          97.08832150697708,
+          187.0476660132408
+        ]
+      ]
+    },
+    {
+      "title": "Affectation candidats sur les sujets",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          97.66968870162964,
+          402.460802257061
+        ],
+        [
+          275.9165777019049,
+          402.460802257061
+        ],
+        [
+          275.9165777019049,
+          413.83781323046526
+        ],
+        [
+          97.66968870162964,
+          413.83781323046526
+        ]
+      ]
+    },
+    {
+      "title": "Autres financements doctoraux",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          98.22030347540637,
+          562.279637541393
+        ],
+        [
+          266.16952468526154,
+          562.279637541393
+        ],
+        [
+          266.16952468526154,
+          572.7755241088323
+        ],
+        [
+          98.22030347540637,
+          572.7755241088323
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          52
+        ],
+        [
+          "Span",
+          14
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          13
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Span",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED_Etudes Doctorales_Proce\u0301dure selection financement MIPTIS"
+}

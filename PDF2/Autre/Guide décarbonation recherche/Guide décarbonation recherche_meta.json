@@ -1,0 +1,136 @@
+{
+    "languages": [
+        "fr"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "Cl",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Br",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "GUIDE DE D\u00c9CARBONATION DE LA RECHERCHE",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "\u00c9dition 2026",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Universit\u00e9 de Tours",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "SOMMAIRE",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 1,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Identifier et agir collectivement",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 3,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "REPENSER SES USAGES DU NUM\u00c9RIQUE",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 20,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "Des \u00e9l\u00e9ments de contexte",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "30 000",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "ENCOURAGER LES OPTIONS V\u00c9G\u00c9TARIENNES",
+            "level": 2,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 21,
+            "view_mode": "Fit",
+            "view_pos": []
+        },
+        {
+            "title": "En r\u00e9sum\u00e9",
+            "level": 3,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "Fit",
+            "view_pos": []
+        }
+    ],
+    "pages": 24,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 2,
+        "table": 2,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

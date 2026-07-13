@@ -1,0 +1,252 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Ecole Doctorale n\u00b0 549 Sant\u00e9, Sciences Biologiques et Chimie du Vivant (SSBCV)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          87.75,
+          83.14453125
+        ],
+        [
+          524.25,
+          83.14453125
+        ],
+        [
+          524.25,
+          113.30859375
+        ],
+        [
+          87.75,
+          113.30859375
+        ]
+      ]
+    },
+    {
+      "title": "Conseil de l'ED SSBCV (M\u00e0J mars 2026)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          200.21484375,
+          130.7109375
+        ],
+        [
+          412.5,
+          130.7109375
+        ],
+        [
+          412.5,
+          141.5390625
+        ],
+        [
+          200.21484375,
+          141.5390625
+        ]
+      ]
+    },
+    {
+      "title": "Direction de l'\u00e9cole doctorale",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.75,
+          182.14453125
+        ],
+        [
+          211.5,
+          182.14453125
+        ],
+        [
+          211.5,
+          190.65234375
+        ],
+        [
+          69.75,
+          190.65234375
+        ]
+      ]
+    },
+    {
+      "title": "Repr\u00e9sentants des Fili\u00e8res",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.75,
+          243.0
+        ],
+        [
+          199.5,
+          243.0
+        ],
+        [
+          199.5,
+          252.9140625
+        ],
+        [
+          69.75,
+          252.9140625
+        ]
+      ]
+    },
+    {
+      "title": "Repr\u00e9sentants des Unit\u00e9s de recherche",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.75,
+          368.54296875
+        ],
+        [
+          260.25,
+          368.54296875
+        ],
+        [
+          260.25,
+          379.5
+        ],
+        [
+          69.75,
+          379.5
+        ]
+      ]
+    },
+    {
+      "title": "Repr\u00e9sentants des personnels BIATSS/ITA",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.75,
+          427.5
+        ],
+        [
+          276.0,
+          427.5
+        ],
+        [
+          276.0,
+          437.25
+        ],
+        [
+          69.75,
+          437.25
+        ]
+      ]
+    },
+    {
+      "title": "Repr\u00e9sentants des doctorants \u00e9lus",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.75,
+          486.0
+        ],
+        [
+          239.25,
+          486.0
+        ],
+        [
+          239.25,
+          495.0
+        ],
+        [
+          69.75,
+          495.0
+        ]
+      ]
+    },
+    {
+      "title": "Repr\u00e9sentants du secteur socio-\u00e9conomique",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.75,
+          542.953125
+        ],
+        [
+          285.75,
+          542.953125
+        ],
+        [
+          285.75,
+          553.5
+        ],
+        [
+          69.75,
+          553.5
+        ]
+      ]
+    },
+    {
+      "title": "Membres invit\u00e9s permanents",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.75,
+          624.75
+        ],
+        [
+          210.0,
+          624.75
+        ],
+        [
+          210.0,
+          634.21875
+        ],
+        [
+          69.75,
+          634.21875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          96
+        ],
+        [
+          "Span",
+          46
+        ],
+        [
+          "ListItem",
+          37
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "ListGroup",
+          8
+        ],
+        [
+          "Picture",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED_Etudes Doctorales_Membres du conseil SSBCV"
+}

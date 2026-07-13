@@ -1,0 +1,1408 @@
+{
+  "table_of_contents": [
+    {
+      "title": "DECLARATION DE LA SOUTENANCE SUR ADUM",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          103.40613930651763,
+          171.8371840119362
+        ],
+        [
+          124.38709510784005,
+          171.8371840119362
+        ],
+        [
+          123.63777525779282,
+          668.4384239315987
+        ],
+        [
+          102.6568194564704,
+          668.4384239315987
+        ]
+      ]
+    },
+    {
+      "title": "Tutoriel \u00e0 l'attention des doctorants",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          166.75147342681885,
+          248.30061995983127
+        ],
+        [
+          185.0820029616656,
+          248.30061995983127
+        ],
+        [
+          183.58336326157115,
+          591.5181358113209
+        ],
+        [
+          165.59968686043766,
+          590.7684296822824
+        ]
+      ]
+    },
+    {
+      "title": "Pr\u00e9ambule",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          244.6075620651245,
+          724.2161206511229
+        ],
+        [
+          259.26466811634134,
+          724.2161206511229
+        ],
+        [
+          259.26466811634134,
+          808.183207103427
+        ],
+        [
+          244.6075620651245,
+          808.183207103427
+        ]
+      ]
+    },
+    {
+      "title": "Attention",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          396.8336458206177,
+          737.5021725296974
+        ],
+        [
+          410.6272778258816,
+          737.5021725296974
+        ],
+        [
+          410.6272778258816,
+          806.6837948453501
+        ],
+        [
+          396.8336458206177,
+          806.6837948453501
+        ]
+      ]
+    },
+    {
+      "title": "Informations n\u00e9cessaires pour renseigner le formulaire :",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.9452691078186,
+          379.85061728954315
+        ],
+        [
+          83.17450335524245,
+          379.85061728954315
+        ],
+        [
+          83.17450335524245,
+          809.0324835777283
+        ],
+        [
+          65.9452691078186,
+          809.0324835777283
+        ]
+      ]
+    },
+    {
+      "title": "1. D\u00e9claration de la soutenance",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          36.60398197174072,
+          570.5263641982449
+        ],
+        [
+          54.03444957733154,
+          570.5263641982449
+        ],
+        [
+          54.03444957733154,
+          808.183207103427
+        ],
+        [
+          36.60398197174072,
+          808.183207103427
+        ]
+      ]
+    },
+    {
+      "title": "Le label Europ\u00e9en est-il demand\u00e9? O oui \ud83d\udd72 non",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          54.61546516418457,
+          432.5804364551738
+        ],
+        [
+          69.68674605439232,
+          434.07984871325067
+        ],
+        [
+          69.68674605439232,
+          797.687321296889
+        ],
+        [
+          51.703069653258815,
+          798.4370274259275
+        ]
+      ]
+    },
+    {
+      "title": "\u25ba Voir conditions d'obtention du Label Europ\u00e9en :",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          436.85347257753466,
+          491.0575145201713
+        ],
+        [
+          453.33850927857367,
+          491.257021278143
+        ],
+        [
+          452.5891894285265,
+          826.1761542003493
+        ],
+        [
+          435.3548328774402,
+          826.1761542003493
+        ]
+      ]
+    },
+    {
+      "title": "R\u00e9sum\u00e9 de la th\u00e8se en fran\u00e7ais",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          40.09007549285889,
+          599.3746753334999
+        ],
+        [
+          54.03444957733154,
+          599.3746753334999
+        ],
+        [
+          54.03444957733154,
+          802.1855580711195
+        ],
+        [
+          40.09007549285889,
+          802.1855580711195
+        ]
+      ]
+    },
+    {
+      "title": "R\u00e9sum\u00e9 de la th\u00e8se en anglais",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          188.53955793380737,
+          604.2631400049742
+        ],
+        [
+          202.3163595127519,
+          604.2631400049742
+        ],
+        [
+          201.902916431427,
+          801.4358519420812
+        ],
+        [
+          188.53955793380737,
+          801.4358519420812
+        ]
+      ]
+    },
+    {
+      "title": "R\u00e9sum\u00e9 de th\u00e8se vulgaris\u00e9 pour le grand public en fran\u00e7ais",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          349.48087549209595,
+          419.8354322615205
+        ],
+        [
+          365.1682963371277,
+          419.8354322615205
+        ],
+        [
+          365.1682963371277,
+          800.6861458130427
+        ],
+        [
+          349.1830501220088,
+          800.6861458130427
+        ]
+      ]
+    },
+    {
+      "title": "R\u00e9sum\u00e9 de th\u00e8se vulgaris\u00e9 pour le grand public en fran\u00e7ais",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          38.92804431915283,
+          356.4182740151882
+        ],
+        [
+          57.52054309844971,
+          356.4182740151882
+        ],
+        [
+          57.52054309844971,
+          797.687321296889
+        ],
+        [
+          38.92804431915283,
+          797.687321296889
+        ]
+      ]
+    },
+    {
+      "title": "N'oubliez pas de sauvegarder",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          135.9576473236084,
+          580.4643632173538
+        ],
+        [
+          153.38811492919922,
+          580.4643632173538
+        ],
+        [
+          153.38811492919922,
+          817.9293867809265
+        ],
+        [
+          135.9576473236084,
+          817.9293867809265
+        ]
+      ]
+    },
+    {
+      "title": "Tout dossier incomplet sera rejet\u00e9",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          94.12452507019043,
+          423.4265539050103
+        ],
+        [
+          108.06889915466309,
+          423.4265539050103
+        ],
+        [
+          108.06889915466309,
+          660.2165490984917
+        ],
+        [
+          93.66498125590365,
+          660.2165490984917
+        ]
+      ]
+    },
+    {
+      "title": "2. Validation par votre direction de th\u00e8se",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          62.74968338012695,
+          497.8048696815172
+        ],
+        [
+          79.01811981201172,
+          497.8048696815172
+        ],
+        [
+          79.01811981201172,
+          811.9101397693157
+        ],
+        [
+          62.74968338012695,
+          811.9101397693157
+        ]
+      ]
+    },
+    {
+      "title": "3. Validation des rapporteurs et du jury par la direction du laboratoire",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          229.2106490135193,
+          281.8895045184495
+        ],
+        [
+          245.7769108154912,
+          281.8895045184495
+        ],
+        [
+          245.7769108154912,
+          810.2657648026943
+        ],
+        [
+          229.2106490135193,
+          810.2657648026943
+        ]
+      ]
+    },
+    {
+      "title": "4. Validation des rapporteurs et du jury par la direction de l'\u00e9cole doctorale",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          330.30736112594604,
+          239.156255163259
+        ],
+        [
+          346.1857707218199,
+          239.156255163259
+        ],
+        [
+          346.93509057186714,
+          809.0324835777283
+        ],
+        [
+          330.30736112594604,
+          809.0324835777283
+        ]
+      ]
+    },
+    {
+      "title": "5. Validation des rapporteurs et du jury par le chef d'\u00e9tablissement",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          431.1135654449463,
+          301.38186387344865
+        ],
+        [
+          448.5440330505371,
+          301.38186387344865
+        ],
+        [
+          448.5440330505371,
+          812.7323272526264
+        ],
+        [
+          431.1135654449463,
+          812.7323272526264
+        ]
+      ]
+    },
+    {
+      "title": "6. D\u00e9signation des rapporteurs et convocation du jury par la gestionnaire de l'\u00e9cole doctorale apr\u00e8s\nfinalisation de votre d\u00e9claration de soutenance",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          36.894489765167236,
+          33.73677580672933
+        ],
+        [
+          74.18266515467569,
+          33.73677580672933
+        ],
+        [
+          71.934705604534,
+          808.9329132324654
+        ],
+        [
+          36.894489765167236,
+          808.183207103427
+        ]
+      ]
+    },
+    {
+      "title": "7. Autorisation de soutenance",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          373.16128532352013,
+          580.2725438757444
+        ],
+        [
+          389.6463220245592,
+          580.2725438757444
+        ],
+        [
+          389.6463220245592,
+          808.9329132324654
+        ],
+        [
+          373.16128532352013,
+          808.9329132324654
+        ]
+      ]
+    },
+    {
+      "title": "8. Remise des documents de soutenance",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          37.76601314544678,
+          492.55692677824817
+        ],
+        [
+          54.03444957733154,
+          492.55692677824817
+        ],
+        [
+          54.03444957733154,
+          811.9101397693157
+        ],
+        [
+          37.76601314544678,
+          811.9101397693157
+        ]
+      ]
+    },
+    {
+      "title": "9. Attestation de r\u00e9ussite",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          156.6078486598709,
+          616.258438069589
+        ],
+        [
+          170.84492581076827,
+          616.258438069589
+        ],
+        [
+          170.84492581076827,
+          808.6213898360729
+        ],
+        [
+          156.6078486598709,
+          808.6213898360729
+        ]
+      ]
+    },
+    {
+      "title": "10. D\u00e9p\u00f4t de la version d\u00e9finitive de la th\u00e8se",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          305.7224988192695,
+          514.2984045203626
+        ],
+        [
+          320.13958835601807,
+          514.2984045203626
+        ],
+        [
+          320.13958835601807,
+          807.7992023527622
+        ],
+        [
+          305.7224988192695,
+          807.7992023527622
+        ]
+      ]
+    },
+    {
+      "title": "Vos contacts",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          65.07374572753906,
+          353.1295240819454
+        ],
+        [
+          92.1663415558092,
+          353.1295240819454
+        ],
+        [
+          91.41702170576197,
+          483.560453229787
+        ],
+        [
+          65.07374572753906,
+          482.8107471007486
+        ]
+      ]
+    },
+    {
+      "title": "\u00e0 l'universit\u00e9 de Tours :",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          114.16956281661987,
+          587.0198990370902
+        ],
+        [
+          131.13097375826513,
+          587.0198990370902
+        ],
+        [
+          131.01901483535767,
+          765.4499577482366
+        ],
+        [
+          114.16956281661987,
+          764.7002516191981
+        ]
+      ]
+    },
+    {
+      "title": "\u00e0 l'INSA Centre Val de Loire :",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          114.64593705722608,
+          306.62980677671766
+        ],
+        [
+          131.6000304222107,
+          306.62980677671766
+        ],
+        [
+          131.6000304222107,
+          531.5442079603672
+        ],
+        [
+          114.64593705722608,
+          531.5442079603672
+        ]
+      ]
+    },
+    {
+      "title": "A l'universit\u00e9 d'Orl\u00e9ans :",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          115.3952569072733,
+          57.72737193595907
+        ],
+        [
+          130.43799924850464,
+          57.72737193595907
+        ],
+        [
+          130.43799924850464,
+          246.65624499320987
+        ],
+        [
+          115.3952569072733,
+          246.65624499320987
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          16
+        ],
+        [
+          "Span",
+          12
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          14
+        ],
+        [
+          "Span",
+          11
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          45
+        ],
+        [
+          "Span",
+          44
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          32
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          16
+        ],
+        [
+          "Line",
+          10
+        ],
+        [
+          "Span",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          14
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          48
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          23
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          33
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          22
+        ],
+        [
+          "Span",
+          4
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          28
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          21
+        ],
+        [
+          "Span",
+          13
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          19
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          50
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          45
+        ],
+        [
+          "Span",
+          20
+        ],
+        [
+          "Text",
+          17
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          40
+        ],
+        [
+          "Span",
+          24
+        ],
+        [
+          "ListItem",
+          13
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          22
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          26
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          20
+        ],
+        [
+          "Span",
+          19
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          27
+        ],
+        [
+          "Span",
+          21
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          19
+        ],
+        [
+          "Span",
+          16
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          93
+        ],
+        [
+          "Span",
+          42
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED ETUDES DOCTORALES SOUTENANCE TUTORIEL DECLARATION DE SOUTENANCE"
+}

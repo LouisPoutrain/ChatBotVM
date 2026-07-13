@@ -1,0 +1,179 @@
+{
+  "table_of_contents": [
+    {
+      "title": "S\u00e9lection des doctorants \naux formations",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          257.85000455379486,
+          15.567187011241913
+        ],
+        [
+          503.550008893013,
+          15.567187011241913
+        ],
+        [
+          503.550008893013,
+          55.814060747623444
+        ],
+        [
+          257.85000455379486,
+          55.814060747623444
+        ]
+      ]
+    },
+    {
+      "title": "Formations sp\u00e9cifiques",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          1078.032123160207,
+          12.909374594688416
+        ],
+        [
+          1309.6815849519344,
+          12.909374594688416
+        ],
+        [
+          1309.6815849519344,
+          34.171873927116394
+        ],
+        [
+          1078.032123160207,
+          34.171873927116394
+        ]
+      ]
+    },
+    {
+      "title": "Demande d'inscription",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          62.9726692249356,
+          407.9212986680328
+        ],
+        [
+          287.8750593139913,
+          407.9212986680328
+        ],
+        [
+          287.8750593139913,
+          428.6671740412712
+        ],
+        [
+          62.9726692249356,
+          428.6671740412712
+        ]
+      ]
+    },
+    {
+      "title": "Inscription accept\u00e9e",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          484.2898133251,
+          407.9212986680328
+        ],
+        [
+          685.2026151379897,
+          407.9212986680328
+        ],
+        [
+          685.2026151379897,
+          429.42654901742935
+        ],
+        [
+          484.2898133251,
+          429.42654901742935
+        ]
+      ]
+    },
+    {
+      "title": "Validation des heures\nde formation du\ncatalogue et/ou des\ncr\u00e9dits doctoraux",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          885.3657423172493,
+          407.9212986680328
+        ],
+        [
+          1096.0243143673315,
+          407.9212986680328
+        ],
+        [
+          1096.0243143673315,
+          495.8718594312668
+        ],
+        [
+          885.3657423172493,
+          495.8718594312668
+        ]
+      ]
+    },
+    {
+      "title": "Les formations du Coll\u00e8ge Doctoral\nCentre-Val-de-Loire",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          355.345776340708,
+          657.9984168410301
+        ],
+        [
+          1052.5431856167806,
+          657.9984168410301
+        ],
+        [
+          1052.5431856167806,
+          739.2515392899513
+        ],
+        [
+          355.345776340708,
+          739.2515392899513
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          140
+        ],
+        [
+          "Span",
+          61
+        ],
+        [
+          "Text",
+          26
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Picture",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED - Ecoles Doctorales - Comment s'inscrire aux formations"
+}

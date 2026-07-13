@@ -1,0 +1,195 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Note d'Information pour les Doctorants SSTED",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          161.85308761020153,
+          72.35249853134155
+        ],
+        [
+          433.85619317734574,
+          72.35249853134155
+        ],
+        [
+          433.85619317734574,
+          85.50749826431274
+        ],
+        [
+          161.85308761020153,
+          85.50749826431274
+        ]
+      ]
+    },
+    {
+      "title": "Vos interlocuteurs",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          68.93742620434509,
+          194.03624606132507
+        ],
+        [
+          164.85036701039044,
+          194.03624606132507
+        ],
+        [
+          164.85036701039044,
+          205.41947935652968
+        ],
+        [
+          68.93742620434509,
+          205.41947935652968
+        ]
+      ]
+    },
+    {
+      "title": "Services internes aux \u00e9tablissements",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.68674605439232,
+          542.787237423823
+        ],
+        [
+          225.545274864216,
+          542.787237423823
+        ],
+        [
+          225.545274864216,
+          552.9210825264454
+        ],
+        [
+          69.68674605439232,
+          552.9210825264454
+        ]
+      ]
+    },
+    {
+      "title": "Services de soutien nationaux",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.18810635429786,
+          293.88480258306436
+        ],
+        [
+          196.32180071237406,
+          293.88480258306436
+        ],
+        [
+          196.32180071237406,
+          304.38068838960237
+        ],
+        [
+          68.18810635429786,
+          304.38068838960237
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          70
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Span",
+          23
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          52
+        ],
+        [
+          "Span",
+          27
+        ],
+        [
+          "ListItem",
+          20
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED ETUDES ET ECOLES DOCTORALES CONTACTS UTILES ED SSTED"
+}

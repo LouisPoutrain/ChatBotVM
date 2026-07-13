@@ -1,0 +1,507 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Tutoriel de validation du jury et des rapporteurs par la Direction de Laboratoire",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          74.20374393887745,
+          137.85894206549116
+        ],
+        [
+          523.1363947690861,
+          137.85894206549116
+        ],
+        [
+          523.1363947690861,
+          163.30982367758185
+        ],
+        [
+          74.20374393887745,
+          163.30982367758185
+        ]
+      ]
+    },
+    {
+      "title": "Cliquez sur Direction laboratoire \u2013 Avis sur rapporteurs et jury",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          23.851203408924896,
+          358.43324937027705
+        ],
+        [
+          421.9012869667604,
+          358.43324937027705
+        ],
+        [
+          421.9012869667604,
+          386.00503778337526
+        ],
+        [
+          23.851203408924896,
+          386.00503778337526
+        ]
+      ]
+    },
+    {
+      "title": "D\u00e9signation des rapporteurs et des membres du jury de soutenance de th\u00e8se",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          59.36299515110196,
+          72.11083123425692
+        ],
+        [
+          393.80986961847105,
+          72.11083123425692
+        ],
+        [
+          393.80986961847105,
+          101.8035264483627
+        ],
+        [
+          59.36299515110196,
+          101.8035264483627
+        ]
+      ]
+    },
+    {
+      "title": "Tableau r\u00e9capitulant les rapporteurs et la composition du jury \u00e0 titre indicatif.",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          108.11613857746126,
+          23.329974811083122
+        ],
+        [
+          477.5540949209185,
+          23.329974811083122
+        ],
+        [
+          477.5540949209185,
+          46.659949622166245
+        ],
+        [
+          108.11613857746126,
+          46.659949622166245
+        ]
+      ]
+    },
+    {
+      "title": "AVIS DE LA DIRECTION DE LA TH\u00c8SE",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          36.03871285915375,
+          80.59445843828715
+        ],
+        [
+          133.56673908997942,
+          80.59445843828715
+        ],
+        [
+          133.56673908997942,
+          92.2594458438287
+        ],
+        [
+          36.03871285915375,
+          92.2594458438287
+        ]
+      ]
+    },
+    {
+      "title": "AVIS DE LA CODIRECTION DE LA TH\u00c8SE",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          36.04181848459762,
+          164.37027707808562
+        ],
+        [
+          140.98711348386718,
+          164.37027707808562
+        ],
+        [
+          140.98711348386718,
+          176.03526448362717
+        ],
+        [
+          36.04181848459762,
+          176.03526448362717
+        ]
+      ]
+    },
+    {
+      "title": "Vos contacts",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          252.8227561346039,
+          55.50292968749999
+        ],
+        [
+          341.3372221188363,
+          55.50292968749999
+        ],
+        [
+          341.3372221188363,
+          77.70410156249999
+        ],
+        [
+          252.8227561346039,
+          77.70410156249999
+        ]
+      ]
+    },
+    {
+      "title": "\u00e0 l'universit\u00e9 de Tours :",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          54.06272772689643,
+          147.18554687499997
+        ],
+        [
+          179.67906568056756,
+          147.18554687499997
+        ],
+        [
+          179.67906568056756,
+          165.27539062499997
+        ],
+        [
+          54.06272772689643,
+          165.27539062499997
+        ]
+      ]
+    },
+    {
+      "title": "\u00e0 l'INSA Centre Val de Loire:",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          222.61123181663237,
+          146.77441406249997
+        ],
+        [
+          377.3790406034339,
+          146.77441406249997
+        ],
+        [
+          377.3790406034339,
+          165.68652343749997
+        ],
+        [
+          222.61123181663237,
+          165.68652343749997
+        ]
+      ]
+    },
+    {
+      "title": "A l'universit\u00e9 d'Orl\u00e9ans:",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          421.9012869667604,
+          145.95214843749997
+        ],
+        [
+          552.2878656022165,
+          145.95214843749997
+        ],
+        [
+          552.2878656022165,
+          164.86425781249997
+        ],
+        [
+          421.9012869667604,
+          164.86425781249997
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          16
+        ],
+        [
+          "Line",
+          12
+        ],
+        [
+          "Span",
+          6
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          17
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          34
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          21
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Line",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          46
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          16
+        ],
+        [
+          "Span",
+          5
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          83
+        ],
+        [
+          "Span",
+          39
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED ETUDES DOCTORALES TUTO SOUTENANCE VALIDATION JURY DIRECTION DE LABORATOIRE"
+}

@@ -1,0 +1,294 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Proc\u00e9dure relative \u00e0 la soutenance de th\u00e8se des Ecoles Doctorales Centre Val de Loire",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          130.14749145507812,
+          174.50250101089478
+        ],
+        [
+          463.8289871792349,
+          174.50250101089478
+        ],
+        [
+          463.8289871792349,
+          209.22021473514653
+        ],
+        [
+          130.14749145507812,
+          209.22021473514653
+        ]
+      ]
+    },
+    {
+      "title": "Composition de jury (4 \u00e0 8 membres choisis en raison de leurs comp\u00e9tences scientifiques) :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.68674605439232,
+          259.4630620012928
+        ],
+        [
+          457.83442837885707,
+          259.4630620012928
+        ],
+        [
+          457.83442837885707,
+          269.96156740018904
+        ],
+        [
+          69.68674605439232,
+          269.96156740018904
+        ]
+      ]
+    },
+    {
+      "title": "D\u00e9signation du jury:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          68.93742620434509,
+          455.18519836642986
+        ],
+        [
+          163.35172731029598,
+          455.18519836642986
+        ],
+        [
+          163.35172731029598,
+          465.8887526988983
+        ],
+        [
+          68.93742620434509,
+          465.8887526988983
+        ]
+      ]
+    },
+    {
+      "title": "D\u00e9signation des rapporteurs :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          68.93742620434509,
+          502.428472661463
+        ],
+        [
+          199.31908011256297,
+          502.428472661463
+        ],
+        [
+          199.31908011256297,
+          511.57219046354294
+        ],
+        [
+          68.93742620434509,
+          511.57219046354294
+        ]
+      ]
+    },
+    {
+      "title": "Autorisation de soutenance :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.68674605439232,
+          558.9018782377243
+        ],
+        [
+          194.8231610122796,
+          558.9018782377243
+        ],
+        [
+          194.8231610122796,
+          568.7793782949448
+        ],
+        [
+          69.68674605439232,
+          568.7793782949448
+        ]
+      ]
+    },
+    {
+      "title": "Pr\u00e9sidence et rapport de soutenance :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.68674605439232,
+          605.8200035095215
+        ],
+        [
+          233.0384733646883,
+          605.8200035095215
+        ],
+        [
+          233.0384733646883,
+          615.697503566742
+        ],
+        [
+          69.68674605439232,
+          615.697503566742
+        ]
+      ]
+    },
+    {
+      "title": "D\u00e9roulement de la soutenance :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.43136262893677,
+          674.9625039100647
+        ],
+        [
+          206.06295876298805,
+          674.9625039100647
+        ],
+        [
+          206.06295876298805,
+          684.8400039672852
+        ],
+        [
+          69.43136262893677,
+          684.8400039672852
+        ]
+      ]
+    },
+    {
+      "title": "D\u00e9lib\u00e9ration (discussion, d\u00e9cision, rapport, signatures):",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          69.43136262893677,
+          80.98847022005671
+        ],
+        [
+          299.7279400188917,
+          80.98847022005671
+        ],
+        [
+          299.7279400188917,
+          90.13218802213669
+        ],
+        [
+          69.43136262893677,
+          90.13218802213669
+        ]
+      ]
+    },
+    {
+      "title": "Mention:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          69.43136262893677,
+          185.22363096624082
+        ],
+        [
+          113.89661720717885,
+          185.22363096624082
+        ],
+        [
+          113.89661720717885,
+          194.22234987958046
+        ],
+        [
+          69.43136262893677,
+          194.22234987958046
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          62
+        ],
+        [
+          "Span",
+          21
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          53
+        ],
+        [
+          "Span",
+          21
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED ETUDES DOCTORALES SOUTENANCE PROCEDURE DE SOUTENANCE"
+}

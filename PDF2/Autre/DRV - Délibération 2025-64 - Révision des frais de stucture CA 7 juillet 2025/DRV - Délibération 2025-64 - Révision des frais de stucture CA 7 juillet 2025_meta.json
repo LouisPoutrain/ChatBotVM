@@ -1,0 +1,792 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Commission des moyens du 27 juin 2025",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          190.10707265138626,
+          101.21033475745074
+        ],
+        [
+          434.11874589511666,
+          101.21033475745074
+        ],
+        [
+          434.11874589511666,
+          114.28406846523285
+        ],
+        [
+          190.10707265138626,
+          114.28406846523285
+        ]
+      ]
+    },
+    {
+      "title": "R\u00e9f\u00e9rence:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.48322486397001,
+          206.1692004318441
+        ],
+        [
+          119.96372943561083,
+          206.1692004318441
+        ],
+        [
+          119.96372943561083,
+          215.82423001527786
+        ],
+        [
+          55.48322486397001,
+          215.82423001527786
+        ]
+      ]
+    },
+    {
+      "title": "Expos\u00e9 de la d\u00e9cision :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.48322486397001,
+          270.6439322032572
+        ],
+        [
+          181.44514077136137,
+          270.6439322032572
+        ],
+        [
+          181.44514077136137,
+          282.63923113747353
+        ],
+        [
+          55.48322486397001,
+          282.63923113747353
+        ]
+      ]
+    },
+    {
+      "title": "Il est propos\u00e9:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.48322486397001,
+          399.994239628315
+        ],
+        [
+          140.20760877787015,
+          399.994239628315
+        ],
+        [
+          140.20760877787015,
+          412.3384008636882
+        ],
+        [
+          55.48322486397001,
+          412.3384008636882
+        ]
+      ]
+    },
+    {
+      "title": "A) Programmes de Recherche",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          72.72801097033906,
+          102.70974712422779
+        ],
+        [
+          239.92745887122166,
+          102.70974712422779
+        ],
+        [
+          239.92745887122166,
+          113.87297469377518
+        ],
+        [
+          72.72801097033906,
+          113.87297469377518
+        ]
+      ]
+    },
+    {
+      "title": "3) Programmes FEDER",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          72.72801097033906,
+          154.16016429662704
+        ],
+        [
+          202.43879342259328,
+          154.16016429662704
+        ],
+        [
+          202.43879342259328,
+          164.9353603454753
+        ],
+        [
+          72.72801097033906,
+          164.9353603454753
+        ]
+      ]
+    },
+    {
+      "title": "4) Programmes Europ\u00e9ens (hors programme MSCA)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          73.47778427931163,
+          321.4753292798996
+        ],
+        [
+          361.39073492477763,
+          321.4753292798996
+        ],
+        [
+          361.39073492477763,
+          333.6192516078932
+        ],
+        [
+          73.47778427931163,
+          333.6192516078932
+        ]
+      ]
+    },
+    {
+      "title": "5) Programmes Europ\u00e9ens MSCA (Marie Sk\u0142odowska-Curie Action)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          73.47778427931163,
+          89.61844217777252
+        ],
+        [
+          442.3662522938149,
+          89.61844217777252
+        ],
+        [
+          442.3662522938149,
+          101.21033475745074
+        ],
+        [
+          73.47778427931163,
+          101.21033475745074
+        ]
+      ]
+    },
+    {
+      "title": "6) Autres Subventions",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          73.47778427931163,
+          180.47016566991806
+        ],
+        [
+          200.18947349567557,
+          180.47016566991806
+        ],
+        [
+          200.18947349567557,
+          191.17507676407362
+        ],
+        [
+          73.47778427931163,
+          191.17507676407362
+        ]
+      ]
+    },
+    {
+      "title": "7) Contrats de prestations",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          72.72801097033906,
+          373.68423825502396
+        ],
+        [
+          224.18221938279774,
+          373.68423825502396
+        ],
+        [
+          224.18221938279774,
+          384.5992720783128
+        ],
+        [
+          72.72801097033906,
+          384.5992720783128
+        ]
+      ]
+    },
+    {
+      "title": "8) PUFR",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          73.47778427931163,
+          451.380961060524
+        ],
+        [
+          122.9628226715011,
+          451.380961060524
+        ],
+        [
+          122.9628226715011,
+          461.2472115755081
+        ],
+        [
+          73.47778427931163,
+          461.2472115755081
+        ]
+      ]
+    },
+    {
+      "title": "B) Programmes d'\u00e9tablissement g\u00e9r\u00e9s par le SCRIPT",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          72.72801097033906,
+          528.5428592889094
+        ],
+        [
+          364.3898281606679,
+          528.5428592889094
+        ],
+        [
+          364.3898281606679,
+          539.7884520397373
+        ],
+        [
+          72.72801097033906,
+          539.7884520397373
+        ]
+      ]
+    },
+    {
+      "title": "1) TOUS Programmes (ANR / FEDER / Autres subventions/Europe)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          72.72801097033906,
+          555.5322818908963
+        ],
+        [
+          439.36715905792465,
+          555.5322818908963
+        ],
+        [
+          439.36715905792465,
+          566.0281684583356
+        ],
+        [
+          72.72801097033906,
+          566.0281684583356
+        ]
+      ]
+    },
+    {
+      "title": "2) R\u00e8gles particuli\u00e8res d'ouverture de cr\u00e9dits Europe",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          72.72801097033906,
+          89.61844217777252
+        ],
+        [
+          368.8884680145033,
+          89.61844217777252
+        ],
+        [
+          368.8884680145033,
+          101.21033475745074
+        ],
+        [
+          72.72801097033906,
+          101.21033475745074
+        ]
+      ]
+    },
+    {
+      "title": "Proposition(s) de d\u00e9cision soumise \u00e0 la commission :",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          54.73345155499744,
+          335.11866397467026
+        ],
+        [
+          346.39526874532623,
+          335.11866397467026
+        ],
+        [
+          346.39526874532623,
+          346.5520493388176
+        ],
+        [
+          54.73345155499744,
+          346.5520493388176
+        ]
+      ]
+    },
+    {
+      "title": "Avis de la commission :",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          54.64851629734039,
+          398.84368956269475
+        ],
+        [
+          184.44423400725165,
+          398.84368956269475
+        ],
+        [
+          184.44423400725165,
+          408.6272088289261
+        ],
+        [
+          54.64851629734039,
+          408.6272088289261
+        ]
+      ]
+    },
+    {
+      "title": "Modalit\u00e9s de gestion des pr\u00e9l\u00e8vements et des ouvertures de cr\u00e9dits Commission des moyens du 27/06/2025 - CA du 07/07/2025",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          236.17987533392696,
+          56.25
+        ],
+        [
+          606.5699020480855,
+          56.25
+        ],
+        [
+          606.5699020480855,
+          89.25
+        ],
+        [
+          236.17987533392696,
+          89.25
+        ]
+      ]
+    },
+    {
+      "title": "PROJETS RECHERCHE",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          81.72573463935886,
+          182.25
+        ],
+        [
+          225.68299198575244,
+          182.25
+        ],
+        [
+          225.68299198575244,
+          197.25
+        ],
+        [
+          81.72573463935886,
+          197.25
+        ]
+      ]
+    },
+    {
+      "title": "PROJETS D'ETABLISSEMENT G\u00c9R\u00c9S\nPAR LE SCRIPT",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          36.739091718610865,
+          611.25
+        ],
+        [
+          270.66963490650045,
+          611.25
+        ],
+        [
+          270.66963490650045,
+          650.25
+        ],
+        [
+          36.739091718610865,
+          650.25
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          28
+        ],
+        [
+          "TableCell",
+          13
+        ],
+        [
+          "Span",
+          12
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          28
+        ],
+        [
+          "Line",
+          4
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          62
+        ],
+        [
+          "Span",
+          30
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListGroup",
+          4
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          60
+        ],
+        [
+          "Span",
+          29
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          62
+        ],
+        [
+          "Span",
+          30
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          28
+        ],
+        [
+          "Span",
+          14
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          24
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "Span",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          21
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "Span",
+          4
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/DRV - De\u0301libe\u0301ration 2025-64 - Re\u0301vision des frais de stucture CA 7 juillet 2025"
+}

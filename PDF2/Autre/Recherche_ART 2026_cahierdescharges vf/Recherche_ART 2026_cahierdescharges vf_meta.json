@@ -1,0 +1,213 @@
+{
+  "table_of_contents": [
+    {
+      "title": "UNIVERSITE DE TOURS",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          230.93017916355083,
+          85.46650490629173
+        ],
+        [
+          364.3898281606679,
+          85.46650490629173
+        ],
+        [
+          364.3898281606679,
+          96.7120976571196
+        ],
+        [
+          230.93017916355083,
+          96.7120976571196
+        ]
+      ]
+    },
+    {
+      "title": "ACTIONS DE RECHERCHE TRANSVERSALES\nAPPEL A PROJETS 2026",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          172.08468961715698,
+          116.95416460860974
+        ],
+        [
+          423.62191956950073,
+          116.95416460860974
+        ],
+        [
+          423.62191956950073,
+          144.2939137816429
+        ],
+        [
+          172.08468961715698,
+          144.2939137816429
+        ]
+      ]
+    },
+    {
+      "title": "DOSSIER DE CANDIDATURE",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          201.6890201136207,
+          164.9353603454753
+        ],
+        [
+          393.63098721059805,
+          164.9353603454753
+        ],
+        [
+          393.63098721059805,
+          176.35922795534134
+        ],
+        [
+          201.6890201136207,
+          176.35922795534134
+        ]
+      ]
+    },
+    {
+      "title": "Calendrier:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          263.1704314493713,
+          614.7590703785897
+        ],
+        [
+          332.89934918382005,
+          614.7590703785897
+        ],
+        [
+          332.89934918382005,
+          626.0958139300346
+        ],
+        [
+          263.1704314493713,
+          626.0958139300346
+        ]
+      ]
+    },
+    {
+      "title": "DOSSIER ADMINISTRATIF ET FINANCIER",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          158.20216819321178,
+          86.21621108968026
+        ],
+        [
+          437.8676124399795,
+          86.21621108968026
+        ],
+        [
+          437.8676124399795,
+          99.07359892129898
+        ],
+        [
+          158.20216819321178,
+          99.07359892129898
+        ]
+      ]
+    },
+    {
+      "title": "DOSSIER SCIENTIFIQUE",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          213.68539305718178,
+          203.17037569829
+        ],
+        [
+          380.8848409580644,
+          203.17037569829
+        ],
+        [
+          380.8848409580644,
+          215.9153808158949
+        ],
+        [
+          213.68539305718178,
+          215.9153808158949
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          49
+        ],
+        [
+          "Span",
+          16
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          21
+        ],
+        [
+          "Span",
+          6
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Recherche_ART 2026_cahierdescharges vf"
+}

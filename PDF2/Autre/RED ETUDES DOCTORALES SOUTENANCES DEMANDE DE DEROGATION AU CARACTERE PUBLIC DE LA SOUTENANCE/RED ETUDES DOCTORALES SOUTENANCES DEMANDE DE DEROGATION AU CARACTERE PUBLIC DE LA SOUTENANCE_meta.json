@@ -1,0 +1,473 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Demande de d\u00e9rogation au caract\u00e8re public de la th\u00e8se",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          54.73345155499744,
+          65.36390966176987
+        ],
+        [
+          540.5865557692213,
+          65.36390966176987
+        ],
+        [
+          540.5865557692213,
+          84.27422314882278
+        ],
+        [
+          54.73345155499744,
+          84.27422314882278
+        ]
+      ]
+    },
+    {
+      "title": "1. Cadre de la demande",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          34.009980887174606,
+          383.8495658949243
+        ],
+        [
+          181.44514077136137,
+          383.8495658949243
+        ],
+        [
+          181.44514077136137,
+          394.65002059936523
+        ],
+        [
+          34.009980887174606,
+          394.65002059936523
+        ]
+      ]
+    },
+    {
+      "title": "SI le manuscrit est confidentiel :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          34.48957221273811,
+          535.2902149394062
+        ],
+        [
+          219.68357952896233,
+          535.2902149394062
+        ],
+        [
+          219.68357952896233,
+          545.7861015068455
+        ],
+        [
+          34.48957221273811,
+          545.7861015068455
+        ]
+      ]
+    },
+    {
+      "title": "SI la soutenance est confidentielle :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          34.48957221273811,
+          698.7261629181044
+        ],
+        [
+          238.42791225327653,
+          698.7261629181044
+        ],
+        [
+          238.42791225327653,
+          709.2220494855437
+        ],
+        [
+          34.48957221273811,
+          709.2220494855437
+        ]
+      ]
+    },
+    {
+      "title": "Dans les deux cas:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          34.48957221273811,
+          173.93183454613757
+        ],
+        [
+          146.2057952496507,
+          173.93183454613757
+        ],
+        [
+          146.2057952496507,
+          185.40329092741013
+        ],
+        [
+          34.48957221273811,
+          185.40329092741013
+        ]
+      ]
+    },
+    {
+      "title": "2. Demande",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          32.990025594792975,
+          70.47238123852125
+        ],
+        [
+          112.46599634588515,
+          70.47238123852125
+        ],
+        [
+          112.46599634588515,
+          85.46650490629173
+        ],
+        [
+          32.990025594792975,
+          85.46650490629173
+        ]
+      ]
+    },
+    {
+      "title": "b) Motif(s) de la demande de huis-clos\u00b2 :",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          51.734358319107166,
+          729.4641164370339
+        ],
+        [
+          288.66272395443855,
+          729.4641164370339
+        ],
+        [
+          288.66272395443855,
+          747.4570648383584
+        ],
+        [
+          51.734358319107166,
+          747.4570648383584
+        ]
+      ]
+    },
+    {
+      "title": "Observations:",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          34.48957221273811,
+          256.3995147188752
+        ],
+        [
+          117.71440950869312,
+          256.3995147188752
+        ],
+        [
+          117.71440950869312,
+          267.6451074697031
+        ],
+        [
+          34.48957221273811,
+          267.6451074697031
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          44
+        ],
+        [
+          "Span",
+          26
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          15
+        ],
+        [
+          "Span",
+          7
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          17
+        ],
+        [
+          "Line",
+          10
+        ],
+        [
+          "Span",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          31
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          30
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Span",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          28
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          21
+        ],
+        [
+          "Span",
+          12
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED ETUDES DOCTORALES SOUTENANCES DEMANDE DE DEROGATION AU CARACTERE PUBLIC DE LA SOUTENANCE"
+}

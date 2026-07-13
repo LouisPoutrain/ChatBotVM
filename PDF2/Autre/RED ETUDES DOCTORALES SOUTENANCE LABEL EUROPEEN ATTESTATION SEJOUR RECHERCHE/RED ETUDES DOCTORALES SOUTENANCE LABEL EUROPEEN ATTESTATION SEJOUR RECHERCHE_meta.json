@@ -1,0 +1,72 @@
+{
+  "table_of_contents": [
+    {
+      "title": "ATTESTATION DE SEJOUR DE RECHERCHE * Effectu\u00e9(s) dans un pays europ\u00e9en",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          179.83676401133502,
+          119.20327451711029
+        ],
+        [
+          415.123196926165,
+          119.20327451711029
+        ],
+        [
+          415.123196926165,
+          145.44298903345532
+        ],
+        [
+          179.83676401133502,
+          145.44298903345532
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          42
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED ETUDES DOCTORALES SOUTENANCE LABEL EUROPEEN ATTESTATION SEJOUR RECHERCHE"
+}

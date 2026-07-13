@@ -1,0 +1,95 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Fiche de validation des 50 cr\u00e9dits doctoraux (CD) : Ann\u00e9e\n\u00c9coles doctorales H&L et SSTED",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          178.29343323137775,
+          55.4861606180084
+        ],
+        [
+          417.266564327216,
+          56.985786580657276
+        ],
+        [
+          417.266564327216,
+          78.73036303906598
+        ],
+        [
+          178.29343323137775,
+          78.73036303906598
+        ]
+      ]
+    },
+    {
+      "title": "Merci de remplir les rubriques ci-dessous avec un traitement de texte.",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          164.0116399526596,
+          228.69295930395356
+        ],
+        [
+          429.25267748562794,
+          228.69295930395356
+        ],
+        [
+          429.25267748562794,
+          237.64604848623276
+        ],
+        [
+          164.0116399526596,
+          237.64604848623276
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          36
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "Span",
+          7
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED - Ecoles Doctorales - Formulaire-50CD-SSTED_HL"
+}

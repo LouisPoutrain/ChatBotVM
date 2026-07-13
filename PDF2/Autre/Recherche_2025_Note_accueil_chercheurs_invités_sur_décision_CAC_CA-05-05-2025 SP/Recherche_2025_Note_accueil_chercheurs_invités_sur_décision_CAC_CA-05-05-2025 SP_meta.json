@@ -1,0 +1,359 @@
+{
+  "table_of_contents": [
+    {
+      "title": "1) Principes g\u00e9n\u00e9raux.",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          102.66372795969774,
+          577.6416015625
+        ],
+        [
+          212.07178841309826,
+          577.6416015625
+        ],
+        [
+          212.07178841309826,
+          590.0747996438112
+        ],
+        [
+          102.66372795969774,
+          590.0747996438112
+        ]
+      ]
+    },
+    {
+      "title": "2) Proc\u00e9dure",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          101.91435768261965,
+          145.9521484375
+        ],
+        [
+          168.60831234256926,
+          145.9521484375
+        ],
+        [
+          168.60831234256926,
+          155.20391807658058
+        ],
+        [
+          101.91435768261965,
+          155.20391807658058
+        ]
+      ]
+    },
+    {
+      "title": "a. Constitution du dossier",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          121.39798488664988,
+          216.6669921875
+        ],
+        [
+          244.29471032745593,
+          216.6669921875
+        ],
+        [
+          244.29471032745593,
+          224.93321460373997
+        ],
+        [
+          121.39798488664988,
+          224.93321460373997
+        ]
+      ]
+    },
+    {
+      "title": "b. Examen des dossiers",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          120.6486146095718,
+          397.3820124666073
+        ],
+        [
+          233.05415617128466,
+          397.3820124666073
+        ],
+        [
+          233.05415617128466,
+          407.021484375
+        ],
+        [
+          120.6486146095718,
+          407.021484375
+        ]
+      ]
+    },
+    {
+      "title": "C. Formalit\u00e9s administratives",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          120.6486146095718,
+          48.73552983081033
+        ],
+        [
+          260.7808564231738,
+          48.73552983081033
+        ],
+        [
+          260.7808564231738,
+          57.73285841495993
+        ],
+        [
+          120.6486146095718,
+          57.73285841495993
+        ]
+      ]
+    },
+    {
+      "title": "d. Accompagnement par le Centre de Services EURAXESS",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          120.2783203125,
+          119.21460373998218
+        ],
+        [
+          384.42695214105794,
+          119.21460373998218
+        ],
+        [
+          384.42695214105794,
+          128.96170970614426
+        ],
+        [
+          120.2783203125,
+          128.96170970614426
+        ]
+      ]
+    },
+    {
+      "title": "b. Le versement du traitement",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          119.98779296875,
+          132.384765625
+        ],
+        [
+          268.2745591939547,
+          132.384765625
+        ],
+        [
+          268.2745591939547,
+          141.7079252003562
+        ],
+        [
+          119.98779296875,
+          141.7079252003562
+        ]
+      ]
+    },
+    {
+      "title": "4) Valorisation des s\u00e9jours et rapports",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          101.91435768261965,
+          328.4024933214604
+        ],
+        [
+          282.5125944584383,
+          328.4024933214604
+        ],
+        [
+          282.5125944584383,
+          338.7734375
+        ],
+        [
+          101.91435768261965,
+          338.7734375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          52
+        ],
+        [
+          "Span",
+          19
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageFooter",
+          7
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          63
+        ],
+        [
+          "Span",
+          27
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "Picture",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          64
+        ],
+        [
+          "Span",
+          23
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "Picture",
+          4
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          36
+        ],
+        [
+          "Span",
+          35
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "Picture",
+          4
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Recherche_2025_Note_accueil_chercheurs_invit\u00e9s_sur_d\u00e9cision_CAC_CA-05-05-2025 SP"
+}

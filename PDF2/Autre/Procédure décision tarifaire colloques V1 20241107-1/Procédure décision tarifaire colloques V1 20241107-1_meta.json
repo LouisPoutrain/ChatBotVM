@@ -1,0 +1,68 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Tarifs colloques",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          232.71240234375,
+          41.987533392698126
+        ],
+        [
+          315.48488664987406,
+          41.987533392698126
+        ],
+        [
+          315.48488664987406,
+          53.23419412288513
+        ],
+        [
+          232.71240234375,
+          53.23419412288513
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          41
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Proc\u00e9dure d\u00e9cision tarifaire colloques V1 20241107-1"
+}

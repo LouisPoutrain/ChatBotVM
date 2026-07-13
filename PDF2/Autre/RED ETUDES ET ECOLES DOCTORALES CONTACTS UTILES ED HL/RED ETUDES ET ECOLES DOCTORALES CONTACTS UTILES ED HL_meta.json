@@ -1,0 +1,187 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Note d'Information pour les Doctorants H&L",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          167.84764641057936,
+          72.7635922729969
+        ],
+        [
+          429.36027407706234,
+          72.7635922729969
+        ],
+        [
+          429.36027407706234,
+          85.46649871038096
+        ],
+        [
+          167.84764641057936,
+          85.46649871038096
+        ]
+      ]
+    },
+    {
+      "title": "Vos interlocuteurs",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          68.93742620434509,
+          194.03624606132507
+        ],
+        [
+          164.85036701039044,
+          194.03624606132507
+        ],
+        [
+          164.85036701039044,
+          205.41947935652968
+        ],
+        [
+          68.93742620434509,
+          205.41947935652968
+        ]
+      ]
+    },
+    {
+      "title": "Services internes aux \u00e9tablissements",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          68.93742620434509,
+          477.5628041974796
+        ],
+        [
+          256.2673887161524,
+          477.5628041974796
+        ],
+        [
+          256.2673887161524,
+          488.808396133056
+        ],
+        [
+          68.93742620434509,
+          488.808396133056
+        ]
+      ]
+    },
+    {
+      "title": "Services de soutien nationaux",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          68.18810635429786,
+          241.4053735503743
+        ],
+        [
+          222.54799546402708,
+          241.4053735503743
+        ],
+        [
+          222.54799546402708,
+          253.40067161498916
+        ],
+        [
+          68.18810635429786,
+          253.40067161498916
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          56
+        ],
+        [
+          "Span",
+          29
+        ],
+        [
+          "ListItem",
+          20
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          40
+        ],
+        [
+          "Span",
+          20
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED ETUDES ET ECOLES DOCTORALES CONTACTS UTILES ED HL"
+}

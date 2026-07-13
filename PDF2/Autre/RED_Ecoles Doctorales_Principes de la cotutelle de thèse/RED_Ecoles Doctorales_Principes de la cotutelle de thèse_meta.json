@@ -1,0 +1,432 @@
+{
+  "table_of_contents": [
+    {
+      "title": "LES PRINCIPES DE LA COTUTELLE INTERNATIONALE DE THESE",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          108.65869017632242,
+          101.9609375
+        ],
+        [
+          481.8450881612091,
+          101.9609375
+        ],
+        [
+          481.8450881612091,
+          112.46660730186998
+        ],
+        [
+          108.65869017632242,
+          112.46660730186998
+        ]
+      ]
+    },
+    {
+      "title": "1- Cadre r\u00e9glementaire de la cotutelle internationale de th\u00e8se",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          34.47103274559194,
+          127.451171875
+        ],
+        [
+          340.963476070529,
+          127.451171875
+        ],
+        [
+          340.963476070529,
+          137.95903829029385
+        ],
+        [
+          34.47103274559194,
+          137.95903829029385
+        ]
+      ]
+    },
+    {
+      "title": "Elle pr\u00e9cise notamment :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          34.47103274559194,
+          444.845703125
+        ],
+        [
+          148.37531486146096,
+          444.845703125
+        ],
+        [
+          148.37531486146096,
+          455.1148708815672
+        ],
+        [
+          34.47103274559194,
+          455.1148708815672
+        ]
+      ]
+    },
+    {
+      "title": "2 - Mise en place de la convention de cotutelle internationale de th\u00e8se \u00e0 l'universit\u00e9 de Tours",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          34.47103274559194,
+          207.2109375
+        ],
+        [
+          499.08060453400503,
+          206.93855743544077
+        ],
+        [
+          499.08060453400503,
+          217.078125
+        ],
+        [
+          34.47103274559194,
+          217.43544078361532
+        ]
+      ]
+    },
+    {
+      "title": "Conditions requises pour la mise en place d'une cotutelle :",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          112.40554156171285,
+          613.8212890625
+        ],
+        [
+          408.4068010075567,
+          613.8212890625
+        ],
+        [
+          408.4068010075567,
+          623.0650044523597
+        ],
+        [
+          112.40554156171285,
+          623.0650044523597
+        ]
+      ]
+    },
+    {
+      "title": "Deux modalit\u00e9s de circuit de signature sont possibles :",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          34.47103274559194,
+          290.6708984375
+        ],
+        [
+          279.51511335012594,
+          290.6708984375
+        ],
+        [
+          279.51511335012594,
+          300.6607301869991
+        ],
+        [
+          34.47103274559194,
+          300.6607301869991
+        ]
+      ]
+    },
+    {
+      "title": "3 - Inscription du ou de la doctorante \u00e0 l'Universit\u00e9 de Tours et paiement des droits d'inscription.",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          34.47103274559194,
+          432.6215494211932
+        ],
+        [
+          469.85516372795973,
+          432.6215494211932
+        ],
+        [
+          469.85516372795973,
+          441.9677734375
+        ],
+        [
+          34.47103274559194,
+          441.9677734375
+        ]
+      ]
+    },
+    {
+      "title": "4 - Soutenance de th\u00e8se et d\u00e9livrance des dipl\u00f4mes",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          34.47103274559194,
+          574.763671875
+        ],
+        [
+          267.5251889168766,
+          574.763671875
+        ],
+        [
+          267.5251889168766,
+          584.826357969724
+        ],
+        [
+          34.47103274559194,
+          584.826357969724
+        ]
+      ]
+    },
+    {
+      "title": "5- Conditions de r\u00e9alisation de la th\u00e8se en cotutelle",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          34.47103274559194,
+          481.35707925200353
+        ],
+        [
+          267.5251889168766,
+          481.35707925200353
+        ],
+        [
+          267.5251889168766,
+          491.1041852181656
+        ],
+        [
+          34.47103274559194,
+          491.1041852181656
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          67
+        ],
+        [
+          "Span",
+          29
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageFooter",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          63
+        ],
+        [
+          "Span",
+          23
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Picture",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          63
+        ],
+        [
+          "Span",
+          23
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "PageFooter",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          65
+        ],
+        [
+          "Span",
+          27
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Picture",
+          5
+        ],
+        [
+          "PageFooter",
+          4
+        ],
+        [
+          "ListGroup",
+          4
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          9
+        ],
+        [
+          "Span",
+          8
+        ],
+        [
+          "PageFooter",
+          5
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED_Ecoles Doctorales_Principes de la cotutelle de the\u0300se"
+}

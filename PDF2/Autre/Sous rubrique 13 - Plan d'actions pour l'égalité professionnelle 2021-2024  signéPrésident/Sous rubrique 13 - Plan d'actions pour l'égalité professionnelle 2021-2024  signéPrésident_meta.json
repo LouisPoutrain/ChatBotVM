@@ -1,0 +1,1934 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Minist\u00e8re de l'Enseignement Sup\u00e9rieur, de la\nRecherche et de l'Innovation",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          426.14024818093714,
+          101.76171179318789
+        ],
+        [
+          757.9360135556469,
+          101.76171179318789
+        ],
+        [
+          757.9360135556469,
+          119.25200600764205
+        ],
+        [
+          426.14024818093714,
+          119.25200600764205
+        ]
+      ]
+    },
+    {
+      "title": "Plan d'actions pour l'\u00e9galit\u00e9 professionnelle entre les femmes et les hommes 2021-2024",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.72312285377637,
+          119.4468774497509
+        ],
+        [
+          779.1370209278329,
+          119.4468774497509
+        ],
+        [
+          779.1370209278329,
+          127.73214865707438
+        ],
+        [
+          65.72312285377637,
+          127.73214865707438
+        ]
+      ]
+    },
+    {
+      "title": "BIBLIOGRAPHIE SCIENTIFIQUE INDICATIVE",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          65.72312285377637,
+          313.00313141942024
+        ],
+        [
+          328.61561426888187,
+          313.00313141942024
+        ],
+        [
+          328.61561426888187,
+          319.5953761004807
+        ],
+        [
+          65.72312285377637,
+          319.5953761004807
+        ]
+      ]
+    },
+    {
+      "title": "RAPPORTS",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          63.60302211655778,
+          119.78201492323157
+        ],
+        [
+          134.62639681338064,
+          119.78201492323157
+        ],
+        [
+          134.62639681338064,
+          126.13125258684158
+        ],
+        [
+          63.60302211655778,
+          126.13125258684158
+        ]
+      ]
+    },
+    {
+      "title": "CADRE REGLEMENTAIRE",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          63.60302211655778,
+          347.878132134676
+        ],
+        [
+          219.43042630212435,
+          347.878132134676
+        ],
+        [
+          219.43042630212435,
+          354.575964529389
+        ],
+        [
+          63.60302211655778,
+          354.575964529389
+        ]
+      ]
+    },
+    {
+      "title": "1\u00ba \u00c9valuer, pr\u00e9venir et, le cas \u00e9ch\u00e9ant, traiter les \u00e9carts de r\u00e9mun\u00e9ration entre les femmes et les hommes",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          62.46843695640565,
+          83.70000171661377
+        ],
+        [
+          777.0169201906142,
+          83.70000171661377
+        ],
+        [
+          777.0169201906142,
+          90.67500185966492
+        ],
+        [
+          62.46843695640565,
+          90.67500185966492
+        ]
+      ]
+    },
+    {
+      "title": "2\u00b0 Garantir l'\u00e9gal acc\u00e8s des femmes et des hommes aux corps, cadres d'emplois, grades et emplois de la fonction publique",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          62.46843695640565,
+          370.47623199707465
+        ],
+        [
+          779.1370209278329,
+          370.47623199707465
+        ],
+        [
+          779.1370209278329,
+          386.53125792741776
+        ],
+        [
+          62.46843695640565,
+          386.53125792741776
+        ]
+      ]
+    },
+    {
+      "title": "3\u00b0 Favoriser l'articulation entre activit\u00e9 professionnelle et vie personnelle et familiale",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          64.11234319210052,
+          361.8281324207783
+        ],
+        [
+          645.5706744830615,
+          361.8281324207783
+        ],
+        [
+          645.5706744830615,
+          369.4162141658956
+        ],
+        [
+          64.11234319210052,
+          369.4162141658956
+        ]
+      ]
+    },
+    {
+      "title": "4\u00b0 Pr\u00e9venir et traiter les discriminations, les actes de violence, de harc\u00e8lement moral ou sexuel ainsi que les agissements sexistes",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          65.72312285377637,
+          305.8151442951532
+        ],
+        [
+          779.1370209278329,
+          305.8151442951532
+        ],
+        [
+          779.1370209278329,
+          321.4312565922737
+        ],
+        [
+          65.72312285377637,
+          321.4312565922737
+        ]
+      ]
+    },
+    {
+      "title": "Annexe 1 : compl\u00e9ment statistique au bilan social 2020",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          161.10281109809875,
+          87.98147998786035
+        ],
+        [
+          679.4922862785589,
+          87.98147998786035
+        ],
+        [
+          679.4922862785589,
+          97.65000200271606
+        ],
+        [
+          161.10281109809875,
+          97.65000200271606
+        ]
+      ]
+    },
+    {
+      "title": "1. R\u00e9mun\u00e9ration nette mensuelle pour un mois donn\u00e9 en effectifs et en ETP",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          88.7709367275238,
+          114.21562734246254
+        ],
+        [
+          606.3488108445175,
+          114.21562734246254
+        ],
+        [
+          606.3488108445175,
+          121.37204167000013
+        ],
+        [
+          88.7709367275238,
+          121.37204167000013
+        ]
+      ]
+    },
+    {
+      "title": "2. R\u00e9mun\u00e9ration nette moyenne mensuelle de tous les personnels et par sexe",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          88.7709367275238,
+          240.62404767764218
+        ],
+        [
+          619.0694152678291,
+          240.62404767764218
+        ],
+        [
+          619.0694152678291,
+          247.51416358030596
+        ],
+        [
+          88.7709367275238,
+          247.51416358030596
+        ]
+      ]
+    },
+    {
+      "title": "3. R\u00e9mun\u00e9ration nette moyenne mensuelle des personnels BIATSS par cat\u00e9gorie et par sexe",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          87.12703049182892,
+          344.50579513318814
+        ],
+        [
+          715.5339988112751,
+          344.50579513318814
+        ],
+        [
+          715.5339988112751,
+          351.9468822181225
+        ],
+        [
+          87.12703049182892,
+          351.9468822181225
+        ]
+      ]
+    },
+    {
+      "title": "4. R\u00e9mun\u00e9ration nette moyenne mensuelle des personnels BIATSS par cat\u00e9gorie et par sexe",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          89.0442309631809,
+          485.0531349480152
+        ],
+        [
+          716.5940491798843,
+          485.0531349480152
+        ],
+        [
+          716.5940491798843,
+          492.3782825826643
+        ],
+        [
+          89.0442309631809,
+          492.3782825826643
+        ]
+      ]
+    },
+    {
+      "title": "5. Contractuel\u00b7le\u00b7s BIATSS en fonction du sexe et de la cat\u00e9gorie",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          89.0442309631809,
+          233.73393177497843
+        ],
+        [
+          531.0852346732574,
+          233.73393177497843
+        ],
+        [
+          531.0852346732574,
+          240.62404767764218
+        ],
+        [
+          89.0442309631809,
+          240.62404767764218
+        ]
+      ]
+    },
+    {
+      "title": "6. Fonctionnaires BIATSS en fonction du sexe et de la cat\u00e9gorie",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          88.7709367275238,
+          351.3959110358519
+        ],
+        [
+          524.7249324616017,
+          351.3959110358519
+        ],
+        [
+          524.7249324616017,
+          358.92188236117363
+        ],
+        [
+          88.7709367275238,
+          358.92188236117363
+        ]
+      ]
+    },
+    {
+      "title": "7. Part des femmes dans les temps partiels",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          89.0442309631809,
+          75.7912749293014
+        ],
+        [
+          391.2496840953827,
+          75.7912749293014
+        ],
+        [
+          391.2496840953827,
+          82.68139083196516
+        ],
+        [
+          89.0442309631809,
+          82.68139083196516
+        ]
+      ]
+    },
+    {
+      "title": "7.1. Zoom sur les BIATSS:",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          113.42538944119471,
+          172.6312535405159
+        ],
+        [
+          289.3937506303379,
+          172.6312535405159
+        ],
+        [
+          289.3937506303379,
+          179.14301346925785
+        ],
+        [
+          113.42538944119471,
+          179.14301346925785
+        ]
+      ]
+    },
+    {
+      "title": "8. Pour les EC, focus sur les grades \u00e0 l'int\u00e9rieur de chaque corps de fonctionnaires",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          89.0442309631809,
+          265.53446671034965
+        ],
+        [
+          651.9309766947173,
+          265.53446671034965
+        ],
+        [
+          651.9309766947173,
+          273.48460044419244
+        ],
+        [
+          89.0442309631809,
+          273.48460044419244
+        ]
+      ]
+    },
+    {
+      "title": "9. Promouvables, candidat\u00b7e\u00b7s \u00e0 la promotion et promu\u00b7e\u00b7s parmi les EC en fonction du sexe",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          89.0442309631809,
+          363.5861160944109
+        ],
+        [
+          712.3538477054472,
+          363.5861160944109
+        ],
+        [
+          712.3538477054472,
+          371.5362498282537
+        ],
+        [
+          89.0442309631809,
+          371.5362498282537
+        ]
+      ]
+    },
+    {
+      "title": "10. Promouvables, candidat\u00b7e\u00b7s \u00e0 la promotion et promu\u00b7e\u00b7s parmi les BIATSS en fonction du sexe",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          87.9841805945716,
+          75.56250154972076
+        ],
+        [
+          740.9752076578982,
+          75.56250154972076
+        ],
+        [
+          740.9752076578982,
+          83.21139974755468
+        ],
+        [
+          87.9841805945716,
+          83.21139974755468
+        ]
+      ]
+    },
+    {
+      "title": "10.1. Promouvables BIATSS ITRF 2020 (part en % des femmes et des hommes pour chaque grade)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          111.30528870397612,
+          103.17187711596489
+        ],
+        [
+          763.2362653986934,
+          103.17187711596489
+        ],
+        [
+          763.2362653986934,
+          110.77186335820973
+        ],
+        [
+          111.30528870397612,
+          110.77186335820973
+        ]
+      ]
+    },
+    {
+      "title": "10.2. Promouvables BIATSS ITRF 2020 (part en % des femmes et des hommes pour chaque cat\u00e9gorie)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          108.49781155586244,
+          158.47266576126654
+        ],
+        [
+          777.0169201906142,
+          158.47266576126654
+        ],
+        [
+          777.0169201906142,
+          165.94687840342522
+        ],
+        [
+          108.49781155586244,
+          165.94687840342522
+        ]
+      ]
+    },
+    {
+      "title": "10.3. Promouvables BIATSS ITRF 2020 (part en % des femmes et des hommes au sein de chaque BAP)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          63.60302211655778,
+          206.63437923789024
+        ],
+        [
+          775.9568698220049,
+          206.63437923789024
+        ],
+        [
+          775.9568698220049,
+          221.16562953591347
+        ],
+        [
+          63.60302211655778,
+          221.16562953591347
+        ]
+      ]
+    },
+    {
+      "title": "10.4. Promouvables BIATSS AENES 2020 (part en % des femmes et des hommes pour chaque cat\u00e9gorie)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          62.46843695640565,
+          262.14375537633896
+        ],
+        [
+          774.8968194533957,
+          262.14375537633896
+        ],
+        [
+          774.8968194533957,
+          277.7246717689086
+        ],
+        [
+          62.46843695640565,
+          277.7246717689086
+        ]
+      ]
+    },
+    {
+      "title": "10.5. Promouvables BIATSS BIB 2020 (part en % des femmes et des hommes pour chaque cat\u00e9gorie)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          110.14171779155733,
+          319.06536718489116
+        ],
+        [
+          777.0169201906142,
+          319.06536718489116
+        ],
+        [
+          777.0169201906142,
+          326.4854920031445
+        ],
+        [
+          110.14171779155733,
+          326.4854920031445
+        ]
+      ]
+    },
+    {
+      "title": "11. Taux de f\u00e9minisation (%) de la PEDR sur les 4 derni\u00e8res ann\u00e9es, en fonction des statuts (MCF/PR)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          87.9841805945716,
+          367.29617850353753
+        ],
+        [
+          769.5965676103492,
+          367.29617850353753
+        ],
+        [
+          769.5965676103492,
+          375.2463122373803
+        ],
+        [
+          87.9841805945716,
+          375.2463122373803
+        ]
+      ]
+    },
+    {
+      "title": "12. Taux de f\u00e9minisation des CRCT sur les 4 derni\u00e8res ann\u00e9es",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          89.0442309631809,
+          75.26126601371188
+        ],
+        [
+          505.64402582663433,
+          75.26126601371188
+        ],
+        [
+          505.64402582663433,
+          82.68139083196516
+        ],
+        [
+          89.0442309631809,
+          82.68139083196516
+        ]
+      ]
+    },
+    {
+      "title": "12.1. Nombre de CRCT au titre du CNU et de l'\u00e9tablissement",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          65.72312285377637,
+          104.941765286725
+        ],
+        [
+          467.48221255669966,
+          104.941765286725
+        ],
+        [
+          467.48221255669966,
+          112.36189010497829
+        ],
+        [
+          65.72312285377637,
+          112.36189010497829
+        ]
+      ]
+    },
+    {
+      "title": "13. La parentalit\u00e9",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          89.0442309631809,
+          178.08299563807878
+        ],
+        [
+          213.07012409046857,
+          178.08299563807878
+        ],
+        [
+          213.07012409046857,
+          185.7093788087368
+        ],
+        [
+          89.0442309631809,
+          185.7093788087368
+        ]
+      ]
+    },
+    {
+      "title": "13.1. Donn\u00e9es sur les cong\u00e9s li\u00e9s \u00e0 la famille",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          113.42538944119471,
+          193.9832631057644
+        ],
+        [
+          410.2394926517977,
+          193.9832631057644
+        ],
+        [
+          410.2394926517977,
+          202.46340575519673
+        ],
+        [
+          113.42538944119471,
+          202.46340575519673
+        ]
+      ]
+    },
+    {
+      "title": "13.2. Donn\u00e9es sur le nombre d'enfants",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          112.60757714509965,
+          351.9259199514414
+        ],
+        [
+          372.07767938186305,
+          351.9259199514414
+        ],
+        [
+          372.07767938186305,
+          359.87605368528426
+        ],
+        [
+          112.60757714509965,
+          359.87605368528426
+        ]
+      ]
+    },
+    {
+      "title": "13.3. Zoom sur les BIATSS",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          111.30528870397612,
+          83.21139974755468
+        ],
+        [
+          289.3937506303379,
+          83.21139974755468
+        ],
+        [
+          289.3937506303379,
+          90.10151565021845
+        ],
+        [
+          111.30528870397612,
+          90.10151565021845
+        ]
+      ]
+    },
+    {
+      "title": "13.4. Zoom sur les Enseignants-Chercheurs",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          111.30528870397612,
+          169.07284407305696
+        ],
+        [
+          404.9392408087512,
+          169.07284407305696
+        ],
+        [
+          404.9392408087512,
+          177.5718786418438
+        ],
+        [
+          111.30528870397612,
+          177.5718786418438
+        ]
+      ]
+    },
+    {
+      "title": "14. Les recrutements d'Enseignants-Chercheurs en 2019",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          87.9841805945716,
+          256.5243151453278
+        ],
+        [
+          471.72241403113685,
+          256.5243151453278
+        ],
+        [
+          471.72241403113685,
+          265.0044577947601
+        ],
+        [
+          87.9841805945716,
+          265.0044577947601
+        ]
+      ]
+    },
+    {
+      "title": "15. Taux de f\u00e9minisation des comit\u00e9s de s\u00e9lection en 2019",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          87.9841805945716,
+          323.8354474251969
+        ],
+        [
+          482.32291771722987,
+          323.8354474251969
+        ],
+        [
+          482.32291771722987,
+          331.25557224345016
+        ],
+        [
+          87.9841805945716,
+          331.25557224345016
+        ]
+      ]
+    },
+    {
+      "title": "16. Taux de f\u00e9minisation des pr\u00e9sidences des comit\u00e9s de s\u00e9lection en 2019.",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          87.9841805945716,
+          387.9665262115288
+        ],
+        [
+          598.9284582642524,
+          387.9665262115288
+        ],
+        [
+          598.9284582642524,
+          396.1218831241131
+        ],
+        [
+          87.9841805945716,
+          396.1218831241131
+        ]
+      ]
+    },
+    {
+      "title": "17. R\u00e9partition sexu\u00e9e des postes de direction administrative : DGS + directeur\u00b7trices de services centraux + responsables administratif\u00b7ve\u00b7s",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          89.0442309631809,
+          74.20124818253284
+        ],
+        [
+          778.0769705592236,
+          74.20124818253284
+        ],
+        [
+          778.0769705592236,
+          90.63152456580796
+        ],
+        [
+          89.0442309631809,
+          90.63152456580796
+        ]
+      ]
+    },
+    {
+      "title": "18. R\u00e9partition sexu\u00e9e des \u00e9lu\u00b7e\u00b7s du CA",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          89.0442309631809,
+          162.1827281703932
+        ],
+        [
+          362.53722606437935,
+          162.1827281703932
+        ],
+        [
+          362.53722606437935,
+          170.8875035047531
+        ],
+        [
+          89.0442309631809,
+          170.8875035047531
+        ]
+      ]
+    },
+    {
+      "title": "19. R\u00e9partition sexu\u00e9e des \u00e9lu\u00b7e\u00b7s de la Commission Recherche",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          89.0442309631809,
+          278.78468960008763
+        ],
+        [
+          514.1244287755087,
+          278.78468960008763
+        ],
+        [
+          514.1244287755087,
+          286.84688088297844
+        ],
+        [
+          89.0442309631809,
+          286.84688088297844
+        ]
+      ]
+    },
+    {
+      "title": "20. R\u00e9partition sexu\u00e9e des \u00e9lu\u00b7e\u00b7s de la CFVU",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          87.12703049182892,
+          395.91665994537163
+        ],
+        [
+          395.3987874912675,
+          395.91665994537163
+        ],
+        [
+          395.3987874912675,
+          403.8667936792144
+        ],
+        [
+          87.12703049182892,
+          403.8667936792144
+        ]
+      ]
+    },
+    {
+      "title": "21. Taux de f\u00e9minisation : \u00e9quipe pr\u00e9sidentielle",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          87.9841805945716,
+          82.68139083196516
+        ],
+        [
+          410.2394926517977,
+          82.68139083196516
+        ],
+        [
+          410.2394926517977,
+          91.691542396987
+        ],
+        [
+          87.9841805945716,
+          91.691542396987
+        ]
+      ]
+    },
+    {
+      "title": "22. Taux de f\u00e9minisation : directeurs et directrices d'unit\u00e9s de recherche",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          87.12703049182892,
+          138.33232696886478
+        ],
+        [
+          579.8475516292851,
+          138.33232696886478
+        ],
+        [
+          579.8475516292851,
+          146.81246961829711
+        ],
+        [
+          87.12703049182892,
+          146.81246961829711
+        ]
+      ]
+    },
+    {
+      "title": "Annexe 2: indices",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          336.0359668491469,
+          76.32128384489091
+        ],
+        [
+          507.764126563853,
+          76.32128384489091
+        ],
+        [
+          507.764126563853,
+          84.57187673449516
+        ],
+        [
+          336.0359668491469,
+          84.57187673449516
+        ]
+      ]
+    },
+    {
+      "title": "Indices hors sant\u00e9",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          68.90327395960426,
+          207.21562924981117
+        ],
+        [
+          220.49047667073364,
+          207.21562924981117
+        ],
+        [
+          220.49047667073364,
+          215.18361972934522
+        ],
+        [
+          68.90327395960426,
+          215.18361972934522
+        ]
+      ]
+    },
+    {
+      "title": "Indices sant\u00e9",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          71.09894469380379,
+          368.8031325638294
+        ],
+        [
+          180.20856266358038,
+          368.8031325638294
+        ],
+        [
+          180.20856266358038,
+          376.8363389841489
+        ],
+        [
+          71.09894469380379,
+          376.8363389841489
+        ]
+      ]
+    },
+    {
+      "title": "Indices population g\u00e9n\u00e9rale",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          65.72312285377637,
+          108.12181878026213
+        ],
+        [
+          298.9342039478216,
+          108.12181878026213
+        ],
+        [
+          298.9342039478216,
+          118.72199709205253
+        ],
+        [
+          65.72312285377637,
+          118.72199709205253
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          53
+        ],
+        [
+          "Span",
+          26
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "PageFooter",
+          8
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          63
+        ],
+        [
+          "Span",
+          29
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "PageFooter",
+          7
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          68
+        ],
+        [
+          "Span",
+          34
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "PageFooter",
+          8
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          69
+        ],
+        [
+          "Span",
+          43
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "PageFooter",
+          8
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          55
+        ],
+        [
+          "Span",
+          30
+        ],
+        [
+          "PageFooter",
+          8
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          60
+        ],
+        [
+          "Span",
+          20
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageFooter",
+          5
+        ],
+        [
+          "Picture",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          61
+        ],
+        [
+          "Span",
+          30
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "PageFooter",
+          9
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          62
+        ],
+        [
+          "Span",
+          24
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageFooter",
+          8
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          24
+        ],
+        [
+          "Span",
+          19
+        ],
+        [
+          "PageFooter",
+          9
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          67
+        ],
+        [
+          "Span",
+          36
+        ],
+        [
+          "TableCell",
+          29
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "PageFooter",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          83
+        ],
+        [
+          "Line",
+          18
+        ],
+        [
+          "Span",
+          18
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageFooter",
+          8
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          139
+        ],
+        [
+          "Span",
+          19
+        ],
+        [
+          "Line",
+          18
+        ],
+        [
+          "PageFooter",
+          7
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Table",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          159
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Span",
+          18
+        ],
+        [
+          "PageFooter",
+          8
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "Table",
+          6
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Span",
+          19
+        ],
+        [
+          "Line",
+          17
+        ],
+        [
+          "PageFooter",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Table",
+          4
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          92
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "Span",
+          13
+        ],
+        [
+          "PageFooter",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Table",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          116
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "Span",
+          15
+        ],
+        [
+          "PageFooter",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Table",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          24
+        ],
+        [
+          "Line",
+          13
+        ],
+        [
+          "Span",
+          10
+        ],
+        [
+          "PageFooter",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          62
+        ],
+        [
+          "Line",
+          54
+        ],
+        [
+          "Span",
+          33
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageFooter",
+          5
+        ],
+        [
+          "Picture",
+          4
+        ],
+        [
+          "Table",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          28
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "Span",
+          9
+        ],
+        [
+          "PageFooter",
+          8
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/Sous rubrique 13 - Plan d'actions pour l'e\u0301galite\u0301 professionnelle 2021-2024  signe\u0301Pre\u0301sident"
+}

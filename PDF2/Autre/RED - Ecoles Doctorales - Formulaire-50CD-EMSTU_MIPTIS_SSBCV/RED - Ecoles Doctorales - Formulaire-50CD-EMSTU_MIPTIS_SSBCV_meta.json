@@ -1,0 +1,99 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Fiche de validation des 50 cr\u00e9dits doctoraux (CD)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          137.95828885095244,
+          43.48295863653439
+        ],
+        [
+          465.6092248719645,
+          43.48295863653439
+        ],
+        [
+          465.6092248719645,
+          58.47708230430487
+        ],
+        [
+          137.95828885095244,
+          58.47708230430487
+        ]
+      ]
+    },
+    {
+      "title": "Merci de remplir les rubriques ci-dessous",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          191.94196709697732,
+          262.6889199614525
+        ],
+        [
+          396.6300804464883,
+          262.6889199614525
+        ],
+        [
+          396.6300804464883,
+          273.6427569368113
+        ],
+        [
+          191.94196709697732,
+          273.6427569368113
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          20
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "Span",
+          7
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED - Ecoles Doctorales - Formulaire-50CD-EMSTU_MIPTIS_SSBCV"
+}

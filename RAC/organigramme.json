@@ -1,0 +1,226 @@
+[
+  {
+    "nom": "Direction de la recherche et de la valorisation",
+    "acronyme": "DRV",
+    "email": "isabelle.guillouet@univ-tours.fr",
+    "parent": null,
+    "description": "Direction globale gérant la recherche, la valorisation, les études doctorales, le budget de la recherche et les partenariats de l'université."
+  },
+  {
+    "nom": "Secrétariat de direction DRV",
+    "acronyme": null,
+    "email": "aurelie.petereau@univ-tours.fr",
+    "parent": "Direction de la recherche et de la valorisation",
+    "description": "Assure l'assistance administrative et le secrétariat de la directrice de la DRV."
+  },
+  {
+    "nom": "Pôle Juridique Recherche",
+    "acronyme": null,
+    "email": "morgane.guibert@univ-tours.fr",
+    "parent": "Direction de la recherche et de la valorisation",
+    "description": "Gère les aspects juridiques et contentieux liés aux activités de recherche. Responsable : Morgane Guibert. Équipe : Anouk Martinet, Simon Lethereau."
+  },
+  {
+    "nom": "Service de la Recherche et des Etudes Doctorales",
+    "acronyme": null,
+    "email": "isabelle.guillouet@univ-tours.fr",
+    "parent": "Direction de la recherche et de la valorisation",
+    "description": "Supervise l'administration de la recherche, les habilitations, les études et les écoles doctorales."
+  },
+  {
+    "nom": "Habilitations à diriger des recherches",
+    "acronyme": "HDR",
+    "email": "aurelie.petereau@univ-tours.fr",
+    "parent": "Service de la Recherche et des Etudes Doctorales",
+    "description": "Gère la procédure administrative d'inscription et de soutenance des HDR."
+  },
+  {
+    "nom": "Administration et gestion de la recherche",
+    "acronyme": null,
+    "email": "caroline.vaslin@univ-tours.fr",
+    "parent": "Service de la Recherche et des Etudes Doctorales",
+    "description": "Assure le suivi et la gestion courante des instances de recherche. Équipe : Caroline Vaslin, Simon Lethereau."
+  },
+  {
+    "nom": "Etudes doctorales",
+    "acronyme": null,
+    "email": "guillaume.fialeix@univ-tours.fr",
+    "parent": "Service de la Recherche et des Etudes Doctorales",
+    "description": "Gère la scolarité et le cursus des doctorants. Équipe : Guillaume Fialeix, Christèle Gaudron."
+  },
+  {
+    "nom": "Insertion professionnelle des doctorants et docteurs / Promotion du doctorat",
+    "acronyme": null,
+    "email": "claire.mirebeau@univ-tours.fr",
+    "parent": "Service de la Recherche et des Etudes Doctorales",
+    "description": "Accompagne la poursuite de carrière des jeunes chercheurs."
+  },
+  {
+    "nom": "Administration et gestion des écoles doctorales",
+    "acronyme": "ED",
+    "email": "veronica.ruhaut-serrano@univ-tours.fr",
+    "parent": "Service de la Recherche et des Etudes Doctorales",
+    "description": "Gère le fonctionnement transversal des écoles doctorales. Responsable : Verónica Ruhaut-Serrano. Équipe : Marie Clermonté, Lucie Primault."
+  },
+  {
+    "nom": "Pôle Sciences Avec et Pour la Société",
+    "acronyme": "SAPS",
+    "email": "alice.nue@univ-tours.fr",
+    "parent": "Service de la Recherche et des Etudes Doctorales",
+    "description": "Pilote les actions de médiation scientifique. Responsable : Alice Nué. Équipe : Audrey Richard."
+  },
+  {
+    "nom": "TEEPPEE",
+    "acronyme": null,
+    "email": "caroline.didier@univ-tours.fr",
+    "parent": "Pôle Sciences Avec et Pour la Société",
+    "description": "Transition Écologique, Économique et Participative pour des Projets Étudiants et Entreprises. Responsable : Caroline Didier. Équipe : Sophie Lamotte, Camille Tiffon, Flavie Bertin."
+  },
+  {
+    "nom": "Service Partenariats, Innovations et Valorisation",
+    "acronyme": "SPIV",
+    "email": "eric.bricout@univ-tours.fr",
+    "parent": "Direction de la recherche et de la valorisation",
+    "description": "Gère les contrats de recherche et l'innovation. Responsable : Eric Bricout. Adjoint : Claude-Emmanuel Boudet."
+  },
+  {
+    "nom": "Secrétariat Partenariats",
+    "acronyme": null,
+    "email": "alexandra.cavarec@univ-tours.fr",
+    "parent": "Service Partenariats, Innovations et Valorisation",
+    "description": "Assure le secrétariat du service en charge des partenariats."
+  },
+  {
+    "nom": "Pôle Ingénierie projet",
+    "acronyme": null,
+    "email": "justine.gillet@univ-tours.fr",
+    "parent": "Service Partenariats, Innovations et Valorisation",
+    "description": "Montage de projets. Sciences et tech: Justine Gillet. Santé: C-E. Boudet, H. Jullien. SHS: Mélanie Fauconnier. Sciences de la vie/sociales: Laurine Drugat. Europe: Franziska Metzinger, Marie-Agnès Benoit."
+  },
+  {
+    "nom": "Pôle gestion administrative (Partenariats)",
+    "acronyme": null,
+    "email": "laurie.azile@univ-tours.fr",
+    "parent": "Service Partenariats, Innovations et Valorisation",
+    "description": "Gestion admin des contrats. SHS/Vie/Sociales : Laurie Azile. Santé/PI : Sonia Lacour. Santé/Tech/Europe : Louise Terray."
+  },
+  {
+    "nom": "Unité d'Appui à la Recherche METIS",
+    "acronyme": "METIS",
+    "email": null,
+    "parent": "Service Partenariats, Innovations et Valorisation",
+    "description": "Regroupe les CETU. CETU INNOPHYT : Ingrid Arnault. CETU ELMIS : Nina Richard, Philippe Jugé. CETU ETICS : Christèle Assegond. CETU ILIAD3 : Barthélémy Serres."
+  },
+  {
+    "nom": "Antenne Financière Recherche et Valorisation",
+    "acronyme": "AFRV",
+    "email": "marie.perault@univ-tours.fr",
+    "parent": "Direction de la recherche et de la valorisation",
+    "description": "Gestion financière. Responsable : Marie Perault. Adjoint : Sylvain Rivière."
+  },
+  {
+    "nom": "Antenne financière centrale",
+    "acronyme": null,
+    "email": "sylvain.riviere@univ-tours.fr",
+    "parent": "Antenne Financière Recherche et Valorisation",
+    "description": "Suivi financier centralisé. Responsable: Sylvain Rivière. Équipe: Ruth Kamsu, Alexandra Lezy, Danièle Dagault, Pauline Carli, Sophie Canfora."
+  },
+  {
+    "nom": "Cellule recettes des projets de recherche",
+    "acronyme": null,
+    "email": "nathalie.auburtin@univ-tours.fr",
+    "parent": "Antenne Financière Recherche et Valorisation",
+    "description": "Émission des titres de recettes. Équipe : Nathalie Auburtin (50%), Guylaine Pagé."
+  },
+  {
+    "nom": "AFRV Sciences-Pharmacie",
+    "acronyme": null,
+    "email": "isabelle.bronchart@univ-tours.fr",
+    "parent": "Antenne Financière Recherche et Valorisation",
+    "description": "Antenne délocalisée Sciences et Pharmacie. Responsable: I. Bronchart. Équipe: Katia Proust, Nathalie Tessier, Hélène Marzin, Séverine Neslias."
+  },
+  {
+    "nom": "AFRV Médecine",
+    "acronyme": null,
+    "email": "isabelle.thurmel@univ-tours.fr",
+    "parent": "Antenne Financière Recherche et Valorisation",
+    "description": "Antenne délocalisée Médecine. Responsable: I. Thurmel. Équipe: Christelle Grange, Déborah Leblanc, Leila Kbaier, Sylvie Lefrançois, Mathilde Amiari Mood."
+  },
+  {
+    "nom": "AFRV CITERES CETU MSH",
+    "acronyme": null,
+    "email": "karine.latouche@univ-tours.fr",
+    "parent": "Antenne Financière Recherche et Valorisation",
+    "description": "Antenne délocalisée SHS. Responsable: Karine Latouche. Équipe: Sylvie Garnier, Magali Valide, Ulvi Altin."
+  },
+  {
+    "nom": "Presses Universitaires François-Rabelais",
+    "acronyme": "PUFR",
+    "email": "mickael.robert@univ-tours.fr",
+    "parent": "Direction de la recherche et de la valorisation",
+    "description": "Maison d'édition de l'université. Directeur : Mickaël Robert."
+  },
+  {
+    "nom": "Secrétariat PUFR",
+    "acronyme": null,
+    "email": "alexandra.cavarec@univ-tours.fr",
+    "parent": "Presses Universitaires François-Rabelais",
+    "description": "Secrétariat des presses universitaires. Contact : Alexandra Cavarec."
+  },
+  {
+    "nom": "Pôle Editorial PUFR",
+    "acronyme": null,
+    "email": "charlotte.boutreux@univ-tours.fr",
+    "parent": "Presses Universitaires François-Rabelais",
+    "description": "Travail éditorial des ouvrages. Équipe : Charlotte Boutreux, Xavier Denis."
+  },
+  {
+    "nom": "Pôle diffusion / Communication PUFR",
+    "acronyme": null,
+    "email": "pauline.real@univ-tours.fr",
+    "parent": "Presses Universitaires François-Rabelais",
+    "description": "Diffusion et communication des publications. Contact : Pauline Réal."
+  },
+  {
+    "nom": "Production / Commercialisation PUFR",
+    "acronyme": null,
+    "email": "christine.martin@univ-tours.fr",
+    "parent": "Presses Universitaires François-Rabelais",
+    "description": "Production et vente des ouvrages. Contact : Christine Martin."
+  },
+  {
+    "nom": "Service d'ingénierie des Projets Transversaux",
+    "acronyme": null,
+    "email": "marie.guirriec@univ-tours.fr",
+    "parent": "Direction de la recherche et de la valorisation",
+    "description": "Pilote les grands projets transversaux. Responsable : Marie Guirriec."
+  },
+  {
+    "nom": "Gestion administrative et financière (Projets Transversaux)",
+    "acronyme": null,
+    "email": "isabelle.gougeon@univ-tours.fr",
+    "parent": "Service d'ingénierie des Projets Transversaux",
+    "description": "Assistance administrative et financière. Contact : Isabelle Gougeon."
+  },
+  {
+    "nom": "Loire Val-Health",
+    "acronyme": null,
+    "email": "dorothee.leroux@univ-tours.fr",
+    "parent": "Service d'ingénierie des Projets Transversaux",
+    "description": "Projet santé régional. Responsable: Dorothée Leroux. Équipe: Louis Lantier, Ilona Moutoussamy, Julia Capdeville."
+  },
+  {
+    "nom": "PUI Loire Valley Innov'",
+    "acronyme": "PUI",
+    "email": "marc.bonnemaison@univ-tours.fr",
+    "parent": "Service d'ingénierie des Projets Transversaux",
+    "description": "Pôle Universitaire d'Innovation. Responsable : Marc Bonnemaison."
+  },
+  {
+    "nom": "NEOLAIA",
+    "acronyme": null,
+    "email": "celine.bodin@univ-tours.fr",
+    "parent": "Service d'ingénierie des Projets Transversaux",
+    "description": "Alliance européenne NEOLAIA. Resp: Céline Bodin. Équipe: Claire Durand, Benjamin Depauw, Hélène Legrand, Julia Capdeville."
+  }
+]

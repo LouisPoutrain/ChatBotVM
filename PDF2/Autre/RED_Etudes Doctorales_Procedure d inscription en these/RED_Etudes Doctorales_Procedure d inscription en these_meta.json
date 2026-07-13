@@ -1,0 +1,179 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Proc\u00e9dure d'inscription en 1\u00e8re ann\u00e9e de th\u00e8se",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          131.73275336623192,
+          143.90331655740738
+        ],
+        [
+          459.2179603816578,
+          143.90331655740738
+        ],
+        [
+          459.2179603816578,
+          157.06019121408463
+        ],
+        [
+          131.73275336623192,
+          157.06019121408463
+        ]
+      ]
+    },
+    {
+      "title": "ATTENTION: vous devez avoir l'accord d'un directeur de th\u00e8se avant de\nd\u00e9buter cette proc\u00e9dure et attendre la date d'ouverture des inscriptions.",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          64.26697239279747,
+          194.95137514435385
+        ],
+        [
+          531.1346393321295,
+          194.95137514435385
+        ],
+        [
+          531.1346393321295,
+          220.78880283236504
+        ],
+        [
+          64.26697239279747,
+          220.78880283236504
+        ]
+      ]
+    },
+    {
+      "title": "Pour toute information compl\u00e9mentaire vous pouvez contacter votre\ngestionnaire d'\u00e9cole doctorale :",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          78.65886760207842,
+          413.14695270976523
+        ],
+        [
+          516.1519978841146,
+          413.14695270976523
+        ],
+        [
+          516.1519978841146,
+          438.28838700056076
+        ],
+        [
+          78.65886760207842,
+          438.28838700056076
+        ]
+      ]
+    },
+    {
+      "title": "Universit\u00e9 de Tours:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          59.181433719659005,
+          473.1319912157203
+        ],
+        [
+          181.28996152098074,
+          473.1319912157203
+        ],
+        [
+          181.28996152098074,
+          483.5151436328888
+        ],
+        [
+          59.181433719659005,
+          483.5151436328888
+        ]
+      ]
+    },
+    {
+      "title": "INSA:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          58.43230164725826,
+          556.2891065776348
+        ],
+        [
+          96.63803733969634,
+          556.2891065776348
+        ],
+        [
+          96.63803733969634,
+          566.858613881275
+        ],
+        [
+          58.43230164725826,
+          566.858613881275
+        ]
+      ]
+    },
+    {
+      "title": "Universit\u00e9 d'Orl\u00e9ans:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          59.181433719659005,
+          623.8444004619323
+        ],
+        [
+          185.7847539553852,
+          623.8444004619323
+        ],
+        [
+          185.7847539553852,
+          634.8192021846771
+        ],
+        [
+          59.181433719659005,
+          634.8192021846771
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          25
+        ],
+        [
+          "Span",
+          25
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Picture",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/RED_Etudes Doctorales_Procedure d inscription en these"
+}
