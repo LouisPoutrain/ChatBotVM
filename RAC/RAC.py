@@ -698,7 +698,7 @@ class ContactRAG:
             "reason": self._extract_tag_block(raw, "reason") or self._extract_tag_block(raw, "raison") or None,
         }
 
-    def find_relevant_file(self, question: str, limit: int = 5) -> tuple[Optional[str], list[dict[str, Any]]]:
+    def find_relevant_file(self, question: str, limit: int = 10) -> tuple[Optional[str], list[dict[str, Any]]]:
         file_max_scores: dict[str, float] = defaultdict(float)
         file_hits: dict[str, list[dict[str, Any]]] = defaultdict(list)
         file_exact_match_bonus: dict[str, float] = defaultdict(float)
@@ -750,7 +750,7 @@ class ContactRAG:
     def is_pending(self, session_id: str = "default") -> bool:
         return session_id in self.pending_states
 
-    def ask(self, question: str, llm_model: str = "mistral-medium-latest", limit: int = 5, session_id: str = "default") -> ContactRAGResult:
+    def ask(self, question: str, llm_model: str = "mistral-medium-latest", limit: int = 10, session_id: str = "default") -> ContactRAGResult:
         """
         Point d'entrée principal du Routeur Expert.
         
