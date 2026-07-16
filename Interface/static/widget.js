@@ -397,6 +397,7 @@
                     <div class="univ-avatar univ-avatar-bot">VI</div>
                     <div class="univ-message univ-msg-bot">
                         <p>Bonjour ! Je suis VICTORIA le ChatBot de la DRV. Je peux vous aider à trouver des informations sur les formations, les procédures administratives, et vous orienter vers les bons contacts.</p>
+                        <p>Afin de m'aider à vous répondre au mieux, merci d'être le plus précis possible dans vos questions.</p>
                         <p>Comment puis-je vous aider aujourd'hui ?</p>
                     </div>
                 </div>
