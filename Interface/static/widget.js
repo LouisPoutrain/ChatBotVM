@@ -227,8 +227,8 @@
             background: transparent;
             color: white;
             overflow: hidden;
-            width: 50px;
-            height: 50px;
+            width: 70px;
+            height: 70px;
             box-shadow: none;
         }
 
