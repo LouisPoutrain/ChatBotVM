@@ -224,9 +224,12 @@
         }
 
         .univ-avatar-bot {
-            background: ${PRIMARY_COLOR};
+            background: transparent;
             color: white;
             overflow: hidden;
+            width: 50px;
+            height: 50px;
+            box-shadow: none;
         }
 
         .univ-message {
