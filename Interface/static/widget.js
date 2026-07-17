@@ -226,6 +226,7 @@
         .univ-avatar-bot {
             background: ${PRIMARY_COLOR};
             color: white;
+            overflow: hidden;
         }
 
         .univ-message {
@@ -394,7 +395,7 @@
             </div>
             <div id="univ-chat-messages">
                 <div class="univ-message-wrapper">
-                    <div class="univ-avatar univ-avatar-bot">VI</div>
+                    <div class="univ-avatar univ-avatar-bot"><img src="${apiBaseUrl}/static/Chat.png" style="width: 100%; height: 100%; object-fit: cover;" alt="Bot"></div>
                     <div class="univ-message univ-msg-bot">
                         <p>Bonjour ! Je suis VICTORIA le ChatBot de la DRV. Je peux vous aider à trouver des informations sur les formations, les procédures administratives, et vous orienter vers les bons contacts.</p>
                         <p>Afin de m'aider à vous répondre au mieux, merci d'être le plus précis possible dans vos questions.</p>
@@ -402,7 +403,7 @@
                     </div>
                 </div>
                 <div class="univ-typing-wrapper" id="univ-typing">
-                    <div class="univ-avatar univ-avatar-bot">VI</div>
+                    <div class="univ-avatar univ-avatar-bot"><img src="${apiBaseUrl}/static/Chat.png" style="width: 100%; height: 100%; object-fit: cover;" alt="Bot"></div>
                     <div class="univ-typing-indicator">
                         <div class="univ-dot"></div><div class="univ-dot"></div><div class="univ-dot"></div>
                     </div>
@@ -541,7 +542,11 @@
         
         const avatar = document.createElement("div");
         avatar.className = `univ-avatar univ-avatar-\${sender}`;
-        avatar.textContent = sender === 'user' ? 'U' : 'AI';
+        if (sender === 'user') {
+            avatar.textContent = 'U';
+        } else {
+            avatar.innerHTML = `<img src="${apiBaseUrl}/static/Chat.png" style="width: 100%; height: 100%; object-fit: cover;" alt="Bot">`;
+        }
 
         const div = document.createElement("div");
         div.className = `univ-message univ-msg-\${sender}`;
