@@ -4,7 +4,7 @@
     const currentScript = document.currentScript;
     const apiBaseUrl = currentScript ? new URL(currentScript.src).origin : "http://127.0.0.1:8600";
     const API_URL = `${apiBaseUrl}/api/chat`;
-    const PRIMARY_COLOR = "#f97316"; // Orange
+    const PRIMARY_COLOR = "#ea580c"; // Orange vibrant (inspiré de l'image)
     const BOT_NAME = "VICTORIA";
     
     // Generate a unique session ID for the user
@@ -31,11 +31,11 @@
 
         /* Floating Action Button */
         #univ-fab {
-            width: 60px;
-            height: 60px;
+            width: 75px;
+            height: 75px;
             border-radius: 50%;
-            background: linear-gradient(135deg, ${PRIMARY_COLOR}, #64748b);
-            box-shadow: 0 4px 20px rgba(14, 165, 233, 0.4);
+            background: ${PRIMARY_COLOR};
+            box-shadow: 0 4px 20px rgba(234, 88, 12, 0.4);
             cursor: pointer;
             display: flex;
             align-items: center;
@@ -48,12 +48,12 @@
 
         #univ-fab:hover {
             transform: scale(1.1);
-            box-shadow: 0 6px 25px rgba(14, 165, 233, 0.6);
+            box-shadow: 0 6px 25px rgba(234, 88, 12, 0.6);
         }
 
         #univ-fab svg {
-            width: 28px;
-            height: 28px;
+            width: 36px;
+            height: 36px;
             fill: white;
             transition: transform 0.3s ease;
         }
@@ -61,7 +61,7 @@
         /* Tooltip */
         #univ-chat-tooltip {
             position: absolute;
-            bottom: 75px;
+            bottom: 90px;
             right: 0;
             background: white;
             color: #334155;
@@ -144,7 +144,7 @@
 
         /* Header */
         #univ-chat-header {
-            background: linear-gradient(135deg, ${PRIMARY_COLOR}, #64748b);
+            background: ${PRIMARY_COLOR};
             padding: 20px;
             color: white;
             display: flex;
@@ -224,7 +224,7 @@
         }
 
         .univ-avatar-bot {
-            background: linear-gradient(135deg, ${PRIMARY_COLOR}, #64748b);
+            background: ${PRIMARY_COLOR};
             color: white;
         }
 
