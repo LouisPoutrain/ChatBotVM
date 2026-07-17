@@ -1,17 +1,17 @@
 Missions principales
 
-- Le gestionnaire des études doctorales SST traite les dossiers d'inscription, de réinscription et de soutenance de son périmètre.
-- Il traite également les demandes de candidatures et d'aide à la mobilité pour des congrès ou des séjours de recherche dans un laboratoire étranger relevant du secteur SST.
+- Le gestionnaire des études doctorales SST (MIPTIS/SSBCV/EMSTU) traite les dossiers d'inscription, de réinscription et de soutenance de son périmètre.
+- Il traite également les demandes de candidatures et d'aide à la mobilité pour des congrès ou des séjours de recherche dans un laboratoire étranger relevant du secteur SST (MIPTIS/SSBCV/EMSTU).
 - Il est le contact privilégié pour l'organisation de la Cérémonie des Docteurs.
 - Il édite les diplômes, en binôme avec la gestionnaire SHS.
 
 Périmètre d'intervention
 
-- Inscriptions SST
-- Réinscriptions SST
-- Soutenances SST
-- Candidatures en thèse SST
-- Aide à la mobilité / séjour de recherche dans un laboratoire étranger SST
+- Inscriptions SST (MIPTIS/SSBCV/EMSTU)
+- Réinscriptions SST (MIPTIS/SSBCV/EMSTU)
+- Soutenances SST (MIPTIS/SSBCV/EMSTU)
+- Candidatures en thèse SST (MIPTIS/SSBCV/EMSTU)
+- Aide à la mobilité / séjour de recherche dans un laboratoire étranger SST (MIPTIS/SSBCV/EMSTU)
 - Édition des diplômes
 - Cérémonie des Docteurs
 - Validat/Finencement d'un colloque 

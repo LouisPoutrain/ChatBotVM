@@ -1,5 +1,7 @@
 Missions principales
 
+Prend en charge les écoles doctorales : H&L et SSTED 
+
 - Inscription en doctorat.
 - Réinscription en doctorat.
 - Soutenance de thèse.
