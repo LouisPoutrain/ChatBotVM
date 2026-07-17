@@ -126,7 +126,12 @@ if static_dir.exists():
 # Configuration CORS : CRUCIAL pour autoriser le widget (qui sera sur un autre domaine) à appeler l'API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # En production, remplacez "*" par ["https://www.univ-tours.fr"]
+        allow_origins=[
+        "https://utnet.univ-tours.fr",
+        "https://www.univ-tours.fr",  # Au cas où
+        "http://localhost:8600",
+        "http://127.0.0.1:8600"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
