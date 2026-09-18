@@ -14,7 +14,7 @@
 
 L'illustration ci-dessous presente une execution reelle du pipeline d'inference VICTORIA traitant une requete reglementaire complexe avec expansion selective, filtrage neuronal et resolution automatique du referent administratif :
 
-![Demonstration d'Execution VICTORIA](docs/site/assets/demo_execution.svg)
+![Demonstration d'Execution VICTORIA](docs/site/assets/demo_execution.png)
 
 ---
 

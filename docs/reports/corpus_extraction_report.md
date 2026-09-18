@@ -31,12 +31,21 @@ Data extracted and validated from the systematic batch run logs (`TestExtraction
 
 ## 3. Departmental Distribution
 
+Corpus Breakdown by Source Directory (120 source PDFs parsed into 188 Markdown files in `PDF2/`):
+
 ```
-Corpus Breakdown by Administrative Service:
-├── RED (Doctoral Studies & Regulations) : 58 documents (48.3%)
-├── AFRV (Financial Management & Claims)  : 24 documents (20.0%)
-├── SPIV (Partnerships, Tech Transfer)   : 20 documents (16.7%)
-└── PJR (Legal, IP, Ethics)              : 18 documents (15.0%)
+Source Corpus Distribution:
+├── Autre (Recherche, Écoles Doctorales, HDR, Soutenances, Chartes, SAPS) : 103 documents (85.8%)
+├── AFRV (Antenne Financière de la Recherche et Valorisation)             : 9 documents (7.5%)
+├── PJR (Pôle Juridique Recherche, Propriété Intellectuelle)              : 5 documents (4.2%)
+└── SPIV (Partenariats, Contrats et Ingénierie de Valorisation)           : 3 documents (2.5%)
+
+Post-processing Corpus in PDF2/ (188 structured Markdown files):
+├── Autre/ (Règlements, soutenances, HDR, guides)                        : 113 fichiers Markdown
+├── Guide du DU/ (Directives et vademecum des directeurs d'unités)        : 50 fichiers Markdown
+├── PJR/ (Fiches juridiques, PI, conventions)                             : 10 fichiers Markdown
+├── AFRV/ (Dépenses, avenants, certificats administratifs)                : 9 fichiers Markdown
+└── SPIV/ (Montage de projets, prestations de recherche)                  : 6 fichiers Markdown
 ```
 
 ---
