@@ -1,28 +1,102 @@
-# Environments
-.env
-venv/
-env/
-ENV/
-
-# Logs
-Log/
-*.log
+# ==============================================================================
+# Git Ignore - VICTORIA RAG Repository
+# ==============================================================================
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
 
-# Mac OS
-.DS_Store
-.AppleDouble
-.LSOverride
+# C/C++ build artifacts & Cython
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# IDEs
+# Virtual Environments
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor files
 .idea/
 .vscode/
 *.swp
 *.swo
+*~
+*.sublime-workspace
+*.sublime-project
 
-# Test directory
-test/
+# OS Generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Testing & Coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Logs and runtime traces
+*.log
+Log/
+**/logs/*.txt
+**/logs/*.log
+data/logs/
+
+# Heavy data, caches, temporary archives
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# Vector databases & internal Qdrant storage
+TestExtraction/qdrant_data/
+**/qdrant_data/
+**/infocontact/
+*.sqlite
+*.sqlite3
+.lock
+
+# Raw download dump (dynamically synchronized via Utbox.py)
+data/downloads/
+
+# Streamlit / Gradio runtime caches
+.gradio/
+.streamlit/
