@@ -47,7 +47,7 @@ Le projet **VICTORIA** (*Virtual Intelligent Conversational Tool for Organizatio
   [ Ingestion Marker OCR ] ----- Conversion haute fidelite PDF vers Markdown structure (PDF2/)
               |
               v
-  [ Decoupage Chunking ] ------- RecursiveCharacterTextSplitter (800 car., chevauchement 150)
+  [ Decoupage Chunking ] ------- RecursiveCharacterTextSplitter (3200 car., chevauchement 350)
               |
       +-------+-------+
       |               |
@@ -82,43 +82,67 @@ Le projet **VICTORIA** (*Virtual Intelligent Conversational Tool for Organizatio
 
 ---
 
-## Resultats Experimentaux et Benchmarks Authentiques
+## Resultats Experimentaux et Validation Empirique Fondee
 
-L'ensemble des metriques ci-apres provient de l'analyse instrumentee des 120 documents sources du corpus et des 57 sessions d'interaction reelles executees en environnement universitaire (rapports detailles consultables dans [`docs/reports/`](docs/reports/)).
+L'ensemble des indicateurs quantitatifs ci-apres est strictement fonde sur les donnees reelles du depot : le rapport d'audit unitaire d'ingestion documentaire (`TestExtraction/logs/marker_test_report.json`), les 188 fichiers Markdown du corpus structure (`PDF2/`) et les 57 sessions d'interaction reelles en production (`data/logs/rag_chat_logs.txt`). Les etudes detaillees sont documentees dans le repertoire [`docs/reports/`](docs/reports/).
 
-### 1. Metriques Globales du Corpus Institutionnel
+### 1. Metriques d'Ingestion du Corpus Institutionnel (Audit Marker)
 
-| Indicateur Technique | Valeur Mesuree | Observation Methodologique |
+Le pipeline d'extraction OCR structuree a ete execute sur l'integralite du fond documentaire de la DRV :
+
+| Indicateur Technique | Valeur Verifiee | Source et Observation Methodologique |
 |---|---|---|
-| Documents PDF traites | 120 fichiers | Couverture exhaustive AFRV, SPIV, RED, PJR |
-| Volume cumule de pages | 904 pages | Moyenne de 7,53 pages par document |
-| Volume source sur disque | 100,44 Mo | Moyenne de 0,84 Mo par fichier |
-| Volume textuel extrait | 2 268 697 caracteres | Payload Markdown propre indexe dans `PDF2/` |
-| Lexique utile normalise | 243 396 mots | Tokens exploitables pour l'indexation dense/creuse |
-| Ratio de densite alphabetique | 0,6438 | Taux de caracteres alphabetiques valides |
-| Documents scannes traites | 21 documents (17,5%) | Detection automatique et bascule OCR Tesseract 300 DPI |
-| Taux de succes de conversion | 100,0% | Zero plantage ou echec sur la suite de conversion |
+| Documents sources traites | 120 fichiers PDF | `TestExtraction/logs/marker_test_report.json` (100% du corpus brut DRV) |
+| Volume cumule de pages | 904 pages | Moyenne mesuree de 7,53 pages par document |
+| Empreinte brute sur disque | 100,44 Mo | Moyenne de 0,84 Mo par fichier source |
+| Volume textuel extrait | 2 268 697 caracteres | Payload textuel Markdown nettoye et normalise |
+| Lexique utile normalise | 243 396 mots | Tokens exploitables pour l'indexation dense et lexicale |
+| Ratio de densite alphabetique | 0,6438 | Taux moyen de caracteres alphabetiques valides par fichier |
+| Documents scannes traites | 21 documents (17,5%) | Documents sans couche texte orientes vers l'OCR Tesseract (300 DPI) |
+| Taux de succes de conversion | 100,0% (120 / 120) | Zero defaillance bloquante constatee lors de l'ingestion |
+| Corpus structure resultant | 188 fichiers Markdown | Indexe dans `PDF2/` : Autre (113), Guide DU (50), PJR (10), AFRV (9), SPIV (6) |
 
-### 2. Comparaison Objective avec les Architectures Baselines
+### 2. Telemetrie et Analyse des 57 Sessions d'Inference Reelles
 
-Les tests ont ete menes sur le banc d'essai standard de 57 requetes administratives reelles issues des journaux de production :
+L'analyse exhaustive des 57 sessions enregistrees dans les journaux d'execution (`data/logs/rag_chat_logs.txt`) etablit le profil operationnel suivant :
 
-| Configuration Architecturale | Rappel Top-5 | Correspondance Acronymes | Routage Referent RAC | Taux d'Hallucination | Latence Moyenne (p50) |
+| Dimension d'Evaluation | Valeur Mesuree | Observation Empirique |
+|---|---|---|
+| Periode d'enregistrement | 11 au 29 juin 2026 | 57 sessions reelles tracees avec requete, routage, passages et reponse |
+| Longueur moyenne des questions | 7,8 mots (min: 1, max: 22) | Spectre large : du sigle isole (`LIFAT`, `HDR`) a la formulation complexe |
+| Aiguillage thématique (Domaines) | RED/Autre: 54,4% · AFRV: 35,1% · SPIV: 10,5% | 31 sessions Autre, 20 sessions AFRV, 6 sessions SPIV |
+| Contournement HyDE (Bypass) | 91,2% (52 / 57 sessions) | Desactivation selective automatique sur detection d'acronymes ou definitions |
+| Activation de la synthese HyDE | 8,8% (5 / 57 sessions) | Generation d'un document hypothetique pour les requetes ouvertes |
+| Affectation d'un referent RAC | 57,9% (33 / 57 sessions) | Appariement reussi avec un gestionnaire administratif nominatif qualifie |
+| Requetes d'information transversale | 42,1% (24 / 57 sessions) | Questions reglementaires generales sans instructeur individuel requis |
+| Convergence boucle agentique | 1,05 iteration en moyenne | 54 sessions resolues en 1 iteration (94,7%), 3 sessions en 2 iterations (5,3%) |
+| Passages documentaires exploites | 3,93 passages en moyenne | 224 passages injectes au total dans les contextes LLM (top-k borne a 5) |
+
+### 3. Matrice d'Analyse Comparative et Proprietes Architecturales
+
+Conformement aux principes de rigueur scientifique, en l'absence d'evaluation automatique a grande echelle de systemes tiers sur ce jeu de donnees ferme, la comparaison ci-apres synthetise les proprietes formelles et le comportement qualitatif demontre par les architectures :
+
+| Propriete / Approche | LLM Zero-Shot (Sans RAG) | Recherche Lexicale (BM25 seul) | Recherche Dense (E5 seul) | Hybride RRF (BM25 + E5) | Pipeline VICTORIA |
 |---|---|---|---|---|---|
-| **Baseline 1 : LLM Zero-Shot (Sans RAG)** | N/A | 14,0% | 0,0% | 68,4% | 0,85 s |
-| **Baseline 2 : Recherche Lexicale (BM25 seul)** | 63,2% | 89,5% | 0,0% | 28,1% | 0,95 s |
-| **Baseline 3 : Recherche Dense (Multilingual-E5)** | 71,9% | 52,6% | 0,0% | 19,3% | 1,15 s |
-| **Baseline 4 : Hybride RRF (BM25 + Dense E5)** | 84,2% | 91,2% | 0,0% | 10,5% | 1,22 s |
-| **VICTORIA (Hybride + Reranker + RAC + HyDE)** | **94,7%** | **96,5%** | **57,9%** | **< 2,5%** | **1,78 s** |
+| **Modele de recuperation** | Memoire parametrique | Fréquentiel creux TF-IDF | Cosinus vectoriel 1024-d | Fusion rangs reciproques | RRF bi-modal + Cross-Encoder |
+| **Precision sur sigles metiers** | Defaillante (hallucinations) | Elevee sur mot exact | Risque de dilution semantique | Elevee par complementarite | Maximale (Bypass HyDE cible) |
+| **Comprehension conceptuelle** | Elevee mais non sourcee | Nulle (silence sur synonymes) | Elevee | Elevee | Elevee + Reranking neuronal |
+| **Elimination des faux positifs** | Inapplicable | Faible (chevauchement fortuit) | Moyenne (proximite vectorielle) | Moyenne | Robuste (Cross-Encoder BGE-M3) |
+| **Actionnabilite administrative** | Aucune | Aucune | Aucune | Aucune | Integree (Routeur RAC nominatif) |
+| **Cadre theorique de reference** | Brown et al. (2020) | Robertson & Zaragoza (2009) | Wang et al. (2022) | Cormack et al. (2009) | Lewis et al. (2020) ; Xiao et al. (2023) |
 
-### 3. Analyse des Goulots d'Etranglement et Optimisations
+### 4. Parametrage d'Ingenierie Valide dans le Code
 
-1. **Latence du Cross-Encoder** :
-   - *Constat* : Le calcul de l'attention croisee sur 20 candidats entraine une charge de 280 ms sur CPU (~90 ms sur GPU / MPS).
-   - *Optimisation appliquee* : Pruning dynamique des candidats reduisant l'evaluation a 10 passages lorsque l'ecart de score RRF entre le rang 1 et le rang 10 depasse le seuil empirique de 0,35.
-2. **Preservation des Acronymes par Contournement HyDE** :
-   - *Constat* : L'expansion HyDE diluait les sigles courts (ex. *BBV*, *LIFAT*, *HDR*) en inventant des definitions non institutionnelles.
-   - *Optimisation appliquee* : Algorithme de bypass automatique sur detection d'acronymes, activant un ciblage direct du filtre de fichier et de domaine (91,2% des requetes acronymes preservees).
+Les composants du pipeline sont configures conformement aux specifications verifiees dans le code source :
+1. **Selection et Reranking (`BV/BV.py`)** :
+   - Prefetch Qdrant : 20 candidats denses (`intfloat/multilingual-e5-large`) et 20 candidats creux (`FastEmbed Qdrant/bm25`), fusionnes par Reciprocal Rank Fusion avec constante standard $k=60$.
+   - Reclassement par le Cross-Encoder `BAAI/bge-reranker-v2-m3` (fenetre de 512 tokens) sur les 20 candidats, puis extraction du top-5 pour l'inference generative.
+2. **Detection d'Acronymes et Preservation HyDE (`RAGilaas/RAGilaas.py`)** :
+   - Expression reguliere de capture syntaxique `\b[A-Z][A-Z0-9-]{1,}\b` et filtre lexical sur les termes de definition (`c'est quoi`, `signifie`, `definition`).
+   - Contournement automatique sur 91,2% des sessions de production pour garantir l'absence de derive hallucinee sur le vocabulaire institutionnel.
+3. **Decoupage Documentaire Differencie** :
+   - Index documentaire principal (`BV/BV.py`) : `max_chars = 3200`, `overlap_chars = 350` preservant l'integrite contextuelle des articles reglementaires et tableaux financiers.
+   - Index des fiches de competences (`RAC/qdrant.py`) : `chunk_size = 900`, `chunk_overlap = 120` calibre pour des attributions de missions atomiques.
 
 ---
 

@@ -1,67 +1,59 @@
 # Benchmarks & Empirical Evaluation Report
 
-## 1. Experimental Methodology
+## 1. Experimental Methodology and Scope
 
-The evaluation methodology measures the retrieval accuracy, routing precision, and generation fidelity of the VICTORIA RAG system across authentic user sessions collected within the university environment.
+This empirical evaluation report analyzes the operational performance, routing accuracy, and retrieval characteristics of the VICTORIA RAG system across authentic user sessions collected within the university environment.
 
-The test set reflects actual queries submitted by researchers, doctoral candidates, administrative directors, and project leaders at the University of Tours.
+The test set reflects actual queries submitted by researchers, doctoral candidates, administrative directors, and project leaders to the Direction de la Recherche et de la Valorisation (DRV) at the University of Tours between June 11, 2026 and June 29, 2026. All raw telemetry is preserved in [`data/logs/rag_chat_logs.txt`](../../data/logs/rag_chat_logs.txt).
 
 ---
 
-## 2. Quantitative Performance Metrics
+## 2. Quantitative Telemetry from Authentic Production Logs
 
-Data analyzed directly from production runtime logs:
+Exhaustive extraction from the 57 validated interaction sessions:
 
-| Performance Metric | Measured Value | Operational Impact |
+| Performance Dimension | Measured Value | Methodology & Source Evidence |
 |---|---|---|
-| Total Validated Interaction Sessions | 57 queries | Representative institutional sample |
-| Expert Contact Resolution Rate | 57.9% (33 / 57) | Queries correctly mapped to a designated referent |
-| HyDE Selective Bypass Rate | 91.2% (52 / 57) | Acronym queries preserved from semantic drift |
-| Average Agentic Loop Iterations | 1.09 iterations | Minimal conversational re-query overhead |
-| Source Grounding Rate | 94.7% | Verified administrative citation in output |
-| Factual Hallucination Rate | < 2.5% | Negligible procedural inaccuracies |
+| Total Validated Interaction Sessions | 57 sessions | Continuous production query trace in `rag_chat_logs.txt` |
+| Query Length Spectrum | 7.8 words avg (min: 1, max: 22) | Spans raw acronyms (`LIFAT`, `HDR`) to multi-sentence procedural queries |
+| Administrative Domain Routing | RED/Autre: 54.4% (31) · AFRV: 35.1% (20) · SPIV: 10.5% (6) | Automated classification mapped to corresponding university directorate units |
+| HyDE Selective Bypass Rate | 91.2% (52 / 57 sessions) | Regex acronym capture and definition pattern bypass preventing semantic hallucination |
+| HyDE Active Generation Rate | 8.8% (5 / 57 sessions) | Selective synthetic expansion for conceptual and exploratory queries |
+| Expert Contact Resolution Rate | 57.9% (33 / 57 sessions) | Successful automated pairing with a certified institutional administrative officer |
+| Transversal / General Queries | 42.1% (24 / 57 sessions) | High-level regulatory questions handled without specific individual officer needed |
+| Agentic Reasoning Loop Depth | 1.05 iterations avg | 54 sessions resolved in 1 iteration (94.7%), 3 sessions in 2 iterations (5.3%) |
+| Retrieved Documentary Context | 3.93 chunks avg (224 total) | Top-k bounded documentary passages injected into LLM context window |
 
 ---
 
-## 3. Comparative Baseline Analysis
+## 3. Comparative Architectural Properties Matrix
 
-To demonstrate the architectural advantage of VICTORIA, we evaluated five distinct architectural configurations across the benchmark test suite:
+To maintain absolute scientific integrity, rather than presenting unverified simulated retrieval scores for third-party systems on this private institutional dataset, the matrix below outlines the formal properties and qualitative trade-offs established in information retrieval literature:
 
-| Architecture Configuration | Top-5 Retrieval Recall | Exact Token Match (Acronyms) | Human Referent Routing | Hallucination Rate | End-to-End Latency (p50) |
+| Architecture Configuration | Retrieval Paradigm | Handling of Local Acronyms | Resistance to Lexical Noise | Organizational Actionability | Theoretical Foundation |
 |---|---|---|---|---|---|
-| **Baseline 1: Zero-Shot LLM (No RAG)** | N/A | 14.0% | 0.0% | 68.4% | ~0.85 s |
-| **Baseline 2: Pure BM25 Lexical** | 63.2% | 89.5% | 0.0% | 28.1% | ~0.95 s |
-| **Baseline 3: Pure Dense Vector (E5)** | 71.9% | 52.6% | 0.0% | 19.3% | ~1.15 s |
-| **Baseline 4: Hybrid (BM25 + E5 RRF)** | 84.2% | 91.2% | 0.0% | 10.5% | ~1.22 s |
-| **VICTORIA (Hybrid + Reranker + HyDE + RAC)** | **94.7%** | **96.5%** | **57.9% (Auto-Referral)** | **< 2.5%** | **~1.78 s** |
-
-### Key Findings from Baseline Comparison:
-1. **Zero-Shot Failure** : Standard LLMs lack awareness of local university procedures and fabricate fictional administrative steps.
-2. **Dense vs Sparse Complementarity** : BM25 excels at specific unit codes (`LIFAT`, `BBV`) and procedure acronyms (`HDR`, `ADUM`), while Multilingual-E5 captures complex natural language phrasing ("aide financière pour participer à un congrès à l'étranger"). Their hybrid fusion via RRF eliminates blind spots.
-3. **Cross-Encoder Impact** : The `BAAI/bge-reranker-v2-m3` reranker filters out noisy paragraphs with high lexical overlap but irrelevant context, reducing downstream hallucination by more than 75%.
-4. **RAC Organizational Routing** : Uniquely enables the system to provide actionable operational resolution by pairing formal rules with the authorized human contact.
+| **Zero-Shot LLM (No RAG)** | Parametric internal weights | Fails (hallucinates local policies) | Zero (interpolates missing data) | None (no human contact) | Brown et al. (2020) |
+| **Pure BM25 (Lexical Only)** | Sparse term-frequency (TF-IDF) | High on exact string match (`HDR`, `LIFAT`) | Low (vulnerable to synonyms / phrasing) | None (raw text only) | Robertson & Zaragoza (2009) |
+| **Pure Dense Vector (E5)** | 1024-d cosine similarity | Moderate (semantic dilution on short codes) | Moderate (false positive vector drift) | None (unaware of org chart) | Wang et al. (2022) |
+| **Hybrid RRF (BM25 + E5)** | Reciprocal Rank Fusion ($k=60$) | High (combines lexical & semantic signals) | Moderate (lexical traps may persist in top-k) | None (no officer routing) | Cormack et al. (2009) |
+| **VICTORIA Pipeline** | Bi-modal RRF + Cross-Encoder | Maximal (automated HyDE bypass + regex) | Robust (`BAAI/bge-reranker-v2-m3` cross-attention) | Integrated (RAC router + contact cards) | Lewis et al. (2020) ; Xiao et al. (2023) |
 
 ---
 
-## 4. Latency Profiling and Component Decomposition
+## 4. Subsystem Pipeline Configuration and Runtime Specifications
 
-```
-Typical End-to-End Request Latency (p50: 1.78s, p95: 2.94s):
-├── Query Pre-processing & HyDE Routing : 45 ms  (2.5%)
-├── Dense Vector Embedding (E5)         : 120 ms (6.7%)
-├── Sparse Vector Embedding (FastEmbed) : 15 ms  (0.8%)
-├── Qdrant Hybrid Lookup & RRF Fusion   : 22 ms  (1.2%)
-├── Cross-Encoder Reranking (Top-20->5) : 280 ms (15.7%)
-├── LLM Generation & Verification       : 1300 ms (73.0%)
-```
+The production pipeline components operate under verified configurations:
 
----
+1. **Dual Candidate Retrieval (`BV/BV.py`)** :
+   - Parallel prefetch in Qdrant: 20 dense candidate vectors (`intfloat/multilingual-e5-large`) and 20 sparse candidate vectors (`FastEmbed Qdrant/bm25`).
+   - Merged using Reciprocal Rank Fusion (RRF) with standard smoothing factor $k=60$.
+2. **Full Cross-Attention Reranking (`BV/BV.py`)** :
+   - The Cross-Encoder `BAAI/bge-reranker-v2-m3` evaluates the query against all 20 retrieved candidates with a max sequence length of 512 tokens.
+   - The candidates are sorted by cross-attention score, and only the top-$k$ passages ($k=5$ default) are passed forward to the generator.
+3. **Automated Acronym Bypass Engine (`RAGilaas/RAGilaas.py`)** :
+   - Syntactic regex filter `\b[A-Z][A-Z0-9-]{1,}\b` combined with definition query triggers (`c'est quoi`, `signifie`, `définition`).
+   - Automatically bypasses hypothetical document generation for 91.2% of sessions, eliminating hallucinated acronym expansions while activating HyDE for complex exploratory questions.
+4. **Calibrated Text Segmentation** :
+   - Regulatory corpus (`BV/BV.py`): `max_chars = 3200`, `overlap_chars = 350` preserving integrity of legal articles and financial allowance tables.
+   - Organizational directory (`RAC/qdrant.py`): `chunk_size = 900`, `chunk_overlap = 120` ensuring concise, atomic duty specifications.
 
-## 5. Identified Bottlenecks and Engineering Solutions
-
-1. **Reranker Latency Overhead** :
-   - *Observation* : Cross-attention computation on 20 candidates introduces a ~280ms CPU penalty (~90ms on Apple Silicon MPS / CUDA).
-   - *Optimization* : Dynamic candidate pruning (evaluating top-10 candidates when the RRF fusion score margin between rank 1 and 10 exceeds 0.35).
-2. **Cold Start Latency** :
-   - *Observation* : Initial user queries experienced a 3.5s delay due to model weight loading.
-   - *Optimization* : Implementation of FastAPI startup pre-warming (`@app.on_event("startup")`) which loads E5, BM25, and Cross-Encoder into memory before opening the HTTP port.

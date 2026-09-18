@@ -737,9 +737,9 @@
             <div class="metric-desc">Structured Markdown via Marker OCR with 100% conversion reliability.</div>
         </div>
         <div class="metric-card">
-            <div class="metric-label">Top-5 Retrieval Recall</div>
-            <div class="metric-val">94.7<span>%</span></div>
-            <div class="metric-desc">Measured on 57 production queries vs 63.2% for pure BM25.</div>
+            <div class="metric-label">HyDE Acronym Bypass</div>
+            <div class="metric-val">91.2<span>%</span></div>
+            <div class="metric-desc">52 of 57 production sessions automatically bypassed to preserve exact institutional tokens.</div>
         </div>
         <div class="metric-card">
             <div class="metric-label">Expert Contact Routing</div>
@@ -895,9 +895,9 @@
         <!-- TAB 3: BENCHMARKS -->
         <div id="tab-benchmarks" class="tab-panel">
             <div class="section-header">
-                <h2 class="section-title">Empirical Benchmark Results</h2>
+                <h2 class="section-title">Telemetry &amp; Empirical Production Analysis</h2>
                 <p class="section-subtitle">
-                    Comparative evaluation across 5 distinct architectural baselines using authentic user query sessions collected on production workloads.
+                    Exhaustive analysis of the 57 authentic query sessions recorded in continuous production runtime logs (<code>data/logs/rag_chat_logs.txt</code>) between June 11 and June 29, 2026.
                 </p>
             </div>
 
@@ -905,108 +905,119 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>Architecture Baseline</th>
-                            <th>Top-5 Recall</th>
-                            <th>Exact Token Match</th>
-                            <th>RAC Routing Rate</th>
-                            <th>Hallucination Rate</th>
-                            <th>End-to-End Latency</th>
+                            <th>Evaluation Dimension</th>
+                            <th>Measured Value</th>
+                            <th>Operational Insight &amp; Methodology</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Zero-Shot LLM (No RAG)</td>
-                            <td>N/A</td>
-                            <td>14.0%</td>
-                            <td>0.0%</td>
-                            <td>68.4%</td>
-                            <td>~0.85 s</td>
+                            <td><strong>Total Production Sessions Analyzed</strong></td>
+                            <td><code>57 sessions</code></td>
+                            <td>Continuous production runtime trace logged in <code>data/logs/rag_chat_logs.txt</code></td>
                         </tr>
                         <tr>
-                            <td>Pure BM25 (Lexical Only)</td>
-                            <td>63.2%</td>
-                            <td>89.5%</td>
-                            <td>0.0%</td>
-                            <td>28.1%</td>
-                            <td>~0.95 s</td>
+                            <td><strong>User Query Length Spectrum</strong></td>
+                            <td><code>7.8 words avg</code> (min: 1, max: 22)</td>
+                            <td>Spans concise unit codes (<code>LIFAT</code>, <code>HDR</code>) to multi-sentence regulatory questions</td>
                         </tr>
                         <tr>
-                            <td>Dense Vector (Multilingual-E5)</td>
-                            <td>71.9%</td>
-                            <td>52.6%</td>
-                            <td>0.0%</td>
-                            <td>19.3%</td>
-                            <td>~1.15 s</td>
+                            <td><strong>Institutional Domain Routing</strong></td>
+                            <td>RED/Autre: <code>54.4%</code> (31) · AFRV: <code>35.1%</code> (20) · SPIV: <code>10.5%</code> (6)</td>
+                            <td>Automated domain tagging routing queries to the responsible university administrative directorate</td>
                         </tr>
                         <tr>
-                            <td>Hybrid (BM25 + Dense E5 RRF)</td>
-                            <td>84.2%</td>
-                            <td>91.2%</td>
-                            <td>0.0%</td>
-                            <td>10.5%</td>
-                            <td>~1.22 s</td>
+                            <td><strong>HyDE Selective Bypass Rate</strong></td>
+                            <td><code>91.2%</code> (52 / 57 sessions)</td>
+                            <td>Syntactic regex capture and definition pattern bypass preventing semantic hallucination on acronyms</td>
+                        </tr>
+                        <tr>
+                            <td><strong>HyDE Active Expansion Rate</strong></td>
+                            <td><code>8.8%</code> (5 / 57 sessions)</td>
+                            <td>Hypothetical document generation triggered selectively for exploratory and conceptual queries</td>
                         </tr>
                         <tr class="highlight-row">
-                            <td>VICTORIA (Hybrid + Reranker + RAC + HyDE)</td>
-                            <td>94.7%</td>
-                            <td>96.5%</td>
-                            <td>57.9%</td>
-                            <td>&lt; 2.5%</td>
-                            <td>~1.78 s</td>
+                            <td><strong>Expert Contact Resolution (RAC)</strong></td>
+                            <td><code>57.9%</code> (33 / 57 sessions)</td>
+                            <td>Direct assignment of a certified administrative officer with official university contact information</td>
+                        </tr>
+                        <tr>
+                            <td><strong>General Transversal Guidance</strong></td>
+                            <td><code>42.1%</code> (24 / 57 sessions)</td>
+                            <td>Regulatory and procedural answers delivered without requiring a specific dedicated officer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Agentic Loop Reasoning Depth</strong></td>
+                            <td><code>1.05 iterations avg</code></td>
+                            <td>54 sessions resolved in 1 iteration (94.7%), 3 sessions requiring 2 iterations (5.3%)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Documentary Context Exploited</strong></td>
+                            <td><code>3.93 passages avg</code> (224 total)</td>
+                            <td>Top-k passages injected into LLM context window after cross-encoder filtering (top-k=5 max)</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
 
             <div class="section-header" style="margin-top: 2.5rem;">
-                <h3 class="section-title" style="font-size: 1.35rem;">Component Latency Breakdown (p50: 1.78s)</h3>
+                <h3 class="section-title" style="font-size: 1.35rem;">Architectural Properties Comparison Matrix</h3>
+                <p class="section-subtitle">
+                    Qualitative and theoretical characteristics grounded in formal information retrieval literature (Robertson &amp; Zaragoza 2009, Gao et al. 2022, Lewis et al. 2020, Xiao et al. 2023).
+                </p>
             </div>
             <div class="table-responsive">
                 <table>
                     <thead>
                         <tr>
-                            <th>Subsystem Step</th>
-                            <th>Mean Latency</th>
-                            <th>Share (%)</th>
-                            <th>Implementation Details</th>
+                            <th>Architecture Paradigm</th>
+                            <th>Retrieval Mechanism</th>
+                            <th>Acronym Fidelity</th>
+                            <th>Noise Robustness</th>
+                            <th>Organizational Routing</th>
+                            <th>Scientific Grounding</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Query Pre-Processing & HyDE Router</td>
-                            <td>45 ms</td>
-                            <td>2.5%</td>
-                            <td>Regex entity detection and acronym dictionary lookup</td>
+                            <td><strong>LLM Zero-Shot (No RAG)</strong></td>
+                            <td>Parametric internal weights</td>
+                            <td>Low (hallucinates local policies)</td>
+                            <td>None (interpolates missing data)</td>
+                            <td>None</td>
+                            <td>Brown et al. (2020)</td>
                         </tr>
                         <tr>
-                            <td>Dense Embedding Generation</td>
-                            <td>120 ms</td>
-                            <td>6.7%</td>
-                            <td><code>intfloat/multilingual-e5-large</code> (MPS / CUDA accelerated)</td>
+                            <td><strong>Pure BM25 (Lexical Only)</strong></td>
+                            <td>Sparse term-frequency (TF-IDF)</td>
+                            <td>High on exact string match</td>
+                            <td>Low (vulnerable to synonyms)</td>
+                            <td>None</td>
+                            <td>Robertson &amp; Zaragoza (2009)</td>
                         </tr>
                         <tr>
-                            <td>Sparse Embedding Generation</td>
-                            <td>15 ms</td>
-                            <td>0.8%</td>
-                            <td>FastEmbed <code>Qdrant/bm25</code> sparse tokenizer</td>
+                            <td><strong>Pure Dense Vector (E5)</strong></td>
+                            <td>1024-d cosine similarity</td>
+                            <td>Moderate (semantic dilution)</td>
+                            <td>Moderate (vector drift)</td>
+                            <td>None</td>
+                            <td>Wang et al. (2022)</td>
                         </tr>
                         <tr>
-                            <td>Qdrant Hybrid Lookup & RRF</td>
-                            <td>22 ms</td>
-                            <td>1.2%</td>
-                            <td>HNSW dense + sparse posting list intersection (k=60)</td>
+                            <td><strong>Hybrid RRF (BM25 + E5)</strong></td>
+                            <td>Reciprocal Rank Fusion (k=60)</td>
+                            <td>High (lexical + dense)</td>
+                            <td>Moderate (top-k lexical traps)</td>
+                            <td>None</td>
+                            <td>Cormack et al. (2009)</td>
                         </tr>
-                        <tr>
-                            <td>Cross-Encoder Neural Reranking</td>
-                            <td>280 ms</td>
-                            <td>15.7%</td>
-                            <td><code>BAAI/bge-reranker-v2-m3</code> (Top-20 candidates pruned to 5)</td>
-                        </tr>
-                        <tr>
-                            <td>LLM Generation & Factuality Guardrails</td>
-                            <td>1300 ms</td>
-                            <td>73.0%</td>
-                            <td>Streaming token generation via Mistral Medium / ILaaS</td>
+                        <tr class="highlight-row">
+                            <td><strong>VICTORIA Pipeline</strong></td>
+                            <td>Bi-modal RRF + Cross-Encoder</td>
+                            <td>Maximal (HyDE bypass + regex)</td>
+                            <td>Robust (BGE-M3 cross-attention)</td>
+                            <td>Integrated (RAC router)</td>
+                            <td>Lewis et al. (2020); Xiao et al. (2023)</td>
                         </tr>
                     </tbody>
                 </table>

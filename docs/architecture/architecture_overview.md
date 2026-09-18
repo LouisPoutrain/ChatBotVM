@@ -23,7 +23,7 @@ To address these constraints, VICTORIA integrates a dual-route architecture comb
 [ Ingestion & OCR Pipeline (Marker.py / PyMuPDF / Tesseract) ]
                         │
                         ▼ (Structured Markdown Corpus: PDF2/)
-[ Document Chunking (RecursiveCharacterTextSplitter: 800c / 150o) ]
+[ Document Chunking (RecursiveCharacterTextSplitter: 3200c / 350o) ]
                         │
        ┌────────────────┴────────────────┐
        ▼                                 ▼
@@ -85,7 +85,7 @@ To address these constraints, VICTORIA integrates a dual-route architecture comb
 ### 2. Indexation and Hybrid Vector Engine (`BV/BV.py`)
 
 - **Chunking Strategy** :
-  `RecursiveCharacterTextSplitter` configured with chunk size of 800 characters and overlap of 150 characters, splitting hierarchically along paragraph boundaries (`\n\n`), sentence boundaries (`\n`), and punctuation marks.
+  `RecursiveCharacterTextSplitter` configured with chunk size of 3200 characters and overlap of 350 characters in `BV/BV.py` (preserving article and tabular integrity in `pdf2_documents`), and 900 characters with 120 characters overlap in `RAC/qdrant.py` for atomic role descriptors. Splits hierarchically along paragraph boundaries (`\n\n`), line breaks (`\n`), and spaces.
 - **Dense Representation** :
   `intfloat/multilingual-e5-large` (1024-dimensional dense vectors). Asymmetric encoding protocol:
   - Document passages prefixed with: `passage: `
