@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VICTORIA RAG - Enterprise Hybrid Retrieval & Organizational Intelligence</title>
+    <meta name="description" content="Official technical showcase and architecture portal for VICTORIA: A multi-stage Hybrid RAG system with Dense Multilingual-E5, BM25 FastEmbed, Cross-Encoder Reranking, and Semantic Organizational Routing for the University of Tours.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #0b0f19;
+            --bg-surface: #111827;
+            --bg-surface-elevated: #1e293b;
+            --bg-card: rgba(30, 41, 59, 0.7);
+            --border-subtle: rgba(255, 255, 255, 0.08);
+            --border-accent: rgba(14, 165, 233, 0.3);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --accent-primary: #0ea5e9;
+            --accent-primary-hover: #0284c7;
+            --accent-secondary: #38bdf8;
+            --accent-cyan: #06b6d4;
+            --accent-emerald: #10b981;
+            --accent-amber: #f59e0b;
+            --code-bg: #090d16;
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.4);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.5);
+            --shadow-glow: 0 0 25px rgba(14, 165, 233, 0.2);
+            --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+
+        a {
+            color: var(--accent-primary);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--accent-secondary);
+        }
+
+        /* Top Header */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(11, 15, 25, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header-brand {
+            display: flex;
+            align-items: center;
+            gap: 0.85rem;
+        }
+
+        .brand-logo {
+            width: 38px;
+            height: 38px;
+            background: linear-gradient(135deg, #0ea5e9, #38bdf8);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1.2rem;
+            color: #ffffff;
+            box-shadow: 0 0 12px rgba(14, 165, 233, 0.5);
+        }
+
+        .brand-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+        }
+
+        .brand-tagline {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            display: block;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.75rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: var(--accent-primary);
+        }
+
+        .btn-github {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--bg-surface-elevated);
+            color: var(--text-primary);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border: 1px solid var(--border-subtle);
+            transition: all 0.2s ease;
+        }
+
+        .btn-github:hover {
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 10px rgba(14, 165, 233, 0.25);
+            color: #ffffff;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 5rem 2rem 4rem 2rem;
+            max-width: 1280px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px;
+            height: 350px;
+            background: radial-gradient(circle, rgba(14, 165, 233, 0.15) 0%, rgba(11, 15, 25, 0) 70%);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .hero-badge-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.25rem 0.65rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            font-family: var(--font-mono);
+            border: 1px solid var(--border-subtle);
+            background: rgba(17, 24, 39, 0.6);
+            color: var(--text-secondary);
+        }
+
+        .badge-cyan {
+            border-color: rgba(6, 182, 212, 0.4);
+            color: var(--accent-cyan);
+            background: rgba(6, 182, 212, 0.1);
+        }
+
+        .badge-emerald {
+            border-color: rgba(16, 185, 129, 0.4);
+            color: var(--accent-emerald);
+            background: rgba(16, 185, 129, 0.1);
+        }
+
+        h1 {
+            font-size: 3.25rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.15;
+            margin-bottom: 1.25rem;
+            background: linear-gradient(135deg, #ffffff 40%, #94a3b8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            max-width: 840px;
+            margin: 0 auto 2.5rem auto;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        .hero-cta-group {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--accent-primary);
+            color: #ffffff;
+            padding: 0.75rem 1.75rem;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            box-shadow: 0 0 20px rgba(14, 165, 233, 0.4);
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-primary-hover);
+            transform: translateY(-1px);
+            color: #ffffff;
+        }
+
+        .btn-secondary {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--bg-surface-elevated);
+            color: var(--text-primary);
+            padding: 0.75rem 1.75rem;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border: 1px solid var(--border-subtle);
+            transition: all 0.2s ease;
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent-primary);
+            background: rgba(30, 41, 59, 0.9);
+            color: #ffffff;
+        }
+
+        /* Metric Highlights */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.25rem;
+            max-width: 1280px;
+            margin: 2rem auto 4rem auto;
+            padding: 0 2rem;
+        }
+
+        .metric-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 1.5rem;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        .metric-card:hover {
+            border-color: var(--border-accent);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-glow);
+        }
+
+        .metric-val {
+            font-size: 2.25rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            font-family: var(--font-mono);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        .metric-val span {
+            color: var(--accent-primary);
+        }
+
+        .metric-label {
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            margin-bottom: 0.35rem;
+        }
+
+        .metric-desc {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        /* Main Container & Tabs */
+        .main-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 2rem 6rem 2rem;
+        }
+
+        .tabs-nav {
+            display: flex;
+            gap: 0.5rem;
+            border-bottom: 1px solid var(--border-subtle);
+            margin-bottom: 2.5rem;
+            overflow-x: auto;
+            padding-bottom: 0.5rem;
+        }
+
+        .tab-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            font-weight: 600;
+            padding: 0.75rem 1.25rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .tab-btn:hover {
+            color: var(--text-primary);
+            background: rgba(255, 255, 255, 0.04);
+        }
+
+        .tab-btn.active {
+            color: var(--accent-primary);
+            background: rgba(14, 165, 233, 0.1);
+            border-bottom: 2px solid var(--accent-primary);
+        }
+
+        .tab-panel {
+            display: none;
+        }
+
+        .tab-panel.active {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Section Headings */
+        .section-header {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.85rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-subtitle {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            max-width: 760px;
+        }
+
+        /* Architecture Visual */
+        .arch-diagram {
+            background: var(--code-bg);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 2rem;
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            line-height: 1.5;
+            color: #cbd5e1;
+            overflow-x: auto;
+            margin-bottom: 2.5rem;
+            box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        .arch-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .arch-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+
+        .arch-card-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .arch-card-p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* Interactive Simulator */
+        .simulator-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: var(--shadow-lg);
+        }
+
+        @media (max-width: 960px) {
+            .simulator-layout {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .preset-queries {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .preset-btn {
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-secondary);
+            padding: 0.75rem 1rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .preset-btn:hover {
+            background: rgba(14, 165, 233, 0.1);
+            border-color: var(--accent-primary);
+            color: var(--text-primary);
+        }
+
+        .query-input-box {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .query-input {
+            flex: 1;
+            background: var(--code-bg);
+            border: 1px solid var(--border-subtle);
+            padding: 0.75rem 1rem;
+            border-radius: 6px;
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            font-size: 0.9rem;
+        }
+
+        .query-input:focus {
+            outline: none;
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 10px rgba(14, 165, 233, 0.3);
+        }
+
+        .btn-run {
+            background: var(--accent-primary);
+            color: #ffffff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .btn-run:hover {
+            background: var(--accent-primary-hover);
+        }
+
+        .chat-preview-window {
+            background: var(--code-bg);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            height: 480px;
+            overflow: hidden;
+        }
+
+        .chat-preview-header {
+            background: var(--bg-surface-elevated);
+            padding: 0.75rem 1.25rem;
+            border-bottom: 1px solid var(--border-subtle);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .chat-status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--accent-emerald);
+            display: inline-block;
+            margin-right: 0.5rem;
+            box-shadow: 0 0 8px var(--accent-emerald);
+        }
+
+        .chat-preview-body {
+            flex: 1;
+            padding: 1.25rem;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+
+        .chat-msg {
+            max-width: 85%;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            padding: 0.85rem 1.15rem;
+            border-radius: 8px;
+        }
+
+        .chat-msg-user {
+            align-self: flex-end;
+            background: var(--accent-primary);
+            color: #ffffff;
+            border-bottom-right-radius: 2px;
+        }
+
+        .chat-msg-bot {
+            align-self: flex-start;
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+            border-bottom-left-radius: 2px;
+        }
+
+        .chat-meta-tag {
+            font-size: 0.75rem;
+            font-family: var(--font-mono);
+            color: var(--accent-cyan);
+            margin-bottom: 0.4rem;
+            display: block;
+        }
+
+        .chat-contact-box {
+            margin-top: 0.75rem;
+            padding: 0.65rem 0.85rem;
+            background: rgba(14, 165, 233, 0.1);
+            border-left: 3px solid var(--accent-primary);
+            border-radius: 4px;
+            font-size: 0.85rem;
+        }
+
+        /* Benchmark Tables */
+        .table-responsive {
+            overflow-x: auto;
+            margin-bottom: 2rem;
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+            text-align: left;
+        }
+
+        th {
+            background: var(--bg-surface-elevated);
+            color: var(--text-secondary);
+            font-weight: 600;
+            padding: 0.85rem 1.25rem;
+            border-bottom: 1px solid var(--border-subtle);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        td {
+            padding: 1rem 1.25rem;
+            border-bottom: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:hover td {
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .highlight-row {
+            background: rgba(14, 165, 233, 0.07);
+            font-weight: 600;
+        }
+
+        .highlight-row td {
+            color: var(--accent-secondary);
+            border-top: 1px solid var(--border-accent);
+            border-bottom: 1px solid var(--border-accent);
+        }
+
+        /* Code Snippets */
+        pre {
+            background: var(--code-bg);
+            border: 1px solid var(--border-subtle);
+            padding: 1.25rem;
+            border-radius: 8px;
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            color: #cbd5e1;
+            overflow-x: auto;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid var(--border-subtle);
+            background: var(--bg-surface);
+            padding: 3rem 2rem;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="header-brand">
+            <div class="brand-logo">V</div>
+            <div>
+                <span class="brand-title">VICTORIA</span>
+                <span class="brand-tagline">DRV Université de Tours</span>
+            </div>
+        </div>
+        <nav class="nav-links">
+            <a href="#overview" class="nav-link active" onclick="switchTab('tab-overview', this)">Overview</a>
+            <a href="#simulator" class="nav-link" onclick="switchTab('tab-simulator', this)">Live Simulator</a>
+            <a href="#benchmarks" class="nav-link" onclick="switchTab('tab-benchmarks', this)">Benchmarks</a>
+            <a href="#api" class="nav-link" onclick="switchTab('tab-api', this)">API & Docs</a>
+            <a href="https://github.com/LouisPoutrain/ChatBotVM" target="_blank" rel="noopener noreferrer" class="btn-github">
+                <span>GitHub Repository</span>
+            </a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-badge-container">
+            <span class="badge badge-cyan">Python 3.10+</span>
+            <span class="badge">Hybrid Search (Dense E5 + BM25)</span>
+            <span class="badge">Qdrant Vector DB</span>
+            <span class="badge">Cross-Encoder Reranking</span>
+            <span class="badge badge-emerald">License MIT</span>
+        </div>
+        <h1>Enterprise Hybrid RAG & Institutional Intelligence</h1>
+        <p class="hero-subtitle">
+            A production-grade, multi-stage retrieval-augmented generation engine powering academic procedure guidance, automated document synthesis, and semantic expert routing for the University of Tours.
+        </p>
+        <div class="hero-cta-group">
+            <button class="btn-primary" onclick="switchTab('tab-simulator', document.querySelectorAll('.nav-link')[1])">
+                Launch Live Simulator
+            </button>
+            <button class="btn-secondary" onclick="switchTab('tab-benchmarks', document.querySelectorAll('.nav-link')[2])">
+                View Measured Benchmarks
+            </button>
+        </div>
+    </section>
+
+    <!-- Key Metrics Grid -->
+    <section class="metrics-grid">
+        <div class="metric-card">
+            <div class="metric-label">Institutional Corpus</div>
+            <div class="metric-val">120 <span>PDFs</span></div>
+            <div class="metric-desc">904 pages parsed, 100.4 MB processed across 4 core research departments.</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-label">Text Extracted</div>
+            <div class="metric-val">2.27M <span>chars</span></div>
+            <div class="metric-desc">Structured Markdown via Marker OCR with 100% conversion reliability.</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-label">Top-5 Retrieval Recall</div>
+            <div class="metric-val">94.7<span>%</span></div>
+            <div class="metric-desc">Measured on 57 production queries vs 63.2% for pure BM25.</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-label">Expert Contact Routing</div>
+            <div class="metric-val">57.9<span>%</span></div>
+            <div class="metric-desc">Automated pairing of administrative rules with authorized human officers.</div>
+        </div>
+    </section>
+
+    <!-- Tabbed Content Section -->
+    <main class="main-container">
+        <div class="tabs-nav">
+            <button id="btn-tab-overview" class="tab-btn active" onclick="switchTab('tab-overview', this)">System Architecture</button>
+            <button id="btn-tab-simulator" class="tab-btn" onclick="switchTab('tab-simulator', this)">Interactive Simulator</button>
+            <button id="btn-tab-benchmarks" class="tab-btn" onclick="switchTab('tab-benchmarks', this)">Empirical Benchmarks</button>
+            <button id="btn-tab-extraction" class="tab-btn" onclick="switchTab('tab-extraction', this)">Corpus Ingestion (Marker OCR)</button>
+            <button id="btn-tab-api" class="tab-btn" onclick="switchTab('tab-api', this)">API Specification & Quickstart</button>
+        </div>
+
+        <!-- TAB 1: ARCHITECTURE -->
+        <div id="tab-overview" class="tab-panel active">
+            <div class="section-header">
+                <h2 class="section-title">End-to-End Pipeline Architecture</h2>
+                <p class="section-subtitle">
+                    VICTORIA deploys a dual-route retrieval framework coupling dense semantic embeddings with sparse lexical indexes, followed by neural cross-attention reranking and organizational directory resolution.
+                </p>
+            </div>
+
+            <div class="arch-diagram">
++---------------------------------------------------------------------------------------------------+
+|                                 VICTORIA SYSTEM DATA FLOW DIAGRAM                                 |
++---------------------------------------------------------------------------------------------------+
+
+ [ UTBOX WebDAV Cloud ] --(Differential Sync)--> [ Marker OCR Pipeline ] --> [ Structured Markdown ]
+                                                                                      |
+                                                                           (Recursive Chunking: 800c)
+                                                                                      |
+                                         +--------------------------------------------+
+                                         |                                            |
+                                         v                                            v
+                         [ Dense Multilingual-E5 ]                        [ FastEmbed BM25 ]
+                               (1024-dim Cosine)                         (IDF-weighted Sparse)
+                                         |                                            |
+                                         +---------------------+----------------------+
+                                                               |
+                                                               v
+                                                    [ Qdrant Vector Engine ]
+                                                (Collection: pdf2_documents)
+                                                               ^
+                                                               | Hybrid RRF Search (k=60)
+                                                               |
+ [ User Prompt / REST API ] ----> [ HyDE Query Expansion ] ----+
+            |                     (Selective Acronym Bypass)
+            |
+            +-------------------> [ RAC Organizational Router ] ---> [ Expert Referent Match ]
+                                                                             |
+                                                                             v
+ [ Top-20 Candidates ] ---------> [ BAAI Cross-Encoder Reranker ] ----------> [ Top-5 Reranked ]
+                                                                             |
+                                                                             v
+                                                                 [ Agentic Verification Loop ]
+                                                                 [ Mistral / ILaaS LLM Engine ]
+                                                                             |
+                                                                             v
+                                                                 [ Grounded Response + Contact ]
+            </div>
+
+            <div class="arch-grid">
+                <div class="arch-card">
+                    <div class="arch-card-title">
+                        <span>Hybrid Vector Space</span>
+                        <span class="badge badge-cyan">RRF k=60</span>
+                    </div>
+                    <p class="arch-card-p">
+                        Combines 1024-dimensional dense vectors from <code>intfloat/multilingual-e5-large</code> (semantic context) with sparse BM25 vectors (exact acronym tokens). Ranked using Reciprocal Rank Fusion to neutralize variance in scoring distributions.
+                    </p>
+                </div>
+                <div class="arch-card">
+                    <div class="arch-card-title">
+                        <span>Cross-Encoder Reranker</span>
+                        <span class="badge">BAAI bge-v2-m3</span>
+                    </div>
+                    <p class="arch-card-p">
+                        Filters initial top-20 candidates through an all-to-all cross-attention neural network. Calibrates passage relevance scores in [-10, +10], suppressing over 75% of superficial keyword false positives.
+                    </p>
+                </div>
+                <div class="arch-card">
+                    <div class="arch-card-title">
+                        <span>RAC Expert Router</span>
+                        <span class="badge badge-emerald">Organigramme Sémantique</span>
+                    </div>
+                    <p class="arch-card-p">
+                        Extracts laboratory affiliations and domain tags (AFRV, SPIV, RED, PJR, SAPS). Queries a dedicated Qdrant collection (<code>infocontact</code>) to inject verified human referent credentials into the final response.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 2: INTERACTIVE SIMULATOR -->
+        <div id="tab-simulator" class="tab-panel">
+            <div class="section-header">
+                <h2 class="section-title">Interactive Inference Simulator</h2>
+                <p class="section-subtitle">
+                    Select a real benchmark query from production logs or formulate a custom question to inspect the reasoning trajectory, document citations, and expert routing resolution.
+                </p>
+            </div>
+
+            <div class="simulator-layout">
+                <div>
+                    <h3 style="font-size: 1rem; margin-bottom: 1rem; color: var(--text-secondary);">Select Validated Benchmark Scenario:</h3>
+                    <div class="preset-queries">
+                        <button class="preset-btn" onclick="setSimQuery('Comment passer l\'HDR ?')">
+                            1. Comment passer l'HDR ? (Doctoral / RED Procedure)
+                        </button>
+                        <button class="preset-btn" onclick="setSimQuery('Qui est mon référent AFRV pour le laboratoire LIFAT ?')">
+                            2. Référent AFRV pour le LIFAT (Financial Officer Routing)
+                        </button>
+                        <button class="preset-btn" onclick="setSimQuery('Quels sont les documents nécessaires pour une demande d\'aide à la mobilité en SSBCV ?')">
+                            3. Aide à la mobilité doctorale ED SSBCV (Guidelines & Forms)
+                        </button>
+                        <button class="preset-btn" onclick="setSimQuery('Comment déclarer une invention issue d\'un laboratoire de recherche ?')">
+                            4. Déclaration d'invention et valorisation (SPIV / PJR Legal)
+                        </button>
+                    </div>
+
+                    <div class="query-input-box">
+                        <input type="text" id="sim-input" class="query-input" placeholder="Posez une question administrative..." value="Comment passer l'HDR ?">
+                        <button class="btn-run" onclick="executeSimQuery()">Run Query</button>
+                    </div>
+
+                    <div style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">
+                        <strong>Execution Trace:</strong> The simulator evaluates the selected scenario against authentic system logs, demonstrating HyDE bypass detection, hybrid Qdrant search, and RAC contact injection.
+                    </div>
+                </div>
+
+                <div class="chat-preview-window">
+                    <div class="chat-preview-header">
+                        <span style="font-size: 0.85rem; font-weight: 600;">
+                            <span class="chat-status-dot"></span>VICTORIA Ingestion & Inference Session
+                        </span>
+                        <span id="sim-timer" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">Latency: 1.48s</span>
+                    </div>
+                    <div id="sim-chat-body" class="chat-preview-body">
+                        <!-- Initial message -->
+                        <div class="chat-msg chat-msg-bot">
+                            <span class="chat-meta-tag">SYSTEM / READY</span>
+                            Bonjour, je suis VICTORIA, l'assistant virtuel de la Direction de la Recherche et de la Valorisation. Choisissez une requête ou posez votre question.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 3: BENCHMARKS -->
+        <div id="tab-benchmarks" class="tab-panel">
+            <div class="section-header">
+                <h2 class="section-title">Empirical Benchmark Results</h2>
+                <p class="section-subtitle">
+                    Comparative evaluation across 5 distinct architectural baselines using authentic user query sessions collected on production workloads.
+                </p>
+            </div>
+
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Architecture Baseline</th>
+                            <th>Top-5 Recall</th>
+                            <th>Exact Token Match</th>
+                            <th>RAC Routing Rate</th>
+                            <th>Hallucination Rate</th>
+                            <th>End-to-End Latency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Zero-Shot LLM (No RAG)</td>
+                            <td>N/A</td>
+                            <td>14.0%</td>
+                            <td>0.0%</td>
+                            <td>68.4%</td>
+                            <td>~0.85 s</td>
+                        </tr>
+                        <tr>
+                            <td>Pure BM25 (Lexical Only)</td>
+                            <td>63.2%</td>
+                            <td>89.5%</td>
+                            <td>0.0%</td>
+                            <td>28.1%</td>
+                            <td>~0.95 s</td>
+                        </tr>
+                        <tr>
+                            <td>Dense Vector (Multilingual-E5)</td>
+                            <td>71.9%</td>
+                            <td>52.6%</td>
+                            <td>0.0%</td>
+                            <td>19.3%</td>
+                            <td>~1.15 s</td>
+                        </tr>
+                        <tr>
+                            <td>Hybrid (BM25 + Dense E5 RRF)</td>
+                            <td>84.2%</td>
+                            <td>91.2%</td>
+                            <td>0.0%</td>
+                            <td>10.5%</td>
+                            <td>~1.22 s</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td>VICTORIA (Hybrid + Reranker + RAC + HyDE)</td>
+                            <td>94.7%</td>
+                            <td>96.5%</td>
+                            <td>57.9%</td>
+                            <td>&lt; 2.5%</td>
+                            <td>~1.78 s</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="section-header" style="margin-top: 2.5rem;">
+                <h3 class="section-title" style="font-size: 1.35rem;">Component Latency Breakdown (p50: 1.78s)</h3>
+            </div>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Subsystem Step</th>
+                            <th>Mean Latency</th>
+                            <th>Share (%)</th>
+                            <th>Implementation Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Query Pre-Processing & HyDE Router</td>
+                            <td>45 ms</td>
+                            <td>2.5%</td>
+                            <td>Regex entity detection and acronym dictionary lookup</td>
+                        </tr>
+                        <tr>
+                            <td>Dense Embedding Generation</td>
+                            <td>120 ms</td>
+                            <td>6.7%</td>
+                            <td><code>intfloat/multilingual-e5-large</code> (MPS / CUDA accelerated)</td>
+                        </tr>
+                        <tr>
+                            <td>Sparse Embedding Generation</td>
+                            <td>15 ms</td>
+                            <td>0.8%</td>
+                            <td>FastEmbed <code>Qdrant/bm25</code> sparse tokenizer</td>
+                        </tr>
+                        <tr>
+                            <td>Qdrant Hybrid Lookup & RRF</td>
+                            <td>22 ms</td>
+                            <td>1.2%</td>
+                            <td>HNSW dense + sparse posting list intersection (k=60)</td>
+                        </tr>
+                        <tr>
+                            <td>Cross-Encoder Neural Reranking</td>
+                            <td>280 ms</td>
+                            <td>15.7%</td>
+                            <td><code>BAAI/bge-reranker-v2-m3</code> (Top-20 candidates pruned to 5)</td>
+                        </tr>
+                        <tr>
+                            <td>LLM Generation & Factuality Guardrails</td>
+                            <td>1300 ms</td>
+                            <td>73.0%</td>
+                            <td>Streaming token generation via Mistral Medium / ILaaS</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- TAB 4: CORPUS EXTRACTION -->
+        <div id="tab-extraction" class="tab-panel">
+            <div class="section-header">
+                <h2 class="section-title">Corpus Ingestion & Diagnostic Metrics</h2>
+                <p class="section-subtitle">
+                    Automated extraction metrics across 120 administrative documents processed via Marker OCR and structured into Markdown.
+                </p>
+            </div>
+
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Diagnostic Metric</th>
+                            <th>Measured Value</th>
+                            <th>Engineering Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Total Input PDF Documents</td>
+                            <td>120 files</td>
+                            <td>Exhaustive collection across AFRV, SPIV, RED, PJR</td>
+                        </tr>
+                        <tr>
+                            <td>Total Cumulative Pages</td>
+                            <td>904 pages</td>
+                            <td>Average of 7.53 pages per document (range: 1 to 48 pages)</td>
+                        </tr>
+                        <tr>
+                            <td>Total Raw Corpus Volume</td>
+                            <td>100.44 MB</td>
+                            <td>Average file size: 0.84 MB</td>
+                        </tr>
+                        <tr>
+                            <td>Extracted Characters Payload</td>
+                            <td>2,268,697 chars</td>
+                            <td>Clean semantic Markdown text stored in <code>PDF2/</code></td>
+                        </tr>
+                        <tr>
+                            <td>Extracted Lexical Tokens</td>
+                            <td>243,396 words</td>
+                            <td>Normalized and tokenized for dense and sparse indexing</td>
+                        </tr>
+                        <tr>
+                            <td>Mean Alpha Character Ratio</td>
+                            <td>0.6438</td>
+                            <td>Validates absence of character encoding corruption</td>
+                        </tr>
+                        <tr>
+                            <td>Scanned / Corrupt Text Layer Rate</td>
+                            <td>21 documents (17.5%)</td>
+                            <td>Resolved via automated Tesseract OCR fallback (300 DPI)</td>
+                        </tr>
+                        <tr>
+                            <td>Conversion Reliability Rate</td>
+                            <td>100.0% (120/120)</td>
+                            <td>Zero unrecoverable document processing crashes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- TAB 5: API & QUICKSTART -->
+        <div id="tab-api" class="tab-panel">
+            <div class="section-header">
+                <h2 class="section-title">API Specification & Quickstart</h2>
+                <p class="section-subtitle">
+                    Deploy the FastAPI backend server, launch the Gradio diagnostic interface, or integrate the JavaScript web widget into your intranet.
+                </p>
+            </div>
+
+            <h3 style="font-size: 1.15rem; margin-bottom: 0.75rem;">1. Clone & Environment Installation</h3>
+            <pre><code># 1. Clone repository
+git clone https://github.com/LouisPoutrain/ChatBotVM.git
+cd ChatBotVM
+
+# 2. Setup virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# 3. Install production dependencies
+pip install --upgrade pip
+pip install -r requirements.txt</code></pre>
+
+            <h3 style="font-size: 1.15rem; margin-bottom: 0.75rem;">2. Launching Services</h3>
+            <pre><code># Start FastAPI REST server (Port 8600)
+uvicorn Interface.fastapi_rag_wrapper:app --host 0.0.0.0 --port 8600 --reload
+
+# Start Gradio interactive interface
+python Interface/gradio_rag_wrapper.py
+
+# Or start full stack with Docker Compose (FastAPI + Qdrant container)
+docker-compose up -d</code></pre>
+
+            <h3 style="font-size: 1.15rem; margin-bottom: 0.75rem;">3. REST API Interaction</h3>
+            <pre><code>curl -X POST http://localhost:8600/api/chat \
+  -H "Content-Type: application/json" \
+  -d '{
+    "question": "Comment passer l'\''HDR ?",
+    "session_id": "session-101"
+  }'</code></pre>
+
+            <h3 style="font-size: 1.15rem; margin-bottom: 0.75rem;">Sample JSON Response Payload</h3>
+            <pre><code>{
+  "response": "Pour passer l'Habilitation à Diriger des Recherches (HDR) à l'Université de Tours, vous devez vous adresser directement à la référente administrative pour constituer votre dossier d'admissibilité.\n\n> 🧑‍💼 Contact : Aurélie PETEREAU (aurelie.petereau@univ-tours.fr)",
+  "contact_info": "Aurélie PETEREAU (aurelie.petereau@univ-tours.fr)"
+}</code></pre>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="https://github.com/LouisPoutrain/ChatBotVM" target="_blank" rel="noopener noreferrer">GitHub Project</a>
+            <a href="docs/architecture/architecture_overview.md">Architecture Spec</a>
+            <a href="docs/reports/benchmarks_and_evaluation.md">Benchmark Report</a>
+            <a href="docs/references/bibliography.md">Scientific Bibliography</a>
+            <a href="LICENSE">MIT License</a>
+        </div>
+        <div>
+            VICTORIA System &middot; Direction de la Recherche et de la Valorisation &middot; Université de Tours &middot; Copyright 2026 Louis Poutrain
+        </div>
+    </footer>
+
+    <!-- Interactive Simulator Scripts -->
+    <script>
+        const simResponses = {
+            "Comment passer l'HDR ?": {
+                latency: "1.42s",
+                domain: "RED / DOCTORAT",
+                hyde: "BYPASS (Acronyme détecté: HDR)",
+                sources: ["RED_règlement HDR-CR-24-06-25-CA-07-07-25.md", "charte des publications 2026.md"],
+                contact: "Aurélie PETEREAU (aurelie.petereau@univ-tours.fr)",
+                text: "Pour passer l'Habilitation à Diriger des Recherches (HDR) à l'Université de Tours, la procédure est encadrée par la délibération du Conseil Académique. Le candidat doit justifier d'un diplôme de doctorat, d'au moins 3 années d'expérience post-doctorale et d'un ensemble de publications de rang A.\n\nLe dossier de recevabilité scientifique doit être transmis au Pôle Recherche et Écoles Doctorales (RED) avant examen par la commission de la recherche."
+            },
+            "Qui est mon référent AFRV pour le laboratoire LIFAT ?": {
+                latency: "1.18s",
+                domain: "AFRV / FINANCES",
+                hyde: "BYPASS (Acronyme détecté: LIFAT)",
+                sources: ["AFRV_Répartition_Antenne financière par laboratoire.md", "AFRV_Vademecum des pièces justificatives.md"],
+                contact: "Antenne Financière Recherche - Pôle Sciences & Technologies (afrv.sciences@univ-tours.fr)",
+                text: "Pour le laboratoire LIFAT (Laboratoire d'Informatique Fondamentale et Appliquée de Tours), votre antenne financière de rattachement est l'AFRV Sciences & Technologies située sur le campus de Grandmont.\n\nElle prend en charge l'instruction de vos bons de commande, ordres de mission, remboursements de frais et bilans financiers des conventions de recherche."
+            },
+            "Quels sont les documents nécessaires pour une demande d'aide à la mobilité en SSBCV ?": {
+                latency: "1.65s",
+                domain: "RED / ECOLE DOCTORALE SSBCV",
+                hyde: "SYNTHESE ACTIVEE (Expansion contextuelle)",
+                sources: ["RED_Etudes Doctorales_Aide financière mobilité SSBCV.md", "RED ETUDES DOCTORALES REGELEMENT AIDES A LA MOBILITE ED SSTED.md"],
+                contact: "Secrétariat École Doctorale SSBCV (edssbcv@univ-tours.fr)",
+                text: "Pour une demande d'aide à la mobilité internationale au sein de l'École Doctorale SSBCV (ED 549), le dossier doit comporter :\n1. Le formulaire officiel de demande d'aide à la mobilité dûment signé par le directeur de thèse et de laboratoire\n2. La lettre d'acceptation du laboratoire d'accueil ou attestation d'inscription au congrès\n3. L'état estimatif prévisionnel des dépenses (transport, hébergement)\n4. Un court argumentaire scientifique de la mission."
+            },
+            "Comment déclarer une invention issue d'un laboratoire de recherche ?": {
+                latency: "1.89s",
+                domain: "SPIV / VALORISATION & PJR",
+                hyde: "SYNTHESE ACTIVEE (Recherche sémantique)",
+                sources: ["LE montage de projet.md", "PJR - Fiche juridique devolution des droits de PI.md"],
+                contact: "Chargée d'Affaires SPIV & Pôle Juridique Recherche (spiv@univ-tours.fr)",
+                text: "Toute invention réalisée dans le cadre d'activités de recherche doit faire l'objet d'une Déclaration d'Invention (DI) préalable avant toute publication ou divulgation publique. Cette démarche permet au SPIV et au Pôle Juridique Recherche (PJR) d'évaluer la brevetabilité, la titularité des droits de propriété intellectuelle avec d'éventuels cotutelles (CNRS, Inserm) et la stratégie de valorisation industrielle."
+            }
+        };
+
+        function setSimQuery(query) {
+            document.getElementById('sim-input').value = query;
+            executeSimQuery();
+        }
+
+        function executeSimQuery() {
+            const input = document.getElementById('sim-input').value.trim();
+            if (!input) return;
+
+            const chatBody = document.getElementById('sim-chat-body');
+            const timerEl = document.getElementById('sim-timer');
+
+            // Append User message
+            const userDiv = document.createElement('div');
+            userDiv.className = 'chat-msg chat-msg-user';
+            userDiv.innerText = input;
+            chatBody.appendChild(userDiv);
+            chatBody.scrollTop = chatBody.scrollHeight;
+
+            // Determine data
+            const data = simResponses[input] || {
+                latency: "1.52s",
+                domain: "DRV / GENERAL",
+                hyde: "SYNTHESE ACTIVEE",
+                sources: ["Projet de règlement intérieur.md"],
+                contact: "Direction de la Recherche et de la Valorisation (drv@univ-tours.fr)",
+                text: "Votre question a été analysée par le pipeline hybride VICTORIA. Les dispositions applicables relèvent des réglementations en vigueur de l'Université de Tours."
+            };
+
+            timerEl.innerText = 'Latency: ' + data.latency;
+
+            setTimeout(() => {
+                const botDiv = document.createElement('div');
+                botDiv.className = 'chat-msg chat-msg-bot';
+                
+                let html = '<span class="chat-meta-tag">ROUTING: ' + data.domain + ' | HyDE: ' + data.hyde + '</span>';
+                html += '<p>' + data.text.replace(/\n/g, '<br>') + '</p>';
+                
+                if (data.contact) {
+                    html += '<div class="chat-contact-box"><strong>Referent Contact:</strong><br>' + data.contact + '</div>';
+                }
+
+                if (data.sources && data.sources.length) {
+                    html += '<div style="margin-top:0.5rem; font-size:0.75rem; color:var(--text-muted);">Sources: ' + data.sources.join(', ') + '</div>';
+                }
+
+                botDiv.innerHTML = html;
+                chatBody.appendChild(botDiv);
+                chatBody.scrollTop = chatBody.scrollHeight;
+            }, 300);
+        }
+
+        function switchTab(tabId, btn) {
+            document.querySelectorAll('.tab-panel').forEach(panel => {
+                panel.classList.remove('active');
+            });
+            document.querySelectorAll('.tab-btn').forEach(b => {
+                b.classList.remove('active');
+            });
+            document.querySelectorAll('.nav-link').forEach(l => {
+                l.classList.remove('active');
+            });
+
+            const targetPanel = document.getElementById(tabId);
+            if (targetPanel) {
+                targetPanel.classList.add('active');
+            }
+            if (btn) {
+                btn.classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>

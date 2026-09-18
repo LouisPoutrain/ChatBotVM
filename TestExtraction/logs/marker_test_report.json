@@ -1,9 +1,9 @@
 {
-  "input_dir": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot",
-  "output_dir": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/PDF2",
-  "marker_cmd": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/venv/bin/marker_single",
+  "input_dir": "./data/downloads/Chatbot DRV/ChatBot",
+  "output_dir": "./PDF2",
+  "marker_cmd": "./venv/bin/marker_single",
   "retry_extra_args": [],
-  "log_file": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/TestExtraction/logs/marker_test_run.log",
+  "log_file": "./TestExtraction/logs/marker_test_run.log",
   "total": 120,
   "success": 0,
   "skipped": 120,
@@ -12,7 +12,7 @@
   "results": [
     {
       "pdf_name": "AFRV-SPIV - note sur la gestion administratives des avenants et demande de modification dans le cadre des projets de recherc.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV-SPIV - note sur la gestion administratives des avenants et demande de modification dans le cadre des projets de recherc.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV-SPIV - note sur la gestion administratives des avenants et demande de modification dans le cadre des projets de recherc.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.549,
@@ -42,7 +42,7 @@
     },
     {
       "pdf_name": "AFRV_Classeur des certificats administratif DEPENSES 2026 V2.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Classeur des certificats administratif DEPENSES 2026 V2.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Classeur des certificats administratif DEPENSES 2026 V2.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.168,
@@ -70,7 +70,7 @@
     },
     {
       "pdf_name": "AFRV_ESTIMAT 2026 version 1.000 à compter du 1er janvier 2026.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_ESTIMAT 2026 version 1.000 à compter du 1er janvier 2026.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_ESTIMAT 2026 version 1.000 à compter du 1er janvier 2026.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 1.133,
@@ -98,7 +98,7 @@
     },
     {
       "pdf_name": "AFRV_Liens UT NET utiles.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Liens UT NET utiles.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Liens UT NET utiles.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.002,
@@ -126,7 +126,7 @@
     },
     {
       "pdf_name": "AFRV_Liste des pièces justificatives de la dépense.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Liste des pièces justificatives de la dépense.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Liste des pièces justificatives de la dépense.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 7.76,
@@ -156,7 +156,7 @@
     },
     {
       "pdf_name": "AFRV_Presentation des services dappui à la recherche_07122023.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Presentation des services dappui à la recherche_07122023.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Presentation des services dappui à la recherche_07122023.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 5.742,
@@ -184,7 +184,7 @@
     },
     {
       "pdf_name": "AFRV_Répartition_Antenne financière par laboratoire.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Répartition_Antenne financière par laboratoire.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Répartition_Antenne financière par laboratoire.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.09,
@@ -212,7 +212,7 @@
     },
     {
       "pdf_name": "AFRV_Vademecum des pièces justificatives pour les dépenses les plus courantes.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Vademecum des pièces justificatives pour les dépenses les plus courantes.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/AFRV/AFRV_Vademecum des pièces justificatives pour les dépenses les plus courantes.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.908,
@@ -242,7 +242,7 @@
     },
     {
       "pdf_name": "Liste des nouveaux MCF 2024.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/AFRV/Liste des nouveaux MCF 2024.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/AFRV/Liste des nouveaux MCF 2024.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.695,
@@ -270,7 +270,7 @@
     },
     {
       "pdf_name": "Cahier de laboratoire - Pourquoi l'utiliser.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Cahier de laboratoire - Pourquoi l'utiliser.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Cahier de laboratoire - Pourquoi l'utiliser.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.322,
@@ -298,7 +298,7 @@
     },
     {
       "pdf_name": "DRV - Délibération 2025-64 - Révision des frais de stucture CA 7 juillet 2025.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/DRV - Délibération 2025-64 - Révision des frais de stucture CA 7 juillet 2025.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/DRV - Délibération 2025-64 - Révision des frais de stucture CA 7 juillet 2025.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.198,
@@ -326,7 +326,7 @@
     },
     {
       "pdf_name": "Demande de césure CVL_2022 V2026.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Demande de césure CVL_2022 V2026.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Demande de césure CVL_2022 V2026.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.147,
@@ -354,7 +354,7 @@
     },
     {
       "pdf_name": "Fiche méthodologique outil labos 1.5.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Fiche méthodologique outil labos 1.5.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Fiche méthodologique outil labos 1.5.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.128,
@@ -382,7 +382,7 @@
     },
     {
       "pdf_name": "Guide décarbonation recherche.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Guide décarbonation recherche.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Guide décarbonation recherche.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 19.77,
@@ -410,7 +410,7 @@
     },
     {
       "pdf_name": "Informations label SAPS_Chatbot_DRV-1.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Informations label SAPS_Chatbot_DRV-1.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Informations label SAPS_Chatbot_DRV-1.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.004,
@@ -438,7 +438,7 @@
     },
     {
       "pdf_name": "LE_RGPD.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/LE_RGPD.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/LE_RGPD.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.25,
@@ -466,7 +466,7 @@
     },
     {
       "pdf_name": "Liste des Unités de recherche.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Liste des Unités de recherche.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Liste des Unités de recherche.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.069,
@@ -494,7 +494,7 @@
     },
     {
       "pdf_name": "Liste des référents TES.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Liste des référents TES.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Liste des référents TES.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.114,
@@ -522,7 +522,7 @@
     },
     {
       "pdf_name": "Note_Missions_SCRIPT_maj_fev2025_VF.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Note_Missions_SCRIPT_maj_fev2025_VF.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Note_Missions_SCRIPT_maj_fev2025_VF.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.147,
@@ -550,7 +550,7 @@
     },
     {
       "pdf_name": "PLAN DE GESTION DE DONNEES.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/PLAN DE GESTION DE DONNEES.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/PLAN DE GESTION DE DONNEES.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.003,
@@ -578,7 +578,7 @@
     },
     {
       "pdf_name": "Procédure décision tarifaire colloques V1 20241107-1.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Procédure décision tarifaire colloques V1 20241107-1.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Procédure décision tarifaire colloques V1 20241107-1.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.075,
@@ -606,7 +606,7 @@
     },
     {
       "pdf_name": "Procédure retrait diplôme.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Procédure retrait diplôme.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Procédure retrait diplôme.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.094,
@@ -636,7 +636,7 @@
     },
     {
       "pdf_name": "Projet de règlement intérieur.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Projet de règlement intérieur.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Projet de règlement intérieur.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.027,
@@ -664,7 +664,7 @@
     },
     {
       "pdf_name": "Présentation dispositifs SAPS_Journées scientifiques LVH_2026.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Présentation dispositifs SAPS_Journées scientifiques LVH_2026.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Présentation dispositifs SAPS_Journées scientifiques LVH_2026.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.005,
@@ -692,7 +692,7 @@
     },
     {
       "pdf_name": "RED - Ecoles Doctorales - Catalogue des formations.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED - Ecoles Doctorales - Catalogue des formations.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED - Ecoles Doctorales - Catalogue des formations.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.169,
@@ -720,7 +720,7 @@
     },
     {
       "pdf_name": "RED - Ecoles Doctorales - Comment s'inscrire aux formations.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED - Ecoles Doctorales - Comment s'inscrire aux formations.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED - Ecoles Doctorales - Comment s'inscrire aux formations.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.231,
@@ -750,7 +750,7 @@
     },
     {
       "pdf_name": "RED - Ecoles Doctorales - Formulaire-50CD-EMSTU_MIPTIS_SSBCV.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED - Ecoles Doctorales - Formulaire-50CD-EMSTU_MIPTIS_SSBCV.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED - Ecoles Doctorales - Formulaire-50CD-EMSTU_MIPTIS_SSBCV.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.172,
@@ -778,7 +778,7 @@
     },
     {
       "pdf_name": "RED - Ecoles Doctorales - Formulaire-50CD-SSTED_HL.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED - Ecoles Doctorales - Formulaire-50CD-SSTED_HL.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED - Ecoles Doctorales - Formulaire-50CD-SSTED_HL.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.149,
@@ -806,7 +806,7 @@
     },
     {
       "pdf_name": "RED - Ecoles Doctorales - Procédure validation des crédits doctoraux.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED - Ecoles Doctorales - Procédure validation des crédits doctoraux.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED - Ecoles Doctorales - Procédure validation des crédits doctoraux.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.086,
@@ -834,7 +834,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES INSCRIPTION DOCUMENTS A FOURNIR INSCRIPTION PREMIERE ANNEE DOCTORAT.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION DOCUMENTS A FOURNIR INSCRIPTION PREMIERE ANNEE DOCTORAT.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION DOCUMENTS A FOURNIR INSCRIPTION PREMIERE ANNEE DOCTORAT.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.174,
@@ -864,7 +864,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES INSCRIPTION EN DOCTORAT CODIRECTION DE THESE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION EN DOCTORAT CODIRECTION DE THESE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION EN DOCTORAT CODIRECTION DE THESE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.425,
@@ -892,7 +892,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES INSCRIPTION EN DOCTORAT DIRECTION DE THESE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION EN DOCTORAT DIRECTION DE THESE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION EN DOCTORAT DIRECTION DE THESE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.794,
@@ -920,7 +920,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES INSCRIPTION PROCEDURE D INSCRIPTION EN PREMIERE ANNEE DE DOCTORAT.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION PROCEDURE D INSCRIPTION EN PREMIERE ANNEE DE DOCTORAT.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION PROCEDURE D INSCRIPTION EN PREMIERE ANNEE DE DOCTORAT.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.21,
@@ -950,7 +950,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES INSCRIPTION THESE SUR TRAVAUX.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION THESE SUR TRAVAUX.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION THESE SUR TRAVAUX.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.418,
@@ -980,7 +980,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES INSCRIPTION TUTORIEL CREATION COMPTE ADUM DOCTORANT.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION TUTORIEL CREATION COMPTE ADUM DOCTORANT.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES INSCRIPTION TUTORIEL CREATION COMPTE ADUM DOCTORANT.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 6.198,
@@ -1010,7 +1010,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES REGELEMENT AIDES A LA MOBILITE ED HL.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES REGELEMENT AIDES A LA MOBILITE ED HL.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES REGELEMENT AIDES A LA MOBILITE ED HL.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.275,
@@ -1040,7 +1040,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES REGELEMENT AIDES A LA MOBILITE ED SSTED.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES REGELEMENT AIDES A LA MOBILITE ED SSTED.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES REGELEMENT AIDES A LA MOBILITE ED SSTED.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.285,
@@ -1070,7 +1070,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES REINSCRIPTION TUTORIEL REINSCRIPTION SUR ADUM.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES REINSCRIPTION TUTORIEL REINSCRIPTION SUR ADUM.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES REINSCRIPTION TUTORIEL REINSCRIPTION SUR ADUM.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 7.288,
@@ -1100,7 +1100,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES RESINSCRIPTION TUTORIEL REINSCRIPTION SUR ADUM.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES RESINSCRIPTION TUTORIEL REINSCRIPTION SUR ADUM.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES RESINSCRIPTION TUTORIEL REINSCRIPTION SUR ADUM.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 1.248,
@@ -1128,7 +1128,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE CONSITTUTION DU DOSSIER DE SOUTENANCE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE CONSITTUTION DU DOSSIER DE SOUTENANCE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE CONSITTUTION DU DOSSIER DE SOUTENANCE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.201,
@@ -1156,7 +1156,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE LABEL EUROPEEN ATTESTATION SEJOUR RECHERCHE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE LABEL EUROPEEN ATTESTATION SEJOUR RECHERCHE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE LABEL EUROPEEN ATTESTATION SEJOUR RECHERCHE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.171,
@@ -1186,7 +1186,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE LABEL EUROPEEN CONDITIONS D ATTRIBUTION.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE LABEL EUROPEEN CONDITIONS D ATTRIBUTION.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE LABEL EUROPEEN CONDITIONS D ATTRIBUTION.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.266,
@@ -1216,7 +1216,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE PROCEDURE DE SOUTENANCE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE PROCEDURE DE SOUTENANCE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE PROCEDURE DE SOUTENANCE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.532,
@@ -1246,7 +1246,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE PROCURATION VISIO CONFERENCE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE PROCURATION VISIO CONFERENCE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE PROCURATION VISIO CONFERENCE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.11,
@@ -1274,7 +1274,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE TUTORIEL DECLARATION DE SOUTENANCE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE TUTORIEL DECLARATION DE SOUTENANCE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE TUTORIEL DECLARATION DE SOUTENANCE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 6.603,
@@ -1304,7 +1304,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE TUTORIEL DECLARATION SOUTENANCE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE TUTORIEL DECLARATION SOUTENANCE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE TUTORIEL DECLARATION SOUTENANCE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 1.186,
@@ -1332,7 +1332,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE VALIDATION DIRECTION DE LABORATOIRE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE VALIDATION DIRECTION DE LABORATOIRE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE VALIDATION DIRECTION DE LABORATOIRE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.557,
@@ -1360,7 +1360,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES SOUTENANCE VALIDATION DIRECTION DE THESE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE VALIDATION DIRECTION DE THESE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCE VALIDATION DIRECTION DE THESE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.829,
@@ -1388,7 +1388,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES SOUTENANCES ACCORD CONFIDENTIALITE JURY _ MANUSCRIT.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCES ACCORD CONFIDENTIALITE JURY _ MANUSCRIT.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCES ACCORD CONFIDENTIALITE JURY _ MANUSCRIT.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.084,
@@ -1416,7 +1416,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES SOUTENANCES ACCORD CONFIDENTIALITE JURY _HUIS CLOS ET MANUSCRIT.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCES ACCORD CONFIDENTIALITE JURY _HUIS CLOS ET MANUSCRIT.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCES ACCORD CONFIDENTIALITE JURY _HUIS CLOS ET MANUSCRIT.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.086,
@@ -1444,7 +1444,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES SOUTENANCES DEMANDE DE DEROGATION AU CARACTERE PUBLIC DE LA SOUTENANCE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCES DEMANDE DE DEROGATION AU CARACTERE PUBLIC DE LA SOUTENANCE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCES DEMANDE DE DEROGATION AU CARACTERE PUBLIC DE LA SOUTENANCE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.188,
@@ -1472,7 +1472,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES SOUTENANCES DEMANDE DE VISIO.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCES DEMANDE DE VISIO.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCES DEMANDE DE VISIO.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.064,
@@ -1500,7 +1500,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES SOUTENANCES ENGAGEMENT CONFIDENTIALITE PUBLIC.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCES ENGAGEMENT CONFIDENTIALITE PUBLIC.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES SOUTENANCES ENGAGEMENT CONFIDENTIALITE PUBLIC.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.052,
@@ -1528,7 +1528,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES TUTO INSCRIPTION EN DOCTORAT DIRECTION DE THESE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES TUTO INSCRIPTION EN DOCTORAT DIRECTION DE THESE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES TUTO INSCRIPTION EN DOCTORAT DIRECTION DE THESE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 3.43,
@@ -1556,7 +1556,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES TUTO REINSCRIPTION EN DOCTORAT DIRECTION DE THESE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES TUTO REINSCRIPTION EN DOCTORAT DIRECTION DE THESE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES TUTO REINSCRIPTION EN DOCTORAT DIRECTION DE THESE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 4.248,
@@ -1584,7 +1584,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES TUTO SOUTENANCE VALIDATION JURY DIRECTION DE LABORATOIRE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES TUTO SOUTENANCE VALIDATION JURY DIRECTION DE LABORATOIRE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES TUTO SOUTENANCE VALIDATION JURY DIRECTION DE LABORATOIRE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 2.742,
@@ -1612,7 +1612,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES TUTO SOUTENANCE VALIDATION JURY DIRECTION DE THESE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES TUTO SOUTENANCE VALIDATION JURY DIRECTION DE THESE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES TUTO SOUTENANCE VALIDATION JURY DIRECTION DE THESE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 5.069,
@@ -1640,7 +1640,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES TUTORIEL CREATION  COMPTE ADUM DOCTORANT.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES TUTORIEL CREATION  COMPTE ADUM DOCTORANT.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES TUTORIEL CREATION  COMPTE ADUM DOCTORANT.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 1.816,
@@ -1668,7 +1668,7 @@
     },
     {
       "pdf_name": "RED ETUDES DOCTORALES VALIDATION REINSCRIPTION DIRECTION LABORATOIRE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES VALIDATION REINSCRIPTION DIRECTION LABORATOIRE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES DOCTORALES VALIDATION REINSCRIPTION DIRECTION LABORATOIRE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.421,
@@ -1696,7 +1696,7 @@
     },
     {
       "pdf_name": "RED ETUDES ET ECOLES DOCTORALES CONTACTS UTILES ED HL.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES ET ECOLES DOCTORALES CONTACTS UTILES ED HL.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES ET ECOLES DOCTORALES CONTACTS UTILES ED HL.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.264,
@@ -1726,7 +1726,7 @@
     },
     {
       "pdf_name": "RED ETUDES ET ECOLES DOCTORALES CONTACTS UTILES ED SSTED.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES ET ECOLES DOCTORALES CONTACTS UTILES ED SSTED.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES ET ECOLES DOCTORALES CONTACTS UTILES ED SSTED.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.292,
@@ -1756,7 +1756,7 @@
     },
     {
       "pdf_name": "RED ETUDES ET ECOLES DOCTORALES REGELEMENT INTERIEUR ED HL.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES ET ECOLES DOCTORALES REGELEMENT INTERIEUR ED HL.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES ET ECOLES DOCTORALES REGELEMENT INTERIEUR ED HL.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 1.966,
@@ -1786,7 +1786,7 @@
     },
     {
       "pdf_name": "RED ETUDES ET ECOLES DOCTORALES REGELEMENT INTERIEUR ED SSTEDHL.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES ET ECOLES DOCTORALES REGELEMENT INTERIEUR ED SSTEDHL.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDES ET ECOLES DOCTORALES REGELEMENT INTERIEUR ED SSTEDHL.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 1.527,
@@ -1816,7 +1816,7 @@
     },
     {
       "pdf_name": "RED ETUDS DOCTORALES SOUTENANCES ENGAGEMENT CONFIDENTIALITE PUBLIC.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDS DOCTORALES SOUTENANCES ENGAGEMENT CONFIDENTIALITE PUBLIC.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED ETUDS DOCTORALES SOUTENANCES ENGAGEMENT CONFIDENTIALITE PUBLIC.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.003,
@@ -1844,7 +1844,7 @@
     },
     {
       "pdf_name": "RED EUTDES DOCTORALES VALIDATION INSCRIPTION DIRECTION LABORATOIRE.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED EUTDES DOCTORALES VALIDATION INSCRIPTION DIRECTION LABORATOIRE.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED EUTDES DOCTORALES VALIDATION INSCRIPTION DIRECTION LABORATOIRE.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.479,
@@ -1872,7 +1872,7 @@
     },
     {
       "pdf_name": "RED_AAP_colloques_2027.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_AAP_colloques_2027.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_AAP_colloques_2027.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.157,
@@ -1900,7 +1900,7 @@
     },
     {
       "pdf_name": "RED_Aide financière congrès international SSBCV.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Aide financière congrès international SSBCV.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Aide financière congrès international SSBCV.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.056,
@@ -1928,7 +1928,7 @@
     },
     {
       "pdf_name": "RED_ETUDES DOCTORALES_Comment trouver un directeur de thèse SST-2.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_ETUDES DOCTORALES_Comment trouver un directeur de thèse SST-2.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_ETUDES DOCTORALES_Comment trouver un directeur de thèse SST-2.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.079,
@@ -1956,7 +1956,7 @@
     },
     {
       "pdf_name": "RED_ETUDES DOCTORALES_Procédure soutenance SSBCV.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_ETUDES DOCTORALES_Procédure soutenance SSBCV.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_ETUDES DOCTORALES_Procédure soutenance SSBCV.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.185,
@@ -1984,7 +1984,7 @@
     },
     {
       "pdf_name": "RED_Ecoles Doctorales_Principes de la cotutelle de thèse.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Ecoles Doctorales_Principes de la cotutelle de thèse.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Ecoles Doctorales_Principes de la cotutelle de thèse.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.179,
@@ -2012,7 +2012,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Aide financière mobilité EMSTU.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Aide financière mobilité EMSTU.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Aide financière mobilité EMSTU.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.049,
@@ -2040,7 +2040,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Aide financière mobilité MIPTIS.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Aide financière mobilité MIPTIS.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Aide financière mobilité MIPTIS.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.07,
@@ -2068,7 +2068,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Aide financière mobilité SSBCV.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Aide financière mobilité SSBCV.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Aide financière mobilité SSBCV.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.061,
@@ -2096,7 +2096,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Charte du doctorat.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Charte du doctorat.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Charte du doctorat.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.163,
@@ -2124,7 +2124,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Comment trouver un directeur de thèse sciences humaines.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Comment trouver un directeur de thèse sciences humaines.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Comment trouver un directeur de thèse sciences humaines.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.066,
@@ -2152,7 +2152,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Contacts EMSTU.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Contacts EMSTU.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Contacts EMSTU.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.173,
@@ -2180,7 +2180,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Contacts MIPTIS.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Contacts MIPTIS.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Contacts MIPTIS.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.098,
@@ -2208,7 +2208,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Contacts SSBCV.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Contacts SSBCV.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Contacts SSBCV.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.1,
@@ -2236,7 +2236,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Informations diverses soutenance EMSTU.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Informations diverses soutenance EMSTU.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Informations diverses soutenance EMSTU.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.156,
@@ -2264,7 +2264,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Informations diverses soutenance MIPTIS.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Informations diverses soutenance MIPTIS.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Informations diverses soutenance MIPTIS.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.078,
@@ -2292,7 +2292,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Membres du conseil EMSTU.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Membres du conseil EMSTU.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Membres du conseil EMSTU.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.065,
@@ -2320,7 +2320,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Membres du conseil MIPTIS.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Membres du conseil MIPTIS.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Membres du conseil MIPTIS.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.067,
@@ -2348,7 +2348,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Membres du conseil SSBCV.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Membres du conseil SSBCV.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Membres du conseil SSBCV.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.123,
@@ -2376,7 +2376,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Pieces a fournir au dossier de demande d inscription 2024 fr-3.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Pieces a fournir au dossier de demande d inscription 2024 fr-3.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Pieces a fournir au dossier de demande d inscription 2024 fr-3.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.04,
@@ -2404,7 +2404,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Procedure d inscription en these.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Procedure d inscription en these.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Procedure d inscription en these.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.077,
@@ -2432,7 +2432,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Procédure général doctorat sur travaux.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Procédure général doctorat sur travaux.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Procédure général doctorat sur travaux.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.125,
@@ -2460,7 +2460,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Procédure selection financement MIPTIS.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Procédure selection financement MIPTIS.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Procédure selection financement MIPTIS.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.117,
@@ -2488,7 +2488,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Procédure soutenance (sélection jury et déroulement).pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Procédure soutenance (sélection jury et déroulement).pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Procédure soutenance (sélection jury et déroulement).pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.136,
@@ -2516,7 +2516,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Procédure trouver un directeur de thèse sciences dures.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Procédure trouver un directeur de thèse sciences dures.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Procédure trouver un directeur de thèse sciences dures.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.079,
@@ -2544,7 +2544,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Réglement intérieur école doctorale EMSTU.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Réglement intérieur école doctorale EMSTU.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Réglement intérieur école doctorale EMSTU.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.429,
@@ -2572,7 +2572,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Réglement intérieur école doctorale MIPTIS.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Réglement intérieur école doctorale MIPTIS.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Réglement intérieur école doctorale MIPTIS.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.247,
@@ -2600,7 +2600,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Réglement intérieur école doctorale SSBCV.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Réglement intérieur école doctorale SSBCV.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Réglement intérieur école doctorale SSBCV.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.352,
@@ -2628,7 +2628,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Tutoriel déclaration soutenance ADUM.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Tutoriel déclaration soutenance ADUM.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Tutoriel déclaration soutenance ADUM.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 1.536,
@@ -2656,7 +2656,7 @@
     },
     {
       "pdf_name": "RED_Etudes Doctorales_Tutoriel rédaction thèse SSBCV.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Tutoriel rédaction thèse SSBCV.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Etudes Doctorales_Tutoriel rédaction thèse SSBCV.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.436,
@@ -2684,7 +2684,7 @@
     },
     {
       "pdf_name": "RED_Pôle administration et gestion de la recherche rattaché au service RED de la DRV.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_Pôle administration et gestion de la recherche rattaché au service RED de la DRV.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_Pôle administration et gestion de la recherche rattaché au service RED de la DRV.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.114,
@@ -2712,7 +2712,7 @@
     },
     {
       "pdf_name": "RED_règlement HDR-CR-24-06-25-CA-07-07-25.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/RED_règlement HDR-CR-24-06-25-CA-07-07-25.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/RED_règlement HDR-CR-24-06-25-CA-07-07-25.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.213,
@@ -2740,7 +2740,7 @@
     },
     {
       "pdf_name": "Recherche_2025_Note_accueil_chercheurs_invités_sur_décision_CAC_CA-05-05-2025 SP.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Recherche_2025_Note_accueil_chercheurs_invités_sur_décision_CAC_CA-05-05-2025 SP.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Recherche_2025_Note_accueil_chercheurs_invités_sur_décision_CAC_CA-05-05-2025 SP.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.195,
@@ -2768,7 +2768,7 @@
     },
     {
       "pdf_name": "Recherche_AAP_colloques_26.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Recherche_AAP_colloques_26.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Recherche_AAP_colloques_26.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.156,
@@ -2796,7 +2796,7 @@
     },
     {
       "pdf_name": "Recherche_ART 2026_cahierdescharges vf.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Recherche_ART 2026_cahierdescharges vf.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Recherche_ART 2026_cahierdescharges vf.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.163,
@@ -2824,7 +2824,7 @@
     },
     {
       "pdf_name": "Référents scientifiques Organiser un séjour recherche.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Référents scientifiques Organiser un séjour recherche.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Référents scientifiques Organiser un séjour recherche.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.002,
@@ -2852,7 +2852,7 @@
     },
     {
       "pdf_name": "SAPS-RED-PRESENTATION.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/SAPS-RED-PRESENTATION.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/SAPS-RED-PRESENTATION.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.013,
@@ -2880,7 +2880,7 @@
     },
     {
       "pdf_name": "SAPS_ présentation générale_ Passerelle des savoirs CVL.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/SAPS_ présentation générale_ Passerelle des savoirs CVL.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/SAPS_ présentation générale_ Passerelle des savoirs CVL.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.002,
@@ -2908,7 +2908,7 @@
     },
     {
       "pdf_name": "SCRIPT- Note_Creation_SCRIPT_maj_janvier_2024_version soumise COPIL.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/SCRIPT- Note_Creation_SCRIPT_maj_janvier_2024_version soumise COPIL.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/SCRIPT- Note_Creation_SCRIPT_maj_janvier_2024_version soumise COPIL.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.259,
@@ -2936,7 +2936,7 @@
     },
     {
       "pdf_name": "SCRIPT_Pres_maj 12 09 2025.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/SCRIPT_Pres_maj 12 09 2025.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/SCRIPT_Pres_maj 12 09 2025.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.007,
@@ -2964,7 +2964,7 @@
     },
     {
       "pdf_name": "Sous rubrique 2 - Livret des encadrants.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Sous rubrique 2 - Livret des encadrants.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Sous rubrique 2 - Livret des encadrants.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.554,
@@ -2992,7 +2992,7 @@
     },
     {
       "pdf_name": "Sous-rubrique 1. Formulaire AD.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Sous-rubrique 1. Formulaire AD.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Sous-rubrique 1. Formulaire AD.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.111,
@@ -3020,7 +3020,7 @@
     },
     {
       "pdf_name": "Sous-rubrique 2. Cadrage-mobilite_EC_sortante.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Sous-rubrique 2. Cadrage-mobilite_EC_sortante.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Sous-rubrique 2. Cadrage-mobilite_EC_sortante.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.268,
@@ -3048,7 +3048,7 @@
     },
     {
       "pdf_name": "Sous-rubrique 2. Cadrage_mobilite_EC_en_interne.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Sous-rubrique 2. Cadrage_mobilite_EC_en_interne.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Sous-rubrique 2. Cadrage_mobilite_EC_en_interne.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.257,
@@ -3076,7 +3076,7 @@
     },
     {
       "pdf_name": "Séjour recherche - Modèle Lettre invitation 2025.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Séjour recherche - Modèle Lettre invitation 2025.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Séjour recherche - Modèle Lettre invitation 2025.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.001,
@@ -3106,7 +3106,7 @@
     },
     {
       "pdf_name": "Trame descriptif projet etablissement_VF.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Trame descriptif projet etablissement_VF.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Trame descriptif projet etablissement_VF.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.002,
@@ -3134,7 +3134,7 @@
     },
     {
       "pdf_name": "Unités de recherche par Ecoles Doctorales.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/Unités de recherche par Ecoles Doctorales.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/Unités de recherche par Ecoles Doctorales.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.059,
@@ -3162,7 +3162,7 @@
     },
     {
       "pdf_name": "charte des publications 2026.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/Autre/charte des publications 2026.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/Autre/charte des publications 2026.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.008,
@@ -3190,7 +3190,7 @@
     },
     {
       "pdf_name": "PJR - Fiche juridique benevoles_emerites.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/PJR/PJR - Fiche juridique benevoles_emerites.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/PJR/PJR - Fiche juridique benevoles_emerites.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.716,
@@ -3218,7 +3218,7 @@
     },
     {
       "pdf_name": "PJR - Fiche juridique devolution des droits de PI.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/PJR/PJR - Fiche juridique devolution des droits de PI.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/PJR/PJR - Fiche juridique devolution des droits de PI.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.611,
@@ -3246,7 +3246,7 @@
     },
     {
       "pdf_name": "PJR - Fiche juridique mobilite des chercheurs Loi Pacte.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/PJR/PJR - Fiche juridique mobilite des chercheurs Loi Pacte.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/PJR/PJR - Fiche juridique mobilite des chercheurs Loi Pacte.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.648,
@@ -3274,7 +3274,7 @@
     },
     {
       "pdf_name": "PJR - Fiche juridique œuvres_creees_agents_publics.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/PJR/PJR - Fiche juridique œuvres_creees_agents_publics.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/PJR/PJR - Fiche juridique œuvres_creees_agents_publics.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.722,
@@ -3302,7 +3302,7 @@
     },
     {
       "pdf_name": "Pôle Juridique Recherche - présentation générale.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/PJR/Pôle Juridique Recherche - présentation générale.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/PJR/Pôle Juridique Recherche - présentation générale.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.056,
@@ -3330,7 +3330,7 @@
     },
     {
       "pdf_name": "LE montage de projet.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/SPIV/LE montage de projet.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/SPIV/LE montage de projet.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.002,
@@ -3358,7 +3358,7 @@
     },
     {
       "pdf_name": "SPIV - CA 22-01-2029 - Annexe 4 - Méthode d'évaluation du coût des projets et des prestations de recherche.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/SPIV/SPIV - CA 22-01-2029 - Annexe 4 - Méthode d'évaluation du coût des projets et des prestations de recherche.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/SPIV/SPIV - CA 22-01-2029 - Annexe 4 - Méthode d'évaluation du coût des projets et des prestations de recherche.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.065,
@@ -3386,7 +3386,7 @@
     },
     {
       "pdf_name": "SPIV et liste laboratoire par CA.pdf",
-      "pdf_path": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot V1/data/downloads/Chatbot DRV/ChatBot/SPIV/SPIV et liste laboratoire par CA.pdf",
+      "pdf_path": "./data/downloads/Chatbot DRV/ChatBot/SPIV/SPIV et liste laboratoire par CA.pdf",
       "precheck": {
         "exists": true,
         "file_size_mb": 0.028,

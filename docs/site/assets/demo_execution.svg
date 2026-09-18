@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="primaryGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <filter id="dropShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <style>
+    .title-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; fill: #f8fafc; font-size: 14px; }
+    .meta-text { font-family: 'JetBrains Mono', 'Courier New', Courier, monospace; font-size: 11px; fill: #94a3b8; }
+    .body-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; fill: #e2e8f0; line-height: 1.5; }
+    .bold-text { font-weight: 600; fill: #38bdf8; }
+    .badge-text { font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1000" height="620" fill="url(#bgGrad)" />
+
+  <!-- Outer Window Frame -->
+  <g filter="url(#dropShadow)">
+    <rect x="40" y="30" width="920" height="560" rx="10" fill="url(#panelGrad)" stroke="#334155" stroke-width="1.5" />
+    
+    <!-- Window Header -->
+    <path d="M 40 40 Q 40 30 50 30 L 950 30 Q 960 30 960 40 L 960 70 L 40 70 Z" fill="#0f172a" />
+    <line x1="40" y1="70" x2="960" y2="70" stroke="#334155" stroke-width="1" />
+    
+    <!-- Window Controls -->
+    <circle cx="65" cy="50" r="5.5" fill="#ef4444" />
+    <circle cx="85" cy="50" r="5.5" fill="#f59e0b" />
+    <circle cx="105" cy="50" r="5.5" fill="#10b981" />
+    
+    <text x="500" y="54" text-anchor="middle" class="title-text">VICTORIA RAG &middot; Inférence Hybride &amp; Routage Expert</text>
+    <text x="930" y="54" text-anchor="end" class="meta-text" fill="#10b981">&#x25CF; STATUS: PRODUCTION</text>
+  </g>
+
+  <!-- Content Container -->
+  <g transform="translate(65, 85)">
+    
+    <!-- User Message Box -->
+    <g transform="translate(300, 15)">
+      <rect width="570" height="50" rx="8" fill="#0284c7" fill-opacity="0.2" stroke="#0ea5e9" stroke-width="1.2" />
+      <text x="20" y="24" class="badge-text" fill="#38bdf8">UTILISATEUR (CHERCHEUR / CANDIDAT)</text>
+      <text x="20" y="41" class="body-text" font-weight="500">Comment passer l'Habilitation a Diriger des Recherches (HDR) a l'Universite de Tours ?</text>
+    </g>
+
+    <!-- Pipeline Diagnostic Badges -->
+    <g transform="translate(0, 80)">
+      <!-- Step 1: Routing -->
+      <rect x="0" y="0" width="280" height="26" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="0.8" />
+      <text x="10" y="17" class="badge-text" fill="#38bdf8">ROUTAGE RAC: RED / DOCTORAT</text>
+
+      <!-- Step 2: HyDE -->
+      <rect x="290" y="0" width="280" height="26" rx="4" fill="#1e293b" stroke="#06b6d4" stroke-width="0.8" />
+      <text x="300" y="17" class="badge-text" fill="#06b6d4">HyDE: BYPASS (ACRONYME EXACT: HDR)</text>
+
+      <!-- Step 3: Retrieval -->
+      <rect x="580" y="0" width="290" height="26" rx="4" fill="#1e293b" stroke="#10b981" stroke-width="0.8" />
+      <text x="590" y="17" class="badge-text" fill="#10b981">RERANKER BGE-M3: SCORE = +8.92</text>
+    </g>
+
+    <!-- System Response Card -->
+    <g transform="translate(0, 122)">
+      <rect width="870" height="340" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1.2" />
+      
+      <text x="25" y="32" class="badge-text" fill="#0ea5e9">REPONSE DU SYSTEME &middot; VERIFIEE ET SOURCÉE</text>
+      
+      <!-- Body Text -->
+      <text x="25" y="60" class="body-text">L'obtention de l'<tspan class="bold-text">Habilitation a Diriger des Recherches (HDR)</tspan> a l'Universite de Tours sanctionne la reconnaissance</text>
+      <text x="25" y="80" class="body-text">du haut niveau scientifique du candidat et son aptitude a encadrer des doctorants. La procedure reglementaire</text>
+      <text x="25" y="100" class="body-text">se decompose selon les etapes officielles suivantes :</text>
+      
+      <!-- Ordered steps -->
+      <text x="40" y="130" class="body-text">1. <tspan font-weight="600" fill="#f8fafc">Conditions d'eligibilite</tspan> : Etre titulaire d'un doctorat avec minimum 3 ans d'experience post-doctorale.</text>
+      <text x="40" y="152" class="body-text">2. <tspan font-weight="600" fill="#f8fafc">Constitution du dossier</tspan> : Memoire de synthese scientifique, curriculum vitae detaille et liste des travaux.</text>
+      <text x="40" y="174" class="body-text">3. <tspan font-weight="600" fill="#f8fafc">Recevabilite</tspan> : Instruction administrative par le Pole RED, puis soumission a la Commission de la Recherche (CAC).</text>
+      <text x="40" y="196" class="body-text">4. <tspan font-weight="600" fill="#f8fafc">Soutenance publique</tspan> : Nomination de 3 rapporteurs externes avant l'autorisation finale de soutenance.</text>
+
+      <!-- Referent Contact Box (RAC) -->
+      <g transform="translate(25, 218)">
+        <rect width="820" height="52" rx="6" fill="#0369a1" fill-opacity="0.15" stroke="#0ea5e9" stroke-width="1.2" />
+        <rect x="0" y="0" width="5" height="52" rx="2" fill="#0ea5e9" />
+        <text x="20" y="22" class="badge-text" fill="#38bdf8">REFERENT METIER OBLIGATOIRE (ROUTAGE RAC)</text>
+        <text x="20" y="40" class="body-text"><tspan font-weight="600" fill="#ffffff">Aurelie PETEREAU</tspan> &mdash; Pole Recherche et Ecoles Doctorales (RED) &middot; Courriel : <tspan fill="#38bdf8">aurelie.petereau@univ-tours.fr</tspan></text>
+      </g>
+
+      <!-- Source Citations Box -->
+      <g transform="translate(25, 285)">
+        <text x="0" y="16" class="badge-text" fill="#64748b">SOURCES OFFICIELLES CONSULTEES :</text>
+        <rect x="230" y="3" width="310" height="20" rx="3" fill="#1e293b" />
+        <text x="240" y="17" class="meta-text" fill="#94a3b8">[DOC] RED_reglement HDR-CR-24-06-25-CA-07-07-25.md</text>
+        <rect x="550" y="3" width="220" height="20" rx="3" fill="#1e293b" />
+        <text x="560" y="17" class="meta-text" fill="#94a3b8">[DOC] charte des publications 2026.md</text>
+      </g>
+    </g>
+  </g>
+</svg>

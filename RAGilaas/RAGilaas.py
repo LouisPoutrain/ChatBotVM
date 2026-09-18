@@ -47,10 +47,6 @@ LLM_HEADERS = {
 candidate_bv_paths = [
     PROJECT_ROOT / "BV" / "BV.py",
     PROJECT_ROOT / "TestExtraction" / "BV" / "BV.py",
-    PROJECT_ROOT / "Traitement" / "BV" / "BV_Unstructured.py",
-    PROJECT_ROOT / "Traitement " / "BV" / "BV_Unstructured.py",
-    PROJECT_ROOT / "Traitement" / "BV" / "BV.py",
-    PROJECT_ROOT / "Traitement " / "BV" / "BV.py",
 ]
 
 BV_PATH = next((p for p in candidate_bv_paths if p.exists()), None)
