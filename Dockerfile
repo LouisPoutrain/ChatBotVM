@@ -1,5 +1,5 @@
-# Utilisation d'une image de base Python
-FROM python:3.10-slim
+# Utilisation d'une image de base Python stable (Debian 12 Bookworm)
+FROM python:3.10-slim-bookworm
 
 # Définition du répertoire de travail dans le conteneur
 WORKDIR /app
@@ -22,7 +22,8 @@ RUN apt-get update && apt-get install -y \
 COPY requirements.txt .
 
 # Installation des dépendances Python
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
 
 # Copie du reste du code source
 COPY . .

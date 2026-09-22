@@ -23,7 +23,7 @@ PyMuPDF>=1.24.14,<1.25.0
 pdfplumber>=0.11.0,<0.12.0
 pytesseract>=0.3.13
 Pillow>=10.4.0,<11.0.0
-marker-pdf>=0.2.17
+marker-pdf==0.2.17
 lxml>=5.2.0
 
 # Document Manipulation & Office Format Support
