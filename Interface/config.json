@@ -1,0 +1,5 @@
+{
+    "draft_model": "qwen-3.6-35b-instruct",
+    "answer_model": "qwen-3.6-35b-instruct",
+    "rac_model": "qwen-3.6-35b-instruct"
+}
