@@ -20,6 +20,7 @@ services:
       - ./data:/app/data
       - ./PDF2:/app/PDF2
       - ./Interface:/app/Interface
+      - ./Test:/app/Test
     restart: unless-stopped
     depends_on:
       - qdrant
