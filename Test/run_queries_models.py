@@ -244,7 +244,7 @@ def main():
     parser.add_argument("--query-file", type=str, default=None, help="Fichier des questions (par défaut: Query_Mix.txt ou Query.txt)")
     parser.add_argument("--output-dir", type=str, default=None, help="Dossier de sortie personnalisé (défaut: Results/YYYY-MM-DD_HH-MM_models_{query})")
     parser.add_argument("--models", type=str, default=None, help="Liste de modèles séparés par des virgules (ex: mistral-medium-latest,gemma-4-31b)")
-    parser.add_argument("--exclude-models", type=str, default="llama-3.3-70b,gpt-oss-120b,llama-3.1-8b", help="Modèles à exclure de la détection API automatique")
+    parser.add_argument("--exclude-models", type=str, default="", help="Modèles à exclure de la détection API automatique (séparés par des virgules)")
     parser.add_argument("--k", type=int, default=6, help="Nombre de chunks pour RAGilaas (défaut: 6)")
     parser.add_argument("--timeout", type=int, default=600, help="Timeout par question en secondes (défaut: 600)")
     parser.add_argument("--python", type=str, default=sys.executable, help="Interpréteur Python à utiliser")
