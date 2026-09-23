@@ -22,7 +22,7 @@ def main() -> None:
 	parser = argparse.ArgumentParser(description="Run a full RS/PC benchmark on a query file.")
 	parser.add_argument("--query-file", default="Query.txt", help="Query file located in the Test folder.")
 	parser.add_argument("--repeat", type=int, default=10, help="Number of repetitions per configuration.")
-	parser.add_argument("--output-dir", default="TestRSPC", help="Directory where benchmark outputs are written.")
+	parser.add_argument("--output-dir", default="Results/rs_pc", help="Directory where benchmark outputs are written.")
 	parser.add_argument(
 		"--prompt-variants",
 		nargs="+",
@@ -42,7 +42,10 @@ def main() -> None:
 	repo_root = base_dir.parent
 	query_file = Path(args.query_file)
 	if not query_file.is_absolute():
-		query_file = base_dir / query_file
+		if (base_dir / "Queries" / args.query_file).exists():
+			query_file = base_dir / "Queries" / args.query_file
+		else:
+			query_file = base_dir / query_file
 
 	if not query_file.exists():
 		raise FileNotFoundError(f"Query file not found: {query_file}")

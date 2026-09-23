@@ -154,18 +154,136 @@ Formate ta réponse UNIQUEMENT en JSON valide avec la structure exacte suivante 
 
 
 def resolve_query_files(base: Path, args: argparse.Namespace) -> list[Path]:
+    queries_dir = base / "Queries"
+
+    def _find_file(q_str: str) -> Path:
+        p = Path(q_str)
+        if p.is_absolute() and p.exists():
+            return p
+        if (queries_dir / q_str).exists():
+            return queries_dir / q_str
+        if (base / q_str).exists():
+            return base / q_str
+        # fallback
+        return (queries_dir / q_str) if queries_dir.exists() else (base / q_str)
+
     if getattr(args, "query_files", None):
-        return [Path(q) if Path(q).is_absolute() else (base / q) for q in args.query_files]
+        return [_find_file(q) for q in args.query_files]
 
     if getattr(args, "query_file", None):
-        query_file = Path(args.query_file)
-        return [query_file if query_file.is_absolute() else (base / query_file)]
+        return [_find_file(args.query_file)]
 
-    return sorted(base.glob("Query*.txt"))
+    found = sorted(queries_dir.glob("Query*.txt")) if queries_dir.exists() else []
+    if not found:
+        found = sorted(base.glob("Query*.txt"))
+    return found
 
 
 def build_output_path(base: Path, query_path: Path, default_name: str) -> Path:
     return base / f"{query_path.stem}_{default_name}"
+
+
+def update_latest_symlink(results_dir: Path, target_dir: Path) -> None:
+    latest = results_dir / "latest"
+    try:
+        if latest.is_symlink() or latest.exists():
+            latest.unlink()
+        latest.symlink_to(target_dir.name)
+    except Exception:
+        pass
+
+
+def generate_run_summary(payload: dict, output_md_path: Path) -> None:
+    trials = payload.get("trials", [])
+    if not trials:
+        return
+
+    q_file = payload.get("query_file", "Inconnu")
+    q_count = payload.get("question_count", len(trials))
+    draft_m = payload.get("draft_model", "N/A")
+    answer_m = payload.get("answer_model", "N/A")
+    judge_m = payload.get("judge_model", "N/A")
+    date_str = payload.get("generated_at", "")
+
+    total_faith = 0.0
+    total_rel = 0.0
+    total_prec = 0.0
+    total_comp = 0.0
+    total_conc = 0.0
+    valid_evals = 0
+
+    total_rag_dur = 0.0
+    total_eval_dur = 0.0
+
+    for t in trials:
+        rag_dur = float(t.get("rag_duration_s") or 0.0)
+        eval_dur = float(t.get("eval_duration_s") or 0.0)
+        total_rag_dur += rag_dur
+        total_eval_dur += eval_dur
+
+        ev = t.get("evaluation")
+        if ev and isinstance(ev, dict) and "faithfulness" in ev:
+            try:
+                total_faith += float(ev.get("faithfulness", 0))
+                total_rel += float(ev.get("answer_relevance", 0))
+                total_prec += float(ev.get("context_precision", 0))
+                total_comp += float(ev.get("completeness", 0))
+                total_conc += float(ev.get("conciseness", 0))
+                valid_evals += 1
+            except (ValueError, TypeError):
+                pass
+
+    n_trials = len(trials)
+    avg_rag = (total_rag_dur / n_trials) if n_trials else 0
+    avg_eval = (total_eval_dur / n_trials) if n_trials else 0
+
+    avg_faith = (total_faith / valid_evals) if valid_evals else 0
+    avg_rel = (total_rel / valid_evals) if valid_evals else 0
+    avg_prec = (total_prec / valid_evals) if valid_evals else 0
+    avg_comp = (total_comp / valid_evals) if valid_evals else 0
+    avg_conc = (total_conc / valid_evals) if valid_evals else 0
+    overall = (avg_faith + avg_rel + avg_prec + avg_comp + avg_conc) / 5 if valid_evals else 0
+
+    lines = [
+        f"# Rapport d'Évaluation RAG - {q_file}\n",
+        f"- **Date :** {date_str}",
+        f"- **Requêtes évaluées :** {valid_evals}/{q_count}",
+        f"- **Modèles :** Draft: `{draft_m}` | Réponse: `{answer_m}` | Juge: `{judge_m}`",
+        f"- **Temps d'exécution :** Total RAG: {total_rag_dur:.1f}s (moy. {avg_rag:.1f}s/q) | Évaluation: {total_eval_dur:.1f}s\n",
+        "## Scores Moyens (sur 5.0)\n",
+        "| Métrique | Score Moyen | Description |",
+        "|:---|:---:|:---|",
+        f"| **Faithfulness** | **{avg_faith:.2f} / 5** | Fidélité aux documents sources (absence d'hallucination) |",
+        f"| **Answer Relevance** | **{avg_rel:.2f} / 5** | Pertinence de la réponse par rapport à la question |",
+        f"| **Context Precision** | **{avg_prec:.2f} / 5** | Précision des passages extraits par le RAG |",
+        f"| **Completeness** | **{avg_comp:.2f} / 5** | Exhaustivité de la réponse fournie |",
+        f"| **Conciseness** | **{avg_conc:.2f} / 5** | Clarté et concision du texte |",
+        f"| **Score Global Moyen** | **{overall:.2f} / 5** | Moyenne des 5 critères |",
+        "\n## Tableau Récapitulatif par Question\n",
+        "| # | Question | Fidélité | Pertinence | Précision | Durée | Statut |",
+        "|---|---|:---:|:---:|:---:|:---:|:---:|",
+    ]
+
+    for i, t in enumerate(trials, start=1):
+        q_text = t.get("question", "").replace("|", "-")
+        q_short = (q_text[:75] + "...") if len(q_text) > 75 else q_text
+        dur = float(t.get("rag_duration_s") or 0.0)
+        ev = t.get("evaluation", {})
+        if ev and isinstance(ev, dict) and "faithfulness" in ev:
+            f_score = ev.get("faithfulness", "-")
+            r_score = ev.get("answer_relevance", "-")
+            p_score = ev.get("context_precision", "-")
+            status = " Succès"
+        elif ev and isinstance(ev, dict) and "error" in ev:
+            f_score, r_score, p_score = "-", "-", "-"
+            status = "⚠️ Erreur Juge"
+        else:
+            f_score, r_score, p_score = "-", "-", "-"
+            status = "❌ Échec"
+        lines.append(f"| {i} | {q_short} | {f_score}/5 | {r_score}/5 | {p_score}/5 | {dur:.1f}s | {status} |")
+
+    lines.append("\n---\n*Rapport généré automatiquement par `Test/run_queries_ragilaas.py`.*")
+    output_md_path.write_text("\n".join(lines), encoding="utf-8")
 
 
 def run_question(
@@ -323,8 +441,9 @@ def main() -> None:
         help="Several query files to run (default: all Query*.txt files in the Test folder)",
     )
     parser.add_argument("--rag-path", type=str, default="../RAGilaas/RAGilaas.py", help="Path to RAGilaas.py (relative to Test folder)")
-    parser.add_argument("--output-log", type=str, default="rag_batch_run_logs.txt", help="Combined output log file (written in Test)")
-    parser.add_argument("--output-json", type=str, default="rag_batch_trials.json", help="Structured JSON output for RS/PC analysis")
+    parser.add_argument("--output-dir", type=str, default=None, help="Dossier de sortie personnalisé (défaut: Results/YYYY-MM-DD_HH-MM_{query})")
+    parser.add_argument("--output-log", type=str, default="run_logs.txt", help="Nom du fichier de logs (dans le dossier de sortie)")
+    parser.add_argument("--output-json", type=str, default="trials.json", help="Nom du fichier JSON des résultats (dans le dossier de sortie)")
     parser.add_argument("--python", type=str, default=sys.executable, help="Python executable to run RAGilaas with")
     parser.add_argument("--timeout", type=int, default=600, help="Timeout per question in seconds")
     parser.add_argument("--repeat", type=int, default=1, help="Nombre de répétitions de l'ensemble des questions")
@@ -371,9 +490,16 @@ def main() -> None:
             print(f"No questions found in: {query_path.name}")
             continue
 
-        output_log = (base / args.output_log) if len(query_paths) == 1 and not Path(args.output_log).is_absolute() else build_output_path(base, query_path, Path(args.output_log).name)
-        output_json = (base / args.output_json) if len(query_paths) == 1 and not Path(args.output_json).is_absolute() else build_output_path(base, query_path, Path(args.output_json).name)
-        output_json.parent.mkdir(parents=True, exist_ok=True)
+        if args.output_dir:
+            run_dir = Path(args.output_dir) if Path(args.output_dir).is_absolute() else (base / args.output_dir)
+        else:
+            now_str = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M")
+            run_dir = base / "Results" / f"{now_str}_{query_path.stem}"
+        run_dir.mkdir(parents=True, exist_ok=True)
+
+        output_log = run_dir / (Path(args.output_log).name if args.output_log else "run_logs.txt")
+        output_json = run_dir / (Path(args.output_json).name if args.output_json else "trials.json")
+        output_summary_md = run_dir / "summary.md"
 
         print(
             f"[{query_path.name}] Found {len(questions)} questions — running {args.repeat} repetition(s) "
@@ -472,10 +598,14 @@ def main() -> None:
             "trials": trial_records,
         }
         output_json.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        generate_run_summary(payload, output_summary_md)
+        update_latest_symlink(base / "Results", run_dir)
 
         total_questions += len(questions)
-        print(f"[{query_path.name}] Done. Log: {output_log}")
-        print(f"[{query_path.name}] Structured trials JSON: {output_json}")
+        print(f"\n[{query_path.name}] ✅ Résultats enregistrés dans : {run_dir}")
+        print(f"  - Logs bruts      : {output_log}")
+        print(f"  - Données JSON    : {output_json}")
+        print(f"  - Rapport résumé  : {output_summary_md}")
 
     print(f"All done. Total query files: {len(query_paths)} | Total questions: {total_questions} | Total trials: {total_trials}")
 

@@ -16,7 +16,7 @@ PYTHON="$PROJECT_DIR/.venv/bin/python"
 RUNNER="$SCRIPT_DIR/run_queries_ragilaas.py"
 QUERY_FILE="Query_Mix.txt"
 JUDGE="gpt-oss-120b"
-OUTPUT_DIR="$SCRIPT_DIR/results_benchmark"
+OUTPUT_DIR="$SCRIPT_DIR/Results/benchmarks"
 
 mkdir -p "$OUTPUT_DIR"
 
@@ -63,8 +63,7 @@ for i in "${!COMBOS[@]}"; do
     --draft-model "$DRAFT" \
     --answer-model "$ANSWER" \
     --judge-model "$JUDGE" \
-    --output-log "$OUTPUT_DIR/${NAME}_log.txt" \
-    --output-json "$OUTPUT_DIR/${NAME}_trials.json" \
+    --output-dir "$OUTPUT_DIR/${NAME}" \
     --timeout 600
 
   COMBO_END=$(date +%s)

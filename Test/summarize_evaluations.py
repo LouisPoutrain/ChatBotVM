@@ -3,9 +3,16 @@ import glob
 import os
 import re
 
+import sys
+
 def main():
-    directory = "."
-    json_files = glob.glob(os.path.join(directory, "*_trials.json"))
+    target_dir = sys.argv[1] if len(sys.argv) > 1 else "Results"
+    if not os.path.exists(target_dir):
+        target_dir = "."
+
+    json_files = sorted(glob.glob(os.path.join(target_dir, "**/*trials*.json"), recursive=True))
+    if not json_files:
+        json_files = sorted(glob.glob(os.path.join(target_dir, "*trials*.json")))
     
     total_faithfulness = 0
     total_answer_relevance = 0
@@ -219,10 +226,11 @@ def main():
         for detail in res["details"]:
             output_lines.append(detail)
             
-    with open("conclusion_evaluations.md", "w", encoding="utf-8") as out_f:
+    out_file = os.path.join(target_dir, "conclusion_evaluations.md")
+    with open(out_file, "w", encoding="utf-8") as out_f:
         out_f.write("\n".join(output_lines))
         
-    print(f"Fichier conclusion_evaluations.md généré avec succès ! (Basé sur {len(json_files)} fichiers)")
+    print(f"Fichier {out_file} généré avec succès ! (Basé sur {len(json_files)} fichiers)")
 
 if __name__ == "__main__":
     main()
