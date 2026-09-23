@@ -16,3 +16,5 @@ __pycache__/
 
 # Test directory
 test/
+Test/
+TestExtraction/

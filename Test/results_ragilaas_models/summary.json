@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-06-01T09:56:50.430309",
+  "query_file": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot/ChatBot/Test/Query.txt",
+  "excluded_models": [
+    "gpt-oss-120b",
+    "llama-3.1-8b",
+    "llama-3.3-70b"
+  ],
+  "models": [
+    "gemma-4-31b",
+    "mistral-medium-250523",
+    "mistral-small-3.2-24b",
+    "mistral-small-4-119b",
+    "qwen-3.6-35b-instruct"
+  ],
+  "question_count": 22,
+  "runs": {
+    "gemma-4-31b": {
+      "questions": 22,
+      "results_file": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot/ChatBot/Test/results_ragilaas_models/gemma-4-31b.json",
+      "rag_log_file": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot/ChatBot/Test/results_ragilaas_models/ragilaas_gemma-4-31b_20260601_095650.log"
+    },
+    "mistral-medium-250523": {
+      "questions": 22,
+      "results_file": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot/ChatBot/Test/results_ragilaas_models/mistral-medium-250523.json",
+      "rag_log_file": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot/ChatBot/Test/results_ragilaas_models/ragilaas_mistral-medium-250523_20260601_095650.log"
+    },
+    "mistral-small-3.2-24b": {
+      "questions": 22,
+      "results_file": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot/ChatBot/Test/results_ragilaas_models/mistral-small-3.2-24b.json",
+      "rag_log_file": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot/ChatBot/Test/results_ragilaas_models/ragilaas_mistral-small-3.2-24b_20260601_095650.log"
+    },
+    "mistral-small-4-119b": {
+      "questions": 22,
+      "results_file": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot/ChatBot/Test/results_ragilaas_models/mistral-small-4-119b.json",
+      "rag_log_file": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot/ChatBot/Test/results_ragilaas_models/ragilaas_mistral-small-4-119b_20260601_095650.log"
+    },
+    "qwen-3.6-35b-instruct": {
+      "questions": 22,
+      "results_file": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot/ChatBot/Test/results_ragilaas_models/qwen-3.6-35b-instruct.json",
+      "rag_log_file": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot/ChatBot/Test/results_ragilaas_models/ragilaas_qwen-3.6-35b-instruct_20260601_095650.log"
+    }
+  },
+  "rag_script": "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/ChatBot/ChatBot/RAG/RAGilaas/RAGilaas.py",
+  "base_url": "https://llm.ilaas.fr/v1",
+  "dry_run": false
+}

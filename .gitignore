@@ -78,6 +78,8 @@ Log/
 **/logs/*.txt
 **/logs/*.log
 data/logs/
+Test/**/*_log.txt
+Test/**/*_logs.txt
 
 # Heavy data, caches, temporary archives
 *.tar.gz

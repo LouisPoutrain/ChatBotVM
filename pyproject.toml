@@ -81,7 +81,7 @@ Documentation = "https://github.com/LouisPoutrain/ChatBotVM#readme"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["BV*", "RAC*", "RAGilaas*", "Utilitaire*", "Interface*"]
-exclude = ["tests*", "docs*", "PDF2*"]
+exclude = ["tests*", "Test*", "TestExtraction*", "docs*", "PDF2*"]
 
 [tool.black]
 line-length = 100
