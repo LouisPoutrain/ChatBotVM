@@ -19,6 +19,7 @@ services:
       - ./RAC/Data:/app/RAC/Data
       - ./data:/app/data
       - ./PDF2:/app/PDF2
+      - ./Interface:/app/Interface
     restart: unless-stopped
     depends_on:
       - qdrant
