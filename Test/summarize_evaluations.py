@@ -29,7 +29,14 @@ def main():
     output_lines = ["# Bilan des Évaluations (LLM as a Judge)\n"]
     
     for file_path in json_files:
-        filename = os.path.basename(file_path)
+        rel_path = os.path.relpath(file_path, target_dir)
+        parent_dir = os.path.basename(os.path.dirname(file_path))
+        base_name = os.path.basename(file_path)
+        if base_name in ("trials.json", "data.json") and parent_dir and parent_dir != ".":
+            display_name = parent_dir
+        else:
+            display_name = rel_path.replace("\\", "/")
+
         with open(file_path, 'r', encoding='utf-8') as f:
             try:
                 data = json.load(f)
@@ -52,6 +59,10 @@ def main():
         
         # Lire le fichier de log pour extraire les tokens générés "cachés" (HyDE + Pensées)
         log_file_path = file_path.replace("_trials.json", "_log.txt")
+        if not os.path.exists(log_file_path):
+            candidate = os.path.join(os.path.dirname(file_path), "run_logs.txt")
+            if os.path.exists(candidate):
+                log_file_path = candidate
         extra_tokens_per_trial = []
         
         if os.path.exists(log_file_path):
@@ -161,7 +172,7 @@ def main():
                 file_details.append(detail_str)
         
         if file_count > 0:
-            results_by_file[filename] = {
+            results_by_file[display_name] = {
                 "avg_faithfulness": file_faithfulness / file_count,
                 "avg_answer_relevance": file_answer_relevance / file_count,
                 "avg_context_precision": file_context_precision / file_count,
@@ -174,8 +185,11 @@ def main():
                 "details": file_details
             }
         else:
-            results_by_file[filename] = {
+            results_by_file[display_name] = {
                 "count": 0,
+                "avg_faithfulness": 0,
+                "avg_answer_relevance": 0,
+                "avg_context_precision": 0,
                 "avg_rag_duration": file_rag_duration / file_time_count if file_time_count else 0,
                 "avg_eval_duration": file_eval_duration / file_time_count if file_time_count else 0,
                 "avg_total_duration": file_total_duration / file_time_count if file_time_count else 0,
@@ -202,11 +216,28 @@ def main():
         output_lines.append(f"- *Nombre total de requêtes chronométrées : {time_count}*\n")
     else:
         output_lines.append("Aucune donnée de temps trouvée.\n")
+
+    # Tableau comparatif
+    if results_by_file:
+        output_lines.append("## 📊 Tableau Comparatif des Configurations\n")
+        output_lines.append("| Configuration / Modèle | Faithfulness | Relevance | Context Precision | RAG (s) | Eval (s) | Total (s) | Tokens Moy. | Évaluations |")
+        output_lines.append("|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|")
+        for name, res in sorted(results_by_file.items()):
+            faith_str = f"{res['avg_faithfulness']:.2f} / 5" if res["count"] > 0 else "N/A"
+            rel_str = f"{res['avg_answer_relevance']:.2f} / 5" if res["count"] > 0 else "N/A"
+            prec_str = f"{res['avg_context_precision']:.2f} / 5" if res["count"] > 0 else "N/A"
+            rag_str = f"{res['avg_rag_duration']:.2f}s" if res["time_count"] > 0 else "N/A"
+            eval_str = f"{res['avg_eval_duration']:.2f}s" if res["time_count"] > 0 else "N/A"
+            total_str = f"{res['avg_total_duration']:.2f}s" if res["time_count"] > 0 else "N/A"
+            tok_str = f"{int(res['avg_tokens'])}" if res["time_count"] > 0 else "N/A"
+            cnt_str = f"{res['count']}"
+            output_lines.append(f"| **{name}** | {faith_str} | {rel_str} | {prec_str} | {rag_str} | {eval_str} | {total_str} | {tok_str} | {cnt_str} |")
+        output_lines.append("")
         
-    output_lines.append("## Résultats par Fichier\n")
+    output_lines.append("## Détails par Configuration\n")
     
     for filename, res in results_by_file.items():
-        output_lines.append(f"### Fichier : {filename}")
+        output_lines.append(f"### Configuration : {filename}")
         if res["count"] > 0:
             output_lines.append(f"- Moyenne Faithfulness : {res['avg_faithfulness']:.2f} / 5")
             output_lines.append(f"- Moyenne Answer Relevance : {res['avg_answer_relevance']:.2f} / 5")

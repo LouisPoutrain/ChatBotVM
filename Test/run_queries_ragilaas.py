@@ -463,6 +463,7 @@ def main() -> None:
     parser.add_argument("--draft-model", type=str, default="mistral-medium-latest", help="Modèle LLM pour le routeur RAC et la génération HyDE")
     parser.add_argument("--answer-model", type=str, default="mistral-medium-latest", help="Modèle LLM pour la réponse finale")
     parser.add_argument("--judge-model", type=str, default="mistral-medium-latest", help="Modèle LLM pour l'évaluation (LLM-as-a-Judge)")
+    parser.add_argument("--max-questions", type=int, default=0, help="Limiter le nombre de questions (0 = toutes)")
     args = parser.parse_args()
 
     base = Path(__file__).resolve().parent
@@ -486,6 +487,8 @@ def main() -> None:
             continue
 
         questions = load_questions(query_path)
+        if args.max_questions > 0:
+            questions = questions[: args.max_questions]
         if not questions:
             print(f"No questions found in: {query_path.name}")
             continue

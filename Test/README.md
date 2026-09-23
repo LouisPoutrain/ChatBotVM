@@ -17,14 +17,18 @@ Test/
 │   ├── latest                   # Raccourci symbolique vers la dernière exécution
 │   ├── 2026-09-23_Query/        # Exemple d'exécution datée
 │   │   ├── trials.json          # Données brutes structurées (notes, tokens, réponses)
-│   │   ├── run_logs.txt         # Traces textuelles d'exécution
+│   │   ├── run_logs.txt         # Traces textuelles d'inférence
 │   │   └── summary.md           # Rapport de synthèse lisible (tableaux & moyennes)
-│   ├── benchmarks/              # Résultats des benchmarks comparatifs multi-modèles
-│   ├── rs_pc/                   # Résultats de l'analyse RS & PC
+│   ├── YYYY-MM-DD_HH-MM_benchmark_Query_Mix/ # Benchmark multi-modèles (10 combos)
+│   │   ├── 01_baseline/         # Dossier par combinaison
+│   │   ├── 02_fast_draft/
+│   │   └── conclusion_evaluations.md # Synthèse comparative globale automatique
 │   └── Archive/                 # Historique des anciens tests (Mix1, etc.)
 │
 ├── run_queries_ragilaas.py      # Script principal d'évaluation avec Juge LLM
-├── run_benchmark.sh             # Benchmark automatisé multi-modèles (10 combos)
+├── run_benchmark.py             # Benchmark multi-modèles (10 combinaisons, LLM Judge)
+├── run_benchmark.sh             # Lanceur Shell équivalent pour run_benchmark.py
+├── run_queries_models.py        # Comparaison de modèles avec découverte API dynamique
 ├── run_rs_pc_benchmark.py       # Évaluation Robustesse Sémantique & Ordre de Contexte
 ├── summarize_evaluations.py     # Générateur de rapports de synthèse Markdown
 └── RS&PC.py                     # Algorithmes de calcul des métriques RS et PC
@@ -32,64 +36,73 @@ Test/
 
 ---
 
-## 🚀 Commandes d'Exécution
+## 🚀 Commandes d'Exécution sur la VM (Docker)
 
-> **Note :** Si vous lancez depuis la VM hôte, activez l'environnement avec `source /opt/ChatBotV1/.venv/bin/activate`.
-> Si vous utilisez Docker, préfixez par `docker exec -it univ-chatbot`.
-
-### 1. Évaluation par lot avec Juge LLM (Recommandé)
-
-Lance l'évaluation complète d'un jeu de questions avec le LLM comme juge (fidélité, pertinence, précision du contexte, exhaustivité, concision) :
-
-```bash
-# Lance le test sur Query.txt (résultats automatiquement rangés dans Test/Results/YYYY-MM-DD_HH-MM_Query/)
-python Test/run_queries_ragilaas.py --query-file Query.txt
-
-# Spécifier un autre fichier de requêtes
-python Test/run_queries_ragilaas.py --query-file Query_Mix.txt
-
-# Spécifier un dossier de sortie personnalisé
-python Test/run_queries_ragilaas.py --query-file Query.txt --output-dir Results/mon_test_specifique
-```
-
-Chaque exécution génère automatiquement :
-- `trials.json` : les données détaillées exploitables par script
-- `run_logs.txt` : les logs bruts d'inférence
-- `summary.md` : le rapport Markdown avec moyennes et tableau récapitulatif
+> **Important :** Sur la VM, toutes les dépendances et clés API sont configurées dans le conteneur Docker `univ-chatbot`.
+> Il suffit donc de préfixer vos commandes par `docker exec -it univ-chatbot`.
 
 ---
 
-### 2. Benchmark Multi-Modèles (10 Combinaisons)
+### 1. Benchmark Multi-Modèles (10 Combinaisons avec Juge LLM)
 
-Compare 10 associations de modèles (Mistral, Llama 3, Gemma, Qwen) sur `Query_Mix.txt` avec un juge impartial :
+Ce script teste les **10 combinaisons architecturales** définies dans `BenchComb.md` (Mistral, LLaMA, Gemma, Qwen) et utilise un **Juge impartial fixe** (`gpt-oss-120b`) pour évaluer fidélité, pertinence et précision du contexte. À la fin, il génère automatiquement le rapport comparatif global `conclusion_evaluations.md`.
 
 ```bash
-chmod +x Test/run_benchmark.sh
-./Test/run_benchmark.sh
+# 🎯 Lancer le benchmark complet (10 combos sur Query_Mix.txt)
+docker exec -it univ-chatbot python Test/run_benchmark.py
+
+# ⚡ Test rapide : limiter à 2 questions par modèle pour valider le bon fonctionnement
+docker exec -it univ-chatbot python Test/run_benchmark.py --max-questions 2
+
+# 🔍 Tester uniquement des combinaisons spécifiques (ex: baseline et fast draft)
+docker exec -it univ-chatbot python Test/run_benchmark.py --combos 1 2
+
+# 📄 Utiliser un autre jeu de questions
+docker exec -it univ-chatbot python Test/run_benchmark.py --query-file Query.txt
 ```
-*Les résultats sont rangés dans `Test/Results/benchmarks/<combo_name>/`.*
 
 ---
 
-### 3. Benchmark RS & PC (Robustesse Sémantique & Permutation de Contexte)
+### 2. Comparaison Directe des Modèles de l'API (Sans Juge)
 
-Mesure la stabilité des réponses face aux variations de prompt et à l'ordre des documents dans le prompt :
+Ce script interroge dynamiquement l'API LLM (`/v1/models`), filtre les modèles disponibles et compare leurs réponses et temps de génération :
 
 ```bash
-python Test/run_rs_pc_benchmark.py --query-file Query.txt --repeat 3
+# 🔍 Découverte automatique et comparaison sur Query.txt
+docker exec -it univ-chatbot python Test/run_queries_models.py --query-file Query.txt
+
+# ⚡ Comparer 2 modèles précis sur 3 questions
+docker exec -it univ-chatbot python Test/run_queries_models.py --models mistral-medium-latest,gemma-4-31b --max-questions 3
+
+# 🧪 Mode simulation (dry-run)
+docker exec -it univ-chatbot python Test/run_queries_models.py --dry-run
 ```
-*Les résultats sont rangés dans `Test/Results/rs_pc/`.*
+*Génère un tableau comparatif et un comparatif question par question dans `Test/Results/YYYY-MM-DD_HH-MM_models_<query>/summary.md`.*
 
 ---
 
-### 4. Générer ou Mettre à Jour un Rapport Global
+### 3. Évaluation par lot d'un modèle unique avec Juge LLM
 
-Pour générer un rapport de synthèse Markdown (`conclusion_evaluations.md`) basé sur tous les tests d'un dossier :
+Lance l'évaluation complète d'un jeu de questions avec le modèle par défaut ou spécifié :
+
+```bash
+# Lance le test standard sur Query.txt
+docker exec -it univ-chatbot python Test/run_queries_ragilaas.py --query-file Query.txt
+
+# Tester sur 5 questions seulement
+docker exec -it univ-chatbot python Test/run_queries_ragilaas.py --query-file Query.txt --max-questions 5
+```
+
+---
+
+### 4. Générer ou Mettre à Jour un Rapport Global de Synthèse
+
+Pour recalculer ou regénérer un rapport de synthèse Markdown (`conclusion_evaluations.md`) basé sur tous les tests d'un dossier :
 
 ```bash
 # Synthèse sur le dernier run
-python Test/summarize_evaluations.py Test/Results/latest
+docker exec -it univ-chatbot python Test/summarize_evaluations.py Test/Results/latest
 
 # Synthèse globale sur tout le dossier Results
-python Test/summarize_evaluations.py Test/Results
+docker exec -it univ-chatbot python Test/summarize_evaluations.py Test/Results
 ```
