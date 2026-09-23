@@ -28,3 +28,4 @@ services:
     environment:
       - PYTHONUNBUFFERED=1
       - QDRANT_URL=http://qdrant:6333
+      - TZ=Europe/Paris

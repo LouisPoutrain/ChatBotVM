@@ -102,10 +102,11 @@ class ChatResponse(BaseModel):
     response: str
     contact_info: Optional[str] = None
 
-# Configuration du logger pour enregistrer dans Log/YYYY-MM/YYYY-MM-DD.log
+# Configuration du logger pour enregistrer dans Log/YYYY-MM/YYYY-MM-DD.log (rotation automatique à minuit)
 logger.add(
-    PROJECT_ROOT / "Log" / "{time:YYYY-MM}" / "{time:YYYY-MM-DD}.log",
-    rotation="1 day",
+    str(PROJECT_ROOT / "Log" / "{time:YYYY-MM}" / "{time:YYYY-MM-DD}.log"),
+    rotation="00:00",
+    retention="60 days",
     enqueue=True,
     catch=True,
     format="{time:YYYY-MM-DD HH:mm:ss.SSS} | {level: <8} | {name}:{function}:{line} - {message}"
