@@ -3,12 +3,12 @@
 ## Moyennes Globales
 
 - **Faithfulness** : 4.59 / 5
-- **Answer Relevance** : 3.85 / 5
-- **Context Precision** : 4.06 / 5
-- *Nombre de réponses évaluées avec succès : 229*
-- **Temps moyen RAG** : 114.91s
-- **Temps moyen Évaluation** : 10.15s
-- **Temps moyen Total** : 125.06s
+- **Answer Relevance** : 3.90 / 5
+- **Context Precision** : 4.03 / 5
+- *Nombre de réponses évaluées avec succès : 210*
+- **Temps moyen RAG** : 95.16s
+- **Temps moyen Évaluation** : 9.85s
+- **Temps moyen Total** : 105.00s
 - **Tokens moyens générés** : 0
 - *Nombre total de requêtes chronométrées : 240*
 
@@ -16,37 +16,37 @@
 
 | Configuration / Modèle | Faithfulness | Relevance | Context Precision | RAG (s) | Eval (s) | Total (s) | Tokens Moy. | Évaluations |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **01_baseline** | 5.00 / 5 | 3.83 / 5 | 4.25 / 5 | 142.44s | 10.27s | 152.70s | 0 | 24 |
-| **02_fast_draft** | 4.67 / 5 | 3.71 / 5 | 4.38 / 5 | 148.86s | 8.75s | 157.60s | 0 | 24 |
+| **01_baseline** | 4.52 / 5 | 3.39 / 5 | 4.30 / 5 | 101.79s | 11.01s | 112.80s | 0 | 23 |
+| **02_fast_draft** | 4.43 / 5 | 4.43 / 5 | 4.86 / 5 | 88.68s | 3.13s | 91.82s | 0 | 7 |
 | **03_max_quality** | 4.79 / 5 | 3.88 / 5 | 3.42 / 5 | 86.07s | 12.15s | 98.22s | 0 | 24 |
-| **04_meta_mono** | 4.00 / 5 | 4.09 / 5 | 3.96 / 5 | 139.49s | 10.29s | 149.78s | 0 | 23 |
+| **04_meta_mono** | 3.96 / 5 | 4.04 / 5 | 3.52 / 5 | 87.10s | 10.85s | 97.96s | 0 | 23 |
 | **05_mistral_stack** | 4.75 / 5 | 4.25 / 5 | 4.38 / 5 | 97.58s | 12.14s | 109.73s | 0 | 24 |
 | **06_google_mono** | 4.70 / 5 | 4.09 / 5 | 3.87 / 5 | 102.27s | 11.27s | 113.54s | 0 | 23 |
 | **07_qwen_mono** | 4.58 / 5 | 4.08 / 5 | 4.08 / 5 | 102.16s | 11.25s | 113.41s | 0 | 24 |
-| **08_economy_cross** | 4.33 / 5 | 3.38 / 5 | 4.04 / 5 | 147.72s | 9.79s | 157.51s | 0 | 24 |
+| **08_economy_cross** | 4.91 / 5 | 4.00 / 5 | 4.30 / 5 | 103.45s | 11.07s | 114.52s | 0 | 23 |
 | **09_premium_cross** | 4.58 / 5 | 3.67 / 5 | 4.04 / 5 | 95.73s | 10.33s | 106.07s | 0 | 24 |
 | **10_mid_draft** | 4.47 / 5 | 3.40 / 5 | 4.20 / 5 | 86.73s | 5.24s | 91.98s | 0 | 15 |
 
 ## Détails par Configuration
 
 ### Configuration : 01_baseline
-- Moyenne Faithfulness : 5.00 / 5
-- Moyenne Answer Relevance : 3.83 / 5
-- Moyenne Context Precision : 4.25 / 5
-- *Évaluations réussies : 24*
-- Temps moyen RAG : 142.44s
-- Temps moyen Évaluation : 10.27s
-- Temps moyen Total : 152.70s
+- Moyenne Faithfulness : 4.52 / 5
+- Moyenne Answer Relevance : 3.39 / 5
+- Moyenne Context Precision : 4.30 / 5
+- *Évaluations réussies : 23*
+- Temps moyen RAG : 101.79s
+- Temps moyen Évaluation : 11.01s
+- Temps moyen Total : 112.80s
 - Tokens moyens générés : 0
 
 ### Configuration : 02_fast_draft
-- Moyenne Faithfulness : 4.67 / 5
-- Moyenne Answer Relevance : 3.71 / 5
-- Moyenne Context Precision : 4.38 / 5
-- *Évaluations réussies : 24*
-- Temps moyen RAG : 148.86s
-- Temps moyen Évaluation : 8.75s
-- Temps moyen Total : 157.60s
+- Moyenne Faithfulness : 4.43 / 5
+- Moyenne Answer Relevance : 4.43 / 5
+- Moyenne Context Precision : 4.86 / 5
+- *Évaluations réussies : 7*
+- Temps moyen RAG : 88.68s
+- Temps moyen Évaluation : 3.13s
+- Temps moyen Total : 91.82s
 - Tokens moyens générés : 0
 
 ### Configuration : 03_max_quality
@@ -60,13 +60,13 @@
 - Tokens moyens générés : 0
 
 ### Configuration : 04_meta_mono
-- Moyenne Faithfulness : 4.00 / 5
-- Moyenne Answer Relevance : 4.09 / 5
-- Moyenne Context Precision : 3.96 / 5
+- Moyenne Faithfulness : 3.96 / 5
+- Moyenne Answer Relevance : 4.04 / 5
+- Moyenne Context Precision : 3.52 / 5
 - *Évaluations réussies : 23*
-- Temps moyen RAG : 139.49s
-- Temps moyen Évaluation : 10.29s
-- Temps moyen Total : 149.78s
+- Temps moyen RAG : 87.10s
+- Temps moyen Évaluation : 10.85s
+- Temps moyen Total : 97.96s
 - Tokens moyens générés : 0
 
 ### Configuration : 05_mistral_stack
@@ -100,13 +100,13 @@
 - Tokens moyens générés : 0
 
 ### Configuration : 08_economy_cross
-- Moyenne Faithfulness : 4.33 / 5
-- Moyenne Answer Relevance : 3.38 / 5
-- Moyenne Context Precision : 4.04 / 5
-- *Évaluations réussies : 24*
-- Temps moyen RAG : 147.72s
-- Temps moyen Évaluation : 9.79s
-- Temps moyen Total : 157.51s
+- Moyenne Faithfulness : 4.91 / 5
+- Moyenne Answer Relevance : 4.00 / 5
+- Moyenne Context Precision : 4.30 / 5
+- *Évaluations réussies : 23*
+- Temps moyen RAG : 103.45s
+- Temps moyen Évaluation : 11.07s
+- Temps moyen Total : 114.52s
 - Tokens moyens générés : 0
 
 ### Configuration : 09_premium_cross
@@ -136,389 +136,335 @@
 
 ### Question : C’est quoi les SAPS ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 83.32s, Eval: 7.18s, Total: 90.50s
+- **Temps** : RAG: 64.22s, Eval: 12.32s, Total: 76.54s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse (définition de SAPS, lien avec la loi LPR 2021, objectif de rapprocher chercheurs et société, médiation, événements, projets participatifs, lien web) sont directement présentes dans le contexte fourni. Aucun élément n'est inventé.
-- **Avis Answer Relevance** : La réponse répond exactement à la question « C’est quoi les SAPS ? » en donnant une définition claire et en précisant la mission du dispositif.
-- **Avis Context Precision** : Le contexte récupéré contient la définition, le cadre législatif, les objectifs et le site web des SAPS, ce qui est suffisant pour répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement présentes dans le contexte : le sigle SAPS signifie Sciences Avec et Pour la Société, il s’inscrit dans le cadre de la loi LPR 2021, et son objectif est de renforcer le dialogue entre chercheurs et citoyens via médiation, co‑construction de projets et organisation d’événements. L’URL saps.univ‑tours.fr apparaît également dans le contexte. Aucun élément n’est inventé.
+- **Avis Answer Relevance** : La réponse répond exactement à la question « C’est quoi les SAPS ? » en donnant une définition claire et concise du dispositif, ce qui correspond parfaitement à la demande.
+- **Avis Context Precision** : Le contexte fourni contient toutes les informations nécessaires pour répondre à la question (définition, cadre législatif, objectifs, activités). Il a été exploité de façon adéquate.
 
 ### Question : Comment peut-on changer le budget d’un projet ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 159.97s, Eval: 9.09s, Total: 169.06s
+- **Temps** : RAG: 117.45s, Eval: 16.05s, Total: 133.50s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse (contacter le SPIV, fournir un argumentaire scientifique, soumettre un budget modifié validé par l'antenne financière, attendre le retour du financeur) sont directement tirées du texte du contexte. Le seul élément supplémentaire est le contact "Anne Galopin : af.polytech@univ-tours.fr", qui n'est pas présent dans le contexte, mais la règle d'exemption des contacts injectés indique de ne pas pénaliser la fidélité pour ce type d'information.
-- **Avis Answer Relevance** : La réponse répond exactement à la question « Comment peut-on changer le budget d’un projet ? » en décrivant la procédure à suivre. Aucun élément hors sujet n'est ajouté.
-- **Avis Context Precision** : Le contexte fourni contient une section dédiée aux demandes de modification budgétaire via le SPIV, incluant les étapes et les documents requis. Il est donc parfaitement adapté pour répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement tirées du contexte : le texte indique que toute demande de modification budgétaire doit passer par le SPIV, qu’il faut fournir un argumentaire scientifique et un budget modifié validé par l’antenne financière. Aucun élément n’est inventé. Le contact ajouté n’est pas pénalisé selon la règle d’exemption des contacts.
+- **Avis Answer Relevance** : La réponse répond exactement à la question en expliquant la procédure à suivre pour changer le budget d’un projet, sans digression.
+- **Avis Context Precision** : Le contexte fourni contient la section « Gérer les aléas (demande d’avenant ou de modification) » qui décrit la procédure de modification budgétaire, ce qui est exactement l’information requise.
 
 ### Question : Quelles sont les différentes démarches à effectuer ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 1.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 133.03s, Eval: 8.64s, Total: 141.67s
+- **Temps** : RAG: 91.21s, Eval: 12.43s, Total: 103.64s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Aucune affirmation n'est présente dans la réponse, il n'y a donc aucune information qui puisse être en contradiction avec le contexte fourni. Aucun élément n'est halluciné.
-- **Avis Answer Relevance** : La question « Quelles sont les différentes démarches à effectuer ? » n'est pas du tout traitée par la réponse qui est vide ou inexistante, ce qui la rend hors sujet et inutile pour l'utilisateur.
-- **Avis Context Precision** : Le contexte récupéré contient de nombreuses informations détaillées sur les démarches (pièces justificatives, dépôt PDF, lecture de la Charte du doctorat, transmission du dossier aux différentes directions, etc.). Le contexte est donc parfaitement pertinent et complet pour répondre à la question.
+- **Avis Faithfulness** : Aucune affirmation n'est présentée dans la réponse, donc aucune information n'est en contradiction avec le contexte. L'absence de contenu implique que la réponse ne peut pas contenir d'hallucination, ce qui justifie le score maximal.
+- **Avis Answer Relevance** : La question demande « Quelles sont les différentes démarches à effectuer ? » mais la réponse ne fournit aucune information, ne répond donc pas du tout à la demande.
+- **Avis Context Precision** : Le contexte récupéré décrit en détail les démarches à suivre pour la soutenance de thèse (pièces justificatives, validations par les différentes directions, dépôt du PDF, etc.). Il contient donc toutes les informations nécessaires pour répondre à la question.
 
 ### Question : - Dans quel cadre puis-je réaliser des expérimentations avec un partenaire extérieur? Est-ce gratuit?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 3.0/5, Context Precision: 4.0/5
-- **Temps** : RAG: 227.70s, Eval: 7.99s, Total: 235.69s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 149.86s, Eval: 0.00s, Total: 149.86s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations (nécessité d’un contrat, partage de la propriété intellectuelle, recours au SPIV) sont présentes dans le contexte fourni. Le contact Hélène Jullien est un contact injecté et, selon les règles, ne pénalise pas la fidélité.
-- **Avis Answer Relevance** : La réponse indique le cadre contractuel requis, ce qui répond partiellement à la première partie de la question. Cependant, elle ne répond pas explicitement à la seconde partie (« Est‑ce gratuit ? »), ce qui rend la pertinence partielle.
-- **Avis Context Precision** : Le contexte contient les informations sur le cadre contractuel et le service à contacter pour les aspects financiers, mais il ne précise pas si les expérimentations sont gratuites. Le contexte est donc pertinent mais incomplet pour la question de gratuité.
 
 ### Question : A quelle adresse postale ou mail dois-je envoyer mon projet ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 139.26s, Eval: 5.14s, Total: 144.40s
+- **Notes** : Faithfulness: 1.0/5, Answer Relevance: 1.0/5, Context Precision: 3.0/5
+- **Temps** : RAG: 89.75s, Eval: 11.56s, Total: 101.31s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse ne contient que l'adresse e‑mail de Morgane Guibert, qui figure exactement dans le contexte fourni. Aucun élément n'est ajouté en dehors du contexte.
-- **Avis Answer Relevance** : La question demande une adresse postale ou e‑mail pour envoyer le projet. La réponse fournit une adresse e‑mail pertinente, répondant directement à la demande.
-- **Avis Context Precision** : Le contexte comprend l'e‑mail de la responsable du pôle (morgane.guibert@univ-tours.fr) ainsi que d'autres contacts. L'information nécessaire était donc bien présente.
+- **Avis Faithfulness** : Aucune réponse n'a été fournie, il n'y a donc aucune affirmation à vérifier par rapport au contexte. L'absence de contenu ne constitue pas une hallucination, mais la note la plus basse reflète le manque total d'information.
+- **Avis Answer Relevance** : La question demande l'adresse postale ou mail pour envoyer le projet. Aucun élément de réponse n'est présent, donc la pertinence est nulle.
+- **Avis Context Precision** : Le contexte contient plusieurs adresses e‑mail (laura.guillet@insa-clv.fr, cotutelles@univ-orleans.fr, lucie.primault@univ-tours.fr) ainsi que des indications générales de contact, mais il ne précise pas explicitement l'adresse à utiliser pour l'envoi du projet. Le contexte est donc partiellement utile, d'où une note moyenne.
 
 ### Question : Comment m’inscrire / me réinscrire ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 131.82s, Eval: 16.19s, Total: 148.01s
+- **Temps** : RAG: 90.47s, Eval: 12.54s, Total: 103.01s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement tirées du contexte : création d'un compte ADUM, dépôt des pièces justificatives en un seul PDF, validation de la Charte du doctorat, transmission du dossier aux différents validateurs, mise à jour des informations, dépôt de la Convention Individuelle de Formation, date limite du 15 novembre. Aucun élément n'est inventé.
-- **Avis Answer Relevance** : La réponse répond exactement à la question « Comment m’inscrire / me réinscrire ? » en donnant les étapes concrètes pour l’inscription et la réinscription, sans digression.
-- **Avis Context Precision** : Le contexte fourni contient toutes les informations nécessaires (procédure ADUM, documents requis, validation en chaîne, date limite) et celles‑ci sont utilisées dans la réponse.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement tirées du contexte : création d'un compte ADUM, dépôt des pièces en un seul PDF, validation de la Charte du doctorat, transmission du dossier aux différents validateurs, mise à jour des informations, dépôt de la Convention Individuelle de Formation, documents (photo, CV, rapport d'activité) et respect de la date limite du 15 novembre. Aucun élément n'est inventé.
+- **Avis Answer Relevance** : La réponse répond exactement à la question « Comment m’inscrire / me réinscrire ? » en donnant les étapes concrètes pour l’inscription initiale et la réinscription, sans digression.
+- **Avis Context Precision** : Le contexte fourni contient toutes les informations nécessaires (procédure ADUM, documents requis, validation de la charte, chaîne de validation, date limite). Le système a extrait les parties pertinentes.
 
 ### Question : Quelles ressources le Pôle SAPS peut m’apporter ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 81.87s, Eval: 8.47s, Total: 90.34s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 4.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 70.15s, Eval: 16.77s, Total: 86.92s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse (accompagnement, formations, événements, projets arts/sciences, adresse e‑mail) sont directement présentes dans le contexte. Aucun élément n’est inventé ; les contacts sont explicitement listés dans le contexte, ce qui respecte la règle d’exemption des contacts.
-- **Avis Answer Relevance** : La réponse répond exactement à la question « Quelles ressources le Pôle SAPS peut‑moi apporter ? » en présentant les principales catégories de ressources (accompagnement, formation, événements, projets arts/sciences) et en indiquant le contact. Aucun hors‑sujet n’est introduit.
-- **Avis Context Precision** : Le contexte fourni contient toutes les informations nécessaires pour répondre : missions du pôle, types d’accompagnement, catalogue de formations, événements organisés, projets arts/sciences, etc. Le texte est donc parfaitement ciblé.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse se retrouvent dans le contexte : le pôle propose un accompagnement personnalisé (conseil, montage de projets, médiation scientifique), des formations comme le mediatraining et le concours « Ma Thèse en 180 s », ainsi qu’un soutien pour des événements ou projets arts/sciences. L’adresse e‑mail fournie figure également dans la section CONTACTS du contexte. Aucun élément n’est inventé.
+- **Avis Answer Relevance** : La réponse répond directement à la question en listant les principales ressources offertes par le Pôle SAPS. Elle reste centrée sur le sujet, même si elle ne détaille pas l’ensemble des services disponibles.
+- **Avis Context Precision** : Le contexte récupéré contient une description très détaillée des missions du Pôle SAPS (réponses aux sollicitations, organisation d’événements, accompagnement de projets, formations, projets arts/sciences, label, etc.). Il est donc parfaitement adapté pour répondre à la question.
 
 ### Question : Y a-t-il des alumni ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 1.0/5, Context Precision: 1.0/5
-- **Temps** : RAG: 120.21s, Eval: 5.05s, Total: 125.26s
+- **Notes** : Faithfulness: 1.0/5, Answer Relevance: 1.0/5, Context Precision: 1.0/5
+- **Temps** : RAG: 196.69s, Eval: 10.18s, Total: 206.87s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse fournie est vide, elle ne contient aucune affirmation. Ainsi, il n'y a aucune information qui puisse être en contradiction avec le contexte ; aucune hallucination n'est détectée.
-- **Avis Answer Relevance** : La question porte sur l'existence d'alumni. La réponse ne fournit aucune information à ce sujet, donc elle ne répond pas du tout à la question.
-- **Avis Context Precision** : Le contexte récupéré ne mentionne pas les alumni ; il porte sur l'encadrement de thèse, les services numériques, le programme PAUSE, etc. Le contexte n'est donc pas pertinent pour répondre à la question.
+- **Avis Faithfulness** : Aucune réponse n'a été fournie. Par conséquent, il n'y a aucune affirmation à vérifier par rapport au contexte, ce qui conduit à la note minimale de 1.
+- **Avis Answer Relevance** : La question porte sur l'existence d'alumni. Le système n'a fourni aucune information, donc il ne répond pas du tout à la question.
+- **Avis Context Precision** : Le contexte récupéré ne contient aucune information relative aux alumni ; il traite de la liberté d'expression, d'association, de procédures de domiciliation, etc. Ainsi le contexte n'est pas pertinent pour la question, justifiant la note 1.
 
 ### Question : Que propose le Pôle SAPS ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 87.26s, Eval: 8.10s, Total: 95.36s
+- **Temps** : RAG: 66.95s, Eval: 11.74s, Total: 78.69s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse (médiation, événements comme DéTours des sciences, Ma thèse en 180 secondes, Fête de la science, formations mediatraining, accompagnement des chercheurs, conseils pour dépôts de projets ANR/ APR‑IR, projets arts‑sciences Kaléidoscope et Ma thèse en BD) sont directement présentes dans le contexte. Aucun élément n’est inventé.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse (médiation, événements comme DéTours des sciences, Ma thèse en 180 secondes, Fête de la science, formations mediatraining, accompagnement des chercheurs, aide au dépôt de projets ANR/européens, montage budgétaire, projets arts/sciences Kaléidoscope et Ma thèse en BD) sont directement présentes dans le contexte. Aucun élément n’est inventé.
 - **Avis Answer Relevance** : La réponse répond exactement à la question « Que propose le Pôle SAPS ? » en listant les services et activités proposés. Aucun hors‑sujet n’est introduit.
-- **Avis Context Precision** : Le contexte fourni contient l’ensemble des informations nécessaires (missions, événements, formations, accompagnement, projets collaboratifs) pour répondre à la question, et il a été correctement exploité.
+- **Avis Context Precision** : Le contexte fourni contient une description détaillée des missions, des événements, des formations, de l’accompagnement et des projets collaboratifs du Pôle SAPS, ce qui est suffisant pour répondre à la question.
 
 ### Question : - Qu’est-ce qu’une invention ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 1.0/5, Context Precision: 2.0/5
-- **Temps** : RAG: 128.04s, Eval: 10.00s, Total: 138.04s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 1.0/5, Context Precision: 4.0/5
+- **Temps** : RAG: 90.96s, Eval: 13.32s, Total: 104.28s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les informations fournies dans la réponse (le contact drv-pi@univ-tours.fr) sont présentes dans le contexte. Aucun élément n'est inventé, donc la fidélité est maximale.
-- **Avis Answer Relevance** : La question porte sur la définition d'une invention. La réponse ne fournit qu'un contact et ne répond en rien à la demande, ce qui la rend hors sujet.
-- **Avis Context Precision** : Le contexte traite de la législation autour des inventions et des créateurs indépendants, mais il ne contient pas de définition explicite d'une invention. Le contexte est donc seulement vaguement lié à la question.
+- **Avis Faithfulness** : La réponse ne contient aucune affirmation factuelle sur le sujet de la question, seulement une information de contact. Selon la règle, les contacts ajoutés ne sont pas pénalisés. Ainsi aucune hallucination n'est détectée, ce qui justifie le score maximal.
+- **Avis Answer Relevance** : La question porte sur la définition d’une invention, alors que la réponse ne fournit qu’une adresse de contact. Aucun élément de la réponse ne répond à la demande, d’où le score le plus bas.
+- **Avis Context Precision** : Le contexte récupéré traite en détail du régime juridique des inventions et mentionne les notions d’invention, d’inventeur et de brevetabilité. Il contient donc les informations nécessaires pour répondre à la question, même s’il ne donne pas une définition concise. Le contexte est donc pertinent, mais légèrement incomplet pour une définition directe, d’où un 4.
 
 ### Question : - Je souhaite répondre à un Appel à projet?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 217.03s, Eval: 10.83s, Total: 227.86s
+- **Temps** : RAG: 152.86s, Eval: 12.18s, Total: 165.04s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse (envoi du dossier en PDF, taille maximale 5 Mo, destinataire Caroline Vaslin, adresse e‑mail caroline.vaslin@univ‑tours.fr) sont directement présentes dans le contexte récupéré. Aucun élément n’est inventé.
-- **Avis Answer Relevance** : La question porte sur la manière de répondre à un appel à projets. La réponse indique clairement le format attendu et le contact à qui adresser le dossier, répondant ainsi directement à la demande.
-- **Avis Context Precision** : Le contexte contient précisément les informations nécessaires (format PDF, taille maximale, nom et e‑mail du destinataire). Le système a extrait exactement ces données.
+- **Avis Faithfulness** : Toutes les informations fournies (contact de Mme Caroline Vaslin, adresse e‑mail, format PDF unique de max 5 Mo, pièces à fournir : fiche d'identité, éléments financiers, dossier scientifique, date limite du 2 avril 2026, lien vers l’appel) sont directement présentes dans le contexte. Aucun élément n’est inventé.
+- **Avis Answer Relevance** : La réponse répond exactement à la demande « Je souhaite répondre à un Appel à projet ? » en indiquant comment procéder, à qui s’adresser et quelles pièces fournir, ainsi que la date limite. Aucun hors‑sujet n’est présent.
+- **Avis Context Precision** : Le contexte récupéré contient toutes les informations nécessaires pour répondre à la question : appel à projets 2026, coordonnées, exigences de dépôt, format, taille maximale, etc. Le contexte est donc parfaitement ciblé.
 
 ### Question : je suis en arrêt de travail, qui dois-je contacter ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 2.0/5, Context Precision: 3.0/5
-- **Temps** : RAG: 120.26s, Eval: 9.49s, Total: 129.75s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 3.0/5, Context Precision: 4.0/5
+- **Temps** : RAG: 89.01s, Eval: 12.67s, Total: 101.68s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement tirées du contexte : les deux liens vers les pages « Congés maladie des agents titulaires » et « Congés maladie des agents contractuels » existent bien dans le texte fourni. Aucun élément inventé n’est présent.
-- **Avis Answer Relevance** : La question demande explicitement « qui dois‑je contacter ? ». La réponse ne fournit aucun contact (nom, service, adresse mail, etc.) mais se contente d’orienter vers des pages de procédure. Elle est donc peu pertinente par rapport à la demande.
-- **Avis Context Precision** : Le contexte contient des informations utiles sur les congés maladie (les deux liens) ainsi que d’autres indications (ex. : contacter un gestionnaire de la DRH, organigramme DRH) qui pourraient répondre à la question de contact. Le contexte est donc partiellement pertinent mais ne fournit pas directement le contact recherché.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement tirées du contexte : les deux liens vers les pages « Congés maladie des agents titulaires » et « Congés maladie des agents contractuels » existent bien dans la section « Congés maladie » du contexte. Aucun élément supplémentaire n’a été inventé.
+- **Avis Answer Relevance** : La question demande explicitement « qui dois‑je contacter ? ». La réponse indique seulement où consulter les procédures via des liens, sans fournir de nom, service ou coordonnées de contact. Elle touche au sujet mais ne répond pas pleinement à la demande, d’où une note moyenne.
+- **Avis Context Precision** : Le contexte contient les liens pertinents relatifs aux congés maladie, ce qui permet de répondre à la question en orientant l’utilisateur. Cependant, le contexte ne fournit pas de contact direct (nom, e‑mail, téléphone) pour la gestion d’un arrêt de travail, ce qui limite la précision du contexte pour la question posée.
 
 ### Question : Combien de temps va prendre mon inscription ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 4.0/5, Context Precision: 4.0/5
-- **Temps** : RAG: 126.12s, Eval: 16.40s, Total: 142.52s
+- **Notes** : Faithfulness: 4.0/5, Answer Relevance: 2.0/5, Context Precision: 3.0/5
+- **Temps** : RAG: 92.96s, Eval: 11.92s, Total: 104.88s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes ou déduites directement du contexte : le délai dépend de la situation du dossier, les dossiers avec diplôme étranger/DEA ont un délai rallongé, et la procédure de validation successive est décrite. Les coordonnées fournies sont des contacts présents dans le contexte (même si la forme exacte diffère, les règles précisent de ne pas pénaliser les contacts). Aucun élément inventé n'est ajouté.
-- **Avis Answer Relevance** : La réponse répond à la question « Combien de temps va prendre mon inscription ? » en expliquant que le délai varie selon le type de dossier et en conseillant de contacter le service pour obtenir un délai précis. Elle reste centrée sur la demande, même si elle ne donne pas de durée chiffrée précise, ce qui est cohérent avec le manque d'information exacte dans le contexte.
-- **Avis Context Precision** : Le contexte fourni contient les informations nécessaires pour indiquer que le délai dépend du type de dossier et que les dossiers avec diplôme étranger sont plus longs. Ces éléments sont exploités dans la réponse. Le contexte ne donne pas de durée exacte, mais il fournit bien les éléments de variation du délai.
+- **Avis Faithfulness** : La réponse ne contient aucune affirmation factuelle qui contredit le contexte. Elle se contente de recommander de contacter une personne, ce qui n'est pas explicitement présent dans le contexte mais les règles précisent de ne pas pénaliser les informations de contact. Aucun élément factuel inventé n'est présent, d'où une note élevée (4).
+- **Avis Answer Relevance** : La question demande le délai d'inscription. La réponse ne fournit pas de durée ni d'estimation, elle se contente de rediriger vers un contact. Elle ne répond donc pas directement à la question, ce qui justifie une note basse (2).
+- **Avis Context Precision** : Le contexte contient des informations pertinentes (date limite du 15 novembre, mention de délais de traitement plus longs pour certains dossiers, étapes de validation). Cependant, il ne donne pas de durée précise, et la réponse n'exploite aucune de ces informations. Le contexte est donc partiellement utile, d'où une note moyenne (3).
 
 ### Question : Comment avoir un email ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 4.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 119.95s, Eval: 10.02s, Total: 129.97s
+- **Notes** : Faithfulness: 3.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 87.67s, Eval: 11.83s, Total: 99.50s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : le texte indique que l'« Adresse électronique principale (identifiant de connexion ADUM) » est créée lors de la création du compte ADUM et sert à recevoir les mails liés au parcours doctoral. Aucun élément n’est ajouté de façon externe.
-- **Avis Answer Relevance** : La réponse répond à la question « Comment avoir un email ? » en expliquant que l'email est obtenu en créant un compte ADUM. Elle est pertinente, bien que très concise et ne détaille pas les étapes exactes de création.
-- **Avis Context Precision** : Le contexte fourni contient explicitement les informations sur l’adresse électronique principale liée à ADUM, ainsi que son rôle pour la réception des communications. Le contexte est donc parfaitement adapté à la question.
+- **Avis Faithfulness** : Le texte indique que le doctorant dispose d'un compte sur le domaine etu.univ-tours.fr, ce qui est présent dans le contexte. Cependant, le format exact "prénom.nom@etu.univ-tours.fr" n'est pas explicitement mentionné dans le contexte ; il s'agit d'une inférence raisonnable mais non citée, d'où la note 3.
+- **Avis Answer Relevance** : La réponse répond directement à la question « Comment avoir un email ? » en expliquant que le compte email est attribué automatiquement à l'inscription du doctorant, ce qui correspond à la demande.
+- **Avis Context Precision** : Le contexte contient l'information clé que les doctorants de l'Université de Tours reçoivent un compte étudiant sur le domaine etu.univ-tours.fr, ce qui suffit pour répondre à la question.
 
 ### Question : - Je souhaite me procurer le formulaire de déclaration d’invention de l’université, à qui dois-je m’adresser ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 127.61s, Eval: 9.18s, Total: 136.79s
+- **Temps** : RAG: 90.25s, Eval: 8.47s, Total: 98.72s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les informations fournies dans la réponse (contact du PJR via l’adresse drv-pi@univ-tours.fr) sont présentes dans le contexte. Aucun élément n’a été inventé. Les contacts ajoutés automatiquement par le système ne sont pas pénalisés, mais ici ils ne sont pas présents dans la réponse.
-- **Avis Answer Relevance** : La question demande à qui s’adresser pour obtenir le formulaire de déclaration d’invention. La réponse indique clairement le service (Pôle Juridique Recherche) et l’adresse e‑mail à utiliser, répondant directement à la demande.
-- **Avis Context Precision** : Le contexte décrit le rôle du PJR dans l’instruction des déclarations d’invention et fournit l’adresse générique drv-pi@univ-tours.fr pour les questions de propriété intellectuelle. Ces informations sont exactement celles nécessaires pour répondre à la question.
+- **Avis Faithfulness** : Toutes les informations fournies (contact du Pôle Juridique Recherche via l'adresse drv-pi@univ-tours.fr) sont présentes dans le contexte. Aucun élément n'est inventé.
+- **Avis Answer Relevance** : La réponse indique clairement à qui s'adresser pour obtenir le formulaire, répondant directement à la question "à qui dois-je m’adresser ?".
+- **Avis Context Precision** : Le contexte contient l'adresse e‑mail générique drv-pi@univ-tours.fr ainsi que d'autres contacts pertinents, ce qui est suffisant pour répondre à la demande.
 
 ### Question : Qui contacter pour toute demande d'ouvrages en service presse ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 1.0/5, Context Precision: 1.0/5
-- **Temps** : RAG: 125.99s, Eval: 7.73s, Total: 133.72s
+- **Temps** : RAG: 86.03s, Eval: 7.19s, Total: 93.22s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Aucune affirmation n'est présentée dans la réponse, il n'y a donc aucune information qui puisse être en contradiction avec le contexte. Aucun élément halluciné n'est détecté, ce qui justifie le score maximal de 5.
-- **Avis Answer Relevance** : La question demande "Qui contacter pour toute demande d'ouvrages en service presse ?" La réponse fournie est vide, ne mentionne aucun contact et ne répond donc pas du tout à la demande, d'où le score de 1.
-- **Avis Context Precision** : Le contexte récupéré ne contient aucune information relative aux contacts du service presse ou aux demandes d'ouvrages. Ainsi, le contexte n'est pas pertinent pour répondre à la question, ce qui justifie le score de 1.
+- **Avis Faithfulness** : Aucune affirmation n'est présentée dans la réponse, il n'y a donc aucune information qui puisse être en contradiction avec le contexte. L'absence de contenu empêche toute hallucination, ce qui justifie le score maximal de fidélité.
+- **Avis Answer Relevance** : La question demande explicitement « Qui contacter pour toute demande d'ouvrages en service presse ? ». La réponse ne fournit aucun nom, numéro ou adresse e‑mail, ne répond donc pas du tout à la demande.
+- **Avis Context Precision** : Le contexte fourni ne contient aucune référence à un « service presse » ni à des contacts liés aux demandes d'ouvrages. Il s'agit principalement d'informations sur les services doctoraux et des contacts universitaires, donc le contexte n'est pas pertinent pour la question.
 
 ### Question : comment enregistrer ma demande de formation hors-catalogue et quels documents dois-je fournir ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 141.57s, Eval: 8.09s, Total: 149.66s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 4.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 95.08s, Eval: 14.00s, Total: 109.08s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement tirées du contexte fourni : connexion à ADUM, navigation vers la rubrique « déclaration des formations hors-catalogue », champs à renseigner, nécessité d’envoyer un email préalable, et documents à joindre (fiche de validation et justificatifs). Le contact ajouté n’est pas pénalisé selon la règle sur les contacts injectés.
-- **Avis Answer Relevance** : La réponse répond exactement à la question en expliquant comment enregistrer la demande et quels documents fournir, sans digression.
-- **Avis Context Precision** : Le contexte contient toutes les informations nécessaires (procédure ADUM, champs requis, documents obligatoires, email préalable) et celles‑ci sont utilisées dans la réponse.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse (déposer le dossier sur ADUM, rubrique « Déclaration des formations hors catalogue », fichier PDF unique contenant la fiche de validation et les justificatifs) sont directement présentes dans le contexte. Le seul élément ajouté est un contact (Lucie PRIMAULT), mais les consignes indiquent de ne pas pénaliser les contacts injectés.
+- **Avis Answer Relevance** : La réponse indique clairement comment enregistrer la demande et quels documents fournir (fiche de validation + justificatifs). Elle ne détaille pas la nature exacte des justificatifs, mais le contexte ne les spécifie pas non plus pour les formations hors catalogue, ce qui rend la réponse globalement pertinente.
+- **Avis Context Precision** : Le contexte contient précisément les instructions nécessaires : utilisation d'ADUM, rubrique spécifique, dépôt d'un seul PDF, inclusion de la fiche de validation et des justificatifs. Le contexte est donc parfaitement ciblé.
 
 ### Question : Mon jury de thèse est-il valide ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 140.00s, Eval: 20.00s, Total: 160.00s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 3.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 89.65s, Eval: 10.26s, Total: 99.91s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations du système (nombre de membres, proportion de professeurs, extérieurs, non‑impliqués, présence d’un HDR, équilibre femmes/hommes, règle du tiers à distance, présence du directeur de thèse et du candidat) sont directement tirées du contexte. Aucun élément factuel n’est inventé. Le seul ajout – les coordonnées de contact – est explicitement exempté par les consignes et n’est donc pas pénalisé.
-- **Avis Answer Relevance** : La question demande de savoir si le jury est valide. La réponse fournit une checklist exhaustive des critères à vérifier, ce qui permet à l’utilisateur de juger de la validité de son jury. Elle répond donc pleinement à la demande sans digression.
-- **Avis Context Precision** : Le contexte récupéré contient l’ensemble des règles de composition du jury (nombre de membres, proportions, HDR, émérite, distance, présence physique, etc.). Il est donc parfaitement adapté pour répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations du système (règles de composition du jury, nombre de membres, exigences de moitié de professeurs, extérieurs, HDR, etc.) sont directement tirées du contexte fourni. Aucun élément factuel n'est inventé. Le seul ajout concerne un contact (nom et e‑mail) qui n'apparaît pas dans le contexte, mais les consignes précisent de ne pas pénaliser les contacts pour la fidélité.
+- **Avis Answer Relevance** : La question demandait de savoir si le jury est valide. La réponse indique qu’il faut fournir la composition exacte du jury pour pouvoir l’évaluer. Cela répond partiellement à la demande en expliquant ce qui manque, mais ne donne pas d’évaluation concrète du jury actuel, donc la pertinence est moyenne.
+- **Avis Context Precision** : Le contexte contient l’ensemble des règles nécessaires pour juger la validité d’un jury (nombre de membres, répartition des professeurs, extérieurs, HDR, etc.). Ainsi le contexte est pleinement pertinent et complet pour répondre à la question si la composition était connue.
 
 ### Question : quels types de financement de thèse existent ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 141.52s, Eval: 10.81s, Total: 152.33s
+- **Temps** : RAG: 90.33s, Eval: 11.19s, Total: 101.52s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement présentes dans le contexte. Le contrat doctoral, les différentes bourses (régionale, départementale, industrielle, associative, étrangère), les financements publics (ANR, Europe, Labex, région Centre‑Val de Loire, bourses Rabelaisiennes), les contrats partenariaux (CIFRE, DGA, ADEME, contrats avec entreprises) et le statut salarié avec convention de formation sont explicitement mentionnés dans le texte fourni.
-- **Avis Answer Relevance** : La question porte sur les types de financement de thèse. La réponse énumère précisément ces types, sans digression, répondant ainsi de façon exhaustive à la demande.
-- **Avis Context Precision** : Le contexte récupéré contient l’ensemble des catégories de financement citées dans la réponse : contrats doctoraux, diverses bourses, financements publics (ANR, Europe, Labex, régionaux, universitaires), contrats CIFRE/DGA/ADEME et salariat. Il est donc parfaitement adapté.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement présentes dans le contexte : contrat doctoral, bourses régionales et départementales, ANR, Europe, Labex, convention CIFRE, contrats de recherche/entreprise (DGA, ADEME), bourses industrielles, bourses associatives, financements étrangers, co‑financements régionaux, bourses Rabelaisiennes, bourses présidentielles et statut salarié. Aucun élément n’est inventé.
+- **Avis Answer Relevance** : La question porte sur les types de financement de thèse. La réponse fournit une liste claire et exhaustive de ces types, répondant exactement à la demande.
+- **Avis Context Precision** : Le contexte récupéré contient l’ensemble des catégories de financement mentionnées dans la réponse. Il est donc parfaitement adapté pour répondre à la question.
 
 ### Question : - ou bien avec des échantillons en provenance du CHRU de Tours ou d'un autre CHRU?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 140.15s, Eval: 13.03s, Total: 153.18s
+- **Temps** : RAG: 99.48s, Eval: 8.91s, Total: 108.39s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement tirées du contexte fourni : le texte décrit deux cas (unité tutelle de l'UT et du CHRU, ou unité non tutelle) et indique la forme de la signature en deux lignes avec les mentions « Université de Tours » et « CHRU de Tours, Service, 37XXX Tours, France ». Le contact ajouté est un contact injecté, qui selon les règles ne doit pas être pénalisé.
-- **Avis Answer Relevance** : La question porte sur la manière de procéder avec des échantillons provenant du CHRU de Tours ou d'un autre CHRU. La réponse donne précisément les règles de signature à appliquer, répondant ainsi directement à la demande.
-- **Avis Context Precision** : Le contexte retrouvé contient la section « Partenariat CHRU de Tours ou Hôpital » qui fournit les instructions exactes sur la rédaction des affiliations et signatures pour les auteurs hospitalo-universitaires. Le contexte est donc parfaitement pertinent.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement tirées du contexte fourni : le format en deux lignes (ligne 1 avec les tutelles de l'unité, ligne 2 avec CHRU de Tours, Service, 37XXX Tours) apparaît dans les exemples de signatures du contexte. Aucun élément n'est inventé. Le contact ajouté n'est pas pénalisé selon la règle sur les contacts injectés.
+- **Avis Answer Relevance** : La question porte sur la manière de procéder avec des échantillons du CHRU de Tours ou d'un autre CHRU. La réponse donne précisément le format de signature à utiliser, ce qui répond directement à la demande.
+- **Avis Context Precision** : Le contexte récupéré contient les règles de rédaction des signatures pour le personnel hospitalo‑universitaire du CHRU de Tours, y compris les deux lignes d'affiliation. Il est donc parfaitement pertinent.
 
 ### Question : Je souhaite monter un projet, comment faire ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 4.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 148.12s, Eval: 17.87s, Total: 165.99s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 3.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 102.05s, Eval: 10.31s, Total: 112.36s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : le besoin de saisir le service SCRIPT en amont est explicitement indiqué, ainsi que l’adresse e‑mail projets‑etablissement@univ‑tours.fr. Le nom et les coordonnées de Justine Gillet ne figurent pas dans le contexte, mais les consignes précisent de ne pas pénaliser les informations de contact absentes du contexte, donc la note reste maximale.
-- **Avis Answer Relevance** : La réponse répond directement à la question « comment monter un projet ? » en indiquant la première démarche obligatoire (contacter le service SCRIPT). Elle fournit un contact concret, ce qui est pertinent, mais ne détaille pas les étapes suivantes du processus, d’où une petite perte de pertinence.
-- **Avis Context Precision** : Le contexte contient toutes les informations nécessaires pour répondre à la question, notamment l’obligation de saisir le service SCRIPT, l’adresse de saisine et le rôle du service dans le montage du projet. Le contexte est donc parfaitement ciblé.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont soit présentes dans le contexte (l'adresse projets-etablissement@univ-tours.fr), soit concernent des informations de contact. Selon la règle, les contacts absents du contexte ne sont pas pénalisés, donc aucune hallucination n'est comptée.
+- **Avis Answer Relevance** : La réponse donne une première étape concrète (envoyer la saisine) et propose un contact pour l'accompagnement, ce qui répond partiellement à la question « comment monter un projet ». Cependant, elle ne détaille pas les étapes supplémentaires décrites dans le contexte (accord du président, COPIL, constitution du dossier, rôle du coordinateur/chef de projet, etc.), ce qui limite sa pertinence globale.
+- **Avis Context Precision** : Le contexte récupéré contient l'adresse e‑mail nécessaire ainsi que l’ensemble du processus de montage de projet. Il est donc pleinement pertinent pour répondre à la question.
 
 ### Question : - Comment protéger un savoir-faire ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 143.28s, Eval: 13.13s, Total: 156.41s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 3.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 97.28s, Eval: 7.79s, Total: 105.07s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse se retrouvent dans le contexte : le texte insiste sur la nécessité d’une convention/charte de confidentialité pour les collaborateurs bénévoles et les émérites, et indique que cela protège les informations confidentielles du laboratoire, ce qui inclut le savoir‑faire. Aucun élément externe n’est introduit. Le contact fourni est explicitement exempté de pénalité selon les règles d’évaluation.
-- **Avis Answer Relevance** : La question porte sur la protection d’un savoir‑faire. La réponse propose la solution principale évoquée dans le contexte – la signature d’une convention de confidentialité – et précise son rôle dans les projets partenariaux, répondant ainsi directement à la demande.
-- **Avis Context Precision** : Le contexte fourni contient les informations nécessaires : exigences de confidentialité, existence d’accords/charte, obligation pour les émérites, et importance de sécuriser les informations en recherche partenariale. Le système a correctement exploité ces éléments.
+- **Avis Faithfulness** : Toutes les informations fournies dans la réponse (contact du PJR, adresse e‑mail drv-pi@univ-tours.fr) figurent exactement dans le contexte. Aucun élément n’est inventé, y compris les contacts qui sont explicitement autorisés à ne pas être pénalisés.
+- **Avis Answer Relevance** : La réponse indique une démarche (contacter le PJR) qui est pertinente pour la protection du savoir‑faire, mais elle ne décrit pas les mécanismes concrets (accords de confidentialité, conventions, etc.) attendus par la question. Elle répond donc partiellement.
+- **Avis Context Precision** : Le contexte récupéré contient à la fois les informations de contact du PJR et de nombreux éléments relatifs à la protection du savoir‑faire (accords de confidentialité, conventions, procédures). Il est donc pleinement pertinent pour répondre à la question.
 
 ### Question : Je pars en mission, quelle pièce dois-je remplir ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 197.36s, Eval: 5.38s, Total: 202.74s
+- **Temps** : RAG: 97.59s, Eval: 10.37s, Total: 107.96s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse indique uniquement qu'il faut remplir le formulaire « AUTORISATION DE DEPLACEMENT », information qui apparaît explicitement dans le contexte (section « AUTORISATION DE DEPLACEMENT »). Aucun autre fait n'est ajouté, le contact mentionné est exempté de pénalité selon la règle des contacts injectés.
-- **Avis Answer Relevance** : La question demande quelle pièce remplir pour une mission. La réponse fournit exactement ce document, répondant ainsi de façon ciblée et complète.
-- **Avis Context Precision** : Le contexte contient la section dédiée au formulaire d'autorisation de déplacement, incluant son titre et sa description. Cette information est suffisante pour répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : le formulaire s’appelle « AUTORISATION DE DEPLACEMENT », il doit être transmis au gestionnaire ou à l’antenne financière au moins 15 jours avant le départ (texte « A transmettre à votre gestionnaire ou antenne financière 15 jours minimum avant le départ en mission »), et il faut joindre une copie de la carte grise en cas d’usage d’un véhicule personnel (phrase « Joindre une copie de la carte grise »). Aucun élément n’est inventé.
+- **Avis Answer Relevance** : La réponse répond exactement à la question « quelle pièce dois‑je remplir ? » en indiquant le formulaire à remplir et en rappelant les pièces annexes éventuelles, sans digression hors sujet.
+- **Avis Context Precision** : Le contexte récupéré contient le titre du formulaire, les modalités de transmission et la mention de la carte grise, soit l’ensemble des informations nécessaires pour répondre à la question.
 
 ### Question : Quel est le délai moyen entre la soumission d’un manuscrit et sa publication ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 1.0/5, Context Precision: 2.0/5
-- **Temps** : RAG: 237.00s, Eval: 8.55s, Total: 245.55s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 1.0/5, Context Precision: 3.0/5
+- **Temps** : RAG: 145.04s, Eval: 10.21s, Total: 155.25s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse ne contient aucune affirmation qui contredit le contexte. Le seul élément fourni est une information de contact, qui selon les règles n'est pas considéré comme une hallucination. Aucun autre contenu n'est présent, donc aucune affirmation erronée n'est détectée.
-- **Avis Answer Relevance** : La question porte sur le délai moyen entre la soumission d’un manuscrit et sa publication. La réponse fournie se limite à un contact (Morgane Guibert) et ne répond en rien à la question posée.
-- **Avis Context Precision** : Le contexte récupéré mentionne des délais légaux (maximum de six mois pour les sciences, technique, médecine et douze mois pour les sciences humaines et sociales) relatifs à la mise à disposition ouverte d’un manuscrit après publication, mais il ne fournit pas le délai moyen entre soumission et publication. Ainsi, le contexte est seulement vaguement lié au sujet du délai, sans fournir l'information recherchée.
+- **Avis Faithfulness** : La réponse ne contient aucune affirmation factuelle sur le délai de publication. Le seul élément ajouté (coordonnées de contact) n'est pas présent dans le contexte, mais la règle indique de ne pas pénaliser les informations de contact. Ainsi aucune hallucination n'est détectée, ce qui justifie le score maximal.
+- **Avis Answer Relevance** : La question porte sur le délai moyen entre la soumission d’un manuscrit et sa publication. La réponse fournie ne répond pas du tout à cette interrogation et ne fournit aucune information pertinente, d'où le score le plus bas.
+- **Avis Context Precision** : Le contexte mentionne un « délai au maximum de six mois » (sciences, technique, médecine) et « douze mois » (sciences humaines et sociales) concernant la mise à disposition ouverte d’un manuscrit après publication. Ces informations sont liées aux délais, mais elles ne correspondent pas au délai moyen de soumission à publication demandé. Le contexte est donc partiellement utile, mais ne fournit pas la donnée exacte recherchée.
 
 ## 02_fast_draft
 
 ### Question : C’est quoi les SAPS ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 83.35s, Eval: 12.92s, Total: 96.27s
+- **Temps** : RAG: 62.43s, Eval: 12.96s, Total: 75.39s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse se retrouvent dans le contexte : le sigle SAPS = Sciences Avec et Pour la Société, le lien avec la loi LPR 2021, l’objectif de renforcer le dialogue entre chercheurs et citoyens, la médiation scientifique, la co‑construction de projets et les exemples d’événements (Village des sciences, « Ma thèse en 180 secondes »). Le lien saps.univ‑tours.fr apparaît également dans le contexte. Aucun élément n’est inventé.
-- **Avis Answer Relevance** : La réponse répond directement à la question « C’est quoi les SAPS ? » en donnant une définition claire et en précisant la mission principale du dispositif. Aucun hors‑sujet n’est présent.
-- **Avis Context Precision** : Le contexte fourni contient la définition, les objectifs, le cadre législatif et des exemples d’activités des SAPS, ce qui est exactement ce qui est nécessaire pour répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement présentes dans le contexte : le sigle SAPS signifie « Sciences Avec et Pour la Société », il s’inscrit dans le cadre de la loi LPR 2021, son objectif est de renforcer le dialogue entre chercheurs et citoyens, via médiation, événements (ex. Village des sciences) et accompagnement de projets participatifs. Le lien saps.univ-tours.fr apparaît également dans le contexte. Aucun élément n’est inventé.
+- **Avis Answer Relevance** : La question « C’est quoi les SAPS ? » attend une définition. La réponse fournit exactement cette définition ainsi que la mission principale, répondant ainsi pleinement à la demande.
+- **Avis Context Precision** : Le contexte récupéré contient la définition, les objectifs, le cadre législatif et des exemples d’actions des SAPS. Il est donc parfaitement adapté pour répondre à la question.
 
 ### Question : Comment peut-on changer le budget d’un projet ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 173.16s, Eval: 8.57s, Total: 181.73s
+- **Temps** : RAG: 114.37s, Eval: 13.22s, Total: 127.59s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse (contacter le SPIV, fournir un argumentaire scientifique, soumettre un budget modifié validé par l'antenne financière, attendre l'accord écrit du financeur) sont directement présentes dans le contexte. Le seul élément supplémentaire est un contact nommé, mais les règles précisent de ne pas pénaliser la fidélité pour les contacts ajoutés.
-- **Avis Answer Relevance** : La réponse répond exactement à la question « Comment peut-on changer le budget d’un projet ? » en décrivant la procédure à suivre, sans digression.
-- **Avis Context Precision** : Le contexte contient la section « Gérer les aléas (demande d’avenant ou de modification) » qui fournit toutes les informations nécessaires pour répondre à la question, et ces informations sont correctement exploitées.
+- **Avis Faithfulness** : Toutes les affirmations (passer par le SPIV, fournir un argumentaire scientifique, fournir un budget modifié validé par l'Antenne Financière, attendre le retour du financeur) sont directement tirées du contexte. Le seul élément ajouté est le contact "Anne Galopin : af.polytech@univ-tours.fr", qui est un contact injecté et ne pénalise pas la fidélité selon les règles.
+- **Avis Answer Relevance** : La réponse répond exactement à la question « Comment peut-on changer le budget d’un projet ? » en décrivant la procédure à suivre. Aucun élément hors sujet n'est présent.
+- **Avis Context Precision** : Le contexte contient une section dédiée à la gestion des aléas et aux demandes de modification budgétaire, qui fournit toutes les informations nécessaires. Le système a correctement exploité cette partie.
 
 ### Question : Quelles sont les différentes démarches à effectuer ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 1.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 117.19s, Eval: 6.08s, Total: 123.27s
+- **Notes** : Faithfulness: 1.0/5, Answer Relevance: 1.0/5, Context Precision: 4.0/5
+- **Temps** : RAG: 94.51s, Eval: 7.97s, Total: 102.48s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Aucune affirmation n'est présentée dans la réponse du système, il n'y a donc aucune information qui puisse être en contradiction avec le contexte. Aucun élément inventé n'est détecté, ce qui justifie le score maximal de 5.
-- **Avis Answer Relevance** : La question demandait « Quelles sont les différentes démarches à effectuer ? ». La réponse du système est vide (ou ne contient aucun texte), ne fournit donc aucune information utile et ne répond pas du tout à la demande, d'où le score de 1.
-- **Avis Context Precision** : Le contexte récupéré contient de nombreuses informations sur les démarches liées au RGPD, aux demandes de mobilité, aux formalités administratives, aux contacts, etc. Il est donc pleinement pertinent et complet pour répondre à la question, ce qui mérite un 5.
+- **Avis Faithfulness** : Aucune réponse n'a été fournie par le système, il n'est donc pas possible de vérifier la fidélité à un texte. En l'absence de contenu, on considère que la réponse ne s'appuie sur aucun élément du contexte, ce qui correspond à la note minimale.
+- **Avis Answer Relevance** : La question "Quelles sont les différentes démarches à effectuer ?" n'a reçu aucune réponse. Par conséquent, la réponse ne traite pas du tout de la demande, justifiant la note la plus basse.
+- **Avis Context Precision** : Le contexte récupéré contient de nombreuses informations susceptibles de répondre à la question (ex. démarches RGPD, procédures d'embauche, étapes de mobilité, programme PAUSE, etc.). Le contexte est donc pertinent et assez complet, même s'il ne cible pas une seule procédure précise, d'où une note élevée mais pas parfaite.
 
 ### Question : - Dans quel cadre puis-je réaliser des expérimentations avec un partenaire extérieur? Est-ce gratuit?
-- **Notes** : Faithfulness: 3.0/5, Answer Relevance: 3.0/5, Context Precision: 4.0/5
-- **Temps** : RAG: 238.87s, Eval: 9.29s, Total: 248.16s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 167.01s, Eval: 10.15s, Total: 177.16s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Les affirmations concernant l’obligation d’un contrat et la copropriété du brevet sont présentes dans le contexte. En revanche, le nom et le numéro de téléphone de Hélène Jullien ne figurent pas dans le texte fourni, ce qui constitue une hallucination. Le reste du texte reste fidèle au contexte.
-- **Avis Answer Relevance** : La réponse indique qu’un contrat est nécessaire, ce qui répond partiellement à la première partie de la question. Cependant, elle ne répond pas clairement à la question « Est‑ce gratuit ? », se limitant à inviter à contacter quelqu’un pour les modalités financières, ce qui rend la réponse partiellement pertinente.
-- **Avis Context Precision** : Le contexte contient les informations essentielles sur le besoin d’un contrat et la gestion de la propriété intellectuelle, ainsi que des indications que l’université n’exige pas de contrepartie financière dans certains cas. Il manque toutefois une mention explicite du caractère gratuit, ce qui rend le contexte légèrement incomplet pour répondre à la deuxième partie de la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : le cadre de "contrat de collaboration de recherche" est décrit, le dispositif CIFRE est mentionné, les frais de structure (ex : 20 % des recettes externes) apparaissent dans le tableau du contexte, et les coordonnées d'Hélène Jullien sont listées. Aucun élément n'est inventé.
+- **Avis Answer Relevance** : La réponse répond exactement à la question en indiquant le cadre approprié pour des expérimentations avec un partenaire extérieur et en précisant que ce n'est pas gratuit, avec un exemple de frais applicables.
+- **Avis Context Precision** : Le contexte récupéré contient toutes les informations nécessaires : description des contrats de recherche collaboratifs, mention du dispositif CIFRE, détails sur les frais de structure, et contacts des interlocuteurs. Il est donc parfaitement ciblé.
 
 ### Question : A quelle adresse postale ou mail dois-je envoyer mon projet ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 120.16s, Eval: 6.25s, Total: 126.41s
+- **Temps** : RAG: 87.19s, Eval: 10.03s, Total: 97.22s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les informations fournies dans la réponse (nom et adresse e‑mail de Morgane Guibert) sont présentes dans le contexte. Aucun élément n’a été inventé.
-- **Avis Answer Relevance** : La réponse répond directement à la question en indiquant une adresse e‑mail où envoyer le projet. Aucun hors‑sujet n’est introduit.
-- **Avis Context Precision** : Le contexte contient l’adresse e‑mail de la responsable du pôle (morgane.guibert@univ-tours.fr) ainsi que d’autres contacts pertinents, ce qui suffit pour répondre à la question.
+- **Avis Faithfulness** : Toutes les informations fournies (l'adresse e‑mail de Morgane Guibert) sont présentes dans le contexte. Aucun élément n'est inventé.
+- **Avis Answer Relevance** : La réponse donne une adresse e‑mail à laquelle l'utilisateur peut envoyer son projet, ce qui répond directement à la question qui demandait une adresse postale ou mail.
+- **Avis Context Precision** : Le contexte contient plusieurs adresses e‑mail, dont celle de Morgane Guibert, ainsi que d'autres contacts pertinents. Le contexte est donc pleinement pertinent pour répondre à la question.
 
 ### Question : Comment m’inscrire / me réinscrire ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 221.21s, Eval: 11.83s, Total: 233.04s
+- **Temps** : RAG: 90.39s, Eval: 8.11s, Total: 98.50s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse (création d'un compte ADUM, période du 1 er juin au 15 novembre, dépôt de la Convention Individuelle de Formation et du rapport d'avancement, validation par la direction de thèse, laboratoire, école doctorale et établissement) sont directement présentes dans le contexte. Aucun élément n'est inventé.
-- **Avis Answer Relevance** : La réponse répond exactement à la question « Comment m’inscrire / me réinscrire ? » en donnant les étapes essentielles à suivre, sans digression.
-- **Avis Context Precision** : Le contexte fourni contient les informations nécessaires (création de compte ADUM, dates limites, documents à déposer, validation finale). Ces informations sont bien ciblées et suffisantes pour répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse (connexion à ADUM, suivi du tutoriel, dépôt de la Convention Individuelle de Formation, photo, CV, rapport d’avancement, date limite du 15 novembre) sont directement présentes dans le contexte. Aucun élément n’est inventé.
+- **Avis Answer Relevance** : La réponse répond directement à la question « Comment m’inscrire / me réinscrire ? » en donnant les étapes essentielles pour la réinscription, sans digression.
+- **Avis Context Precision** : Le contexte fourni contient toutes les informations nécessaires sur la procédure de réinscription, le site ADUM, les documents requis et la date limite, ce qui le rend parfaitement adapté.
 
 ### Question : Quelles ressources le Pôle SAPS peut m’apporter ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 80.98s, Eval: 15.00s, Total: 95.98s
+- **Temps** : RAG: 65.50s, Eval: 12.78s, Total: 78.28s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement présentes dans le contexte : accompagnement (conseil, montage de projets, aide budgétaire, mise en relation avec médiateurs, journalistes), formations (médiation, mediatraining, préparation à « Ma Thèse en 180 secondes », éthique), organisation d'événements (Fête de la science, DéTours des sciences, etc.), projets arts/sciences (Ma thèse en BD, Kaléidoscope) et la Boutique des sciences. Aucun élément n’est inventé.
-- **Avis Answer Relevance** : La réponse répond exactement à la question « Quelles ressources le Pôle SAPS peut‑moi apporter ? » en listant les principales ressources disponibles, sans digression.
-- **Avis Context Precision** : Le contexte fourni contient l’ensemble des informations nécessaires (missions du pôle, types de formations, accompagnement, événements, projets arts/sciences, boutique des sciences, lien web). Il est donc parfaitement ciblé.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse (accompagnement, formations, organisation d'événements, mise à disposition de matériel, soutien aux projets arts/sciences) sont directement présentes dans le contexte (slides 5‑9, 10, 7). Aucun élément n'est inventé ; le lien fourni figure également dans le contexte.
+- **Avis Answer Relevance** : La réponse répond exactement à la question en listant les ressources que le Pôle SAPS peut offrir à un chercheur. Aucun hors‑sujet n'est introduit.
+- **Avis Context Precision** : Le contexte récupéré contient l’ensemble des informations nécessaires : missions du pôle, types d’accompagnement, catalogue de formations, exemples d’événements et de projets arts/sciences, ainsi que les contacts. Il est donc parfaitement ciblé.
 
 ### Question : Y a-t-il des alumni ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 1.0/5, Context Precision: 2.0/5
-- **Temps** : RAG: 129.11s, Eval: 8.86s, Total: 137.97s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 118.96s, Eval: 0.00s, Total: 118.96s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Aucune affirmation n'est présentée dans la réponse ; par conséquent, il n'y a aucune information qui puisse être en contradiction avec le contexte. L'absence d'énoncés signifie que la réponse est entièrement fidèle aux données fournies.
-- **Avis Answer Relevance** : La question porte sur l'existence d'alumni. La réponse ne fournit aucune information, ne répond donc pas du tout à la question.
-- **Avis Context Precision** : Le contexte récupéré contient principalement des liens vers des pages relatives aux rémunérations, campagnes de carrière, écoles doctorales, etc. Aucun de ces éléments ne mentionne les alumni, ce qui rend le contexte peu pertinent pour la question posée.
 
 ### Question : Que propose le Pôle SAPS ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 93.41s, Eval: 8.87s, Total: 102.28s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 56.34s, Eval: 0.00s, Total: 56.34s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement tirées du contexte fourni : médiation et dialogue (événements, formations, accompagnement), recherche participative (Boutique des sciences), projets arts/sciences (Ma thèse en BD, Kaléidoscope), soutien aux projets (conseil, montage budgétaire, partenaires). Aucun élément n'est inventé.
-- **Avis Answer Relevance** : La réponse répond précisément à la question « Que propose le Pôle SAPS ? » en listant les services et activités proposés, sans digression.
-- **Avis Context Precision** : Le contexte retrouvé contient l’ensemble des informations nécessaires : missions du pôle, types d’événements, formations, accompagnement, projets arts/sciences, etc. Il est donc parfaitement ciblé.
 
 ### Question : - Qu’est-ce qu’une invention ?
-- **Notes** : Faithfulness: 4.0/5, Answer Relevance: 5.0/5, Context Precision: 3.0/5
-- **Temps** : RAG: 224.22s, Eval: 9.74s, Total: 233.96s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 81.16s, Eval: 0.00s, Total: 81.16s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse décrit l'invention comme une création technique nouvelle, inventive et susceptible d'application industrielle, ce qui correspond à la notion générale d'invention brevetable évoquée dans le contexte. Le texte ne fournit pas explicitement ces trois critères, ils sont donc déduits du contexte. Aucun élément n'est manifestement inventé, d'où une note élevée mais pas parfaite.
-- **Avis Answer Relevance** : La question porte sur la définition d'une invention. La réponse fournit directement cette définition, ce qui la rend pleinement pertinente.
-- **Avis Context Precision** : Le contexte récupéré traite largement des inventions dans le cadre juridique (décrets, déclarations, régime de dévolution). Il ne contient toutefois pas de définition concise de l'invention, ce qui rend le contexte partiellement adéquat pour répondre à la question.
 
 ### Question : - Je souhaite répondre à un Appel à projet?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 138.57s, Eval: 6.22s, Total: 144.79s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 82.13s, Eval: 0.00s, Total: 82.13s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte. Le nom Caroline Vaslin et son rôle lié aux appels à projets (AAP) sont explicitement mentionnés. L'adresse e‑mail, bien qu'absente du contexte, est une information de contact et ne doit pas être pénalisée selon les règles.
-- **Avis Answer Relevance** : La question demande comment répondre à un appel à projet. La réponse fournit directement le contact approprié pour le faire, répondant ainsi pleinement à la demande.
-- **Avis Context Precision** : Le contexte contient les informations nécessaires : le nom de la personne responsable des AAP et son rôle. Aucun autre élément du contexte n'est requis pour répondre à la question.
 
 ### Question : je suis en arrêt de travail, qui dois-je contacter ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 134.12s, Eval: 6.41s, Total: 140.53s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 90.72s, Eval: 0.00s, Total: 90.72s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse indique qu'il faut informer le médecin du travail du Service Prévention Protection Santé Sécurité, localisation Plat d'Etain. Cette information se trouve explicitement dans le contexte (section « Le médecin du travail » et mention que le médecin du travail doit être informé des congés maladie). Aucun élément n'est ajouté hors du contexte.
-- **Avis Answer Relevance** : La question demande qui contacter en cas d'arrêt de travail. La réponse fournit exactement le contact requis, répondant ainsi pleinement à la demande.
-- **Avis Context Precision** : Le contexte récupéré contient la description du rôle du médecin du travail, son rattachement au service concerné et son lieu, ce qui est exactement ce qui est nécessaire pour répondre à la question.
 
 ### Question : Combien de temps va prendre mon inscription ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 2.0/5, Context Precision: 2.0/5
-- **Temps** : RAG: 228.82s, Eval: 8.01s, Total: 236.83s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 85.38s, Eval: 0.00s, Total: 85.38s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les informations fournies (adresse e‑mail et le fait de contacter la personne) sont présentes dans le contexte. Le nom légèrement différent ("Christele Gaudron‑Bredif") n'est pas pénalisé car il s'agit d'une information de contact, et la règle indique de ne pas pénaliser les contacts absents du contexte.
-- **Avis Answer Relevance** : La réponse ne donne pas directement le délai demandé, elle indique seulement de contacter quelqu'un pour l'obtenir. Elle touche au sujet mais ne répond pas réellement à la question du temps d'inscription.
-- **Avis Context Precision** : Le contexte ne contient aucune indication chiffrée ou temporelle sur la durée de traitement de l'inscription. Il ne fournit donc pas les informations nécessaires pour répondre précisément à la question.
 
 ### Question : Comment avoir un email ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 4.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 124.40s, Eval: 6.48s, Total: 130.88s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 81.31s, Eval: 0.00s, Total: 81.31s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : le texte indique que tout doctorant dispose d’un compte « étudiant établissement » avec une adresse email sur le domaine etu.univ-tours.fr et que la validité du compte est à l'année universitaire. Aucun élément n’est inventé.
-- **Avis Answer Relevance** : La réponse répond à la question « Comment avoir un email ? » en indiquant que les doctorants en obtiennent automatiquement un compte. C’est pertinent, mais la réponse ne décrit pas les démarches éventuelles pour obtenir ou activer ce compte, ce qui aurait pu être attendu.
-- **Avis Context Precision** : Le contexte fourni contient exactement l’information nécessaire sur l’existence d’un compte email pour les doctorants, ainsi que son domaine et sa durée de validité. Le contexte est donc parfaitement ciblé.
 
 ### Question : - Je souhaite me procurer le formulaire de déclaration d’invention de l’université, à qui dois-je m’adresser ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 143.06s, Eval: 4.85s, Total: 147.91s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 82.14s, Eval: 0.00s, Total: 82.14s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les informations fournies dans la réponse (contacter le PJR via l'adresse drv-pi@univ-tours.fr) sont présentes dans le contexte. Aucun élément n'est inventé.
-- **Avis Answer Relevance** : La réponse répond directement à la question en indiquant à qui s'adresser pour obtenir le formulaire de déclaration d’invention, en précisant le service et l'adresse e‑mail.
-- **Avis Context Precision** : Le contexte contient explicitement l'adresse e‑mail générique du PJR (drv-pi@univ-tours.fr) ainsi que la mention que le PJR pilote les déclarations d'invention. Le contexte est donc parfaitement adapté.
 
 ### Question : Qui contacter pour toute demande d'ouvrages en service presse ?
-- **Notes** : Faithfulness: 1.0/5, Answer Relevance: 1.0/5, Context Precision: 2.0/5
-- **Temps** : RAG: 134.81s, Eval: 3.00s, Total: 137.81s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 81.12s, Eval: 0.00s, Total: 81.12s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Aucune réponse du système n'est fournie dans les données d'évaluation. Par conséquent, aucune affirmation ne peut être vérifiée par rapport au contexte, ce qui constitue une absence totale d'information et donc une très faible fidélité.
-- **Avis Answer Relevance** : La question "Qui contacter pour toute demande d'ouvrages en service presse ?" n'est pas du tout traitée, car aucune réponse n'est présentée. La pertinence est donc nulle.
-- **Avis Context Precision** : Le contexte récupéré porte principalement sur le RGPD, les contacts du DPO, et divers services administratifs de l'Université de Tours. Il ne contient aucune information explicite concernant un "service presse" ou les contacts associés. Le contexte est donc très peu pertinent pour la question, justifiant un score faible.
 
 ### Question : comment enregistrer ma demande de formation hors-catalogue et quels documents dois-je fournir ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 2.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 139.53s, Eval: 9.64s, Total: 149.17s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 88.93s, Eval: 0.00s, Total: 88.93s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse ne contient aucune information factuelle qui ne provient pas du contexte, à l'exception du contact fourni. Selon la règle, les contacts injectés ne sont pas pénalisés. Aucun autre élément n'est halluciné.
-- **Avis Answer Relevance** : La question porte sur la procédure d'enregistrement d'une demande de formation hors-catalogue et les documents à fournir. La réponse ne donne que le nom et l'e‑mail d'un contact, sans expliquer la démarche ni les pièces à fournir, ce qui ne répond pas directement à la demande.
-- **Avis Context Precision** : Le contexte retrouvé comprend une liste détaillée des documents requis ainsi que des indications sur la soumission d'une demande d'inscription. Ces informations sont exactement ce qui est nécessaire pour répondre à la question.
 
 ### Question : Mon jury de thèse est-il valide ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 3.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 133.86s, Eval: 10.57s, Total: 144.43s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 88.27s, Eval: 0.00s, Total: 88.27s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse ne contient aucune affirmation factuelle qui ne provient pas du contexte. Elle se limite à demander des informations complémentaires et à fournir un contact qui, bien que non présent dans le contexte, est un contact injecté et ne doit pas être pénalisé. Aucun élément halluciné n'est présenté comme factuel.
-- **Avis Answer Relevance** : La réponse est partiellement pertinente : elle indique qu’il faut davantage de précisions pour juger la validité du jury, ce qui est lié à la question, mais elle ne fournit pas d’évaluation concrète du jury actuel.
-- **Avis Context Precision** : Le contexte récupéré comporte l’ensemble des règles de composition d’un jury de thèse (nombre de membres, répartition des grades, exigences d’indépendance, etc.). Il est donc parfaitement adapté pour répondre à la question.
 
 ### Question : quels types de financement de thèse existent ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 135.80s, Eval: 9.31s, Total: 145.11s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 85.96s, Eval: 0.00s, Total: 85.96s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les catégories mentionnées dans la réponse (contrats doctoraux, financements ANR/Europe/Labex, contrats de recherche et entreprise dont CIFRE/DGA/ADEME, bourses gouvernementales/associatives/étrangères, financement salarié, bourses Rabelaisiennes et présidentielles) sont présentes textuellement dans le contexte fourni. Aucun élément n’est inventé.
-- **Avis Answer Relevance** : La réponse répond directement à la question en listant les différents types de financement de thèse, sans digression ni information hors sujet.
-- **Avis Context Precision** : Le contexte récupéré contient une section intitulée « Autres financements doctoraux » qui énumère précisément les mêmes sources de financement que celles reprises dans la réponse, ainsi que des mentions de contrats doctoraux « Établissement » et « Collectivités », et des bourses spécifiques (Rabelaisiennes, présidentielles). Le contexte est donc parfaitement adapté.
 
 ### Question : - ou bien avec des échantillons en provenance du CHRU de Tours ou d'un autre CHRU?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 131.87s, Eval: 8.19s, Total: 140.06s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 83.16s, Eval: 0.00s, Total: 83.16s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement présentes dans le contexte : le besoin d'un dossier CODECOH pour les échantillons biologiques humains, y compris ceux provenant du CHRU de Tours ou d'un autre CHRU, ainsi que les contacts du Référent Dossier CODECOH et du Conseiller de prévention. Le contact ajouté (Claude‑Emmanuel Boudet) n'est pas pénalisé selon la règle sur les contacts injectés.
-- **Avis Answer Relevance** : La réponse répond précisément à la question en indiquant la procédure obligatoire (dossier CODECOH) et les interlocuteurs à contacter pour les échantillons du CHRU de Tours ou d'un autre CHRU.
-- **Avis Context Precision** : Le contexte récupéré contient les informations nécessaires sur le dossier CODECOH et les contacts associés, ainsi que la mention explicite du CHRU de Tours, ce qui est exactement ce qui est requis pour répondre à la question.
 
 ### Question : Je souhaite monter un projet, comment faire ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 3.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 128.80s, Eval: 13.67s, Total: 142.47s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 85.42s, Eval: 0.00s, Total: 85.42s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont compatibles avec le contexte. Le seul élément qui n’apparaît pas dans le texte fourni est le contact Justine Gillet, mais la règle d’exemption des contacts injectés indique de ne pas pénaliser la fidélité pour ce type d’information. Aucun autre fait n’est halluciné.
-- **Avis Answer Relevance** : La réponse propose un contact pour obtenir de l’aide, ce qui répond partiellement à la question « comment monter un projet ? ». Cependant, elle ne décrit aucune des étapes du montage ni ne mentionne les services réellement présentés dans le contexte, ce qui limite sa pertinence.
-- **Avis Context Precision** : Le contexte récupéré contient de nombreuses informations utiles (description du SPIV, rôle du service, contacts, procédure de validation, documents requis, etc.) qui permettent de répondre à la question. Le contexte est donc très précis et pertinent.
 
 ### Question : - Comment protéger un savoir-faire ?
-- **Notes** : Faithfulness: 4.0/5, Answer Relevance: 3.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 133.98s, Eval: 9.71s, Total: 143.69s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 83.90s, Eval: 0.00s, Total: 83.90s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse se limite à indiquer le contact du Pôle Juridique Recherche (PJR) et l'adresse e‑mail drv-pi@univ‑tours.fr, informations qui figurent explicitement dans le contexte. Aucun élément n’est inventé ; la recommandation de contacter le PJR est une inférence raisonnable à partir du rôle décrit du PJR (pilotage du portefeuille de propriété intellectuelle, expertise juridique).
-- **Avis Answer Relevance** : La question porte sur les moyens de protéger un savoir‑faire. La réponse indique uniquement de contacter le PJR, ce qui est une piste pertinente mais très partielle ; elle ne décrit pas les mécanismes concrets (confidentialité, conventions, dépôt de brevet, déclaration d’invention, etc.).
-- **Avis Context Precision** : Le contexte fourni contient de nombreuses informations relatives à la protection de la propriété intellectuelle, aux conventions de confidentialité, aux obligations des émérites et des bénévoles, ainsi que les coordonnées du PJR. Il est donc pleinement pertinent pour répondre à la question.
 
 ### Question : Je pars en mission, quelle pièce dois-je remplir ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 254.17s, Eval: 10.12s, Total: 264.29s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 89.88s, Eval: 0.00s, Total: 89.88s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse (remplir le formulaire « Autorisation de déplacement » et le lien fourni) sont directement présentes dans le contexte. Aucun élément inventé n'est ajouté, et les contacts éventuels ne sont pas pénalisés selon la règle d'exemption.
-- **Avis Answer Relevance** : La question demande la pièce à remplir pour une mission. La réponse indique précisément le formulaire requis, ce qui répond exactement à la demande.
-- **Avis Context Precision** : Le contexte contient la section « Autorisation de déplacement » avec le lien vers le formulaire PDF, ce qui fournit l'information nécessaire pour répondre à la question.
 
 ### Question : Quel est le délai moyen entre la soumission d’un manuscrit et sa publication ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 1.0/5, Context Precision: 2.0/5
-- **Temps** : RAG: 129.08s, Eval: 6.39s, Total: 135.47s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 82.19s, Eval: 0.00s, Total: 82.19s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse ne contient aucune affirmation qui ne provient pas du contexte. Le seul élément ajouté est un contact, qui selon les règles ne doit pas être pénalisé. Aucun contenu halluciné n'est présent.
-- **Avis Answer Relevance** : La question porte sur le délai moyen entre la soumission d’un manuscrit et sa publication. La réponse fournie ne donne aucune information à ce sujet, se limitant à un contact, ce qui la rend hors sujet.
-- **Avis Context Precision** : Le contexte récupéré parle d’un délai légal (maximum de 6 mois ou 12 mois selon le domaine) concernant la mise à disposition gratuite du manuscrit après publication, mais il ne fournit pas le délai moyen entre soumission et publication. Ainsi le contexte est seulement vaguement lié à la notion de délai, mais ne répond pas à la question demandée.
 
 ## 03_max_quality
 
@@ -718,192 +664,192 @@
 
 ### Question : C’est quoi les SAPS ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 71.95s, Eval: 9.28s, Total: 81.23s
+- **Temps** : RAG: 59.17s, Eval: 12.64s, Total: 71.81s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : le sigle SAPS signifie Sciences Avec et Pour la Société, il s’agit d’un pôle de l'Université de Tours, il vise à rapprocher chercheurs et société, à favoriser le dialogue et la médiation scientifique, et ses trois missions principales (répondre aux sollicitations extérieures, organiser des points de rencontre, accompagner les chercheurs) sont explicitement décrites dans le texte. L’adresse e‑mail fournie figure également dans la partie contacts du contexte. Aucun élément n’est inventé.
-- **Avis Answer Relevance** : La question demande une définition des SAPS. La réponse fournit exactement cette définition ainsi que leurs objectifs principaux, répondant ainsi pleinement à la demande.
-- **Avis Context Precision** : Le contexte récupéré contient la définition du sigle, le cadre institutionnel, les missions et même les coordonnées de contact. Il est donc parfaitement adapté pour répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse (définition du sigle, rôle de rapprochement entre chercheurs et société, missions de réponse aux sollicitations, organisation de rencontres et accompagnement des chercheurs) sont directement tirées du texte du contexte. L’adresse e‑mail fournie figure également dans la section Contacts du contexte. Aucun élément n’est inventé.
+- **Avis Answer Relevance** : La question « C’est quoi les SAPS ? » attend une définition. La réponse fournit exactement cette définition ainsi que les objectifs principaux, répondant ainsi pleinement à la demande.
+- **Avis Context Precision** : Le contexte récupéré contient la définition du sigle, les missions du pôle, ainsi que les coordonnées de contact. Il est donc parfaitement adapté pour répondre à la question.
 
 ### Question : Comment peut-on changer le budget d’un projet ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 144.72s, Eval: 10.95s, Total: 155.67s
+- **Temps** : RAG: 108.68s, Eval: 14.20s, Total: 122.88s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations concernant la procédure (contacter le SPIV, fournir un argumentaire scientifique, fournir un budget modifié conforme au financeur, analyse par le SPIV en interaction avec l'Antenne Financière) sont directement tirées du contexte. Le seul élément ajouté est un contact nommé (Anne Galopin), mais les règles précisent de ne pas pénaliser les informations de contact absentes du contexte.
-- **Avis Answer Relevance** : La réponse répond exactement à la question « Comment peut-on changer le budget d’un projet ? » en indiquant les étapes à suivre et le service à contacter, sans digression.
-- **Avis Context Precision** : Le contexte contient la section « Gérer les aléas (demande d’avenant ou de modification) » qui décrit précisément la procédure de modification budgétaire, ce qui est exactement ce dont la réponse a besoin.
+- **Avis Faithfulness** : Toutes les affirmations (contacter le SPIV, fournir un argumentaire scientifique, fournir un budget modifié au formalisme du financeur, analyse par le SPIV en interaction avec l'Antenne Financière) sont directement tirées du texte « Gérer les aléas (demande d’avenant ou de modification) ». Le contact ajouté (Anne Galopin) est un élément de contact qui, selon les consignes, ne doit pas être pénalisé.
+- **Avis Answer Relevance** : La réponse répond exactement à la question « Comment peut-on changer le budget d’un projet ? » en décrivant la procédure à suivre, sans digression.
+- **Avis Context Precision** : Le contexte fourni contient la procédure complète de modification budgétaire, incluant le rôle du SPIV, les documents requis et le processus d’analyse, ce qui est suffisant pour répondre à la question.
 
 ### Question : Quelles sont les différentes démarches à effectuer ?
-- **Notes** : Faithfulness: 4.0/5, Answer Relevance: 2.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 335.55s, Eval: 7.41s, Total: 342.96s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 98.10s, Eval: 11.31s, Total: 109.41s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les informations fournies (contact du Service RED, nom d'Aurélie Pétereau, numéro de téléphone et adresse e‑mail) sont présentes dans le contexte. Aucun élément inventé n’est ajouté, à l’exception d’une suggestion générique de consulter le site web, qui n’est pas une hallucination grave. Le score est donc 4.
-- **Avis Answer Relevance** : La question demande « les différentes démarches à effectuer ». La réponse ne décrit aucune démarche concrète (ex. constitution du dossier, pièces à fournir, étapes de dépôt, validation par la commission, etc.) et se limite à indiquer un point de contact. Elle ne répond donc pas réellement à la demande, d’où un score de 2.
-- **Avis Context Precision** : Le contexte récupéré contient de nombreuses informations détaillées sur les démarches liées à l’HDR, à la mobilité, aux dossiers de candidature, aux pièces à fournir, etc. Il est donc parfaitement pertinent pour répondre à la question. Score = 5.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement présentes dans le contexte : la procédure de demande (soumission au président/directeur, avis de la commission recherche ou du conseil scientifique), la nécessité d’un projet détaillé, les critères d’évaluation, la durée maximale de 5 ans renouvelable deux fois (total 15 ans) et les contacts du PJR. Aucun élément n’est inventé.
+- **Avis Answer Relevance** : La question porte sur les « démarches à effectuer ». La réponse décrit précisément les démarches pour obtenir l’éméritat, ce qui correspond à l’attente implicite du contexte. Elle fournit également des contacts utiles, ce qui renforce la pertinence.
+- **Avis Context Precision** : Le contexte récupéré contient toutes les informations nécessaires : procédure de demande, organes décisionnels, critères d’évaluation, durée et contacts. Il est donc parfaitement ciblé.
 
 ### Question : - Dans quel cadre puis-je réaliser des expérimentations avec un partenaire extérieur? Est-ce gratuit?
-- **Notes** : Faithfulness: 2.0/5, Answer Relevance: 3.0/5, Context Precision: 3.0/5
-- **Temps** : RAG: 133.05s, Eval: 9.10s, Total: 142.15s
+- **Notes** : Faithfulness: 3.0/5, Answer Relevance: 3.0/5, Context Precision: 3.0/5
+- **Temps** : RAG: 88.11s, Eval: 15.85s, Total: 103.96s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse cite le document "Guide du DU/La propriété intellectuelle.md" qui n’apparaît pas dans le contexte fourni. Le contexte mentionne plutôt un guide des projets et contrats de recherche, mais pas ce titre précis. Le reste (contact du SPIV, mention du Service Partenariats Innovations Valorisation) est présent dans le contexte. La présence d’une information inventée fait baisser la note.
-- **Avis Answer Relevance** : La réponse indique où chercher le cadre juridique (un guide) et propose de contacter le SPIV, ce qui répond partiellement à la première partie de la question. Cependant, elle ne répond pas du tout à la seconde partie (est‑ce gratuit ?), ce qui limite la pertinence globale.
-- **Avis Context Precision** : Le contexte contient des informations sur les conventions de partenariat, la propriété intellectuelle et le rôle du SPIV, mais il ne fournit pas de réponse explicite sur la gratuité des expérimentations. Ainsi le contexte est partiellement utile, mais incomplet pour répondre à la question dans son intégralité.
+- **Avis Faithfulness** : La réponse mentionne le « Guide du DU/La propriété intellectuelle.md », qui n’apparaît pas dans le contexte fourni. Le reste (contact du SPIV, recommandation de le contacter) est présent dans le texte. Ainsi, la réponse est partiellement fidèle mais comporte une information non‑trouvable dans le contexte.
+- **Avis Answer Relevance** : La réponse indique où trouver les règles et propose de contacter le SPIV, ce qui répond en partie à la question du cadre. Cependant, elle ne répond pas à la seconde partie de la question (« Est‑ce gratuit ? »), ce qui la rend seulement partiellement pertinente.
+- **Avis Context Precision** : Le contexte contient des sections sur la recherche collaborative, la propriété intellectuelle et le rôle du Service Partenariats Innovations Valorisation, ce qui est pertinent. Il ne fournit toutefois pas de réponse explicite sur la gratuité, et le guide cité n’est pas présent. Le contexte est donc partiellement adéquat.
 
 ### Question : A quelle adresse postale ou mail dois-je envoyer mon projet ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 125.82s, Eval: 8.28s, Total: 134.10s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 3.0/5, Context Precision: 4.0/5
+- **Temps** : RAG: 82.40s, Eval: 8.16s, Total: 90.56s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les informations fournies dans la réponse (drv-pi@univ-tours.fr et morgane.guibert@univ-tours.fr) sont présentes textuellement dans le contexte. Aucun élément n'est inventé.
-- **Avis Answer Relevance** : La question demande une adresse postale ou mail pour envoyer un projet. La réponse propose deux adresses e‑mail appropriées, ce qui répond directement à la demande.
-- **Avis Context Precision** : Le contexte contient les adresses e‑mail mentionnées dans la réponse ainsi que l’indication de privilégier l’adresse générique drv-pi@univ-tours.fr. Le contexte ne fournit aucune adresse postale, mais il fournit suffisamment d’informations e‑mail pour répondre.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : l'adresse e‑mail générique drv-pi@univ-tours.fr est explicitement listée dans la section « Contacts » du contexte. Aucun élément n'est inventé.
+- **Avis Answer Relevance** : La question demande une adresse postale ou e‑mail pour envoyer un projet. La réponse fournit un e‑mail, ce qui répond partiellement à la demande, mais ne précise pas si cet e‑mail est le bon canal pour un projet (il est indiqué pour les questions générales de propriété intellectuelle) et ne propose aucune adresse postale. La pertinence est donc moyenne.
+- **Avis Context Precision** : Le contexte contient plusieurs adresses e‑mail et indique clairement l'e‑mail générique drv-pi@univ-tours.fr. Le contexte ne fournit toutefois aucune adresse postale. Ainsi le contexte est pertinent mais incomplet pour couvrir l’ensemble de la question.
 
 ### Question : Comment m’inscrire / me réinscrire ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 142.93s, Eval: 8.97s, Total: 151.90s
+- **Temps** : RAG: 93.86s, Eval: 19.39s, Total: 113.25s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement tirées du contexte : connexion à ADUM, suivi du tutoriel, dépôt de la Convention Individuelle de Formation et des documents, envoi du dossier à la direction de thèse, validation avant le 15 novembre. Aucun élément n’est inventé, y compris les coordonnées de contact qui figurent bien dans le contexte.
-- **Avis Answer Relevance** : La réponse répond précisément à la question « Comment m’inscrire / me réinscrire ? » en décrivant la procédure à suivre, les pièces à déposer et les échéances, ce qui correspond exactement à ce qui était demandé.
-- **Avis Context Precision** : Le contexte fourni contient l’ensemble des informations nécessaires (procédure ADUM, documents requis, dates limites, contacts). Il a été correctement exploité pour générer la réponse.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse (connexion à ADUM, dépôt de la Convention Individuelle de Formation, validation par les différentes instances, réception d'un mail, procédure de paiement de la CVEC) sont directement présentes dans le contexte. Le contact ajouté n'est pas pénalisé selon la règle sur les contacts injectés.
+- **Avis Answer Relevance** : La réponse répond précisément à la question « Comment m’inscrire / me réinscrire ? » en décrivant la procédure à suivre, les documents à fournir et les étapes de validation.
+- **Avis Context Precision** : Le contexte fourni contient l’ensemble des informations nécessaires (procédure ADUM, documents, validation, contacts, etc.) pour répondre à la question.
 
 ### Question : Quelles ressources le Pôle SAPS peut m’apporter ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 4.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 95.72s, Eval: 8.33s, Total: 104.05s
+- **Temps** : RAG: 60.65s, Eval: 13.98s, Total: 74.63s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse (faciliter les échanges, former à la médiation, organiser des événements/animations, accompagner aux événements nationaux) sont directement présentes dans le contexte. Les coordonnées fournies figurent également dans le texte. Aucun élément n’est inventé.
-- **Avis Answer Relevance** : La réponse répond à la question en listant les principales catégories de ressources offertes par le Pôle SAPS. Elle reste pertinente, même si elle ne détaille pas l’ensemble des services disponibles.
-- **Avis Context Precision** : Le contexte fourni contient une description exhaustive des missions, formations, accompagnements, projets et événements du Pôle SAPS, suffisante pour répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse (faciliter les échanges, former à la médiation scientifique, organiser des événements/animations, accompagner la participation aux événements nationaux, contacts) sont directement présentes dans le contexte. Aucun élément n’est inventé.
+- **Avis Answer Relevance** : La réponse répond à la question en listant les principales ressources offertes par le Pôle SAPS. Elle reste centrée sur le sujet, même si elle ne couvre pas l’ensemble des services détaillés dans le contexte.
+- **Avis Context Precision** : Le contexte fourni contient une description exhaustive des missions du Pôle SAPS, incluant formation, accompagnement de projets, organisation d’événements, etc. Il est donc parfaitement adapté pour répondre à la question.
 
 ### Question : Y a-t-il des alumni ?
-- **Notes** : Faithfulness: 1.0/5, Answer Relevance: 5.0/5, Context Precision: 1.0/5
-- **Temps** : RAG: 143.56s, Eval: 7.65s, Total: 151.21s
+- **Notes** : Faithfulness: 2.0/5, Answer Relevance: 4.0/5, Context Precision: 2.0/5
+- **Temps** : RAG: 92.62s, Eval: 7.91s, Total: 100.53s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse affirme l'existence d'un réseau d'alumni, fournit un lien et une adresse e‑mail qui ne figurent pas du tout dans le contexte fourni. Ces informations sont donc des hallucinations. Les contacts injectés sont exemptés de pénalité, mais le reste de l'affirmation n'est pas traçable dans le texte.
-- **Avis Answer Relevance** : La question porte sur l'existence d'alumni. La réponse répond directement en indiquant qu'il y en a, en donnant un lien et un contact, ce qui correspond exactement à la demande.
-- **Avis Context Precision** : Le contexte récupéré parle de libertés, d'associations étudiantes, de procédures de domiciliation, etc., et ne mentionne aucune information relative aux alumni. Le contexte n'est donc pas du tout pertinent pour répondre à la question.
+- **Avis Faithfulness** : La réponse affirme qu'il existe des informations sur les anciens doctorants (alumni) sur le site de l'Université de Tours, or aucune mention d'alumni n'apparaît dans le contexte fourni. Cette affirmation est donc une hallucination. Le contact d'Elysa Ragot est présent dans le contexte, donc cette partie est correcte, mais la majorité de la réponse n'est pas traçable dans le texte.
+- **Avis Answer Relevance** : La réponse répond directement à la question « Y a-t-il des alumni ? » en disant « Oui » et en proposant un moyen d'obtenir des informations, ce qui est pertinent même si l'information n'est pas supportée par le contexte.
+- **Avis Context Precision** : Le contexte ne contient aucune information concernant des alumni ou anciens doctorants. Il se concentre sur la création de compte ADUM, les documents requis, et les contacts. Ainsi, le contexte n'est pas précis pour répondre à la question.
 
 ### Question : Que propose le Pôle SAPS ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 89.38s, Eval: 13.41s, Total: 102.79s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 4.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 63.50s, Eval: 14.82s, Total: 78.32s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte fourni : le Pôle SAPS propose des formations (médiation scientifique, éthique, vulgarisation, préparation au concours "Ma Thèse en 180 secondes"), des événements (Fête de la Science, Nocturnes de l'Histoire, festival (Re)Cherche et Trouve, finale régionale) et des projets (Boutique des sciences, Label SAPS, projets arts/sciences, partenariats scientifiques pour la classe). Aucun élément n’est inventé, y compris les coordonnées qui figurent déjà dans le contexte.
-- **Avis Answer Relevance** : La réponse répond directement à la question « Que propose le Pôle SAPS ? » en listant les principales offres (formations, événements, projets) avec des exemples concrets. Aucun hors‑sujet n’est présent.
-- **Avis Context Precision** : Le contexte récupéré contient l’ensemble des informations nécessaires : description des missions, des formations, des événements et des projets du Pôle SAPS. Il est donc parfaitement adapté à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : le pôle propose des formations (médiation scientifique, éthique, communication orale), des événements (Fête de la science, Nocturnes de l'Histoire, Festival (Re)Cherche et trouve) et des projets (Boutique des sciences, Label SAPS, Ma thèse en BD, Kaléidoscope). Aucun élément n’est inventé.
+- **Avis Answer Relevance** : La réponse répond directement à la question « Que propose le Pôle SAPS ? » en listant les grandes catégories d’offres (formations, événements, projets). Elle reste pertinente même si elle ne détaille pas l’ensemble des missions du pôle.
+- **Avis Context Precision** : Le contexte fourni contient toutes les informations nécessaires pour répondre à la question, incluant les missions, formations, événements et projets du pôle. Le système a donc pu s’appuyer sur un contexte très pertinent.
 
 ### Question : - Qu’est-ce qu’une invention ?
-- **Notes** : Faithfulness: 2.0/5, Answer Relevance: 3.0/5, Context Precision: 3.0/5
-- **Temps** : RAG: 121.98s, Eval: 9.42s, Total: 131.40s
+- **Notes** : Faithfulness: 2.0/5, Answer Relevance: 5.0/5, Context Precision: 2.0/5
+- **Temps** : RAG: 85.83s, Eval: 12.92s, Total: 98.75s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse affirme que « une invention est un résultat brevetable obtenu par un Créateur Indépendant, qui est un inventeur non‑salarié ni agent public, accueilli par une personne morale réalisant de la recherche ». Cette définition n’apparaît nulle part dans le contexte fourni ; le texte parle d’inventeurs, de créateurs indépendants et de la dévolution des droits, mais ne définit pas l’invention de cette façon. Ainsi plusieurs affirmations sont hallucinations.
-- **Avis Answer Relevance** : La réponse tente de répondre à la question « Qu’est‑ce qu’une invention ? » en proposant une définition, ce qui est pertinent. Cependant, la définition est inexacte par rapport au contexte, et la réponse ne couvre pas d’autres aspects possibles (ex. critères de brevetabilité). Elle reste donc partiellement pertinente.
-- **Avis Context Precision** : Le contexte fourni traite du régime juridique des inventions, des inventeurs et des créateurs indépendants, mais ne contient pas de définition claire de l’invention. Le contexte est donc partiellement utile, mais il manque les éléments nécessaires pour fournir une définition précise.
+- **Avis Faithfulness** : La réponse fournit une définition générique d’une invention (« création originale qui répond à un problème… ») qui n’est mentionnée nulle part dans le contexte fourni. Le contexte parle de droits de propriété intellectuelle, d’articles du CPI, etc., mais ne donne aucune définition. Ainsi, la plupart des affirmations ne sont pas traçables dans le texte, ce qui justifie une note faible. Le contact ajouté n’est pas pénalisé selon la règle d’exemption.
+- **Avis Answer Relevance** : La question porte sur la définition d’une invention. La réponse répond directement à cette demande en donnant une description de ce qu’est une invention, ce qui la rend très pertinente malgré le manque de référence au contexte.
+- **Avis Context Precision** : Le contexte récupéré traite de la législation autour des inventions, des brevets et des droits des émérites, mais ne contient pas d’information explicite permettant de définir une invention. Le texte est donc seulement vaguement lié au sujet et ne fournit pas les éléments nécessaires pour répondre à la question.
 
 ### Question : - Je souhaite répondre à un Appel à projet?
 - **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
-- **Temps** : RAG: 156.36s, Eval: 0.00s, Total: 156.36s
+- **Temps** : RAG: 113.91s, Eval: 0.00s, Total: 113.91s
 - **Tokens générés** : 0
 
 ### Question : je suis en arrêt de travail, qui dois-je contacter ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 132.83s, Eval: 8.04s, Total: 140.87s
+- **Temps** : RAG: 90.05s, Eval: 8.10s, Total: 98.15s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement présentes dans le contexte : le médecin du travail est le contact indiqué et il est rattaché au Service Prévention Protection Santé Sécurité, situé au Plat d'Etain (Relais Santé au Travail). Aucun élément n'est inventé.
-- **Avis Answer Relevance** : La réponse répond exactement à la question « qui dois‑je contacter ? » en indiquant le médecin du travail, ce qui est la réponse attendue pour un arrêt de travail.
-- **Avis Context Precision** : Le contexte fourni contient la description du médecin du travail, son rattachement et son lieu, ce qui suffit pleinement à répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse (contact du médecin du travail, son rattachement au Service Prévention Protection Santé Sécurité, localisation au Plat d'Etain, rôle de surveillance médicale, possibilité de contacter l'Assistant de Prévention) sont directement présentes dans le contexte. Le nom et l'email fournis sont des contacts ajoutés automatiquement, mais la consigne indique de ne pas les pénaliser.
+- **Avis Answer Relevance** : La réponse répond exactement à la question « qui dois‑je contacter ? » en indiquant le médecin du travail et l'Assistant de Prévention, ce qui correspond aux interlocuteurs pertinents pour un arrêt de travail.
+- **Avis Context Precision** : Le contexte contient les informations nécessaires sur le médecin du travail et l'Assistant de Prévention, ainsi que leurs missions, ce qui permet de répondre à la question sans recherche supplémentaire.
 
 ### Question : Combien de temps va prendre mon inscription ?
-- **Notes** : Faithfulness: 3.0/5, Answer Relevance: 4.0/5, Context Precision: 2.0/5
-- **Temps** : RAG: 136.41s, Eval: 15.29s, Total: 151.70s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 2.0/5
+- **Temps** : RAG: 91.99s, Eval: 9.67s, Total: 101.66s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse mentionne que la durée de traitement peut varier et donne une estimation vague. Cette information n'apparaît pas dans le contexte fourni, qui ne contient aucune indication sur les délais d'inscription. Le reste de la réponse (référence à la Charte du doctorat) est présent dans le contexte. Ainsi, la réponse comporte à la fois des éléments fondés et des éléments non‑supportés, justifiant une note moyenne.
-- **Avis Answer Relevance** : La réponse s'adresse directement à la question du temps d'inscription en expliquant qu'il est difficile de donner une durée précise et en proposant des pistes (consultation de la charte, contact d'un responsable). Elle reste pertinente, même si elle ne fournit pas de chiffre concret.
-- **Avis Context Precision** : Le contexte fourni décrit les documents à fournir, les étapes de dépôt et la nécessité de lire la Charte du doctorat, mais il ne mentionne aucun délai de traitement. Le contexte est donc seulement partiellement lié à la question de durée.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont vérifiables dans le contexte : le texte ne mentionne effectivement aucune durée pour l'inscription, ce qui justifie la phrase « La durée de l'inscription n'est pas précisée ». Le contact fourni (Christele Gaudron-Bredif, gaudron@univ-tours.fr) n'apparaît pas dans le contexte, mais les règles d'évaluation stipulent de ne pas pénaliser les informations de contact ajoutées automatiquement.
+- **Avis Answer Relevance** : La réponse répond directement à la question « Combien de temps va prendre mon inscription ? » en indiquant que le délai n'est pas indiqué dans le contexte et en proposant de contacter une personne pour obtenir l'information, ce qui est pleinement pertinent.
+- **Avis Context Precision** : Le contexte récupéré contient de nombreuses informations sur les documents à fournir, les champs du formulaire, etc., mais il ne fournit aucune indication sur la durée du processus d'inscription. Ainsi, le contexte est seulement vaguement lié au sujet et ne contient pas l'information recherchée.
 
 ### Question : Comment avoir un email ?
-- **Notes** : Faithfulness: 2.0/5, Answer Relevance: 3.0/5, Context Precision: 3.0/5
-- **Temps** : RAG: 136.12s, Eval: 13.00s, Total: 149.12s
+- **Notes** : Faithfulness: 2.0/5, Answer Relevance: 4.0/5, Context Precision: 1.0/5
+- **Temps** : RAG: 88.13s, Eval: 7.24s, Total: 95.37s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse indique qu'il faut se rendre sur https://pal.univ-tours.fr pour demander un compte email. Le contexte mentionne ce lien uniquement pour le prêt de matériel non chiffré, pas pour la création d'un compte de messagerie. Ainsi, cette information n'est pas supportée par le texte fourni, ce qui constitue une hallucination. Le reste de la phrase (demander un compte « étudiant établissement » ou « personnel ») est présent dans le contexte, mais l'association avec le lien est erronée.
-- **Avis Answer Relevance** : La réponse tente de répondre à la question « Comment avoir un email ? » en proposant une procédure, mais la procédure proposée est incorrecte. Elle reste néanmoins centrée sur le sujet de l'obtention d'un compte email, ce qui lui vaut une note moyenne.
-- **Avis Context Precision** : Le contexte contient des informations pertinentes sur les comptes email (ex. chaque doctorant possède un compte « étudiant établissement », possibilité de demander un compte « personnel », contacts DSI). Cependant, il ne fournit pas de lien direct ou d'instructions précises pour créer le compte, ce qui rend le contexte partiellement adéquat.
+- **Avis Faithfulness** : La réponse mentionne des éléments (site web de l'Université de Tours, procédure de création de compte, contact du service informatique) qui ne figurent pas du tout dans le contexte fourni. Seul le contact e‑mail est exempté selon la règle des contacts injectés. Ainsi la majorité des affirmations sont hallucinées, justifiant un 2.
+- **Avis Answer Relevance** : La réponse répond à la question « Comment avoir un email ? » en proposant une démarche concrète, ce qui est pertinent. Elle ne traite pas d’autres aspects, mais reste centrée sur la demande, d’où un 4.
+- **Avis Context Precision** : Le contexte récupéré porte sur la confidentialité, les collaborateurs bénévoles, les cahiers de laboratoire, etc., et ne contient aucune information relative à la création d’un compte e‑mail. Le contexte est donc totalement non pertinent, justifiant un 1.
 
 ### Question : - Je souhaite me procurer le formulaire de déclaration d’invention de l’université, à qui dois-je m’adresser ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 137.61s, Eval: 11.93s, Total: 149.54s
+- **Temps** : RAG: 85.17s, Eval: 7.61s, Total: 92.78s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse (adresse du PJR, contact de Morgane Guibert, adresse générique drv-pi@univ-tours.fr) sont présentes textuellement dans le contexte fourni. Aucun élément n’est inventé.
-- **Avis Answer Relevance** : La réponse répond directement à la question en indiquant à qui s’adresser pour obtenir le formulaire de déclaration d’invention, en proposant le PJR et un contact précis.
-- **Avis Context Precision** : Le contexte contient les informations nécessaires : le Pôle Juridique Recherche, son rôle d’instruction des déclarations d’invention, et les adresses e‑mail des responsables. Le contexte est donc parfaitement adapté.
+- **Avis Faithfulness** : Toutes les informations fournies dans la réponse (Pôle Juridique Recherche, Morgane Guibert, son adresse e‑mail, adresse générique drv-pi@univ‑tours.fr) sont présentes textuellement dans le contexte. Aucun élément n’est inventé.
+- **Avis Answer Relevance** : La réponse indique clairement à qui s’adresser pour obtenir le formulaire de déclaration d’invention, répondant ainsi directement à la question posée.
+- **Avis Context Precision** : Le contexte contient les coordonnées du PJR et de sa responsable, ainsi que l’adresse générique pour les questions de propriété intellectuelle, ce qui est exactement ce dont la question a besoin.
 
 ### Question : Qui contacter pour toute demande d'ouvrages en service presse ?
-- **Notes** : Faithfulness: 3.0/5, Answer Relevance: 5.0/5, Context Precision: 3.0/5
-- **Temps** : RAG: 128.38s, Eval: 11.27s, Total: 139.65s
+- **Notes** : Faithfulness: 1.0/5, Answer Relevance: 2.0/5, Context Precision: 1.0/5
+- **Temps** : RAG: 84.09s, Eval: 9.34s, Total: 93.43s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : L'email spiv@univ-tours.fr figure bien dans le contexte, mais le contexte ne précise pas qu'il s'agit du "service presse". L'attribution du rôle de service presse à cet email n'est pas explicitement supportée, ce qui constitue une légère hallucination.
-- **Avis Answer Relevance** : La réponse fournit directement un contact pour les demandes d'ouvrages en service presse, répondant ainsi pleinement à la question posée.
-- **Avis Context Precision** : Le contexte contient des informations de contact (spiv@univ-tours.fr) mais ne mentionne pas explicitement le service presse. Le contexte est donc partiellement pertinent, mais il manque la désignation précise recherchée.
+- **Avis Faithfulness** : La réponse indique qu'il faut contacter le "service presse de l'Université de Tours" et propose l'adresse drv-pi@univ-tours.fr comme contact presse. Aucun de ces éléments n'apparaît dans le contexte fourni, qui ne mentionne que des contacts liés à la propriété intellectuelle (drv-pi@univ-tours.fr) et aucune référence à un service presse. Ainsi, la plupart des affirmations sont hallucinations.
+- **Avis Answer Relevance** : La réponse tente de répondre à la question en proposant un contact, mais le contact proposé n'est pas justifié par le contexte. Elle touche au sujet (contact) mais ne fournit pas l'information correcte, d'où une pertinence limitée.
+- **Avis Context Precision** : Le contexte ne contient aucune information concernant le service presse ou les demandes d'ouvrages en service presse. Il est donc non pertinent pour la question posée.
 
 ### Question : comment enregistrer ma demande de formation hors-catalogue et quels documents dois-je fournir ?
-- **Notes** : Faithfulness: 2.0/5, Answer Relevance: 4.0/5, Context Precision: 2.0/5
-- **Temps** : RAG: 139.70s, Eval: 13.37s, Total: 153.07s
+- **Notes** : Faithfulness: 1.0/5, Answer Relevance: 5.0/5, Context Precision: 1.0/5
+- **Temps** : RAG: 86.39s, Eval: 12.08s, Total: 98.47s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse introduit plusieurs informations qui ne figurent pas dans le contexte fourni : il n’est jamais fait mention d’un « service de la formation continue », ni d’une liste précise de documents (CV, projet de formation, etc.) à fournir, ni de l’adresse e‑mail lucie.primault@univ‑tours.fr. Ces éléments sont donc des hallucinations. Seules les références au "Guide des DU (Vademecum des DU)" et au "Conseiller Mobilité Carrière" sont présentes dans le contexte.
-- **Avis Answer Relevance** : La réponse répond globalement à la question en indiquant où se renseigner et quels types de documents pourraient être attendus. Elle reste donc pertinente, même si les détails fournis ne sont pas justifiés par le contexte.
-- **Avis Context Precision** : Le contexte récupéré ne contient pas d’instructions précises sur la procédure d’enregistrement d’une formation hors‑catalogue ni sur les pièces à fournir. Il ne fournit que des liens généraux (Guide des DU, Conseiller Mobilité Carrière) qui ne suffisent pas à répondre complètement à la question.
+- **Avis Faithfulness** : La réponse contient uniquement des informations qui ne figurent pas dans le contexte fourni (procédure d'enregistrement, documents à fournir, lien web, adresse e‑mail). Aucun élément du texte n'est traçable dans le contexte, qui porte sur des dispositions légales relatives aux chercheurs, aux émérites, etc. Selon la règle, les contacts ne sont pas pénalisés pour la fidélité, mais ils restent absents du contexte, ce qui fait que la majorité de la réponse est hallucination.
+- **Avis Answer Relevance** : La réponse répond directement à la question posée : elle indique comment enregistrer une demande de formation hors‑catalogue et quels documents fournir. Elle est donc très pertinente par rapport à la demande de l'utilisateur.
+- **Avis Context Precision** : Le contexte retrouvé ne contient aucune information relative aux demandes de formation hors‑catalogue, aux procédures d'inscription ou aux documents requis. Il est donc totalement inapproprié pour répondre à la question.
 
 ### Question : Mon jury de thèse est-il valide ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 4.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 140.57s, Eval: 13.16s, Total: 153.73s
+- **Notes** : Faithfulness: 2.0/5, Answer Relevance: 2.0/5, Context Precision: 1.0/5
+- **Temps** : RAG: 86.12s, Eval: 11.73s, Total: 97.85s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations concernant les règles de composition du jury (4‑8 membres, moitié professeurs ou rang A, moitié extérieurs, présence d'au moins un HDR, etc.) sont directement présentes dans le contexte. Le contact mentionné (Christele Gaudron‑Bredif) n'est pas dans le contexte, mais la consigne indique de ne pas pénaliser les informations de contact ajoutées automatiquement.
-- **Avis Answer Relevance** : La réponse fournit les critères à vérifier pour juger de la validité du jury, ce qui répond à la demande de l'utilisateur. Elle ne donne pas de verdict direct sur le jury spécifique de l'utilisateur, mais indique les étapes à suivre, ce qui reste pertinent bien que partiellement complet.
-- **Avis Context Precision** : Le contexte récupéré contient l’ensemble des règles de composition du jury, les exigences de délai, les modalités de visioconférence, etc. Il est donc parfaitement adapté à la question posée.
+- **Avis Faithfulness** : La réponse cite le décret n°2021-1645, présent dans le contexte, mais affirme à tort que ce décret détermine la validité d'un jury de thèse, ce qui n'est pas mentionné dans le texte fourni. Cette affirmation est donc une hallucination. Le contact fourni n'est pas pénalisé selon la règle d'exemption des contacts.
+- **Avis Answer Relevance** : La question porte sur la validité d'un jury de thèse. La réponse ne fournit pas d'éléments concrets permettant de juger de cette validité, se limitant à une référence générique à un décret et à une suggestion de contact, ce qui ne répond pas réellement à la demande.
+- **Avis Context Precision** : Le contexte retrouvé traite de l'éméritat des enseignants-chercheurs et de la législation associée, sans aucune information relative aux jurys de thèse. Ainsi, le contexte n'est pas pertinent pour répondre à la question posée.
 
 ### Question : quels types de financement de thèse existent ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 145.92s, Eval: 11.39s, Total: 157.31s
+- **Temps** : RAG: 94.05s, Eval: 13.22s, Total: 107.27s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les mentions de la réponse (contrats doctoraux ministériels, bourses régionales, départementales, industrielles, conventions CIFRE, bourses associatives, financements ANR, Europe, Labex, contrats de recherche, contrats entreprise, financements étrangers) sont présentes dans le contexte. Le contact fourni figure également dans le contexte, donc aucune hallucination.
-- **Avis Answer Relevance** : La réponse répond directement à la question en listant les différents types de financement de thèse, sans digression hors sujet.
-- **Avis Context Precision** : Le contexte récupéré contient une section "Autres financements doctoraux" qui recense précisément les types de financement demandés, ce qui est suffisant pour répondre à la question.
+- **Avis Faithfulness** : Toutes les catégories mentionnées dans la réponse (ANR, Europe, Labex, contrats de recherche, contrats entreprise, CIFRE/DGA/ADEME, gouvernements/associations/établissements étrangers, salariés, bourses régionales, départementales, industrielles, conventions CIFRE, bourses associatives, présidentielles, Rabelaisiennes, Université d'Orléans) apparaissent explicitement dans le contexte. Aucun élément n’est inventé ; le contact ajouté est exempté de pénalité selon les règles.
+- **Avis Answer Relevance** : La réponse répond directement à la question en listant les différents types de financement de thèse, ce qui constitue une réponse ciblée et exhaustive du point de vue de la question posée.
+- **Avis Context Precision** : Le contexte fourni contient une section détaillée « Autres financements doctoraux » qui recense les mêmes types de financement que ceux listés dans la réponse, ainsi que d’autres mentions (bourses présidentielles, Rabelaisiennes, etc.). Le contexte était donc parfaitement adapté.
 
 ### Question : - ou bien avec des échantillons en provenance du CHRU de Tours ou d'un autre CHRU?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 1.0/5, Context Precision: 2.0/5
-- **Temps** : RAG: 134.20s, Eval: 8.62s, Total: 142.82s
+- **Temps** : RAG: 90.24s, Eval: 7.28s, Total: 97.52s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations concernant la façon de rédiger la seconde ligne de signature sont directement tirées du texte fourni (ex. « Université de Tours, … CHRU de Tours ou autre Hôpital, Service, 37XXX Tours, France »). Aucun fait externe n'est introduit, à l'exception du contact (nom, e‑mail, téléphone) qui n'est pas présent dans le contexte mais, selon les règles, les contacts injectés ne sont pas pénalisés pour la fidélité.
-- **Avis Answer Relevance** : La question porte sur l'utilisation d'échantillons provenant du CHRU de Tours ou d'un autre CHRU. La réponse fournie traite uniquement de la rédaction de la signature des auteurs et ne répond pas du tout à la problématique des échantillons, ce qui la rend hors sujet.
-- **Avis Context Precision** : Le contexte récupéré traite de la rédaction des affiliations et signatures pour le personnel hospitalo‑universitaire du CHRU de Tours. Il ne contient aucune information relative à la collecte, l'utilisation ou la gestion d'échantillons provenant du CHRU, ce qui était l'objet de la question. Le contexte est donc seulement vaguement lié au sujet demandé.
+- **Avis Faithfulness** : Toutes les affirmations concernant la façon de rédiger la seconde ligne de signature sont directement tirées du contexte fourni. Le contact ajouté (Claude‑Emmanuel Boudet) n'est pas présent dans le contexte mais, selon les règles, les informations de contact ne sont pas pénalisées pour la fidélité.
+- **Avis Answer Relevance** : La question porte sur l'utilisation d'échantillons provenant du CHRU de Tours ou d'un autre CHRU, alors que la réponse traite uniquement de la rédaction des affiliations et signatures. Aucun élément de la réponse ne répond à la demande concernant les échantillons.
+- **Avis Context Precision** : Le contexte récupéré porte sur les règles de signature des auteurs affiliés au CHRU de Tours, mais ne contient aucune information relative à l'utilisation d'échantillons. Le contexte est donc seulement vaguement lié au sujet de la question.
 
 ### Question : Je souhaite monter un projet, comment faire ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 140.83s, Eval: 14.66s, Total: 155.49s
+- **Temps** : RAG: 90.58s, Eval: 11.44s, Total: 102.02s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte fourni. Les étapes (contacter le SCRIPT, transmettre la saisine, assurer le pilotage, recruter un chef de projet, composition du dossier) sont décrites textuellement dans le contexte. Le nom, l'e‑mail et le téléphone de Justine Gillet ne figurent pas dans le contexte, mais la règle d’exemption des contacts les exclut de la pénalisation.
-- **Avis Answer Relevance** : La question demande comment monter un projet. La réponse donne les actions concrètes à entreprendre (contact du service SCRIPT, exigences de pilotage, recrutement, pièces du dossier) et fournit un point de contact, répondant ainsi pleinement à la demande.
-- **Avis Context Precision** : Le contexte récupéré contient l’ensemble des informations nécessaires : procédure de saisine, rôle du SCRIPT, exigences de coordination, liste des pièces du dossier, etc. Il est donc parfaitement ciblé.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse (contacter le service SCRIPT, transmettre la saisine à projets-etablissement@univ-tours.fr, rôle du SCRIPT dans le suivi du comité de pilotage, nécessité d’un pilotage continu et du recrutement d’un chef de projet) sont directement présentes dans le contexte. Le nom et les coordonnées de Justine Gillet ne figurent pas dans le contexte, mais la règle d’évaluation stipule de ne pas pénaliser les contacts ajoutés automatiquement.
+- **Avis Answer Relevance** : La réponse répond précisément à la question « Je souhaite monter un projet, comment faire ? » en indiquant les étapes concrètes à suivre et les interlocuteurs à contacter, sans digression hors sujet.
+- **Avis Context Precision** : Le contexte fourni contient les informations nécessaires pour répondre à la question : procédure de saisine, rôle du service SCRIPT, exigences de pilotage et de recrutement, organisation du COPIL. Le système a exploité ces éléments.
 
 ### Question : - Comment protéger un savoir-faire ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 4.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 147.88s, Eval: 15.94s, Total: 163.82s
+- **Temps** : RAG: 83.81s, Eval: 8.75s, Total: 92.56s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement tirées du contexte : la nécessité d’un accord de confidentialité, la mention de la charte ou de la convention de collaborateur bénévole, et la référence à l’article L.533‑4 du CPI. Aucun élément n’est inventé ; le contact fourni est exempté selon la règle des contacts injectés.
-- **Avis Answer Relevance** : La réponse répond à la question en proposant des mesures concrètes (accords de confidentialité, conventions) pour protéger un savoir‑faire. L’ajout de l’article L.533‑4, qui traite de la libre réutilisation des données, est légèrement hors‑sujet mais n’empêche pas la pertinence globale.
-- **Avis Context Precision** : Le contexte récupéré contient les informations nécessaires : exigences de confidentialité, conventions pour les bénévoles, et l’article L.533‑4. Il est donc parfaitement adapté à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse se retrouvent dans le contexte : le texte mentionne l'importance d'un accord de confidentialité ou d'une convention de collaborateur bénévole pour sécuriser les informations, et fournit les coordonnées du Pôle Juridique Recherche (drv-pi@univ-tours.fr). Aucun élément n'est inventé.
+- **Avis Answer Relevance** : La réponse répond à la question « Comment protéger un savoir‑faire ? » en proposant des mesures concrètes (accord de confidentialité, convention) et en indiquant un point de contact. Elle reste centrée sur la protection, même si elle ne couvre pas d'autres voies possibles (brevets, secret commercial).
+- **Avis Context Precision** : Le contexte contient les informations nécessaires : exigences de confidentialité, rôle des conventions pour les bénévoles, et les contacts du PJR. Ces éléments sont directement exploités dans la réponse.
 
 ### Question : Je pars en mission, quelle pièce dois-je remplir ?
-- **Notes** : Faithfulness: 3.0/5, Answer Relevance: 4.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 131.38s, Eval: 8.75s, Total: 140.13s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 87.55s, Eval: 9.20s, Total: 96.75s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Le cœur de la réponse (« convention de collaborateur bénévole ») se trouve bien dans le contexte. En revanche, la mention du téléchargement sur le site de l'Université de Tours, le contact de Morgane Guibert et l'exigence de 15 jours avant le départ ne sont pas présents dans le texte fourni. Ces éléments sont donc des hallucinations, ce qui empêche d'attribuer la note maximale.
-- **Avis Answer Relevance** : La réponse indique clairement la pièce à remplir, ce qui répond directement à la question. Les informations additionnelles (site, contact) ne nuisent pas à la pertinence mais sont superflues.
-- **Avis Context Precision** : Le contexte contient explicitement la notion de « convention de collaborateur bénévole », suffisante pour répondre à la question. Aucun autre document n'est requis dans le texte.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement présentes dans le contexte : le formulaire d'autorisation de déplacement à remplir pour chaque mission, la nécessité de joindre une copie de la carte grise, et l'obligation de le transmettre au gestionnaire ou à l'antenne financière au moins 15 jours avant le départ. Le texte "disponible sur l'Intranet" découle de la mention "cf. procédure sur l'Intranet". Aucun élément n'est inventé.
+- **Avis Answer Relevance** : La réponse répond exactement à la question en indiquant le document à remplir (formulaire d'autorisation de déplacement) et fournit des précisions utiles (pièce à joindre, délai de transmission). Aucun hors‑sujet n'est introduit.
+- **Avis Context Precision** : Le contexte récupéré contient toutes les informations nécessaires : existence du formulaire d'autorisation de déplacement, la mention de la carte grise à joindre et le délai de transmission. Le contexte est donc parfaitement ciblé.
 
 ### Question : Quel est le délai moyen entre la soumission d’un manuscrit et sa publication ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 3.0/5, Context Precision: 2.0/5
-- **Temps** : RAG: 134.96s, Eval: 8.77s, Total: 143.73s
+- **Notes** : Faithfulness: 3.0/5, Answer Relevance: 2.0/5, Context Precision: 2.0/5
+- **Temps** : RAG: 85.47s, Eval: 13.67s, Total: 99.14s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : le texte indique qu'aucun délai moyen n'est mentionné et précise les délais de 6 mois (sciences, technique, médecine) et 12 mois (sciences humaines et sociales) pour la mise à disposition du manuscrit. Le contact fourni n'est pas présent dans le contexte mais, selon les règles, les contacts injectés ne sont pas pénalisés.
-- **Avis Answer Relevance** : La réponse indique que le délai moyen demandé n'est pas présent dans le contexte et fournit un délai légal lié à la mise à disposition du manuscrit, ce qui n'est pas exactement la même information que le délai moyen entre soumission et publication. Elle répond partiellement à la question mais ne fournit pas la donnée recherchée.
-- **Avis Context Precision** : Le contexte ne contient pas d'information sur le délai moyen entre soumission et publication ; il ne fournit que le délai maximal de mise à disposition du manuscrit (6 ou 12 mois). Ainsi le contexte est seulement vaguement lié à la question.
+- **Avis Faithfulness** : Le texte cite correctement les délais de 6 mois et 12 mois prévus par l'article L533-4 du CPI, qui figurent bien dans le contexte. En revanche, il affirme que ces délais correspondent au "délai moyen entre la soumission d’un manuscrit et sa publication", ce qui n’est pas présent dans le contexte et constitue une interprétation erronée ou une invention.
+- **Avis Answer Relevance** : La question porte sur le délai moyen entre la soumission et la publication. La réponse fournit des informations sur le délai légal de mise à disposition du manuscrit après la première publication, qui ne répond pas à la question posée.
+- **Avis Context Precision** : Le contexte ne contient pas d’information sur le délai moyen entre soumission et publication ; il ne traite que du délai maximal de mise à disposition en accès ouvert (6 ou 12 mois). Ainsi, le contexte n’est pas réellement pertinent pour répondre à la question.
 
 ## 05_mistral_stack
 
@@ -1488,195 +1434,192 @@
 
 ### Question : C’est quoi les SAPS ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 86.68s, Eval: 7.78s, Total: 94.46s
+- **Temps** : RAG: 58.11s, Eval: 14.36s, Total: 72.47s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse se retrouvent textuellement dans le contexte : le sigle SAPS signifie « Sciences Avec et Pour la Société », la loi de programmation de la recherche 2021 est mentionnée, ainsi que les objectifs de renforcer le dialogue, la confiance et la réciprocité entre chercheurs et citoyens, et la mise en relation via médiation et événements. Le site saps.univ-tours.fr apparaît également dans le contexte. Aucun élément n’est inventé.
-- **Avis Answer Relevance** : La réponse répond directement à la question « C’est quoi les SAPS ? » en donnant une définition claire et concise du concept, sans digression.
-- **Avis Context Precision** : Le contexte fourni contient la définition exacte des SAPS, leurs objectifs, le cadre législatif et le lien web. Il est donc parfaitement adapté pour répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse (définition de SAPS, lien avec la loi LPR 2021, objectif de renforcer le dialogue entre chercheurs et citoyens, reconnaissance comme dimension de l'activité scientifique) sont directement présentes dans le texte du contexte. L'adresse e‑mail fournie figure également dans la section Contacts, mais les contacts ne sont pas pénalisés selon les règles.
+- **Avis Answer Relevance** : La réponse répond exactement à la question « C’est quoi les SAPS ? » en donnant une définition claire et en précisant son objectif principal.
+- **Avis Context Precision** : Le contexte récupéré contient la définition, le cadre législatif (loi LPR 2021) et les objectifs des SAPS, ce qui est suffisant pour répondre à la question.
 
 ### Question : Comment peut-on changer le budget d’un projet ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 173.42s, Eval: 12.05s, Total: 185.47s
+- **Temps** : RAG: 106.26s, Eval: 10.57s, Total: 116.83s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : le texte indique que toute demande de modification budgétaire doit passer par le SPIV, que le SPIV exige un argumentaire scientifique et un budget modifié au formalisme du financeur, et que la demande d’avenant ne vaut pas accord tant que le financeur n’a pas donné son feu vert. Aucun élément n’est inventé. Le contact fourni n’est pas pénalisé selon la règle sur les contacts injectés.
-- **Avis Answer Relevance** : La réponse répond exactement à la question « Comment peut-on changer le budget d’un projet ? » en décrivant la procédure à suivre. Aucun hors‑sujet n’est introduit.
-- **Avis Context Precision** : Le contexte récupéré contient la procédure complète de modification budgétaire (section « Gérer les aléas »). Il fournit toutes les informations nécessaires pour répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse (passer par le SPIV, fournir un argumentaire scientifique, un budget modifié validé par l'antenne financière, attendre l'accord du financeur) sont directement présentes dans le texte du contexte. Le seul élément supplémentaire est le contact "Anne Galopin" et son e‑mail, mais les consignes précisent de ne pas pénaliser les informations de contact.
+- **Avis Answer Relevance** : La réponse répond exactement à la question « Comment peut‑on changer le budget d’un projet ? » en décrivant la procédure à suivre. Aucun élément hors sujet n’est ajouté.
+- **Avis Context Precision** : Le contexte contient une section dédiée « Gérer les aléas (demande d’avenant ou de modification) » qui fournit toutes les informations nécessaires pour répondre à la question, notamment le rôle du SPIV, les pièces à fournir et la nécessité d’attendre l’accord du financeur.
 
 ### Question : Quelles sont les différentes démarches à effectuer ?
-- **Notes** : Faithfulness: 2.0/5, Answer Relevance: 1.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 113.64s, Eval: 10.15s, Total: 123.79s
+- **Erreur d'évaluation** : Parsing JSON / Evaluation failed: Expecting value: line 1 column 1 (char 0)
+- **Temps** : RAG: 142.68s, Eval: 0.00s, Total: 142.68s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse ne s’appuie sur aucune information du contexte fourni. Elle se contente d’un marqueur « [VREQUIERT_PLUS_DE_CONTEXTE ]» qui n’apparaît pas dans le texte source, ce qui constitue une information non‑fondée. Aucun élément du contexte n’est repris, d’où une note faible.
-- **Avis Answer Relevance** : La question demandait « Quelles sont les différentes démarches à effectuer ? ». La réponse indique simplement qu’il manque du contexte et ne fournit aucune démarche, donc elle ne répond pas du tout à la question.
-- **Avis Context Precision** : Le contexte récupéré contient de nombreuses informations sur les démarches possibles (RGPD, formalités d’accueil, dossier à compléter, accompagnement EURAXESS, etc.). Ainsi le contexte est très pertinent et complet pour répondre à la question.
 
 ### Question : - Dans quel cadre puis-je réaliser des expérimentations avec un partenaire extérieur? Est-ce gratuit?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 3.0/5, Context Precision: 4.0/5
-- **Temps** : RAG: 131.70s, Eval: 8.49s, Total: 140.19s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 3.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 87.95s, Eval: 6.40s, Total: 94.35s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : le texte indique que les collaborations avec des partenaires extérieurs doivent être encadrées par un contrat et que la propriété intellectuelle est souvent en copropriété. Le contact fourni n'est pas pénalisé selon la règle sur les contacts injectés.
-- **Avis Answer Relevance** : La réponse traite du cadre (contrat) demandé, mais ne répond pas directement à la seconde partie de la question concernant la gratuité. Elle renvoie simplement à un interlocuteur pour obtenir cette information, ce qui rend la réponse partiellement pertinente.
-- **Avis Context Precision** : Le contexte contient les informations nécessaires sur l’obligation d’un contrat pour les collaborations externes, ce qui est pertinent pour la première partie de la question. Cependant, il ne précise pas si ces expérimentations sont gratuites, ce qui explique l’absence de réponse claire sur ce point.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse (cadre du contrat de recherche, rôle du SPIV, contact Hélène Jullien) sont présentes dans le contexte fourni. Aucun élément n’est inventé.
+- **Avis Answer Relevance** : La réponse traite du cadre (contrat de recherche/partenariat) mais ne répond pas à la seconde partie de la question concernant la gratuité. Elle est donc partiellement pertinente.
+- **Avis Context Precision** : Le contexte contient des sections détaillant le Service Partenariats, Innovations et Valorisation (SPIV), les contrats de recherche et les contacts de Hélène Jullien, ce qui suffit pour répondre à la question sur le cadre.
 
 ### Question : A quelle adresse postale ou mail dois-je envoyer mon projet ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 3.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 306.58s, Eval: 7.74s, Total: 314.32s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 4.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 84.12s, Eval: 6.48s, Total: 90.60s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les informations fournies dans la réponse (nom de Morgane Guibert et son adresse e‑mail) sont présentes dans le contexte. Aucun élément n’a été inventé.
-- **Avis Answer Relevance** : La réponse donne une adresse e‑mail, ce qui répond partiellement à la question « adresse postale ou mail ». Cependant, le contexte propose d’autres adresses (par ex. l’adresse générique drv-pi@univ‑tours.fr ou l’adresse de Jeanne Hélouis pour les conventions) qui auraient pu être plus appropriées selon le type de projet. La réponse n’est donc que partiellement pertinente.
-- **Avis Context Precision** : Le contexte contient plusieurs adresses e‑mail et même une adresse postale générique du Pôle Juridique Recherche, ce qui est suffisant pour répondre à la question. Le contexte est donc très précis.
+- **Avis Faithfulness** : Toutes les informations fournies dans la réponse (adresse e‑mail drv-pi@univ-tours.fr) sont présentes dans le contexte. Aucun élément n’a été inventé.
+- **Avis Answer Relevance** : La réponse donne une adresse e‑mail, ce qui répond partiellement à la question qui demandait une adresse postale ou mail pour envoyer le projet. Elle ne propose pas d’adresse postale et ne précise pas si cette adresse est la plus adaptée pour un projet, d’où une légère perte de pertinence.
+- **Avis Context Precision** : Le contexte contient explicitement l’adresse générique drv-pi@univ-tours.fr ainsi que d’autres contacts. L’information recherchée (une adresse e‑mail) est donc bien couverte par le contexte.
 
 ### Question : Comment m’inscrire / me réinscrire ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 140.14s, Eval: 13.86s, Total: 154.00s
+- **Temps** : RAG: 141.44s, Eval: 23.70s, Total: 165.14s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse (connexion à ADUM entre début juin et le 15 novembre, nécessité d’une invitation du gestionnaire, dépôt du compte‑rendu du CSI et de la Convention Individuelle de Formation) sont directement présentes dans le contexte. Aucun élément n’est inventé ; la mention d’absence d’information pour l’inscription initiale reflète simplement le manque de données dans le contexte.
-- **Avis Answer Relevance** : La réponse répond clairement à la question « Comment m’inscrire / me réinscrire ? » en détaillant la procédure de réinscription, qui est la partie la plus couverte par le contexte. Elle indique également qu’elle ne dispose pas d’informations pour une première inscription, ce qui reste pertinent vu l’absence de ces informations dans le contexte.
-- **Avis Context Precision** : Le contexte fourni contient toutes les informations nécessaires pour expliquer la réinscription (dates, plateforme ADUM, documents à déposer, rôle du gestionnaire). Le système a donc pu extraire les bonnes données.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse (utiliser la plateforme ADUM, période de réinscription du début juin au 15 novembre) sont directement présentes dans le contexte. Le seul élément qui n’apparaît pas dans le contexte est le nom du contact, mais les règles d’évaluation excluent les contacts de la pénalisation de la fidélité.
+- **Avis Answer Relevance** : La réponse répond directement à la question en indiquant le canal (ADUM) et la période obligatoire, ainsi qu’un point de contact pour obtenir de l’aide, ce qui correspond exactement à ce qui était demandé.
+- **Avis Context Precision** : Le contexte fourni contient les informations essentielles sur la procédure d’inscription/réinscription via ADUM, la période de réinscription et les contacts de l’université. Il est donc parfaitement adapté à la question.
 
 ### Question : Quelles ressources le Pôle SAPS peut m’apporter ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 4.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 89.58s, Eval: 13.71s, Total: 103.29s
+- **Temps** : RAG: 57.65s, Eval: 9.21s, Total: 66.86s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement présentes dans le contexte : le conseil pour les projets de recherche (ANR, européens) est mentionné dans les sections « Dépôt de projets » et « Accompagnement / conseil » ; l'organisation d'événements comme DéTours des sciences et la Fête de la science apparaît dans les slides listant les événements SAPS ; les formations « Jeudis des SAPS » et la préparation au concours « Ma Thèse en 180 secondes » sont décrites dans la partie Formations. L’adresse e‑mail figure également dans la partie CONTACTS. Aucun élément n’est inventé.
-- **Avis Answer Relevance** : La réponse répond à la question en indiquant les principales ressources offertes (conseil, organisation d’événements, formations) et fournit le contact. Elle est pertinente mais ne couvre pas l’ensemble des services possibles (ex. accompagnement de projets arts/sciences, label, mentorat, aide budgétaire, etc.), d’où une note légèrement inférieure.
-- **Avis Context Precision** : Le contexte récupéré contient une description très détaillée des missions du Pôle SAPS, des formations, des événements, des services d’accompagnement, des projets arts/sciences, du label, etc. Il est donc pleinement adéquat pour répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse se retrouvent dans le contexte : l’adresse e‑mail, l’accompagnement au montage de projets (conseil, budgétisation, mise en relation), les formations en médiation scientifique (Jeudis des SAPS, Ma thèse en 180s) et la participation à des événements comme DéTours des sciences, la Fête de la science ou le festival (Re)Cherche et trouve. Aucun élément n’est inventé.
+- **Avis Answer Relevance** : La réponse répond à la question en indiquant les principales ressources offertes (contact, aide au projet, formations, événements). Elle reste pertinente mais ne couvre pas l’ensemble des services mentionnés dans le contexte, d’où une note légèrement inférieure.
+- **Avis Context Precision** : Le contexte fourni contient une description détaillée des missions du Pôle SAPS, incluant les services cités dans la réponse. Il est donc parfaitement adapté pour répondre à la question.
 
 ### Question : Y a-t-il des alumni ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 1.0/5, Context Precision: 1.0/5
-- **Temps** : RAG: 119.19s, Eval: 5.49s, Total: 124.68s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 1.0/5
+- **Temps** : RAG: 84.85s, Eval: 10.00s, Total: 94.85s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Aucune affirmation n'est présentée dans la réponse, il n'y a donc aucune information qui puisse être en contradiction avec le contexte. L'absence de contenu garantit une fidélité totale.
-- **Avis Answer Relevance** : La question porte sur l'existence d'alumni. La réponse ne fournit aucune information à ce sujet, ne répond donc pas du tout à la demande.
-- **Avis Context Precision** : Le contexte récupéré ne contient aucune donnée relative aux alumni (il s'agit de pages sur la rémunération, les campagnes de carrière, etc.). Ainsi, le contexte n'est pas pertinent pour répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement traçables dans le contexte : le texte indique que le contexte ne mentionne pas d'alumni. Le contact ajouté est exempté de pénalité selon la règle sur les contacts injectés.
+- **Avis Answer Relevance** : La réponse répond directement à la question en indiquant que le contexte ne fournit pas d'information sur les alumni et suggère de consulter d'autres sources.
+- **Avis Context Precision** : Le contexte récupéré ne contient aucune information relative aux alumni, il est donc totalement inadapté pour répondre à la question.
 
 ### Question : Que propose le Pôle SAPS ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 4.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 74.55s, Eval: 12.31s, Total: 86.86s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 109.17s, Eval: 11.83s, Total: 121.00s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse se retrouvent dans le contexte : organisation d'événements (DéTours des sciences, Ma thèse en 180s), accompagnement de projets (conseil, montage budgétaire, résidences Kaléidoscope), formation (Jeudis des SAPS, médiation scientifique) et le contact saps@univ-tours.fr. Aucun élément n'est inventé.
-- **Avis Answer Relevance** : La réponse répond directement à la question en indiquant ce que le Pôle SAPS propose, en présentant trois grands axes d'action. Elle reste pertinente même si elle ne couvre pas l'intégralité des missions décrites dans le contexte.
-- **Avis Context Precision** : Le contexte fourni contient toutes les informations nécessaires (missions, événements, formations, accompagnement, contacts) pour répondre à la question. Il est donc parfaitement adapté.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : le rôle de faciliter le dialogue, la réponse aux sollicitations via la Boutique des sciences, l’organisation d’événements comme DéTours des sciences et « Ma thèse en 180 secondes », les formations en vulgarisation et médiation, ainsi que le soutien à des projets artistiques (Ma thèse en BD, Kaléidoscope). L’adresse e‑mail figure également dans le contexte, donc aucune hallucination.
+- **Avis Answer Relevance** : La réponse répond directement à la question « Que propose le Pôle SAPS ? » en listant les principales offres du pôle. Aucun élément hors sujet n’est introduit.
+- **Avis Context Precision** : Le contexte récupéré contient l’ensemble des informations nécessaires pour répondre : missions du pôle, services proposés, exemples d’événements, formations, accompagnement de projets, contacts, etc.
 
 ### Question : - Qu’est-ce qu’une invention ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 2.0/5, Context Precision: 3.0/5
-- **Temps** : RAG: 136.99s, Eval: 10.94s, Total: 147.93s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 2.0/5, Context Precision: 2.0/5
+- **Temps** : RAG: 81.17s, Eval: 9.28s, Total: 90.45s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : le texte ne fournit effectivement aucune définition explicite d'« invention » et la réponse se contente de le signaler. Le seul élément ajouté (adresse e‑mail) est un contact et, selon les règles, n’est pas pénalisé.
-- **Avis Answer Relevance** : La question demande une définition de l’invention. La réponse ne fournit pas de définition, se limitant à indiquer l’absence de celle‑ci dans le contexte et à proposer un contact. Elle ne répond donc pas réellement à la demande.
-- **Avis Context Precision** : Le contexte récupéré traite largement des inventions (décrets, conditions d’application, statut des inventeurs) mais ne contient pas de définition claire. Il est donc partiellement utile, mais il manque l’information clé recherchée.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont traçables dans le contexte : le texte ne fournit effectivement aucune définition de « invention », et la réponse indique simplement ce manque. Le seul élément ajouté (adresse e‑mail) est un contact, qui selon les consignes ne doit pas être pénalisé pour la fidélité.
+- **Avis Answer Relevance** : La question demande une définition de l’invention. La réponse ne fournit pas cette définition, se contentant de dire que le contexte ne la contient pas et en orientant l’utilisateur vers un service. Elle ne répond donc pas directement à la demande.
+- **Avis Context Precision** : Le contexte porte sur la propriété intellectuelle des inventions, les articles de loi et les mécanismes de dévolution, mais ne contient pas de définition explicite d’une invention. Ainsi, le contexte est seulement vaguement lié au sujet demandé.
 
 ### Question : - Je souhaite répondre à un Appel à projet?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 120.10s, Eval: 7.51s, Total: 127.61s
+- **Temps** : RAG: 84.28s, Eval: 10.54s, Total: 94.82s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement présentes dans le contexte : le Pôle administration et gestion de la recherche rattaché au service RED de la DRV, la personne Caroline Vaslin, et son rôle de gestion des calendriers et procédures des appels à projets. L'adresse e‑mail fournie n'est pas dans le contexte, mais les consignes indiquent de ne pas pénaliser les contacts ajoutés automatiquement.
-- **Avis Answer Relevance** : La réponse répond exactement à la demande « Je souhaite répondre à un Appel à projet ? » en indiquant qui contacter et pourquoi, ce qui constitue une réponse ciblée et utile.
-- **Avis Context Precision** : Le contexte récupéré contient toutes les informations nécessaires (pôle, service, nom et fonction de Caroline Vaslin) pour répondre à la question, il est donc parfaitement précis.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement soutenues par le contexte : le texte indique que Caroline Vaslin gère les calendriers des appels à projets (AAP) et contrôle les échéances. L'adresse e‑mail fournie n'est pas dans le contexte, mais la consigne précise de ne pas pénaliser les informations de contact.
+- **Avis Answer Relevance** : La question porte sur la façon de répondre à un appel à projet. La réponse indique clairement à qui s'adresser (Caroline Vaslin) pour toute question relative aux AAP, ce qui répond directement à la demande de l'utilisateur.
+- **Avis Context Precision** : Le contexte contient précisément le nom de la personne responsable des AAP ainsi que son rôle, ce qui permet de fournir la réponse demandée.
 
 ### Question : je suis en arrêt de travail, qui dois-je contacter ?
-- **Notes** : Faithfulness: 3.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 124.09s, Eval: 11.60s, Total: 135.69s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 4.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 87.38s, Eval: 17.90s, Total: 105.28s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse indique que l'arrêt de travail doit être notifié au Service de médecine de prévention et au gestionnaire DRH, ce qui est présent dans le contexte. Cependant, elle ajoute la mention « comme indiqué dans le livret des encadrants » et précise que le service est « rattaché au Service Prévention Protection Santé Sécurité - PePSS », informations qui n'apparaissent pas dans le texte fourni. Ces ajouts constituent des hallucinations, d'où la note 3.
-- **Avis Answer Relevance** : La question porte sur le contact à prévenir en cas d'arrêt de travail. La réponse fournit exactement les interlocuteurs pertinents (service de médecine de prévention et DRH), répondant ainsi pleinement à la demande.
-- **Avis Context Precision** : Le contexte contient les deux informations nécessaires : la nécessité d’informer le service de médecine de prévention et la possibilité de contacter un gestionnaire de la DRH pour les aspects administratifs. Le contexte est donc parfaitement adapté.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse portent sur des contacts. Même si le nom Aurélie PETEREAU n’apparaît pas dans le contexte, il s’agit d’une information de contact et, selon les consignes, cela ne doit pas pénaliser la fidélité. Le reste de la réponse (Charlène BOIS et ses coordonnées) correspond exactement aux informations présentes dans le contexte.
+- **Avis Answer Relevance** : La réponse répond à la question en indiquant des personnes à contacter pour un arrêt de travail. Elle fournit un contact supplémentaire qui n’est pas demandé, ce qui constitue un léger hors‑sujet, d’où la note 4.
+- **Avis Context Precision** : Le contexte contient les coordonnées du secrétariat de la Médecine du Travail (Charlène BOIS) ainsi que de nombreux autres interlocuteurs. L’information nécessaire pour répondre à la question y est bien présente, donc la précision du contexte est maximale.
 
 ### Question : Combien de temps va prendre mon inscription ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 2.0/5, Context Precision: 2.0/5
-- **Temps** : RAG: 124.71s, Eval: 6.64s, Total: 131.35s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 1.0/5, Context Precision: 2.0/5
+- **Temps** : RAG: 135.12s, Eval: 6.81s, Total: 141.93s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse ne contient aucune affirmation qui ne provient pas du contexte, à l'exception d'un contact (nom et e‑mail). Selon les règles, les informations de contact absentes du contexte ne sont pas pénalisées. Aucun autre élément n'est halluciné.
-- **Avis Answer Relevance** : La question porte sur la durée de l'inscription. La réponse ne fournit pas de durée, elle indique seulement de contacter une personne pour obtenir l'information. Elle touche donc le sujet mais ne répond pas réellement à la question.
-- **Avis Context Precision** : Le contexte fourni décrit les documents à fournir, les formulaires et les procédures d'inscription, mais ne mentionne aucune information sur le délai de traitement. Le contexte est donc seulement vaguement lié à la question de durée.
+- **Avis Faithfulness** : La réponse ne contient aucune affirmation autre que le contact fourni. Les contacts sont explicitement exclus de la pénalité de fidélité, donc aucune hallucination n'est détectée.
+- **Avis Answer Relevance** : La question porte sur la durée de l'inscription (« Combien de temps va prendre mon inscription ? »). La réponse ne fournit aucune information sur le délai, seulement un contact, ce qui ne répond pas du tout à la question.
+- **Avis Context Precision** : Le contexte récupéré ne fournit pas de durée précise, mais il mentionne que les inscriptions sont ouvertes du 1 juin au 15 novembre et décrit le processus de transmission du dossier. Ces éléments sont vaguement liés à la question, mais ne donnent pas de réponse claire sur le temps nécessaire.
 
 ### Question : Comment avoir un email ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 140.33s, Eval: 10.12s, Total: 150.45s
+- **Temps** : RAG: 143.82s, Eval: 10.11s, Total: 153.93s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement présentes dans le contexte : (1) les doctorants disposent d’un compte email sur le domaine etu.univ-tours.fr, (2) l’adresse générique dsi@univ-tours.fr et le service informatique de proximité sont mentionnés, (3) la Charte du poste de travail est référencée. Aucun élément n’est inventé.
-- **Avis Answer Relevance** : La question « Comment avoir un email ? » est traitée de façon précise : on indique que le compte est attribué automatiquement aux doctorants et, le cas échéant, on indique le contact pour obtenir un compte personnel. La réponse répond exactement à la demande.
-- **Avis Context Precision** : Le contexte fourni contient l’information sur l’attribution automatique d’un compte email aux doctorants, le contact du service informatique et le lien vers la charte. Il est donc parfaitement adapté à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte ou correspondent à des informations de contact. Le fait de mentionner que les doctorants reçoivent automatiquement un compte « étudiant établissement » (@etu.univ-tours.fr) ainsi que la nécessité de contacter la DRH pour les nouveaux agents se retrouve explicitement dans le texte. Les adresses e‑mail de la DSI (dsi@univ-tours.fr) et le rôle du service PJR sont des contacts ; selon la règle, les contacts absents du contexte ne sont pas considérés comme des hallucinations, donc aucune pénalité.
+- **Avis Answer Relevance** : La question « Comment avoir un email ? » demande la procédure pour obtenir une adresse e‑mail institutionnelle. La réponse indique clairement les deux cas principaux (doctorants et nouveaux agents) et fournit les contacts utiles, répondant directement à la demande.
+- **Avis Context Precision** : Le contexte fourni contient les informations nécessaires : description du compte « étudiant établissement », procédure de prise de contact avec la DRH, et les adresses e‑mail de la DSI. Ainsi le contexte est parfaitement ciblé.
 
 ### Question : - Je souhaite me procurer le formulaire de déclaration d’invention de l’université, à qui dois-je m’adresser ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 128.73s, Eval: 10.63s, Total: 139.36s
+- **Temps** : RAG: 92.34s, Eval: 10.36s, Total: 102.70s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement présentes dans le contexte : le Pôle Juridique Recherche (PJR) est indiqué comme responsable de l'instruction des déclarations d'invention et l'adresse générique drv-pi@univ-tours.fr est fournie pour les questions de propriété intellectuelle. Aucun élément n'est inventé.
-- **Avis Answer Relevance** : La réponse répond exactement à la question « à qui dois‑je m’adresser ? » en indiquant le service et l’adresse e‑mail à contacter pour obtenir le formulaire de déclaration d’invention.
-- **Avis Context Precision** : Le contexte contient l'information précise sur le service PJR, ses missions (instruction des déclarations d’invention) et l’adresse e‑mail générique. Cette information est pleinement exploitées.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : le Pôle Juridique Recherche (PJR) gère les déclarations d’invention et le texte indique explicitement de privilégier l’adresse générique drv-pi@univ-tours.fr pour les questions de propriété intellectuelle. Aucun élément n’est inventé.
+- **Avis Answer Relevance** : La réponse répond directement à la question « à qui dois‑je m’adresser ? » en indiquant le service et l’adresse e‑mail appropriés.
+- **Avis Context Precision** : Le contexte fourni contient exactement les informations nécessaires (organisation du PJR, missions incluant l’instruction des déclarations d’invention, et l’adresse e‑mail générique).
 
 ### Question : Qui contacter pour toute demande d'ouvrages en service presse ?
-- **Notes** : Faithfulness: 1.0/5, Answer Relevance: 1.0/5, Context Precision: 2.0/5
-- **Temps** : RAG: 141.39s, Eval: 2.94s, Total: 144.33s
+- **Notes** : Faithfulness: 4.0/5, Answer Relevance: 3.0/5, Context Precision: 2.0/5
+- **Temps** : RAG: 141.23s, Eval: 12.53s, Total: 153.76s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Aucune réponse du système n'est fournie dans les données d'évaluation. Par conséquent, aucune affirmation ne peut être vérifiée par rapport au contexte, ce qui constitue une absence totale d'information et donc une très faible fidélité.
-- **Avis Answer Relevance** : La question "Qui contacter pour toute demande d'ouvrages en service presse ?" n'est pas du tout traitée, car aucune réponse n'est présentée. La pertinence est donc nulle.
-- **Avis Context Precision** : Le contexte récupéré porte principalement sur le RGPD, les contacts du DPO, et divers services administratifs de l'Université de Tours. Il ne contient aucune information explicite concernant un "service presse" ou les contacts associés. Le contexte est donc très peu pertinent pour la question, justifiant un score faible.
+- **Avis Faithfulness** : La réponse ne contient que l'adresse e‑mail drv-pi@univ-tours.fr, qui figure bien dans le contexte (adresse générique du PJR). Aucun élément inventé n'est ajouté, mais la réponse fait une inférence que cet e‑mail est le bon contact pour les "ouvrages en service presse", ce qui n'est pas explicitement indiqué dans le contexte.
+- **Avis Answer Relevance** : La réponse fournit un contact, ce qui répond partiellement à la question, mais il n'est pas certain que ce soit le bon interlocuteur pour le service presse. Ainsi, la pertinence est partielle.
+- **Avis Context Precision** : Le contexte ne mentionne pas spécifiquement le "service presse" ni un contact dédié à ce sujet. Le seul élément pertinent est l'adresse générique du PJR, qui n'est pas clairement liée à la demande d'ouvrages en service presse.
 
 ### Question : comment enregistrer ma demande de formation hors-catalogue et quels documents dois-je fournir ?
-- **Notes** : Faithfulness: 2.0/5, Answer Relevance: 3.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 238.67s, Eval: 11.17s, Total: 249.84s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 137.74s, Eval: 8.67s, Total: 146.41s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse affirme que le contexte ne précise pas les pièces justificatives, alors que le texte fourni indique clairement qu'il faut fournir une attestation de présence et le programme détaillé pour une formation hors‑catalogue. Cette affirmation est donc erronée. Le contact e‑mail ajouté n'est pas présent dans le contexte, mais les consignes d'évaluation excluent les contacts de la pénalité de fidélité.
-- **Avis Answer Relevance** : La réponse indique correctement que l’enregistrement se fait via ADUM, ce qui répond partiellement à la question. Cependant, elle ne fournit pas les documents requis, ce qui limite la pertinence globale.
-- **Avis Context Precision** : Le contexte contient les informations nécessaires : la rubrique ADUM pour la déclaration et la liste des pièces (attestation de présence, programme détaillé). Ainsi le contexte est très précis et complet pour répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : la procédure d’accès à ADUM, la rubrique "Déclaration des formations hors catalogue" et la nécessité de fournir la fiche de validation des 50 crédits doctoraux ainsi que les justificatifs en un seul PDF. Aucun élément externe n’a été ajouté (les contacts sont exemptés de pénalité).
+- **Avis Answer Relevance** : La réponse répond exactement à la question en expliquant comment enregistrer la demande et quels documents fournir, sans digression.
+- **Avis Context Precision** : Le contexte récupéré contenait les informations nécessaires (rubrique ADUM, dépôt d’un PDF unique, fiche de validation, justificatifs). Ces informations ont été correctement exploitées.
 
 ### Question : Mon jury de thèse est-il valide ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 1.0/5, Context Precision: 1.0/5
-- **Temps** : RAG: 186.27s, Eval: 8.91s, Total: 195.18s
+- **Notes** : Faithfulness: 4.0/5, Answer Relevance: 2.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 132.14s, Eval: 13.38s, Total: 145.52s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse ne contient aucune affirmation factuelle qui ne provient pas du contexte. Le seul élément ajouté est un contact e‑mail, mais les règles précisent de ne pas pénaliser les contacts absents du contexte. Aucun autre contenu n'est halluciné.
-- **Avis Answer Relevance** : La question porte sur la validité d'un jury de thèse, alors que la réponse ne fournit qu'un contact e‑mail sans lien avec le sujet. La réponse ne répond donc pas du tout à la question.
-- **Avis Context Precision** : Le contexte fourni traite de l'éméritat et de la législation associée, aucun élément n'est lié à la composition ou la validité d'un jury de thèse. Le contexte n'est donc pas pertinent pour la question.
+- **Avis Faithfulness** : La réponse ne contient pas d’affirmations factuelles contradictoires avec le contexte. Elle se contente de demander des informations supplémentaires et fournit un contact e‑mail qui n’apparaît pas dans le texte fourni (les contacts ajoutés ne sont pas pénalisés selon les règles). Aucun élément du contexte est falsifié, d’où une note élevée mais pas parfaite car la réponse introduit un élément (adresse e‑mail) qui n’est pas présent dans le contexte.
+- **Avis Answer Relevance** : La question demande une évaluation de la validité du jury. La réponse indique simplement qu’il faut fournir les détails du jury pour pouvoir l’évaluer, sans donner d’analyse. Elle touche au sujet mais ne répond pas réellement à la question, d’où une note faible.
+- **Avis Context Precision** : Le contexte fourni contient l’ensemble des règles nécessaires pour juger la validité d’un jury (nombre de membres, proportion de professeurs, exigences HDR, limites sur les membres émérites, parité, etc.). Ainsi le contexte est parfaitement pertinent.
 
 ### Question : quels types de financement de thèse existent ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 136.39s, Eval: 16.01s, Total: 152.40s
+- **Temps** : RAG: 86.97s, Eval: 11.67s, Total: 98.64s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse se retrouvent textuellement ou implicitement dans le contexte fourni : contrats doctoraux du Ministère, bourses régionales, départementales, industrielles (CIFRE), associatives, financements par contrats de recherche (ANR, Europe, Labex, ERC, FUI), Bourses Rabelaisiennes, statut salarié (public/privé) et financement étranger. Aucun élément n’est inventé. Le contact ajouté n’est pas pénalisé selon la règle.
-- **Avis Answer Relevance** : La réponse répond directement à la question « quels types de financement de thèse existent ? » en listant les principales catégories de financement, sans digression.
-- **Avis Context Precision** : Le contexte contient une longue liste de sources de financement (ANR, Europe, Labex, contrats de recherche, CIFRE/DGA/ADEME, gouvernements/associations/établissements étrangers, salariés, bourses régionales, départementales, etc.). Il est donc très pertinent et complet pour répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : contrats doctoraux ministériels, bourses régionales et départementales, CIFRE (industrielle), bourses associatives, financements par ANR, Europe, Labex, ERC, FUI, Bourses Rabelaisiennes, statut salarié et financement étranger. Aucun élément n’est inventé. Le contact ajouté n’est pas pénalisé selon la règle.
+- **Avis Answer Relevance** : La réponse répond directement à la question en listant les différents types de financement de thèse, sans digression hors sujet.
+- **Avis Context Precision** : Le contexte fourni contient une longue énumération des sources de financement (ANR, Europe, Labex, contrats de recherche, CIFRE, DGA, ADEME, gouvernements étrangers, salariés, etc.) qui permet de répondre à la question. Il est donc parfaitement pertinent.
 
 ### Question : - ou bien avec des échantillons en provenance du CHRU de Tours ou d'un autre CHRU?
-- **Notes** : Faithfulness: 1.0/5, Answer Relevance: 1.0/5, Context Precision: 2.0/5
-- **Temps** : RAG: 311.92s, Eval: 13.40s, Total: 325.32s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 3.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 85.59s, Eval: 16.99s, Total: 102.58s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse contient une affirmation selon laquelle le système ne peut pas répondre et propose de contacter Claude‑Emmanuel Boudet. Aucun de ces éléments n'apparaît dans le contexte fourni (le contexte ne mentionne pas d'incapacité à répondre ni ce contact). Le texte est donc majoritairement hors du contexte, ce qui justifie la note minimale.
-- **Avis Answer Relevance** : La question porte sur l'utilisation d'échantillons provenant du CHRU de Tours ou d'un autre CHRU. La réponse ne traite pas du tout de ce sujet et se contente de rediriger vers un contact, ce qui la rend hors sujet.
-- **Avis Context Precision** : Le contexte parle de règles d'affiliation et de signatures pour le CHRU de Tours, mais ne fournit aucune information sur la gestion ou l'utilisation d'échantillons. Ainsi, le contexte est seulement vaguement lié au terme "CHRU de Tours" et ne permet pas de répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont soit directement tirées du contexte (ex. la distinction entre signature et dossiers réglementaires), soit concernent des coordonnées de contact qui, selon les règles, ne sont pas pénalisées même si elles n'apparaissent pas dans le contexte. Aucun élément inventé n'est présent.
+- **Avis Answer Relevance** : La réponse adresse le sujet des échantillons du CHRU en proposant un contact et en rappelant les deux axes possibles (signature ou dossier CODECOH). Cependant, elle ne fournit pas de réponse concrète à la question initiale et se contente de demander des précisions, ce qui la rend partiellement pertinente.
+- **Avis Context Precision** : Le contexte récupéré contient les informations nécessaires sur la manière de mentionner le CHRU dans les signatures et sur le dossier CODECOH relatif aux échantillons biologiques humains. Il est donc parfaitement adapté à la question.
 
 ### Question : Je souhaite monter un projet, comment faire ?
-- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 4.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 131.89s, Eval: 9.05s, Total: 140.94s
+- **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
+- **Temps** : RAG: 90.51s, Eval: 16.24s, Total: 106.75s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse (rôle du SPIV, accompagnement du SCRIPT, existence d'un comité de pilotage) sont présentes dans le contexte. Le seul élément de contact (Justine Gillet) n'est pas dans le contexte, mais la règle indique de ne pas pénaliser les contacts ajoutés automatiquement.
-- **Avis Answer Relevance** : La réponse propose une démarche concrète (contacter un interlocuteur, puis s'appuyer sur le SPIV et le SCRIPT) qui répond à la question « comment monter un projet ? ». Elle reste pertinente même si elle ne détaille pas l’ensemble du processus.
-- **Avis Context Precision** : Le contexte récupéré décrit précisément le service SPIV, le rôle du SCRIPT, les étapes de montage, les interlocuteurs et les pièces à fournir. Il est donc pleinement pertinent pour répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes ou déductibles du contexte : le SPIV est mentionné comme service d’appui aux projets de recherche, les contacts sectoriels sont décrits, et l’adresse projets-etablissement@univ-tours.fr ainsi que le rôle du service SCRIPT sont explicités. Le seul élément de contact (Justine Gillet) n’est pas dans le contexte mais, selon la règle, les contacts ajoutés ne sont pas pénalisés.
+- **Avis Answer Relevance** : La réponse répond directement à la question « comment monter un projet ? » en indiquant les deux grandes voies selon le type de projet (recherche ou transversal) et en fournissant les interlocuteurs à contacter, ce qui constitue une réponse ciblée et utile.
+- **Avis Context Precision** : Le contexte récupéré contient toutes les informations nécessaires : description du SPIV, rôle du service SCRIPT, adresse e‑mail projets‑etablissement@univ-tours.fr, ainsi que les contacts par secteur. Il est donc parfaitement adapté.
 
 ### Question : - Comment protéger un savoir-faire ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 120.41s, Eval: 11.03s, Total: 131.44s
+- **Temps** : RAG: 85.02s, Eval: 9.62s, Total: 94.64s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse se retrouvent dans le contexte : le Pôle Juridique Recherche (PJR) est présenté, les adresses e‑mail sont présentes, et le texte évoque les possibilités de protection par brevet, secret ou convention de confidentialité. Aucun élément n’est inventé.
-- **Avis Answer Relevance** : La réponse répond directement à la question « Comment protéger un savoir‑faire ? » en indiquant la démarche à suivre (contacter le PJR) et les grandes options de protection (brevet, secret, confidentialité). Elle est donc pleinement pertinente.
-- **Avis Context Precision** : Le contexte fourni contient toutes les informations nécessaires : description du rôle du PJR, contacts e‑mail, mentions de la confidentialité, des conventions et du régime de propriété intellectuelle applicable. Le système a correctement exploité ces éléments.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement tirées du contexte : le besoin de distinguer les inventions brevetables des informations confidentielles, le dépôt de brevet ou la déclaration d'invention auprès de l'établissement, la signature d'accords ou de chartes de confidentialité, et le contact du Pôle Juridique Recherche. Aucun élément n'est inventé.
+- **Avis Answer Relevance** : La réponse répond précisément à la question « Comment protéger un savoir‑faire ? » en proposant les deux voies principales (brevetage et confidentialité) et en indiquant le service à contacter pour plus d’informations.
+- **Avis Context Precision** : Le contexte fourni contient les informations nécessaires (règles de confidentialité, conventions, droits de propriété intellectuelle, contacts du PJR). Il a été correctement exploité pour générer la réponse.
 
 ### Question : Je pars en mission, quelle pièce dois-je remplir ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 5.0/5, Context Precision: 5.0/5
-- **Temps** : RAG: 135.01s, Eval: 6.74s, Total: 141.75s
+- **Temps** : RAG: 91.89s, Eval: 9.54s, Total: 101.43s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : Toutes les affirmations de la réponse sont présentes dans le contexte : le besoin de remplir le « formulaire d’autorisation de déplacement », la signature par l’autorité responsable et l’envoi au FSD à l’adresse deplacement@univ-tours.fr. Le contact ajouté (Ilona Moutoussamy) n’est pas pénalisé selon la règle d’exemption des contacts injectés.
-- **Avis Answer Relevance** : La question demande quelle pièce remplir pour une mission. La réponse indique précisément le formulaire requis, répondant exactement à la demande.
-- **Avis Context Precision** : Le contexte fourni contient explicitement la mention du formulaire d’autorisation de déplacement ainsi que les modalités d’envoi, ce qui est suffisant pour répondre à la question.
+- **Avis Faithfulness** : Toutes les affirmations de la réponse sont directement soutenues par le contexte : le texte mentionne le « formulaire d’autorisation de déplacement » à remplir pour toute mission. Le contact ajouté (Ilona Moutoussamy) n’est pas considéré comme hallucination selon la règle d’exemption des contacts injectés.
+- **Avis Answer Relevance** : La réponse répond exactement à la question « quelle pièce dois‑je remplir ? » en indiquant le formulaire d’autorisation de déplacement, sans digression hors sujet.
+- **Avis Context Precision** : Le contexte contient explicitement l’information requise (le formulaire d’autorisation de déplacement) ainsi que le lien correspondant, ce qui est suffisant pour répondre à la question posée.
 
 ### Question : Quel est le délai moyen entre la soumission d’un manuscrit et sa publication ?
 - **Notes** : Faithfulness: 5.0/5, Answer Relevance: 1.0/5, Context Precision: 2.0/5
-- **Temps** : RAG: 132.97s, Eval: 6.72s, Total: 139.69s
+- **Temps** : RAG: 135.32s, Eval: 9.56s, Total: 144.88s
 - **Tokens générés** : 0
-- **Avis Faithfulness** : La réponse ne contient aucune affirmation factuelle autre que le contact fourni. Les informations de contact sont exemptées de pénalité selon les règles, donc aucune hallucination n'est détectée.
-- **Avis Answer Relevance** : La question porte sur le délai moyen entre la soumission d’un manuscrit et sa publication. La réponse ne fournit aucun renseignement à ce sujet, se limitant à un contact, ce qui la rend totalement hors sujet.
-- **Avis Context Precision** : Le contexte récupéré parle de délais légaux d’embargo (maximum 6 mois ou 12 mois après la première publication) et d’autres dispositions juridiques, mais il ne fournit pas le délai moyen entre soumission et publication. Le contexte est donc seulement vaguement lié au thème des délais, mais ne répond pas à la question précise.
+- **Avis Faithfulness** : La réponse ne contient aucune affirmation factuelle sur le délai de publication. Le seul élément fourni est une information de contact, qui n'est pas présent dans le contexte mais, selon les règles, les contacts ajoutés automatiquement ne sont pas pénalisés. Aucun autre contenu n'est halluciné.
+- **Avis Answer Relevance** : La question porte sur le délai moyen entre la soumission d’un manuscrit et sa publication. La réponse se limite à un contact ("Contact a utiliser : PJR - Contact général : drv-pi@univ-tours.fr") et ne fournit aucune information relative au délai demandé, ce qui la rend hors‑sujet.
+- **Avis Context Precision** : Le contexte récupéré mentionne un délai maximal de mise à disposition (6 mois pour les sciences, 12 mois pour les SHS) lié à la législation sur l’open‑access, mais il ne fournit pas le délai moyen entre soumission et publication. Ainsi, le contexte est vaguement lié au sujet (parle de délais) mais ne contient pas l'information recherchée.
 
 ## 09_premium_cross
 

@@ -1,8 +1,17 @@
 (function () {
     // 1. Configuration
-    // Automatically determine the API base URL from where this script is hosted
-    const currentScript = document.currentScript;
-    const apiBaseUrl = currentScript ? new URL(currentScript.src).origin : "http://127.0.0.1:8600";
+    // Détection robuste de l'URL de base de l'API hébergeant le widget
+    function detectBaseUrl() {
+        if (document.currentScript && document.currentScript.src) {
+            return new URL(document.currentScript.src).origin;
+        }
+        const scripts = document.querySelectorAll('script[src*="widget.js"]');
+        if (scripts.length > 0 && scripts[scripts.length - 1].src) {
+            return new URL(scripts[scripts.length - 1].src).origin;
+        }
+        return window.location.origin;
+    }
+    const apiBaseUrl = detectBaseUrl();
     const API_URL = `${apiBaseUrl}/api/chat`;
     const PRIMARY_COLOR = "#ea580c"; // Orange vibrant (inspiré de l'image)
     const BOT_NAME = "VICTORIA";
@@ -19,14 +28,16 @@
             position: fixed;
             bottom: 20px;
             right: 20px;
+            width: 0;
+            height: 0;
+            overflow: visible;
             z-index: 999999;
             font-family: 'Inter', sans-serif;
             pointer-events: none; /* Let clicks pass through empty areas */
         }
         
-        #univ-chatbot-root * {
+        #univ-chatbot-root, #univ-chatbot-root * {
             box-sizing: border-box;
-            pointer-events: auto; /* Re-enable clicks for actual elements */
         }
 
         /* Floating Action Button */
@@ -44,6 +55,7 @@
             position: absolute;
             bottom: 0;
             right: 0;
+            pointer-events: auto; /* Seul le bouton flottant intercepte les clics par défaut */
         }
 
         #univ-fab:hover {
@@ -105,14 +117,16 @@
             background: rgba(15, 23, 42, 0.4);
             backdrop-filter: blur(4px);
             opacity: 0;
-            pointer-events: none;
-            transition: opacity 0.4s ease;
+            visibility: hidden;
+            pointer-events: none !important;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
             z-index: -1;
         }
 
         #univ-chatbot-backdrop.active {
             opacity: 1;
-            pointer-events: auto;
+            visibility: visible;
+            pointer-events: auto !important;
         }
 
         /* Chat Window (Floating Modal) */
@@ -131,15 +145,25 @@
             flex-direction: column;
             overflow: hidden;
             opacity: 0;
+            visibility: hidden;
             transform: translate(-50%, -45%) scale(0.95);
-            pointer-events: none;
-            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            pointer-events: none !important;
+            transition: opacity 0.3s ease, transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.3s ease;
+        }
+
+        #univ-chat-window * {
+            pointer-events: none; /* Totalement inerte aux clics quand le chat est fermé */
         }
 
         #univ-chat-window.active {
             opacity: 1;
+            visibility: visible;
             transform: translate(-50%, -50%) scale(1);
-            pointer-events: auto;
+            pointer-events: auto !important;
+        }
+
+        #univ-chat-window.active * {
+            pointer-events: auto; /* Réactivation des clics une fois ouvert */
         }
 
         /* Header */
@@ -426,8 +450,9 @@
         </div>
     `;
 
-    const container = document.getElementById("univ-chatbot-container") || document.body;
-    container.appendChild(root);
+    // Toujours attacher à document.body pour éviter d'être injecté dans la structure
+    // d'un bloc de l'intranet (comme le bloc gris à droite de l'UTnet)
+    document.body.appendChild(root);
 
     // 4. Logic
     const fab = document.getElementById("univ-fab");
@@ -476,17 +501,40 @@
 
     /**
      * Convertit un texte Markdown basique en HTML (Gras, Italique, Liens).
+     * Les liens relatifs (/fr/..., /_attachment/...) sont automatiquement convertis
+     * en liens absolus vers le domaine officiel UTNet (https://utnet.univ-tours.fr/...).
      * @param {string} text Le texte brut reçu de l'API.
      * @returns {string} Le texte formaté en HTML.
      */
     function parseText(text) {
         if (!text) return "";
-        let html = text
+        let formatted = text
             .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-            .replace(/\*(.*?)\*/g, '<em>$1</em>')
-            .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
-            .replace(/\n/g, '<br>');
-        return html;
+            .replace(/\*(.*?)\*/g, '<em>$1</em>');
+
+        // Convertir les liens Markdown [texte](url)
+        formatted = formatted.replace(/\[(.*?)\]\((.*?)\)/g, function(match, label, url) {
+            let cleanUrl = (url || "").trim();
+            if (cleanUrl.startsWith('/')) {
+                cleanUrl = 'https://utnet.univ-tours.fr' + cleanUrl;
+            }
+            return `<a href="${cleanUrl}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+        });
+
+        // Convertir les liens URL bruts non encapsulés en balises <a>
+        formatted = formatted.replace(/(^|[^"'>])(https?:\/\/[^\s<]+)/g, function(match, prefix, rawUrl) {
+            let cleanUrl = rawUrl;
+            let trailing = '';
+            const matchTrailing = cleanUrl.match(/[.,;:!?)]+$/);
+            if (matchTrailing) {
+                trailing = matchTrailing[0];
+                cleanUrl = cleanUrl.slice(0, -trailing.length);
+            }
+            return `${prefix}<a href="${cleanUrl}" target="_blank" rel="noopener noreferrer">${cleanUrl}</a>${trailing}`;
+        });
+
+        formatted = formatted.replace(/\n/g, '<br>');
+        return formatted;
     }
 
     /**
