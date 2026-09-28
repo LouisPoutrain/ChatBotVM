@@ -1,5 +1,5 @@
 {
-    "draft_model": "qwen-3.6-35b-instruct",
-    "answer_model": "qwen-3.6-35b-instruct",
-    "rac_model": "qwen-3.6-35b-instruct"
+    "draft_model": "mistral-small-3.2-24b",
+    "answer_model": "mistral-small-4-119b",
+    "rac_model": "mistral-small-3.2-24b"
 }
