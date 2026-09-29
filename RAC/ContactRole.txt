@@ -21,7 +21,7 @@ LVH1 -> Dorothée Leroux : dorothee.leroux@univ-tours.fr
 LVH2 -> Louis Lantier : louis.lantier@univ-tours.fr
 LVH3 -> Ilona Moutoussamy : ilona.moutoussamy@univ-tours.fr
 LVH4 -> Julia Capdeville : julia.capdeville@univ-tours.fr
-EcoleDoctorale -> Marie Clermonte : marie.clermonte@univ-tours.f
+EcoleDoctorale -> Marie Clermonte : marie.clermonte@univ-tours.fr
 EcoleDoctorale2 -> Lucie PRIMAULT : lucie.primault@univ-tours.fr
 TEEPEE -> Caroline DIDIER, cheffe de projet TEEPEE : caroline.didier@univ-tours.fr 
 RED -> Caroline Vaslin : caroline.vaslin@univ-tours.fr

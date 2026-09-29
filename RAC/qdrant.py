@@ -58,6 +58,7 @@ class ContactVectorDB:
 		qdrant_path: str | None = None,
 		model_name: str = DEFAULT_MODEL_NAME,
 		device: str | None = None,
+		recreate: bool = False,
 	) -> None:
 		self.collection_name = collection_name
 		logger.info("Chargement du modèle dense '{}'...", model_name)
@@ -73,14 +74,18 @@ class ContactVectorDB:
 		else:
 			logger.info("Connexion à Qdrant (path: {})", qdrant_path or ":memory:")
 			self.client = QdrantClient(path=qdrant_path) if qdrant_path else QdrantClient(":memory:")
-		self._create_collection_if_not_exists()
+		self._create_collection_if_not_exists(recreate=recreate)
 
-	def _create_collection_if_not_exists(self) -> None:
+	def _create_collection_if_not_exists(self, recreate: bool = False) -> None:
 		existing_collections = {collection.name for collection in self.client.get_collections().collections}
 
 		if self.collection_name in existing_collections:
-			logger.info("Collection '{}' déjà existante.", self.collection_name)
-			return
+			if recreate:
+				logger.info("Suppression de la collection existante '{}'...", self.collection_name)
+				self.client.delete_collection(collection_name=self.collection_name)
+			else:
+				logger.info("Collection '{}' déjà existante.", self.collection_name)
+				return
 
 		logger.info("Création de la collection '{}' (dense + sparse)...", self.collection_name)
 		self.client.create_collection(
@@ -207,6 +212,7 @@ def build_infocontact_db(
 	chunk_size: int = 900,
 	chunk_overlap: int = 120,
 	device: str | None = None,
+	recreate: bool = False,
 ) -> int:
 	data_dir = data_dir.resolve()
 	qdrant_path = qdrant_path.resolve()
@@ -220,6 +226,7 @@ def build_infocontact_db(
 		qdrant_path=str(qdrant_path),
 		model_name=model_name,
 		device=device,
+		recreate=recreate,
 	)
 	try:
 		inserted = database.add_documents(documents)
@@ -239,6 +246,7 @@ def parse_args() -> argparse.Namespace:
 	parser.add_argument("--chunk-size", type=int, default=900, help="Taille maximale d'un chunk")
 	parser.add_argument("--chunk-overlap", type=int, default=120, help="Chevauchement entre chunks")
 	parser.add_argument("--device", type=str, default=None, help="Device forcé pour l'embedding (cpu, cuda, mps)")
+	parser.add_argument("--recreate", action="store_true", help="Recréer la collection si elle existe déjà")
 	return parser.parse_args()
 
 
@@ -252,6 +260,7 @@ def main() -> None:
 		chunk_size=args.chunk_size,
 		chunk_overlap=args.chunk_overlap,
 		device=args.device,
+		recreate=args.recreate,
 	)
 
 

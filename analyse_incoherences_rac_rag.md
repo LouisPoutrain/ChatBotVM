@@ -226,3 +226,24 @@ if routing_tag == "AFRV" and any(
 > - **B** sert de filet de sécurité pour tous les autres cas d'incohérence possibles — en donnant au LLM le rôle du contact et en assouplissant la règle, il peut mieux juger si le contact est pertinent pour sa réponse.
 >
 > **A** peut être ajouté plus tard si d'autres incohérences persistent, mais au prix d'un appel LLM supplémentaire par requête.
+
+---
+
+## 6. Extension : Résolution du piège des clauses d'exclusion (« Negative Scope Trap »)
+
+### Problème identifié (29 septembre 2026)
+Sur la question : *« Quels types de financement de thèse existent ? »*, le routeur RAC attribuait `LVH2.txt` (Louis Lantier — animateur des plateformes santé).  
+**Cause racine** : `LVH2.txt` contenait dans sa section négative :  
+`Ce que vous ne gérez PAS : Financements de bourses de thèse Loire Val Heath (redirection dorothée Leroux)`.  
+Le LLM a extrait cette mention de redirection comme preuve de pertinence et a attribué `LVH2.txt`.
+
+### Correctifs apportés
+1. **Garde-fous d'exclusion stricts dans `PROMPT_SELECT_ROLE_FILE`** (`RAC/RAC.py`) :  
+   - Interdiction formelle de sélectionner une fiche sur la base de sa section « Ce que vous ne gérez pas » ou d'une note de redirection vers un tiers.
+   - Forçage strict de la règle `null` si aucun document ne gère activement la demande.
+2. **Robustesse du parsing `null`** : Prise en charge des variantes (`null`, `none`, `aucun`, `n/a`).
+3. **Enrichissement des fiches doctorales** :
+   - Ajout des mots-clés (`Financement de thèse`, `Contrats doctoraux`, etc.) dans `EcoleDoctorale.txt` et `EcoleDoctorale2.txt`.
+   - Correction de la coquille d'email dans `ContactRole.txt` (`marie.clermonte@univ-tours.fr`).
+   - Réindexation propre de la base vectorielle `infocontact` avec support `--recreate`.
+

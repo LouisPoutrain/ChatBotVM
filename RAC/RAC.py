@@ -135,17 +135,21 @@ Contexte documentaire (Fiches de rôle) :
 {rag_context}
 
 RÈGLES D'ANALYSE :
-1. Lis la question pour comprendre le besoin (ex: problème informatique, scolarité, paie).
-2. Évalue le contexte : y a-t-il un fichier qui gère EXPLICITEMENT cette thématique ?
-3. TRÈS IMPORTANT : Si un fichier sélectionné contient plusieurs contacts avec des rôles distincts (comme le document PJR_PJR.txt), tu dois cibler la personne exacte au lieu de donner le nom du fichier brut. Pour le PJR, choisis parmi : "PJR - Responsable", "PJR - Assistante", "PJR - Juriste", "PJR - Conventions" ou "PJR - Général".
-4. NE MENTIONNE QUE LE NOM DU FICHIER EXACT (ex: "LVH1.txt") tel qu'il apparait dans le contexte sous la forme "[FICHIER X] nom_du_fichier_exact.txt". Ne mets jamais de nom de contact ou de personne ici, SAUF pour le cas particulier du PJR décrit à la règle 3.
-5. Si aucun fichier ne correspond de manière évidente, tu dois impérativement répondre null.
+1. Lis la question pour comprendre le besoin (ex: problème informatique, scolarité, paie, contrats, doctorat, etc.).
+2. Évalue le contexte : y a-t-il un fichier qui prend en charge EXPLICITEMENT cette thématique dans ses missions principales ou son périmètre d'intervention ?
+3. ATTENTION AUX EXCLUSIONS ET REDIRECTIONS (RÈGLE ABSOLUE) :
+   - Ne choisis JAMAIS un fichier en te basant sur sa section « Ce que vous ne gérez pas / pas géré » ou sur une mention de redirection.
+   - Si un document indique explicitement qu'il NE gère PAS un sujet (ex: contrats doctoraux, bourses de thèse, conventions, etc.) ou qu'il redirige vers un tiers, ce document est FORMELLEMENT EXCLU pour cette demande.
+   - Ne choisis JAMAIS un fichier simplement parce qu'il redirige vers quelqu'un d'autre : seules les missions prises en charge directement par le service/contact du document sont valables.
+4. TRÈS IMPORTANT : Si un fichier sélectionné contient plusieurs contacts avec des rôles distincts (comme le document PJR_PJR.txt), tu dois cibler la personne exacte au lieu de donner le nom du fichier brut. Pour le PJR, choisis parmi : "PJR - Responsable", "PJR - Assistante", "PJR - Juriste", "PJR - Conventions" ou "PJR - Général".
+5. NE MENTIONNE QUE LE NOM DU FICHIER EXACT (ex: "LVH1.txt") tel qu'il apparait dans le contexte sous la forme "[FICHIER X] nom_du_fichier_exact.txt". Ne mets jamais de nom de contact ou de personne ici, SAUF pour le cas particulier du PJR décrit à la règle 4.
+6. Si aucun fichier ne prend en charge ce besoin dans ses missions effectives (ou si tous les fichiers pertinents l'excluent expressément), tu dois impérativement répondre null.
 
 FORMAT DE RÉPONSE OBLIGATOIRE :
 Tu dois impérativement utiliser ces 3 balises XML dans cet ordre (n'utilise PAS de format JSON) :
 
 <analyse>
-Rédige ici ton raisonnement en 2 phrases maximum : quel est le besoin, et quel fichier ou rôle y répond le mieux.
+Rédige ici ton raisonnement en 2 phrases maximum : quel est le besoin, et quel fichier ou rôle y répond le mieux (ou pourquoi aucun ne correspond et doit être null).
 </analyse>
 
 <fichier>
@@ -854,7 +858,8 @@ class ContactRAG:
 
         decision_reason = decision.get("reason")
         selected_file_decision = decision.get("selected_file")
-        if selected_file_decision and selected_file_decision.strip().lower() == "null":
+        norm_decision = (selected_file_decision or "").strip().lower().strip(". ")
+        if norm_decision in {"null", "none", "aucun", "aucun fichier", "n/a", ""}:
             selected_file = None
         else:
             selected_file = selected_file_decision or selected_file
