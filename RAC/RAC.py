@@ -68,7 +68,107 @@ DEFAULT_SPIV_CONTEXT_PATHS = [
 DEFAULT_MODEL_NAME = "intfloat/multilingual-e5-large"
 DEFAULT_LOG_DIR = DEFAULT_DATA_DIR / "log"
 DEFAULT_LOG_FILE = DEFAULT_LOG_DIR / "rag_contacts.txt"
-VALID_ROUTING_TAGS = {"AFRV", "SPIV", "AUTRE"}
+VALID_ROUTING_TAGS = {"AFRV", "SPIV", "ETUDES_DOCTORALES", "ECOLES_DOCTORALES", "AUTRE"}
+ALL_LAB_REQUIRED_TAGS = {"AFRV", "SPIV", "ETUDES_DOCTORALES", "ECOLES_DOCTORALES"}
+
+# Mapping de tous les laboratoires de l'Université de Tours vers leur École Doctorale (ED)
+LAB_TO_ED_MAPPING: dict[str, str] = {
+    # EMSTU (ED 552)
+    "gehco": "EMSTU",
+    "greman": "EMSTU",
+    "lame": "EMSTU",
+    "lamé": "EMSTU",
+    "pcm2e": "EMSTU",
+    # MIPTIS (ED 551)
+    "idp": "MIPTIS",
+    "lifat": "MIPTIS",
+    # SSBCV (ED 549)
+    "bbv": "SSBCV",
+    "boa": "SSBCV",
+    "воа": "SSBCV",
+    "cbm-nmns": "SSBCV",
+    "cbm - nmns": "SSBCV",
+    "cbm": "SSBCV",
+    "cepr": "SSBCV",
+    "cerca": "SSBCV",
+    "ibrain": "SSBCV",
+    "i-brain": "SSBCV",
+    "irbi": "SSBCV",
+    "ischemia": "SSBCV",
+    "isp": "SSBCV",
+    "mavivhe": "SSBCV",
+    "n2cox": "SSBCV",
+    "prc": "SSBCV",
+    "simba": "SSBCV",
+    "sphere": "SSBCV",
+    # H&L (ED 616)
+    "cesr": "H&L",
+    "cethis": "H&L",
+    "citeres-lat": "H&L",
+    "citeres - lat": "H&L",
+    "dynadiv": "H&L",
+    "ees": "H&L",
+    "icd": "H&L",
+    "intru": "H&L",
+    "lll": "H&L",
+    "pavea": "H&L",
+    "qualipsy": "H&L",
+    # SSTED (ED 617)
+    "citeres": "SSTED",
+    "citeres-cost": "SSTED",
+    "citeres - cost": "SSTED",
+    "citeres-date": "SSTED",
+    "citeres - date": "SSTED",
+    "citeres-emam": "SSTED",
+    "citeres - emam": "SSTED",
+    "irji": "SSTED",
+    "leo": "SSTED",
+    "prim": "SSTED",
+    "vallorem": "SSTED",
+}
+
+ED_FULL_NAMES: dict[str, str] = {
+    "EMSTU": "EMSTU - ED 552",
+    "MIPTIS": "MIPTIS - ED 551",
+    "SSBCV": "SSBCV - ED 549",
+    "H&L": "H&L - ED 616",
+    "SSTED": "SSTED - ED 617",
+}
+
+ED_ALIASES: dict[str, str] = {
+    # SSBCV
+    "ssbcv": "SSBCV",
+    "ed 549": "SSBCV",
+    "ed549": "SSBCV",
+    "549": "SSBCV",
+    "sante": "SSBCV",
+    # MIPTIS
+    "miptis": "MIPTIS",
+    "ed 551": "MIPTIS",
+    "ed551": "MIPTIS",
+    "551": "MIPTIS",
+    # EMSTU
+    "emstu": "EMSTU",
+    "ed 552": "EMSTU",
+    "ed552": "EMSTU",
+    "552": "EMSTU",
+    # H&L
+    "h&l": "H&L",
+    "hl": "H&L",
+    "h et l": "H&L",
+    "ed 616": "H&L",
+    "ed616": "H&L",
+    "616": "H&L",
+    "humanites": "H&L",
+    "humanites et langues": "H&L",
+    # SSTED
+    "ssted": "SSTED",
+    "ed 617": "SSTED",
+    "ed617": "SSTED",
+    "617": "SSTED",
+    "sciences de la societe": "SSTED",
+}
+
 AFRV_FALLBACK_KEYWORDS = (
     "budget",
     "budgétaire",
@@ -363,18 +463,6 @@ def _contains_any(text: str, keywords: tuple[str, ...]) -> bool:
 
 def inject_ecole_doctorale(question: str) -> str:
     """Détecte les acronymes de laboratoires et ajoute leur école doctorale à la question."""
-    mapping = {
-        "gehco": "EMSTU - ED 552", "greman": "EMSTU - ED 552", "lame": "EMSTU - ED 552", "pcm2e": "EMSTU - ED 552",
-        "cesr": "H&L - ED 616", "cethis": "H&L - ED 616", "citeres-lat": "H&L - ED 616", "dynadiv": "H&L - ED 616",
-        "ees": "H&L - ED 616", "icd": "H&L - ED 616", "intru": "H&L - ED 616", "lll": "H&L - ED 616", "pavea": "H&L - ED 616", "qualipsy": "H&L - ED 616",
-        "idp": "MIPTIS - ED 551", "lifat": "MIPTIS - ED 551",
-        "bbv": "SSBCV - ED 549", "boa": "SSBCV - ED 549", "воа": "SSBCV - ED 549", "cbm-nmns": "SSBCV - ED 549", "cepr": "SSBCV - ED 549", "cerca": "SSBCV - ED 549",
-        "ibrain": "SSBCV - ED 549", "irbi": "SSBCV - ED 549", "ischemia": "SSBCV - ED 549", "isp": "SSBCV - ED 549", "mavivhe": "SSBCV - ED 549",
-        "n2cox": "SSBCV - ED 549", "prc": "SSBCV - ED 549", "simba": "SSBCV - ED 549", "sphere": "SSBCV - ED 549",
-        "citeres": "SSTED - ED 617", "citeres-cost": "SSTED - ED 617", "citeres-date": "SSTED - ED 617", "citeres-emam": "SSTED - ED 617",
-        "irji": "SSTED - ED 617", "leo": "SSTED - ED 617", "prim": "SSTED - ED 617", "vallorem": "SSTED - ED 617"
-    }
-
     search_text = question.lower()
     # Supprimer les espaces autour des tirets pour gérer "CITERES - LAT"
     search_text = re.sub(r"\s*-\s*", "-", search_text)
@@ -384,18 +472,54 @@ def inject_ecole_doctorale(question: str) -> str:
     found_eds = set()
     
     # On trie les acronymes par longueur décroissante pour matcher "citeres-lat" avant "citeres"
-    for acronyme in sorted(mapping.keys(), key=len, reverse=True):
+    for acronyme in sorted(LAB_TO_ED_MAPPING.keys(), key=len, reverse=True):
         pattern = rf"\b{re.escape(acronyme)}\b"
         if re.search(pattern, search_text):
-            found_eds.add(mapping[acronyme])
-            # Si on matche un acronyme long, on supprime son occurence pour ne pas matcher une sous-partie
-            # Par exemple, si "citeres-lat" matche, on ne veut pas que "citeres" matche aussi (bien qu'ici ils aient des ED différentes).
+            ed_code = LAB_TO_ED_MAPPING[acronyme]
+            found_eds.add(ED_FULL_NAMES.get(ed_code, ed_code))
             search_text = re.sub(pattern, " ", search_text)
             
     if found_eds:
         eds_str = ", ".join(sorted(list(found_eds)))
         return f"{question} (Ecole Doctorale : {eds_str})"
     return question
+
+
+def _detect_laboratory_or_ed_in_text(text: str) -> Optional[str]:
+    """Détecte si un acronyme de laboratoire ou d'école doctorale est présent dans le texte."""
+    if not text:
+        return None
+
+    # 1. Syntaxe explicite (ex: "(Laboratoire: BBV)" ou "labo: BBV")
+    m = re.search(r"\b(?:laboratoire|labo|ed|ecole doctorale)\s*[:=\-]\s*([a-z0-9_\-\s]+)", text, re.IGNORECASE)
+    if m:
+        candidate = m.group(1).strip().strip("()")
+        norm_cand = _normalize_text_key(candidate)
+        if norm_cand in LAB_TO_ED_MAPPING:
+            return norm_cand
+        if norm_cand in ED_ALIASES:
+            return ED_ALIASES[norm_cand]
+
+    # 2. Recherche textuelle normalisée
+    search_text = text.lower()
+    search_text = re.sub(r"\s*-\s*", "-", search_text)
+    search_text = unicode_normalize("NFKD", search_text)
+    search_text = "".join(ch for ch in search_text if not unicodedata_combining(ch))
+
+    # Écoles doctorales directes
+    for alias, ed in sorted(ED_ALIASES.items(), key=lambda x: len(x[0]), reverse=True):
+        pattern = rf"\b{re.escape(alias)}\b"
+        if re.search(pattern, search_text):
+            return ed
+
+    # Laboratoires connus
+    for lab in sorted(LAB_TO_ED_MAPPING.keys(), key=len, reverse=True):
+        pattern = rf"\b{re.escape(lab)}\b"
+        if re.search(pattern, search_text):
+            return lab
+
+    return None
+
 
 
 class ContactRAG:
@@ -512,9 +636,13 @@ class ContactRAG:
 
     @staticmethod
     def _extract_possible_acronym(question: str) -> str:
+        detected = _detect_laboratory_or_ed_in_text(question)
+        if detected:
+            return detected
         cleaned = question.strip()
         cleaned = cleaned.strip(" .,:;!?\"'()[]{}")
         cleaned = re.sub(r"^(?:acronyme|code|laboratoire|labo)\s*[:=\-]*\s*", "", cleaned, flags=re.IGNORECASE)
+        cleaned = re.sub(r"^(?:mon\s+laboratoire|mon\s+labo|mon\s+ed|mon\s+ecole\s+doctorale)\s+(?:est\s+)?(?:le\s+|l'|la\s+)?", "", cleaned, flags=re.IGNORECASE)
         return cleaned.strip()
 
     @staticmethod
@@ -541,6 +669,61 @@ class ContactRAG:
         for key, value in acronyms.items():
             normalized = re.sub(rf"\b{key}\b", value, normalized, flags=re.IGNORECASE)
         return normalized
+
+    def _resolve_doctoral_contact(self, routing_tag: str, identifier: str) -> tuple[Optional[ContactMatch], Optional[str]]:
+        """
+        Résout le contact doctoral (gestionnaire d'études doctorales ou école doctorale)
+        en fonction du laboratoire ou de l'école doctorale spécifié.
+        """
+        norm_id = _normalize_text_key(identifier)
+        if not norm_id:
+            return None, None
+
+        # 1. Identifier l'École Doctorale (ED)
+        ed: Optional[str] = None
+        if norm_id in LAB_TO_ED_MAPPING:
+            ed = LAB_TO_ED_MAPPING[norm_id]
+        elif norm_id in ED_ALIASES:
+            ed = ED_ALIASES[norm_id]
+        else:
+            for lab_key, mapped_ed in LAB_TO_ED_MAPPING.items():
+                if lab_key in norm_id or norm_id in lab_key:
+                    ed = mapped_ed
+                    break
+            if not ed:
+                for alias_key, mapped_ed in ED_ALIASES.items():
+                    if alias_key in norm_id or norm_id in alias_key:
+                        ed = mapped_ed
+                        break
+
+        if not ed:
+            return None, None
+
+        # 2. Déterminer le fichier cible selon la branche doctorale
+        target_file: Optional[str] = None
+        if routing_tag == "ETUDES_DOCTORALES":
+            # SST: EMSTU, MIPTIS, SSBCV -> gestionnaire études doctorales SST.txt (Elysa Ragot)
+            # SHS: H&L, SSTED -> Etude doctorale2.txt (Christèle Gaudron-Bredif)
+            if ed in {"EMSTU", "MIPTIS", "SSBCV"}:
+                target_file = "gestionnaire études doctorales SST.txt"
+            elif ed in {"H&L", "SSTED"}:
+                target_file = "Etude doctorale2.txt"
+        elif routing_tag == "ECOLES_DOCTORALES":
+            # EMSTU, MIPTIS, H&L -> EcoleDoctorale.txt (Marie Clermonte)
+            # SSBCV, SSTED -> EcoleDoctorale2.txt (Lucie Primault)
+            if ed in {"EMSTU", "MIPTIS", "H&L"}:
+                target_file = "EcoleDoctorale.txt"
+            elif ed in {"SSBCV", "SSTED"}:
+                target_file = "EcoleDoctorale2.txt"
+
+        if not target_file:
+            return None, None
+
+        contact = self.contact_index.resolve(target_file)
+        if contact and contact.contact_name:
+            return contact, target_file
+
+        return None, None
 
     def _resolve_laboratory_contact(self, routing_tag: str, acronym: str) -> tuple[Optional[ContactMatch], Optional[str]]:
         normalized_acronym = _normalize_text_key(acronym)
@@ -578,6 +761,9 @@ class ContactRAG:
                 ),
                 file_name,
             )
+
+        if routing_tag in {"ETUDES_DOCTORALES", "ECOLES_DOCTORALES"}:
+            return self._resolve_doctoral_contact(routing_tag, acronym)
 
         return None, None
 
@@ -786,7 +972,7 @@ class ContactRAG:
             acronym_from_question = acronym_match.group(1)
             question = question[:acronym_match.start()] + question[acronym_match.end():]
 
-        if pending_routing_tag in {"AFRV", "SPIV"}:
+        if pending_routing_tag in ALL_LAB_REQUIRED_TAGS:
             acronym = acronym_from_question or self._extract_possible_acronym(question)
             contact, resolved_name = self._resolve_laboratory_contact(pending_routing_tag, acronym)
             if contact is not None:
@@ -869,11 +1055,15 @@ class ContactRAG:
         # -------------------------------------------------------------
         routing_tag = "AUTRE"
         if selected_file:
-            norm_file = selected_file.upper()
-            if norm_file.startswith("AFRV"):
+            norm_file = self._normalize(selected_file)
+            if norm_file.startswith("afrv"):
                 routing_tag = "AFRV"
-            elif norm_file.startswith("SPIV") or "CHARGEE_AFFAIRES" in norm_file or "CHARGE_AFFAIRES" in norm_file:
+            elif norm_file.startswith("spiv") or "chargee_affaires" in norm_file or "charge_affaires" in norm_file:
                 routing_tag = "SPIV"
+            elif ("etude" in norm_file and "doctoral" in norm_file) or ("gestionnaire" in norm_file and "doctoral" in norm_file):
+                routing_tag = "ETUDES_DOCTORALES"
+            elif "ecole" in norm_file and "doctoral" in norm_file:
+                routing_tag = "ECOLES_DOCTORALES"
             # Les autres (y compris PJR_PJR) restent taggés comme "AUTRE" par défaut 
             # et on récupérera leur contact directement.
 
@@ -901,11 +1091,12 @@ class ContactRAG:
             )
 
         # -------------------------------------------------------------
-        # Application de la logique métier AFRV / SPIV
+        # Application de la logique métier (AFRV / SPIV / Doctorat)
         # -------------------------------------------------------------
-        if routing_tag in {"AFRV", "SPIV"}:
-            if acronym_from_question:
-                acronym = acronym_from_question
+        if routing_tag in ALL_LAB_REQUIRED_TAGS:
+            lab_acronym = acronym_from_question or _detect_laboratory_or_ed_in_text(question)
+            if lab_acronym:
+                acronym = lab_acronym
                 contact, resolved_name = self._resolve_laboratory_contact(routing_tag, acronym)
                 if contact is not None:
                     secondary_contact = self.contact_index.resolve("PJR - Général") if is_juridique else None
@@ -1015,6 +1206,10 @@ class ContactRAG:
 
         if routing_tag != "AUTRE":
             lines.append("Aiguillage spécifique: le contact a été résolu depuis le tableau dédié.")
+            if contact.contact_name and contact.contact_email:
+                lines.append(f"Contact: {contact.contact_name} <{contact.contact_email}>")
+            elif contact.contact_name:
+                lines.append(f"Contact: {contact.contact_name}")
             if secondary_contact and secondary_contact.contact_name:
                 lines.append(f"Contact secondaire: {secondary_contact.contact_name} <{secondary_contact.contact_email}>")
             return "\n".join(lines)

@@ -329,7 +329,7 @@ class HypotheticalRAG:
             else:
                 contact_info_str = f"Contact (Pôle Juridique) : {sec_str}"
 
-        if decision.routing_tag in {"AFRV", "SPIV"} and not contact_info_str:
+        if decision.routing_tag in {"AFRV", "SPIV", "ETUDES_DOCTORALES", "ECOLES_DOCTORALES"} and not contact_info_str:
             return RAGResponse(
                 question=actual_question_for_rag,
                 extracted_acronym=decision.requested_laboratory_acronym,
@@ -354,7 +354,7 @@ class HypotheticalRAG:
         file_keyword = decision.selected_file
         if file_keyword:
             lower_kw = file_keyword.lower()
-            if "etude doctorale" in lower_kw or "études doctorales" in lower_kw or "etudes doctorales" in lower_kw or "ecole doctorale" in lower_kw or "ecoles doctorales" in lower_kw:
+            if ("etude" in lower_kw or "gestionnaire" in lower_kw or "ecole" in lower_kw) and "doctoral" in lower_kw:
                 file_keyword = "ETUDES DOCTORALES"
             elif "pjr" in lower_kw:
                 file_keyword = "Juridique"
@@ -401,6 +401,8 @@ class HypotheticalRAG:
         domain_mapping = {
             "AFRV": "AFRV",
             "SPIV": "SPIV",
+            "ETUDES_DOCTORALES": "Autre",
+            "ECOLES_DOCTORALES": "Autre",
             "AUTRE": "Autre"
         }
         domain_tag = domain_mapping.get(decision.routing_tag.upper()) if decision.routing_tag else None

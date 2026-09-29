@@ -112,6 +112,15 @@ Administrative users rarely require generic information alone; they require the 
 - **Entity Matching (`Utilitaire/Contacts.py`, `RAC/RAC.py`)** : Maps user questions to specific financial managers (by research unit code), business developers (by scientific domain), or doctoral school referents.
 - **Contractual vs Financial Dynamic Re-Routing (AFRV $\rightarrow$ SPIV)** :
   According to university regulations (*Guide du DU*), financial modifications to active research projects (budget reallocations, formal contractual amendments, prolongations) require prior approval through the SPV (*Service Partenariats et Valorisation*) to interface with funders before execution by the AFRV. When a user inquiry contains project modification terms (`modifier`, `modification`, `avenant`, `prolongation`, `ajustement budgétaire`), the router intercepts generic financial classifications and automatically re-routes them to `SPIV`.
+- **Doctoral Studies & Doctoral Schools Laboratory Disambiguation (`ETUDES_DOCTORALES`, `ECOLES_DOCTORALES`)** :
+  Doctoral procedures at Université de Tours are partitioned across two operational branches and five Écoles Doctorales (SSBCV ED 549, MIPTIS ED 551, EMSTU ED 552, H&L ED 616, SSTED ED 617):
+  - **Administrative Branch (`ETUDES_DOCTORALES`)** : Inscriptions, re-inscriptions, defense juries, degrees, and mobility grants.
+    - *SST Sector* (EMSTU, MIPTIS, SSBCV) $\rightarrow$ Elysa Ragot (`gestionnaire études doctorales SST.txt`).
+    - *SHS Sector* (H&L, SSTED) $\rightarrow$ Christèle Gaudron-Bredif (`Etude doctorale2.txt`).
+  - **Pedagogical & Commission Branch (`ECOLES_DOCTORALES`)** : CSI, auditions, doctoral school funding, non-catalog training validation, and co-directions.
+    - *Group 1* (EMSTU, MIPTIS, H&L) $\rightarrow$ Marie Clermonte (`EcoleDoctorale.txt`).
+    - *Group 2* (SSBCV, SSTED) $\rightarrow$ Lucie Primault (`EcoleDoctorale2.txt`).
+  When a thesis question is identified without an explicit laboratory or doctoral school acronym, RAC enters a pending conversational state and requests the user's laboratory before completing the routing.
 - **Laboratory-Aware Composite Indexing** :
   University research units frequently use composite designations (e.g., `CEPR U 1100`, `UAR METIS`, `PST Animalerie`). The laboratory indexing routine (`build_spiv_laboratory_index`) indexes multi-token stems and normalizes administrative prefixes (`uar`, `pst`, `umr`, `ea`, `u`), ensuring queries referencing either base acronyms (`CEPR`, `METIS`) or full official titles deterministically resolve to their dedicated sector *chargé d'affaires*.
 - **Role-Grounded Prompt Injection & Coherence Guardrails (`RAGilaas/RAGilaas.py`, `RAGilaas/Prompt.py`)** :
