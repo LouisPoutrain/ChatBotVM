@@ -327,6 +327,14 @@ def build_spiv_laboratory_index() -> dict[str, dict[str, Any]]:
             normalized = _normalize_text_key(laboratoire)
             if normalized:
                 index[normalized] = row_dict
+                tokens = normalized.split()
+                # Premier mot (ex: 'cepr' dans 'cepr u 1100')
+                if tokens[0] not in index:
+                    index[tokens[0]] = row_dict
+                # Si le nom commence par un préfixe de structure, indexer aussi le mot suivant
+                if tokens[0] in {"uar", "pst", "umr", "ea", "u"} and len(tokens) > 1:
+                    if tokens[1] not in index:
+                        index[tokens[1]] = row_dict
     return index
 
 
@@ -859,10 +867,33 @@ class ContactRAG:
             norm_file = selected_file.upper()
             if norm_file.startswith("AFRV"):
                 routing_tag = "AFRV"
-            elif norm_file.startswith("SPIV"):
+            elif norm_file.startswith("SPIV") or "CHARGEE_AFFAIRES" in norm_file or "CHARGE_AFFAIRES" in norm_file:
                 routing_tag = "SPIV"
             # Les autres (y compris PJR_PJR) restent taggés comme "AUTRE" par défaut 
             # et on récupérera leur contact directement.
+
+        # -------------------------------------------------------------
+        # Re-routage AFRV → SPIV pour les modifications de projet
+        # Le Guide du DU spécifie : "Modifications budgétaires : contacter
+        # le SPV et l'antenne financière. Le SPV prend en charge l'échange
+        # avec le financeur." → Le SPV est le point d'entrée, pas l'AFRV.
+        # -------------------------------------------------------------
+        _MODIFICATION_KEYWORDS = (
+            "modifier", "modification", "avenant", "prolongation",
+            "prolonger", "changement budgétaire", "ajustement budgétaire",
+            "changer le budget", "modifier financièrement",
+        )
+        if routing_tag == "AFRV" and any(
+            kw in question_injected.lower() for kw in _MODIFICATION_KEYWORDS
+        ):
+            logger.info(
+                "Re-routage AFRV → SPIV : question de modification de projet détectée."
+            )
+            routing_tag = "SPIV"
+            decision_reason = (
+                "Re-routage vers le SPV : pour les modifications de projet de recherche, "
+                "le chargé d'affaires du SPV est le contact d'entrée contractuel."
+            )
 
         # -------------------------------------------------------------
         # Application de la logique métier AFRV / SPIV

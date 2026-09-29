@@ -219,6 +219,11 @@ class HypotheticalRAG:
         if parts and any(part in answer for part in parts if len(part) > 3):
             return answer
 
+        # Si la réponse contient déjà une adresse de contact (@univ-tours.fr),
+        # le LLM a déjà fourni un contact pertinent : ne pas en greffer un second.
+        if "@univ-tours.fr" in answer:
+            return answer
+
         separator = "\n\n" if answer.strip() else ""
         return f"{answer.rstrip()}{separator}Contact a utiliser : {contact_info}"
 
@@ -450,8 +455,11 @@ class HypotheticalRAG:
             context_documents = self._build_context(ordered_hits)
             
             if contact_info_str:
+                routing_context = f"Rôle/Service : {decision.routing_tag}"
+                if decision.routing_reason:
+                    routing_context += f"\nRaison du routage : {decision.routing_reason}"
                 context = (
-                    f"[CONTACT RAC OBLIGATOIRE]\n{contact_info_str}\n"
+                    f"[CONTACT RAC OBLIGATOIRE]\n{contact_info_str}\n{routing_context}\n"
                     f"[DOCUMENTS ET PROCÉDURES RÉTROUVÉS]\n{context_documents}"
                 )
             else:

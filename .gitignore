@@ -32,6 +32,7 @@ MANIFEST
 .env.*
 !.env.example
 venv/
+.venv
 .venv/
 env/
 ENV/
@@ -95,6 +96,7 @@ TestExtraction/qdrant_data/
 *.sqlite
 *.sqlite3
 .lock
+uv.lock
 
 # Raw download dump (dynamically synchronized via Utbox.py)
 data/downloads/
