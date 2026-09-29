@@ -106,9 +106,18 @@ Top-20 fused candidates retrieved from Qdrant are passed to a Cross-Encoder rera
 ### 4. Semantic Organizational Router (RAC: Réseau d'Accompagnement & Contacts)
 
 Administrative users rarely require generic information alone; they require the exact contact person responsible for validating their administrative act.
+
 - **Domain Tagging** : Identifies institutional domains (`AFRV`: Finance/Invoicing, `SPIV`: Contracts/Partnerships, `RED`: Doctoral Studies/HDR, `PJR`: Legal/IP, `SAPS`: Scientific Outreach).
 - **Directory Vectorization (`RAC/qdrant.py`)** : Stores institutional organigrams and contact roles into a specialized collection (`infocontact`).
 - **Entity Matching (`Utilitaire/Contacts.py`, `RAC/RAC.py`)** : Maps user questions to specific financial managers (by research unit code), business developers (by scientific domain), or doctoral school referents.
+- **Contractual vs Financial Dynamic Re-Routing (AFRV $\rightarrow$ SPIV)** :
+  According to university regulations (*Guide du DU*), financial modifications to active research projects (budget reallocations, formal contractual amendments, prolongations) require prior approval through the SPV (*Service Partenariats et Valorisation*) to interface with funders before execution by the AFRV. When a user inquiry contains project modification terms (`modifier`, `modification`, `avenant`, `prolongation`, `ajustement budgétaire`), the router intercepts generic financial classifications and automatically re-routes them to `SPIV`.
+- **Laboratory-Aware Composite Indexing** :
+  University research units frequently use composite designations (e.g., `CEPR U 1100`, `UAR METIS`, `PST Animalerie`). The laboratory indexing routine (`build_spiv_laboratory_index`) indexes multi-token stems and normalizes administrative prefixes (`uar`, `pst`, `umr`, `ea`, `u`), ensuring queries referencing either base acronyms (`CEPR`, `METIS`) or full official titles deterministically resolve to their dedicated sector *chargé d'affaires*.
+- **Role-Grounded Prompt Injection & Coherence Guardrails (`RAGilaas/RAGilaas.py`, `RAGilaas/Prompt.py`)** :
+  - **Contextual Grounding** : The injected context block `[CONTACT RAC OBLIGATOIRE]` includes both the administrative role (`Rôle/Service`) and the routing rationale (`Raison du routage`), providing semantic explainability to the generator LLM.
+  - **Prompt Flexibility** : Replaced rigid absolute contact rules with role-guided instructions across all prompt variants (`default`, `pc_context_first`, `pc_instructions_first`), empowering the LLM to integrate the contact harmoniously with documentary evidence.
+  - **Anti-Duplicate Safety Gate (`_ensure_required_contact`)** : Checks if a valid institutional email (`@univ-tours.fr`) has already been provided in the generated text, strictly preventing contradictory post-generation contact appendices.
 
 ### 5. Query Reformulation: Hypothetical Document Embeddings (HyDE)
 

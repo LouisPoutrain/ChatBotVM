@@ -29,7 +29,7 @@ Dans les environnements institutionnels et de recherche academique, les systemes
 Le projet **VICTORIA** (*Virtual Intelligent Conversational Tool for Organizational Research & Institutional Administration*) repond a cette quadruple problematique par une architecture hybride en etapes successives :
 - **Espace vectoriel bi-modal dense et creux** : Couplage du modele semantique multilingue dense `intfloat/multilingual-e5-large` (1024 dimensions) et de l'indexation lexicale creuse `BM25` via FastEmbed, fusionnes par l'algorithme *Reciprocal Rank Fusion* (RRF).
 - **Reranking neuronal a attention croisee** : Reclassement des passages candidats via le Cross-Encoder `BAAI/bge-reranker-v2-m3` eliminant les faux positifs lexicaux.
-- **Routage organisationnel RAC (*Reseau d'Accompagnement et de Competences*)** : Module d'affectation automatique appariant l'unite de recherche de l'usager aux referents metiers institutionnels (Antenne Financiere, Partenariats, Ecoles Doctorales, Pole Juridique).
+- **Routage organisationnel RAC (*Reseau d'Accompagnement et de Competences*)** : Module d'affectation automatique appariant l'unite de recherche de l'usager aux referents metiers institutionnels (Antenne Financiere, Partenariats, Ecoles Doctorales, Pole Juridique), dote d'un aiguillage contractuel dynamique (re-routage AFRV $\rightarrow$ SPIV sur les modifications de projet) et d'une resolution fine des acronymes de laboratoires composes.
 - **Expansion contextuelle HyDE avec contournement d'acronymes** : Generation d'un document hypothetique pour densifier la requete, desactivee algorithmiquement sur detection d'acronymes normalises afin d'eviter toute derivation semantique.
 
 ---
