@@ -14,9 +14,12 @@ services:
     ports:
       - "8600:8600"
     volumes:
-      # Montage des volumes pour la persistance des données
+      # Montage des volumes pour la persistance des données et du code
       - ./Log:/app/Log
-      - ./RAC/Data:/app/RAC/Data
+      - ./RAC:/app/RAC
+      - ./RAGilaas:/app/RAGilaas
+      - ./Utilitaire:/app/Utilitaire
+      - ./BV:/app/BV
       - ./data:/app/data
       - ./PDF2:/app/PDF2
       - ./Interface:/app/Interface
