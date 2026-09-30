@@ -1,5 +1,5 @@
 {
-    "draft_model": "mistral-small-3.2-24b",
+    "draft_model": "mistral-medium-latest",
     "answer_model": "mistral-small-4-119b",
-    "rac_model": "mistral-small-3.2-24b"
+    "rac_model": "mistral-medium-latest"
 }
