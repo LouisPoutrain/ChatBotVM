@@ -41,12 +41,12 @@ $COMBOS = @(
   "02_fast_draft|llama-3.1-8b|mistral-medium-latest",
   "03_max_quality|mistral-small-4-119b|gpt-oss-120b",
   "04_meta_mono|llama-3.1-8b|llama-3.1-8b",
-  "05_mistral_stack|mistral-small-3.2-24b|mistral-small-4-119b",
+  "05_qwen_reasoning_mono|qwen-3.8-27b|qwen-3.8-27b",
   "06_google_mono|gemma-4-31b|gemma-4-31b",
-  "07_qwen_mono|qwen-3.6-35b-instruct|qwen-3.6-35b-instruct",
+  "07_qwen_instruct_mono|qwen-3.6-35b-instruct|qwen-3.6-35b-instruct",
   "08_economy_cross|llama-3.1-8b|qwen-3.6-35b-instruct",
   "09_premium_cross|gemma-4-31b|mistral-small-4-119b",
-  "10_mid_draft|mistral-small-3.2-24b|mistral-medium-latest"
+  "10_reasoning_draft|qwen-3.8-27b|mistral-medium-latest"
 )
 
 $TOTAL = $COMBOS.Length

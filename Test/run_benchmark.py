@@ -16,16 +16,16 @@ import time
 from pathlib import Path
 
 COMBOS = [
-    {"name": "01_baseline", "draft": "mistral-medium-latest", "answer": "mistral-medium-latest", "desc": "Baseline de référence"},
-    {"name": "02_fast_draft", "draft": "llama-3.1-8b", "answer": "mistral-medium-latest", "desc": "Draft rapide 8B + réponse Mistral"},
+    {"name": "01_baseline", "draft": "mistral-medium-latest", "answer": "mistral-medium-latest", "desc": "Baseline de référence (Mistral Medium)"},
+    {"name": "02_fast_draft", "draft": "llama-3.1-8b", "answer": "mistral-medium-latest", "desc": "Draft rapide 8B + réponse Mistral Medium"},
     {"name": "03_max_quality", "draft": "mistral-small-4-119b", "answer": "gpt-oss-120b", "desc": "Plafond max qualité (119B + 120B)"},
     {"name": "04_meta_mono", "draft": "llama-3.1-8b", "answer": "llama-3.1-8b", "desc": "Meta Mono 8B (vitesse max & ultra-léger)"},
-    {"name": "05_mistral_stack", "draft": "mistral-small-3.2-24b", "answer": "mistral-small-4-119b", "desc": "Mistral Stack (24B -> 119B)"},
-    {"name": "06_google_mono", "draft": "gemma-4-31b", "answer": "gemma-4-31b", "desc": "Google Gemma homogène (31B)"},
-    {"name": "07_qwen_mono", "draft": "qwen-3.6-35b-instruct", "answer": "qwen-3.6-35b-instruct", "desc": "Alibaba Qwen homogène (35B)"},
+    {"name": "05_qwen_reasoning_mono", "draft": "qwen-3.8-27b", "answer": "qwen-3.8-27b", "desc": "Qwen 27B Reasoning homogène (thinking)"},
+    {"name": "06_google_mono", "draft": "gemma-4-31b", "answer": "gemma-4-31b", "desc": "Google Gemma 31B homogène"},
+    {"name": "07_qwen_instruct_mono", "draft": "qwen-3.6-35b-instruct", "answer": "qwen-3.6-35b-instruct", "desc": "Alibaba Qwen 35B Instruct homogène"},
     {"name": "08_economy_cross", "draft": "llama-3.1-8b", "answer": "qwen-3.6-35b-instruct", "desc": "Economy Cross (Llama 8B + Qwen 35B)"},
     {"name": "09_premium_cross", "draft": "gemma-4-31b", "answer": "mistral-small-4-119b", "desc": "Premium Cross (Gemma 31B + Mistral 119B)"},
-    {"name": "10_mid_draft", "draft": "mistral-small-3.2-24b", "answer": "mistral-medium-latest", "desc": "Mid Draft Mistral (24B + réponse de référence)"},
+    {"name": "10_reasoning_draft", "draft": "qwen-3.8-27b", "answer": "mistral-medium-latest", "desc": "Draft Reasoning 27B + réponse Mistral Medium"},
 ]
 
 
