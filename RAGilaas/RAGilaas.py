@@ -694,6 +694,7 @@ def main() -> None:
     parser.add_argument("--llm-url", type=str, default=LLM_BASE_URL, help="URL du service LLM")
     parser.add_argument("--draft-model", type=str, default="mistral-medium-latest", help="Modèle Routeur/HyDE")
     parser.add_argument("--answer-model", type=str, default="mistral-medium-latest", help="Modèle réponse finale")
+    parser.add_argument("--rac-model", type=str, default="mistral-medium-latest", help="Modèle routeur RAC expert")
     parser.add_argument("--prompt-variant", type=str, default="default")
     parser.add_argument("--context-order", type=str, default="preserve")
     parser.add_argument("--log-file", type=str, default=str(PROJECT_ROOT / "data" / "logs" / "rag_chat_logs.txt"), help="Fichier de logs")
@@ -727,6 +728,7 @@ def main() -> None:
         llm_base_url=args.llm_url,
         draft_model=args.draft_model,
         answer_model=args.answer_model,
+        rac_model=args.rac_model,
         prompt_variant=args.prompt_variant,
         context_order=args.context_order,
     )

@@ -171,8 +171,17 @@ def main():
                     
                 file_details.append(detail_str)
         
+        draft_m = data.get("draft_model") or (trials[0].get("draft_model") if trials else "N/A")
+        answer_m = data.get("answer_model") or (trials[0].get("answer_model") if trials else "N/A")
+        rac_m = data.get("rac_model") or (trials[0].get("rac_model") if trials else "N/A")
+        judge_m = data.get("judge_model") or (trials[0].get("judge_model") if trials else "N/A")
+
         if file_count > 0:
             results_by_file[display_name] = {
+                "draft": draft_m,
+                "answer": answer_m,
+                "rac": rac_m,
+                "judge": judge_m,
                 "avg_faithfulness": file_faithfulness / file_count,
                 "avg_answer_relevance": file_answer_relevance / file_count,
                 "avg_context_precision": file_context_precision / file_count,
@@ -186,6 +195,10 @@ def main():
             }
         else:
             results_by_file[display_name] = {
+                "draft": draft_m,
+                "answer": answer_m,
+                "rac": rac_m,
+                "judge": judge_m,
                 "count": 0,
                 "avg_faithfulness": 0,
                 "avg_answer_relevance": 0,
@@ -220,8 +233,8 @@ def main():
     # Tableau comparatif
     if results_by_file:
         output_lines.append("## 📊 Tableau Comparatif des Configurations\n")
-        output_lines.append("| Configuration / Modèle | Faithfulness | Relevance | Context Precision | RAG (s) | Eval (s) | Total (s) | Tokens Moy. | Évaluations |")
-        output_lines.append("|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|")
+        output_lines.append("| Configuration | Architecture (Draft / Réponse / RAC) | Faithfulness | Relevance | Context Precision | RAG (s) | Eval (s) | Total (s) | Tokens Moy. | Évals |")
+        output_lines.append("|:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|")
         for name, res in sorted(results_by_file.items()):
             faith_str = f"{res['avg_faithfulness']:.2f} / 5" if res["count"] > 0 else "N/A"
             rel_str = f"{res['avg_answer_relevance']:.2f} / 5" if res["count"] > 0 else "N/A"
@@ -231,13 +244,15 @@ def main():
             total_str = f"{res['avg_total_duration']:.2f}s" if res["time_count"] > 0 else "N/A"
             tok_str = f"{int(res['avg_tokens'])}" if res["time_count"] > 0 else "N/A"
             cnt_str = f"{res['count']}"
-            output_lines.append(f"| **{name}** | {faith_str} | {rel_str} | {prec_str} | {rag_str} | {eval_str} | {total_str} | {tok_str} | {cnt_str} |")
+            models_col = f"`{res.get('draft', '-')}` / `{res.get('answer', '-')}` / `{res.get('rac', '-')}`"
+            output_lines.append(f"| **{name}** | {models_col} | {faith_str} | {rel_str} | {prec_str} | {rag_str} | {eval_str} | {total_str} | {tok_str} | {cnt_str} |")
         output_lines.append("")
         
     output_lines.append("## Détails par Configuration\n")
     
     for filename, res in results_by_file.items():
         output_lines.append(f"### Configuration : {filename}")
+        output_lines.append(f"- **Architecture** : Draft: `{res.get('draft', 'N/A')}` | Réponse: `{res.get('answer', 'N/A')}` | RAC: `{res.get('rac', 'N/A')}` | Juge: `{res.get('judge', 'N/A')}`")
         if res["count"] > 0:
             output_lines.append(f"- Moyenne Faithfulness : {res['avg_faithfulness']:.2f} / 5")
             output_lines.append(f"- Moyenne Answer Relevance : {res['avg_answer_relevance']:.2f} / 5")

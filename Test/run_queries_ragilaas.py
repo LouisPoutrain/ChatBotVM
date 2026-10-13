@@ -202,6 +202,7 @@ def generate_run_summary(payload: dict, output_md_path: Path) -> None:
     q_count = payload.get("question_count", len(trials))
     draft_m = payload.get("draft_model", "N/A")
     answer_m = payload.get("answer_model", "N/A")
+    rac_m = payload.get("rac_model", "N/A")
     judge_m = payload.get("judge_model", "N/A")
     date_str = payload.get("generated_at", "")
 
@@ -248,7 +249,7 @@ def generate_run_summary(payload: dict, output_md_path: Path) -> None:
         f"# Rapport d'Évaluation RAG - {q_file}\n",
         f"- **Date :** {date_str}",
         f"- **Requêtes évaluées :** {valid_evals}/{q_count}",
-        f"- **Modèles :** Draft: `{draft_m}` | Réponse: `{answer_m}` | Juge: `{judge_m}`",
+        f"- **Modèles :** Draft: `{draft_m}` | Réponse: `{answer_m}` | RAC: `{rac_m}` | Juge: `{judge_m}`",
         f"- **Temps d'exécution :** Total RAG: {total_rag_dur:.1f}s (moy. {avg_rag:.1f}s/q) | Évaluation: {total_eval_dur:.1f}s\n",
         "## Scores Moyens (sur 5.0)\n",
         "| Métrique | Score Moyen | Description |",
@@ -297,7 +298,8 @@ def run_question(
     k: int = 5,
     draft_model: str = "mistral-medium-latest",
     answer_model: str = "mistral-medium-latest",
-    judge_model: str = "mistral-medium-latest",
+    rac_model: str = "mistral-medium-latest",
+    judge_model: str = "mistral-small-4-119b",
 ) -> dict:
     
     def execute_rag(current_question: str) -> dict:
@@ -321,6 +323,8 @@ def run_question(
             draft_model,
             "--answer-model",
             answer_model,
+            "--rac-model",
+            rac_model,
             "--output-response-json",
             str(tmp_json_path),
         ]
@@ -460,9 +464,10 @@ def main() -> None:
         help="Ordres de contexte à exécuter (ex: preserve reverse score_desc).",
     )
     parser.add_argument("--k", type=int, default=5, help="Nombre de chunks récupérés à demander à RAGilaas")
-    parser.add_argument("--draft-model", type=str, default="mistral-medium-latest", help="Modèle LLM pour le routeur RAC et la génération HyDE")
+    parser.add_argument("--draft-model", type=str, default="mistral-medium-latest", help="Modèle LLM pour la génération HyDE")
     parser.add_argument("--answer-model", type=str, default="mistral-medium-latest", help="Modèle LLM pour la réponse finale")
-    parser.add_argument("--judge-model", type=str, default="mistral-medium-latest", help="Modèle LLM pour l'évaluation (LLM-as-a-Judge)")
+    parser.add_argument("--rac-model", type=str, default="mistral-medium-latest", help="Modèle LLM pour le routeur RAC (contacts)")
+    parser.add_argument("--judge-model", type=str, default="mistral-small-4-119b", help="Modèle LLM pour l'évaluation (LLM-as-a-Judge)")
     parser.add_argument("--max-questions", type=int, default=0, help="Limiter le nombre de questions (0 = toutes)")
     args = parser.parse_args()
 
@@ -507,7 +512,7 @@ def main() -> None:
         print(
             f"[{query_path.name}] Found {len(questions)} questions — running {args.repeat} repetition(s) "
             f"across {len(args.prompt_variants)} prompt variant(s) and {len(args.context_orders)} context order(s).\n"
-            f"  Models: draft={args.draft_model}, answer={args.answer_model}, judge={args.judge_model}"
+            f"  Models: draft={args.draft_model}, answer={args.answer_model}, rac={args.rac_model}, judge={args.judge_model}"
         )
 
         trial_records: list[dict[str, object]] = []
@@ -537,6 +542,7 @@ def main() -> None:
                             k=args.k,
                             draft_model=args.draft_model,
                             answer_model=args.answer_model,
+                            rac_model=args.rac_model,
                             judge_model=args.judge_model,
                         )
                         result["prompt_variant"] = prompt_variant
@@ -547,6 +553,7 @@ def main() -> None:
                         result["query_file"] = query_path.name
                         result["draft_model"] = args.draft_model
                         result["answer_model"] = args.answer_model
+                        result["rac_model"] = args.rac_model
                         result["judge_model"] = args.judge_model
                         result["final_answer"] = extract_final_answer(result.get("stdout", ""))
                         append_run_log(output_log, q, result)
@@ -561,6 +568,7 @@ def main() -> None:
                                 "context_order": context_order,
                                 "draft_model": args.draft_model,
                                 "answer_model": args.answer_model,
+                                "rac_model": args.rac_model,
                                 "judge_model": args.judge_model,
                                 "rag_duration_s": result.get("rag_duration_s", 0),
                                 "eval_duration_s": result.get("eval_duration_s", 0),
@@ -597,6 +605,7 @@ def main() -> None:
             "context_orders": args.context_orders,
             "draft_model": args.draft_model,
             "answer_model": args.answer_model,
+            "rac_model": args.rac_model,
             "judge_model": args.judge_model,
             "trials": trial_records,
         }

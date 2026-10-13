@@ -2,7 +2,7 @@
 # =============================================================================
 # Benchmark Multi-Modèles RAGilaas (10 Combinaisons)
 # Lance les 10 combinaisons de modèles définies dans BenchComb.md
-# Juge impartial : gpt-oss-120b
+# Juge impartial : mistral-small-4-119b
 # =============================================================================
 
 set -e

@@ -16,16 +16,16 @@ import time
 from pathlib import Path
 
 COMBOS = [
-    {"name": "01_baseline", "draft": "mistral-medium-latest", "answer": "mistral-medium-latest", "desc": "Baseline de référence (Mistral Medium)"},
-    {"name": "02_fast_draft", "draft": "llama-3.1-8b", "answer": "mistral-medium-latest", "desc": "Draft rapide 8B + réponse Mistral Medium"},
-    {"name": "03_max_quality", "draft": "mistral-small-4-119b", "answer": "gpt-oss-120b", "desc": "Plafond max qualité (119B + 120B)"},
-    {"name": "04_meta_mono", "draft": "llama-3.1-8b", "answer": "llama-3.1-8b", "desc": "Meta Mono 8B (vitesse max & ultra-léger)"},
-    {"name": "05_qwen_reasoning_mono", "draft": "qwen-3.8-27b", "answer": "qwen-3.8-27b", "desc": "Qwen 27B Reasoning homogène (thinking)"},
-    {"name": "06_google_mono", "draft": "gemma-4-31b", "answer": "gemma-4-31b", "desc": "Google Gemma 31B homogène"},
-    {"name": "07_qwen_instruct_mono", "draft": "qwen-3.6-35b-instruct", "answer": "qwen-3.6-35b-instruct", "desc": "Alibaba Qwen 35B Instruct homogène"},
-    {"name": "08_economy_cross", "draft": "llama-3.1-8b", "answer": "qwen-3.6-35b-instruct", "desc": "Economy Cross (Llama 8B + Qwen 35B)"},
-    {"name": "09_premium_cross", "draft": "gemma-4-31b", "answer": "mistral-small-4-119b", "desc": "Premium Cross (Gemma 31B + Mistral 119B)"},
-    {"name": "10_reasoning_draft", "draft": "qwen-3.8-27b", "answer": "mistral-medium-latest", "desc": "Draft Reasoning 27B + réponse Mistral Medium"},
+    {"name": "01_baseline", "draft": "mistral-medium-latest", "answer": "mistral-medium-latest", "rac": "mistral-medium-latest", "desc": "Baseline de référence (tout Mistral Medium)"},
+    {"name": "02_fast_draft_rac", "draft": "llama-3.1-8b", "answer": "mistral-medium-latest", "rac": "llama-3.1-8b", "desc": "Draft & RAC rapides 8B + réponse Mistral Medium"},
+    {"name": "03_max_quality", "draft": "mistral-medium-latest", "answer": "mistral-small-4-119b", "rac": "mistral-small-4-119b", "desc": "Plafond max qualité (RAC 119B + réponse 119B)"},
+    {"name": "04_meta_mono", "draft": "llama-3.1-8b", "answer": "llama-3.1-8b", "rac": "llama-3.1-8b", "desc": "Meta Mono 8B (vitesse max & ultra-léger de bout en bout)"},
+    {"name": "05_qwen_reasoning_mono", "draft": "qwen-3.8-27b", "answer": "qwen-3.8-27b", "rac": "qwen-3.8-27b", "desc": "Qwen 27B Reasoning homogène (thinking sur RAC, HyDE et réponse)"},
+    {"name": "06_google_mono", "draft": "gemma-4-31b", "answer": "gemma-4-31b", "rac": "gemma-4-31b", "desc": "Google Gemma 31B homogène sur l'ensemble du pipeline"},
+    {"name": "07_qwen_instruct_mono", "draft": "qwen-3.6-35b-instruct", "answer": "qwen-3.6-35b-instruct", "rac": "qwen-3.6-35b-instruct", "desc": "Alibaba Qwen 35B Instruct homogène"},
+    {"name": "08_economy_cross", "draft": "llama-3.1-8b", "answer": "qwen-3.6-35b-instruct", "rac": "llama-3.1-8b", "desc": "Economy Cross (Llama 8B Draft/RAC + Qwen 35B réponse)"},
+    {"name": "09_premium_cross", "draft": "gemma-4-31b", "answer": "mistral-small-4-119b", "rac": "mistral-medium-latest", "desc": "Premium Cross (Gemma 31B Draft + RAC Medium + réponse 119B)"},
+    {"name": "10_reasoning_rac", "draft": "mistral-medium-latest", "answer": "mistral-medium-latest", "rac": "qwen-3.8-27b", "desc": "RAC Reasoning 27B dédié + Draft & réponse Mistral Medium"},
 ]
 
 
@@ -42,7 +42,8 @@ def update_latest_symlink(results_dir: Path, target_dir: Path) -> None:
 def main():
     parser = argparse.ArgumentParser(description="Benchmark Multi-Modèles RAGilaas (10 Combinaisons)")
     parser.add_argument("--query-file", type=str, default="Query_Mix.txt", help="Fichier de questions (défaut: Query_Mix.txt)")
-    parser.add_argument("--judge-model", type=str, default="gpt-oss-120b", help="Modèle Juge impartial (défaut: gpt-oss-120b)")
+    parser.add_argument("--judge-model", type=str, default="mistral-small-4-119b", help="Modèle Juge impartial (défaut: mistral-small-4-119b)")
+    parser.add_argument("--rac-model", type=str, default=None, help="Forcer un modèle RAC spécifique pour toutes les combinaisons (optionnel)")
     parser.add_argument("--combos", nargs="+", default=["all"], help="Numéros ou noms des combinaisons à lancer (ex: 1 2 ou 01_baseline, défaut: all)")
     parser.add_argument("--max-questions", type=int, default=0, help="Limiter le nombre de questions par combo (0 = toutes)")
     parser.add_argument("--k", type=int, default=5, help="Nombre de chunks RAG (défaut: 5)")
@@ -88,6 +89,8 @@ def main():
     print("  🚀 BENCHMARK MULTI-MODÈLES RAGilaas")
     print(f"  Fichier de requêtes : {args.query_file}")
     print(f"  Juge LLM           : {args.judge_model}")
+    if args.rac_model:
+        print(f"  Override RAC       : {args.rac_model}")
     print(f"  Combinaisons ({len(selected_combos)}/{len(COMBOS)}) : {[c['name'] for c in selected_combos]}")
     if args.max_questions > 0:
         print(f"  Limite questions   : {args.max_questions} par combinaison")
@@ -100,12 +103,13 @@ def main():
         name = combo["name"]
         draft = combo["draft"]
         answer = combo["answer"]
+        rac = args.rac_model if args.rac_model else combo.get("rac", "mistral-medium-latest")
         desc = combo["desc"]
         combo_out_dir = out_root / name
 
         print(f"\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
         print(f"  [{idx}/{len(selected_combos)}] {name} : {desc}")
-        print(f"  Draft: {draft} | Answer: {answer} | Judge: {args.judge_model}")
+        print(f"  Draft: {draft} | Answer: {answer} | RAC: {rac} | Judge: {args.judge_model}")
         print(f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n")
 
         cmd = [
@@ -117,6 +121,8 @@ def main():
             draft,
             "--answer-model",
             answer,
+            "--rac-model",
+            rac,
             "--judge-model",
             args.judge_model,
             "--output-dir",

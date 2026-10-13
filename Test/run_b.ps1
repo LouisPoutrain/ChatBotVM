@@ -21,7 +21,7 @@ $PROJECT_DIR = Split-Path -Parent $SCRIPT_DIR
 $PYTHON = Join-Path $PROJECT_DIR ".venv\Scripts\python.exe"
 $RUNNER = Join-Path $SCRIPT_DIR "run_queries_ragilaas.py"
 $QUERY_FILE = "Query_Mix.txt"
-$JUDGE = "gpt-oss-120b"
+$JUDGE = "mistral-small-4-119b"
 $OUTPUT_DIR = Join-Path $SCRIPT_DIR "results_benchmark"
 
 # Créer le dossier s'il n'existe pas
@@ -35,18 +35,18 @@ Write-Host "  Résultats: $OUTPUT_DIR\"
 Write-Host "============================================================"
 Write-Host ""
 
-# Définition des 10 combinaisons : NOM|DRAFT|ANSWER
+# Définition des 10 combinaisons : NOM|DRAFT|ANSWER|RAC
 $COMBOS = @(
-  "01_baseline|mistral-medium-latest|mistral-medium-latest",
-  "02_fast_draft|llama-3.1-8b|mistral-medium-latest",
-  "03_max_quality|mistral-small-4-119b|gpt-oss-120b",
-  "04_meta_mono|llama-3.1-8b|llama-3.1-8b",
-  "05_qwen_reasoning_mono|qwen-3.8-27b|qwen-3.8-27b",
-  "06_google_mono|gemma-4-31b|gemma-4-31b",
-  "07_qwen_instruct_mono|qwen-3.6-35b-instruct|qwen-3.6-35b-instruct",
-  "08_economy_cross|llama-3.1-8b|qwen-3.6-35b-instruct",
-  "09_premium_cross|gemma-4-31b|mistral-small-4-119b",
-  "10_reasoning_draft|qwen-3.8-27b|mistral-medium-latest"
+  "01_baseline|mistral-medium-latest|mistral-medium-latest|mistral-medium-latest",
+  "02_fast_draft_rac|llama-3.1-8b|mistral-medium-latest|llama-3.1-8b",
+  "03_max_quality|mistral-medium-latest|mistral-small-4-119b|mistral-small-4-119b",
+  "04_meta_mono|llama-3.1-8b|llama-3.1-8b|llama-3.1-8b",
+  "05_qwen_reasoning_mono|qwen-3.8-27b|qwen-3.8-27b|qwen-3.8-27b",
+  "06_google_mono|gemma-4-31b|gemma-4-31b|gemma-4-31b",
+  "07_qwen_instruct_mono|qwen-3.6-35b-instruct|qwen-3.6-35b-instruct|qwen-3.6-35b-instruct",
+  "08_economy_cross|llama-3.1-8b|qwen-3.6-35b-instruct|llama-3.1-8b",
+  "09_premium_cross|gemma-4-31b|mistral-small-4-119b|mistral-medium-latest",
+  "10_reasoning_rac|mistral-medium-latest|mistral-medium-latest|qwen-3.8-27b"
 )
 
 $TOTAL = $COMBOS.Length
@@ -58,12 +58,13 @@ for ($i = 0; $i -lt $TOTAL; $i++) {
     $NAME = $parts[0]
     $DRAFT = $parts[1]
     $ANSWER = $parts[2]
+    $RAC = if ($parts.Length -gt 3) { $parts[3] } else { "mistral-medium-latest" }
     $NUM = $i + 1
 
     Write-Host ""
     Write-Host "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     Write-Host "  [$NUM/$TOTAL] $NAME"
-    Write-Host "  Draft: $DRAFT | Answer: $ANSWER | Judge: $JUDGE"
+    Write-Host "  Draft: $DRAFT | Answer: $ANSWER | RAC: $RAC | Judge: $JUDGE"
     Write-Host "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     Write-Host ""
 
@@ -85,6 +86,7 @@ for ($i = 0; $i -lt $TOTAL; $i++) {
               --query-file $QUERY_FILE `
               --draft-model $DRAFT `
               --answer-model $ANSWER `
+              --rac-model $RAC `
               --judge-model $JUDGE `
               --output-log "$OUTPUT_DIR\${NAME}_log.txt" `
               --output-json "$OUTPUT_DIR\${NAME}_trials.json" `

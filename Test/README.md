@@ -45,7 +45,7 @@ Test/
 
 ### 1. Benchmark Multi-Modèles (10 Combinaisons avec Juge LLM)
 
-Ce script teste les **10 combinaisons architecturales** définies dans `BenchComb.md` (Mistral, LLaMA, Gemma, Qwen) et utilise un **Juge impartial fixe** (`gpt-oss-120b`) pour évaluer fidélité, pertinence et précision du contexte. À la fin, il génère automatiquement le rapport comparatif global `conclusion_evaluations.md`.
+Ce script teste les **10 combinaisons architecturales** définies dans `BenchComb.md` (Mistral, LLaMA, Gemma, Qwen) en faisant varier le **Draft (HyDE)**, la **Réponse finale** et le **Routeur de contacts (RAC)**. Il utilise un **Juge impartial fixe** (`mistral-small-4-119b`) pour évaluer fidélité, pertinence et précision du contexte. À la fin, il génère automatiquement le rapport comparatif global `conclusion_evaluations.md`.
 
 ```bash
 # 🎯 Lancer le benchmark complet (10 combos sur Query_Mix.txt)
@@ -56,6 +56,9 @@ docker exec -it univ-chatbot python Test/run_benchmark.py --max-questions 2
 
 # 🔍 Tester uniquement des combinaisons spécifiques (ex: baseline et fast draft)
 docker exec -it univ-chatbot python Test/run_benchmark.py --combos 1 2
+
+# 🧪 Forcer un modèle RAC spécifique pour toutes les combinaisons
+docker exec -it univ-chatbot python Test/run_benchmark.py --rac-model qwen-3.8-27b
 
 # 📄 Utiliser un autre jeu de questions
 docker exec -it univ-chatbot python Test/run_benchmark.py --query-file Query.txt
