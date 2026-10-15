@@ -18,6 +18,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from dotenv import load_dotenv
 load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 
+from Utilitaire.model_fallback import call_llm_with_fallback
+
 LLM_API_KEY = os.getenv("LLM_API_KEY", "")
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://llm.ilaas.fr/v1").rstrip("/")
 LLM_HEADERS = {
@@ -249,10 +251,10 @@ Réponds UNIQUEMENT au format JSON strict avec ces deux clés :
 "conflict_type": "Factual", "Temporal", "Opinion", ou "None"
 """
             try:
-                response = requests.post(
-                    f"{LLM_BASE_URL}/chat/completions",
+                response = call_llm_with_fallback(
+                    base_url=LLM_BASE_URL,
                     headers=LLM_HEADERS,
-                    json={
+                    payload={
                         "model": "mistral-medium-latest",
                         "messages": [{"role": "user", "content": prompt}],
                         "temperature": 0.0,

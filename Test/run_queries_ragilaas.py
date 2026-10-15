@@ -25,6 +25,10 @@ import requests
 from dotenv import load_dotenv
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+from Utilitaire.model_fallback import resolve_model_with_fallback, call_llm_with_fallback
+
 load_dotenv(PROJECT_ROOT / ".env")
 
 LLM_API_KEY = os.getenv("LLM_API_KEY", "")
@@ -133,16 +137,22 @@ Formate ta réponse UNIQUEMENT en JSON valide avec la structure exacte suivante 
     "missing_from_answer": ["<liste des informations pertinentes du contexte qui n'ont PAS été exploitées dans la réponse, vide si aucune>"]
 }}
 """
+    actual_judge = resolve_model_with_fallback(judge_model, base_url=LLM_BASE_URL)
     headers = {"Authorization": f"Bearer {LLM_API_KEY}", "Content-Type": "application/json"}
     payload = {
-        "model": judge_model,
+        "model": actual_judge,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.0,
         "response_format": {"type": "json_object"}
     }
 
     try:
-        response = requests.post(f"{LLM_BASE_URL}/chat/completions", headers=headers, json=payload, timeout=60)
+        response = call_llm_with_fallback(
+            base_url=LLM_BASE_URL,
+            headers=headers,
+            payload=payload,
+            timeout=60,
+        )
         response.raise_for_status()
         content = response.json()["choices"][0]["message"]["content"]
         # Nettoyage au cas où le modèle encapsule le JSON dans des backticks
@@ -301,7 +311,11 @@ def run_question(
     rac_model: str = "mistral-medium-latest",
     judge_model: str = "mistral-small-4-119b",
 ) -> dict:
-    
+    draft_model = resolve_model_with_fallback(draft_model, base_url=LLM_BASE_URL)
+    answer_model = resolve_model_with_fallback(answer_model, base_url=LLM_BASE_URL)
+    rac_model = resolve_model_with_fallback(rac_model, base_url=LLM_BASE_URL)
+    judge_model = resolve_model_with_fallback(judge_model, base_url=LLM_BASE_URL)
+
     def execute_rag(current_question: str) -> dict:
         with tempfile.NamedTemporaryFile(suffix=".json", delete=False) as tmp_json:
             tmp_json_path = Path(tmp_json.name)

@@ -36,6 +36,7 @@ if str(RAGILAAS_DIR) not in sys.path:
 from BV import BV
 from RAGilaas import HypotheticalRAG, log_rag_execution
 from loguru import logger
+from Utilitaire.model_fallback import resolve_model_with_fallback, get_available_models as get_llm_available_models
 
 DEFAULT_COLLECTION = "pdf2_documents"
 DEFAULT_QDRANT_PATH = PROJECT_ROOT / "TestExtraction" / "qdrant_data"
@@ -54,7 +55,11 @@ def get_config() -> ModelConfig:
                 data = json.load(f)
                 if "rac_model" not in data:
                     data["rac_model"] = "mistral-medium-latest"
-                return ModelConfig(**data)
+                return ModelConfig(
+                    draft_model=resolve_model_with_fallback(data.get("draft_model", "mistral-medium-latest")),
+                    answer_model=resolve_model_with_fallback(data.get("answer_model", "mistral-medium-latest")),
+                    rac_model=resolve_model_with_fallback(data.get("rac_model", "mistral-medium-latest")),
+                )
         except Exception as e:
             logger.error(f"Erreur lors de la lecture de {CONFIG_PATH}: {e}")
     return ModelConfig(draft_model="mistral-medium-latest", answer_model="mistral-medium-latest", rac_model="mistral-medium-latest")
@@ -64,18 +69,7 @@ def save_config(config: ModelConfig):
         json.dump(config.dict(), f, indent=4)
 
 def get_available_models():
-    api_key = os.getenv("LLM_API_KEY")
-    base_url = os.getenv("LLM_BASE_URL")
-    if not api_key or not base_url:
-        return []
-    try:
-        response = requests.get(f"{base_url}/models", headers={"Authorization": f"Bearer {api_key}"}, timeout=5)
-        response.raise_for_status()
-        data = response.json()
-        return [model["id"] for model in data.get("data", [])]
-    except Exception as e:
-        logger.error(f"Erreur récupération modèles depuis {base_url}: {e}")
-        return []
+    return get_llm_available_models()
 
 # Modèles Pydantic pour la discussion
 class ChatRequest(BaseModel):

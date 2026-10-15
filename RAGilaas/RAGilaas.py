@@ -23,6 +23,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from Prompt import PROMPT_HYDE, build_answer_prompt
+from Utilitaire.model_fallback import resolve_model_with_fallback, call_llm_with_fallback
 
 # IMPORT QDRANT
 # pyrefly: ignore [missing-import]
@@ -134,9 +135,9 @@ class HypotheticalRAG:
     ) -> None:
         self.bv = bv_instance
         self.llm_base_url = llm_base_url.rstrip("/")
-        self.draft_model = draft_model
-        self.answer_model = answer_model
-        self.rac_model = rac_model
+        self.draft_model = resolve_model_with_fallback(draft_model, base_url=self.llm_base_url)
+        self.answer_model = resolve_model_with_fallback(answer_model, base_url=self.llm_base_url)
+        self.rac_model = resolve_model_with_fallback(rac_model, base_url=self.llm_base_url)
         self.prompt_variant = prompt_variant
         self.context_order = context_order
         self.contact_rag = ContactRAG(
@@ -148,16 +149,17 @@ class HypotheticalRAG:
 
     def _llm_generate(self, model: str, prompt: str, temperature: float = 0.0) -> str:
         try:
-            response = requests.post(
-                f"{self.llm_base_url}/chat/completions",
+            payload = {
+                "model": model,
+                "messages": [{"role": "user", "content": prompt}],
+                "stream": False,
+                "temperature": temperature,
+                "max_tokens": 30000,
+            }
+            response = call_llm_with_fallback(
+                base_url=self.llm_base_url,
                 headers=LLM_HEADERS,
-                json={
-                    "model": model,
-                    "messages": [{"role": "user", "content": prompt}],
-                    "stream": False,
-                    "temperature": temperature,
-                    "max_tokens": 30000,
-                },
+                payload=payload,
                 timeout=300,
             )
             data = response.json()
@@ -168,12 +170,12 @@ class HypotheticalRAG:
 
             choices = data.get("choices")
             if not choices:
-                raise RuntimeError(f"Réponse LLM invalide pour '{model}'")
+                raise RuntimeError(f"Réponse LLM invalide pour '{payload.get('model', model)}'")
 
             message = choices[0].get("message", {})
             content = message.get("content")
             if content is None:
-                raise RuntimeError(f"Réponse LLM invalide: contenu manquant")
+                raise RuntimeError("Réponse LLM invalide: contenu manquant")
 
             return str(content).strip()
         except RequestException as exc:

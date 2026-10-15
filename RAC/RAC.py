@@ -36,6 +36,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from Utilitaire.antenne_financiere_table import TABLE_DATA as AFRV_TABLE_DATA
 from Utilitaire.spiv_charges_affaires import CHARGES_AFFAIRES_SPIV
+from Utilitaire.model_fallback import resolve_model_with_fallback, call_llm_with_fallback
 
 
 
@@ -578,16 +579,17 @@ class ContactRAG:
 
     def _llm_generate(self, model: str, prompt: str, temperature: float = 0.0) -> str:
         try:
-            response = requests.post(
-                f"{self.llm_base_url}/chat/completions",
+            payload = {
+                "model": model,
+                "messages": [{"role": "user", "content": prompt}],
+                "stream": False,
+                "temperature": temperature,
+                "max_tokens": 4000,
+            }
+            response = call_llm_with_fallback(
+                base_url=self.llm_base_url,
                 headers=LLM_HEADERS,
-                json={
-                    "model": model,
-                    "messages": [{"role": "user", "content": prompt}],
-                    "stream": False,
-                    "temperature": temperature,
-                    "max_tokens": 4000,
-                },
+                payload=payload,
                 timeout=300,
             )
             data = response.json()
@@ -598,7 +600,7 @@ class ContactRAG:
 
             choices = data.get("choices")
             if not choices:
-                raise RuntimeError(f"Réponse LLM invalide pour '{model}'")
+                raise RuntimeError(f"Réponse LLM invalide pour '{payload.get('model', model)}'")
 
             message = choices[0].get("message", {})
             content = message.get("content")
@@ -606,9 +608,10 @@ class ContactRAG:
                 raise RuntimeError("Réponse LLM invalide: contenu manquant")
 
             response_text = str(content).strip()
+            actual_model = payload.get("model", model)
             logger.info(
                 "\n[LLM EXCHANGE]\nMODEL: {}\nTEMPERATURE: {}\nPROMPT:\n{}\nRESPONSE:\n{}\n{}",
-                model,
+                actual_model,
                 temperature,
                 prompt,
                 response_text,
@@ -962,6 +965,7 @@ class ContactRAG:
             ContactRAGResult: Un objet structuré contenant le tag de routage (ex: 'AFRV'),
                               le contact identifié, et un éventuel message de demande d'acronyme.
         """
+        llm_model = resolve_model_with_fallback(llm_model, base_url=self.llm_base_url)
         state = self.pending_states.get(session_id, {})
         pending_routing_tag = state.get("tag")
         pending_routing_reason = state.get("reason")
