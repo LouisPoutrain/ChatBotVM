@@ -201,6 +201,7 @@ ChatBotVM/
 │       │   └── demo_execution.svg       # Demonstration vectorielle d'inference
 │       └── index.html                   # Portail web interactif miroir
 ├── .dockerignore                        # Exclusions de construction conteneur Docker
+├── .env.example                         # Modele de variables d'environnement requis
 ├── .gitignore                           # Exclusions standardisees Git (PEP 517 / Caches)
 ├── Dockerfile                           # Construction de l'image de production Python 3.10
 ├── docker-compose.yml                   # Orchestration conjointe Qdrant + FastAPI
@@ -217,7 +218,7 @@ ChatBotVM/
 ### 1. Prerequis Systeme
 
 - Python 3.10 ou superieur
-- Git et Git LFS
+- Git
 - Moteur d'execution Docker (optionnel mais recommande pour la production)
 - Accès reseau au serveur Qdrant (ou execution locale sur le port 6333)
 
@@ -239,12 +240,18 @@ pip install -r requirements.txt
 
 ### 3. Configuration de l'Environnement
 
-Creer un fichier `.env` a la racine du projet avec vos identifiants d'API :
+Copier le modele `.env.example` vers `.env` a la racine du projet et renseigner vos identifiants d'API :
+
+```bash
+cp .env.example .env
+```
 
 ```ini
 LLM_API_KEY=votre_cle_api_secrete
 LLM_BASE_URL=https://llm.ilaas.fr/v1
 QDRANT_URL=http://localhost:6333
+# Optionnel : lien de partage Nextcloud/UTBox pour la synchronisation automatique
+UTBOX_SHARE_URL=
 ```
 
 ### 4. Indexation et Initialisation des Donnees

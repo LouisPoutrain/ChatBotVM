@@ -1,8 +1,15 @@
 import argparse
+import os
 import subprocess
 import sys
 import shutil
 from pathlib import Path
+
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 # Ajouter les chemins nécessaires
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -26,10 +33,14 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Pipeline automatisé de mise à jour du ChatBot depuis UTBOX")
     parser.add_argument(
         "--share-url", 
-        default="https://utbox.univ-tours.fr/s/mmWZHxXHHZSgybT/download",
-        help="Lien de partage public UTBOX"
+        default=os.getenv("UTBOX_SHARE_URL", "").strip(),
+        help="Lien de partage public UTBOX (ou variable d'environnement UTBOX_SHARE_URL)"
     )
     args = parser.parse_args()
+
+    if not args.share_url:
+        logger.error("[ERREUR FATALE] Aucune URL UTBOX fournie (--share-url ou variable UTBOX_SHARE_URL dans .env).")
+        sys.exit(1)
 
     logger.info("============================================================")
     logger.info(" ÉTAPE 1: Synchronisation WebDAV UTBOX")

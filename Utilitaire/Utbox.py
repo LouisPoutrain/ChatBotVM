@@ -678,12 +678,22 @@ class UTBoxDownloader:
 
 if __name__ == "__main__":
     import json
+    import os
+    try:
+        from dotenv import load_dotenv
+        load_dotenv()
+    except ImportError:
+        pass
+
     project_root = Path(__file__).resolve().parents[1]
     downloads_dir = project_root / "data" / "downloads"
+    share_url = os.getenv("UTBOX_SHARE_URL", "").strip()
+    if not share_url:
+        raise ValueError("UTBOX_SHARE_URL manquant. Définissez-le dans .env ou en variable d'environnement.")
 
     downloader = UTBoxDownloader(timeout=120)
     files = downloader.sync_webdav_share(
-        "https://utbox.univ-tours.fr/s/mmWZHxXHHZSgybT/download",
+        share_url,
         output_dir=str(downloads_dir)
     )
     print(f"{len(files)} nouveaux fichiers traités et convertis en PDF dans {downloads_dir}")
